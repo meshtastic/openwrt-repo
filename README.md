@@ -37,19 +37,22 @@ Please note that there may be delay in [jsDelivr CDN](https://cdn.jsdelivr.net/g
 
 
 ### OPKG
-Used in stable versions of OpenWRT. `24.10`, `23.05`.
+Used in stable versions of OpenWRT.
 
-OPKG repo coming soon! Follow backport progress at [meshtastic/openwrt](https://github.com/meshtastic/openwrt).
+Supported versions:
+- `24.10`
 
 ##### Add OPKG/IPK repository to your OpenWRT device (GitHub)
 
 ```sh
+# Coming soon
 ```
 
 ##### Add OPKG/IPK repository to your OpenWRT device (jsDelivr)
 Only use in regions where GitHub is blocked 🇨🇳
 
 ```sh
+# Coming soon
 ```
 
 Please note that there may be delay in [jsDelivr CDN](https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo) cache updates compared to [the repo at GitHub](https://openwrt.meshtastic.org) which may cause `opkg` to pull older files and/or complain about wrong signature.
