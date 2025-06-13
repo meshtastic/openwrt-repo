@@ -1,0 +1,144 @@
+Package: libyder
+Version: 1.4.17-r1
+Depends: libc, liborcania
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/yder
+Architecture: mips_4kec
+Installed-Size: 71680
+Filename: libyder_1.4.17-r1_mips_4kec.ipk
+Size: 3832
+SHA256sum: a0c7dc300aeb6c30a71fe66e9dee2ee86fa8248df15c47dfb05296bff44743af
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.5-r1
+Depends: libc, meshtasticd, avahi-daemon
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: mips_4kec
+Installed-Size: 10240
+Filename: meshtasticd-avahi-service_2.6.5-r1_mips_4kec.ipk
+Size: 1234
+SHA256sum: 502169ef63fe4299110b69ad08e823a44ab7f3e3b43f37c84ecbb2b9d6cfd63e
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-r1
+Depends: libc, meshtasticd
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: mips_4kec
+Installed-Size: 3799040
+Filename: meshtasticd-web_2.6.4-r1_mips_4kec.ipk
+Size: 919876
+SHA256sum: 8de49ae223614bad3554e64af24892cd4d8ea3a251af9423c481d0b48c43ebf8
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.5-r1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: mips_4kec
+Installed-Size: 1218560
+Filename: meshtasticd_2.6.5-r1_mips_4kec.ipk
+Size: 496061
+SHA256sum: 877594e90fe604b500ee02dd76428fffe6cc23e69b229e9860a0e8f826b130c2
+Description:  Meshtastic Daemon
+
+Package: python3-click-src
+Version: 8.1.7-r2
+Depends: libc
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: mips_4kec
+Installed-Size: 368640
+Filename: python3-click-src_8.1.7-r2_mips_4kec.ipk
+Size: 87599
+SHA256sum: c08c6e01b4610e4e073cd9787d7ca0207b929fe8d7b64862444139ae3c456ca0
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-r2
+Depends: libc, python3-light, python3-urllib, python3-uuid
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: mips_4kec
+Installed-Size: 501760
+Filename: python3-click_8.1.7-r2_mips_4kec.ipk
+Size: 191860
+SHA256sum: a0d17fe09bb041a5ebc2ae101aeb4233ee6fe5f617b775ccfa2a127c15488f2d
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-pyelftools-src
+Version: 0.31-r1
+Depends: libc
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: mips_4kec
+Installed-Size: 737280
+Filename: python3-pyelftools-src_0.31-r1_mips_4kec.ipk
+Size: 156246
+SHA256sum: fdaa18b4cd4b6193325553c7f1709e4a52358f173c26f73062eb4420994c6e94
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-r1
+Depends: libc, python3-light, python3-logging
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: mips_4kec
+Installed-Size: 931840
+Filename: python3-pyelftools_0.31-r1_mips_4kec.ipk
+Size: 325720
+SHA256sum: 2c2ffef73878f7b1b8565e7ad905c97552211f77286b910965c8842ab41232fd
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-tabulate-src
+Version: 0.9.0-r1
+Depends: libc
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: mips_4kec
+Installed-Size: 102400
+Filename: python3-tabulate-src_0.9.0-r1_mips_4kec.ipk
+Size: 23555
+SHA256sum: c45984b82cb4fb233a9a75162ce42049482c0468cdc778ce7b0b5f2919f5058c
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-r1
+Depends: libc, python3-light
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: mips_4kec
+Installed-Size: 163840
+Filename: python3-tabulate_0.9.0-r1_mips_4kec.ipk
+Size: 54756
+SHA256sum: aa0157c81636e898ec1de4ad6148f8414cd9a7067f20867cde67d67822248651
+Description:  Pretty-print tabular data
+

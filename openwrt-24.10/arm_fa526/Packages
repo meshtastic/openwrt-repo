@@ -1,0 +1,144 @@
+Package: libyder
+Version: 1.4.17-r1
+Depends: libc, liborcania
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/yder
+Architecture: arm_fa526
+Installed-Size: 20480
+Filename: libyder_1.4.17-r1_arm_fa526.ipk
+Size: 4054
+SHA256sum: 1b2f3bbdd12103d0effaa48565fd65c9de168dbf8941062f66bfe9268313153c
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.5-r1
+Depends: libc, meshtasticd, avahi-daemon
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: arm_fa526
+Installed-Size: 10240
+Filename: meshtasticd-avahi-service_2.6.5-r1_arm_fa526.ipk
+Size: 1230
+SHA256sum: c136cc2611aebd19eaaa25de8b575ab45736bcfafbbb42c2702ce5ac3416b988
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-r1
+Depends: libc, meshtasticd
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: arm_fa526
+Installed-Size: 3799040
+Filename: meshtasticd-web_2.6.4-r1_arm_fa526.ipk
+Size: 919877
+SHA256sum: caa26e49406460012cd1d9f899545985b7d727097220698b8ca545cdbbbd32f6
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.5-r1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: arm_fa526
+Installed-Size: 952320
+Filename: meshtasticd_2.6.5-r1_arm_fa526.ipk
+Size: 419230
+SHA256sum: caa147cba7ccf751b859118b813b755b68bef8153704db15acb8752897a6603f
+Description:  Meshtastic Daemon
+
+Package: python3-click-src
+Version: 8.1.7-r2
+Depends: libc
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: arm_fa526
+Installed-Size: 368640
+Filename: python3-click-src_8.1.7-r2_arm_fa526.ipk
+Size: 87600
+SHA256sum: c2a5362f3f25d47c067768e7529d2bf2f84659406d9166cf57519a97a24916e6
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-r2
+Depends: libc, python3-light, python3-urllib, python3-uuid
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: arm_fa526
+Installed-Size: 501760
+Filename: python3-click_8.1.7-r2_arm_fa526.ipk
+Size: 191859
+SHA256sum: d0b1d5332df96d6f73dcfaba531fc88b6204b6b6c8d54b5b6e0d8f78acd896d2
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-pyelftools-src
+Version: 0.31-r1
+Depends: libc
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: arm_fa526
+Installed-Size: 737280
+Filename: python3-pyelftools-src_0.31-r1_arm_fa526.ipk
+Size: 156245
+SHA256sum: 92e9b6fea08fff3ebdfb20a137447f8502b96c6d98521bb5760562b1d19e1d9d
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-r1
+Depends: libc, python3-light, python3-logging
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: arm_fa526
+Installed-Size: 931840
+Filename: python3-pyelftools_0.31-r1_arm_fa526.ipk
+Size: 325721
+SHA256sum: b00a4150776aeaa45c01c2b2c1c95467058441488a4f2538854abf8c2168d35d
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-tabulate-src
+Version: 0.9.0-r1
+Depends: libc
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: arm_fa526
+Installed-Size: 102400
+Filename: python3-tabulate-src_0.9.0-r1_arm_fa526.ipk
+Size: 23554
+SHA256sum: b28ae55b6559a8724acbd0f06df4affb871b1496a6c201bb580e0ded1a5c92fa
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-r1
+Depends: libc, python3-light
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: arm_fa526
+Installed-Size: 163840
+Filename: python3-tabulate_0.9.0-r1_arm_fa526.ipk
+Size: 54757
+SHA256sum: fdd4053642bbf48a828aaa360a0b02c4cfaa678276dfca8ba1dd74f1993afa9f
+Description:  Pretty-print tabular data
+

@@ -1,0 +1,193 @@
+Package: libyder
+Version: 1.4.17-r1
+Depends: libc, liborcania
+Source: /feed/depends/libyder
+SourceName: libyder
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749768078
+URL: https://github.com/babelouest/yder
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 20480
+Filename: libyder_1.4.17-r1_i386_pentium4.ipk
+Size: 3737
+SHA256sum: ca8357a1cc7371778243c02c1d1229909408853cf065e39cb74b19782845047b
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.5-r1
+Depends: libc, meshtasticd, avahi-daemon
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1749768078
+URL: http://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 10240
+Filename: meshtasticd-avahi-service_2.6.5-r1_i386_pentium4.ipk
+Size: 1237
+SHA256sum: ca2b8abee6059f1287e1d54ed00469d4300e4aaa642e1fa2c23b592e06970a82
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-r1
+Depends: libc, meshtasticd
+Source: /feed/meshtasticd-web
+SourceName: meshtasticd-web
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1749768078
+URL: http://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 3799040
+Filename: meshtasticd-web_2.6.4-r1_i386_pentium4.ipk
+Size: 919882
+SHA256sum: 841122fb4e44ea35ada667dc629e4095e70e4ea4b9d2b8cb300c73d44e81dff5
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.5-r1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1749768078
+URL: http://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 1064960
+Filename: meshtasticd_2.6.5-r1_i386_pentium4.ipk
+Size: 434810
+SHA256sum: 193808baf23386cc952263964b3b8dd93281d4e67a1a0fb31800ee1a81dc8596
+Description:  Meshtastic Daemon
+
+Package: python3-click-src
+Version: 8.1.7-r2
+Depends: libc
+Source: /feed/depends/python-click
+SourceName: python-click
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1749768078
+URL: https://palletsprojects.com/p/click/
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 368640
+Filename: python3-click-src_8.1.7-r2_i386_pentium4.ipk
+Size: 87603
+SHA256sum: 1bde348ff8bfe4c166a92ff690e6d18c5286204783005a06f6249b967ddc6cb2
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-r2
+Depends: libc, python3-light, python3-urllib, python3-uuid
+Source: /feed/depends/python-click
+SourceName: python-click
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1749768078
+URL: https://palletsprojects.com/p/click/
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 501760
+Filename: python3-click_8.1.7-r2_i386_pentium4.ipk
+Size: 191860
+SHA256sum: 85fb8591c84564a91513f17953ac00fca2da42304aca6ad07a6cccb71593b5a5
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-pyelftools-src
+Version: 0.31-r1
+Depends: libc
+Source: /feed/depends/python-pyelftools
+SourceName: python-pyelftools
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1749768078
+URL: https://pypi.org/project/pyelftools
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 737280
+Filename: python3-pyelftools-src_0.31-r1_i386_pentium4.ipk
+Size: 156248
+SHA256sum: 1acc839865f68dc89f6f427c80701fdcd626f9741751a39c6beb0c5eb7c42848
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-r1
+Depends: libc, python3-light, python3-logging
+Source: /feed/depends/python-pyelftools
+SourceName: python-pyelftools
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1749768078
+URL: https://pypi.org/project/pyelftools
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 931840
+Filename: python3-pyelftools_0.31-r1_i386_pentium4.ipk
+Size: 325724
+SHA256sum: 771652d499f8973c5d3cd5a4a5f97c164b28247ebebfb38fcc02f24af0cc8d4a
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-tabulate-src
+Version: 0.9.0-r1
+Depends: libc
+Source: /feed/depends/python-tabulate
+SourceName: python-tabulate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1749768078
+URL: https://pypi.org/project/tabulate
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 102400
+Filename: python3-tabulate-src_0.9.0-r1_i386_pentium4.ipk
+Size: 23559
+SHA256sum: a62c74e7225504442d5e0975fafe46b4c420b9c85eadca2d0e1bc58845eacce8
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-r1
+Depends: libc, python3-light
+Source: /feed/depends/python-tabulate
+SourceName: python-tabulate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1749768078
+URL: https://pypi.org/project/tabulate
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: i386_pentium4
+Installed-Size: 163840
+Filename: python3-tabulate_0.9.0-r1_i386_pentium4.ipk
+Size: 54757
+SHA256sum: d40625efc1c78cae2bf63f77b68db1a11eb8f1ed8855ce34d0e1f2c40e0b20dd
+Description:  Pretty-print tabular data
+

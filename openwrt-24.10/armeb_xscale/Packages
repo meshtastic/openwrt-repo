@@ -1,0 +1,144 @@
+Package: libyder
+Version: 1.4.17-r1
+Depends: libc, liborcania
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/yder
+Architecture: armeb_xscale
+Installed-Size: 20480
+Filename: libyder_1.4.17-r1_armeb_xscale.ipk
+Size: 4046
+SHA256sum: 0d7c54ee99f19f480b611f6a585e2fcf1bbc14ad507f6025369a182b0a93736f
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.5-r1
+Depends: libc, meshtasticd, avahi-daemon
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: armeb_xscale
+Installed-Size: 10240
+Filename: meshtasticd-avahi-service_2.6.5-r1_armeb_xscale.ipk
+Size: 1235
+SHA256sum: 59df1f1f52d3388f0c91c940df533fa8731042572023e94121e79b029afcf98a
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-r1
+Depends: libc, meshtasticd
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: armeb_xscale
+Installed-Size: 3799040
+Filename: meshtasticd-web_2.6.4-r1_armeb_xscale.ipk
+Size: 919882
+SHA256sum: 0103ab20fdc9c27726febd9a2ade287a9f9b408619e93cd73953cdf9883455a4
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.5-r1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: armeb_xscale
+Installed-Size: 952320
+Filename: meshtasticd_2.6.5-r1_armeb_xscale.ipk
+Size: 418678
+SHA256sum: 366f32f87c150af1d947a605fab0dbb4b4e20f2b10f68ef29dc9bc84a01fef03
+Description:  Meshtastic Daemon
+
+Package: python3-click-src
+Version: 8.1.7-r2
+Depends: libc
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: armeb_xscale
+Installed-Size: 368640
+Filename: python3-click-src_8.1.7-r2_armeb_xscale.ipk
+Size: 87597
+SHA256sum: 3b890600e2a005eb02eaf96cf66fbefe1efda5db5f1c07b256692d7e8fa3ef1f
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-r2
+Depends: libc, python3-light, python3-urllib, python3-uuid
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: armeb_xscale
+Installed-Size: 501760
+Filename: python3-click_8.1.7-r2_armeb_xscale.ipk
+Size: 191861
+SHA256sum: 925ae6a135838e8ca0f6eeee85a4f5ff00da27205adb698d85ca70cac548ddeb
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-pyelftools-src
+Version: 0.31-r1
+Depends: libc
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: armeb_xscale
+Installed-Size: 737280
+Filename: python3-pyelftools-src_0.31-r1_armeb_xscale.ipk
+Size: 156245
+SHA256sum: aa6d90b440737efe588a5f5d2a6d12f3eff70e29c3ef98872249466719c7fec5
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-r1
+Depends: libc, python3-light, python3-logging
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: armeb_xscale
+Installed-Size: 931840
+Filename: python3-pyelftools_0.31-r1_armeb_xscale.ipk
+Size: 325723
+SHA256sum: b87969ee0842aa72694faa4f83471036c9a344340a1eb76c34da0012b0a43a14
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-tabulate-src
+Version: 0.9.0-r1
+Depends: libc
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: armeb_xscale
+Installed-Size: 102400
+Filename: python3-tabulate-src_0.9.0-r1_armeb_xscale.ipk
+Size: 23559
+SHA256sum: 60b51f3ab0b2b6c7b5cf4d036fa76405c870bcdcce3b49d705988f12e0eae04f
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-r1
+Depends: libc, python3-light
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: armeb_xscale
+Installed-Size: 163840
+Filename: python3-tabulate_0.9.0-r1_armeb_xscale.ipk
+Size: 54756
+SHA256sum: 16e65d7be9ee1413e0227ed8fc698923b275e36f28e6089910b9a977248064e5
+Description:  Pretty-print tabular data
+

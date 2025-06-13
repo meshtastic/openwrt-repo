@@ -1,0 +1,144 @@
+Package: libyder
+Version: 1.4.17-r1
+Depends: libc, liborcania
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/yder
+Architecture: powerpc64_e5500
+Installed-Size: 71680
+Filename: libyder_1.4.17-r1_powerpc64_e5500.ipk
+Size: 4484
+SHA256sum: 9d757dce09d7eabf55828f7fa1ee2c6ec97555191c96295fbb7b281fd452ee6e
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.5-r1
+Depends: libc, meshtasticd, avahi-daemon
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: powerpc64_e5500
+Installed-Size: 10240
+Filename: meshtasticd-avahi-service_2.6.5-r1_powerpc64_e5500.ipk
+Size: 1235
+SHA256sum: 5ef927421022e48d9d3dc95216f64357b5655fab4df7b372f8e6cdd09ae6e1cf
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-r1
+Depends: libc, meshtasticd
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: powerpc64_e5500
+Installed-Size: 3799040
+Filename: meshtasticd-web_2.6.4-r1_powerpc64_e5500.ipk
+Size: 919883
+SHA256sum: ee67285cf2de7dc0503f64547e6fefd630537cce7a739d1f4049234e97083ca8
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.5-r1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: powerpc64_e5500
+Installed-Size: 1689600
+Filename: meshtasticd_2.6.5-r1_powerpc64_e5500.ipk
+Size: 516689
+SHA256sum: b3d90b935a4d99e4efa882d9034cb3b135c461d817f7f5f7549b0f2c6be189d0
+Description:  Meshtastic Daemon
+
+Package: python3-click-src
+Version: 8.1.7-r2
+Depends: libc
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: powerpc64_e5500
+Installed-Size: 368640
+Filename: python3-click-src_8.1.7-r2_powerpc64_e5500.ipk
+Size: 87597
+SHA256sum: 2bd2becc4fe585462080efdc5a5d30e4a723ab650ed8b8fe7f2e0afcf13cec63
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-r2
+Depends: libc, python3-light, python3-urllib, python3-uuid
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: powerpc64_e5500
+Installed-Size: 501760
+Filename: python3-click_8.1.7-r2_powerpc64_e5500.ipk
+Size: 191862
+SHA256sum: 651d9abd2719989143c76c944217dfe1a7afef15f9fc83cbe145cecf872859b9
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-pyelftools-src
+Version: 0.31-r1
+Depends: libc
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: powerpc64_e5500
+Installed-Size: 737280
+Filename: python3-pyelftools-src_0.31-r1_powerpc64_e5500.ipk
+Size: 156250
+SHA256sum: cebb995a58edd3e42eb6dc2554e83198b6b1819e99061251fbe2b9dd533a50d2
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-r1
+Depends: libc, python3-light, python3-logging
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: powerpc64_e5500
+Installed-Size: 931840
+Filename: python3-pyelftools_0.31-r1_powerpc64_e5500.ipk
+Size: 325727
+SHA256sum: 2bb5108d251ac4389dfebd3a7a48ea4dfd225723fcef0182bec355e169a3489d
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-tabulate-src
+Version: 0.9.0-r1
+Depends: libc
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: powerpc64_e5500
+Installed-Size: 102400
+Filename: python3-tabulate-src_0.9.0-r1_powerpc64_e5500.ipk
+Size: 23560
+SHA256sum: 3e8d32d05182ad1dee04ee7094d87bfa6a2dfe0a77f052a0c9d58ab9a4acce4a
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-r1
+Depends: libc, python3-light
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: powerpc64_e5500
+Installed-Size: 163840
+Filename: python3-tabulate_0.9.0-r1_powerpc64_e5500.ipk
+Size: 54760
+SHA256sum: 206eeade372d1f10130d3c9fa208d1eb8dcc0f93bb579a52afe530afad567d7b
+Description:  Pretty-print tabular data
+

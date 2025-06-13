@@ -1,0 +1,144 @@
+Package: libyder
+Version: 1.4.17-r1
+Depends: libc, liborcania
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/yder
+Architecture: x86_64
+Installed-Size: 20480
+Filename: libyder_1.4.17-r1_x86_64.ipk
+Size: 4200
+SHA256sum: c6df46a83336f688d3ec6842a471a6480ceaa4d8047ed94f8c1dc1388dbc0318
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.5-r1
+Depends: libc, meshtasticd, avahi-daemon
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: x86_64
+Installed-Size: 10240
+Filename: meshtasticd-avahi-service_2.6.5-r1_x86_64.ipk
+Size: 1230
+SHA256sum: d5dfabdeb5af44c76fa696f0dfcf59aed55dd4e120f79692e6af413de5ff223f
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-r1
+Depends: libc, meshtasticd
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: x86_64
+Installed-Size: 3799040
+Filename: meshtasticd-web_2.6.4-r1_x86_64.ipk
+Size: 919878
+SHA256sum: 8915a8453140783347604296b133e2336c796f48afbee8487711324461256585
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.5-r1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
+License: GPL-3.0
+Section: net
+URL: http://github.com/meshtastic/firmware
+Architecture: x86_64
+Installed-Size: 1044480
+Filename: meshtasticd_2.6.5-r1_x86_64.ipk
+Size: 439128
+SHA256sum: e735a593a0146a15a90839842b10a5fe84db3a13787e48ca8d26d26cb9928483
+Description:  Meshtastic Daemon
+
+Package: python3-click-src
+Version: 8.1.7-r2
+Depends: libc
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: x86_64
+Installed-Size: 368640
+Filename: python3-click-src_8.1.7-r2_x86_64.ipk
+Size: 87598
+SHA256sum: b2756f9d107901b4f2a03f138ce1685e5a8fdfe70d016e597c43cf7e1e4d9305
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-r2
+Depends: libc, python3-light, python3-urllib, python3-uuid
+License: BSD-3-Clause
+Section: lang
+URL: https://palletsprojects.com/p/click/
+Architecture: x86_64
+Installed-Size: 501760
+Filename: python3-click_8.1.7-r2_x86_64.ipk
+Size: 191856
+SHA256sum: 456d4470821e008f16e44ef4e2ff7ddf490be1ef7d7442f230d2f011e8266657
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-pyelftools-src
+Version: 0.31-r1
+Depends: libc
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: x86_64
+Installed-Size: 737280
+Filename: python3-pyelftools-src_0.31-r1_x86_64.ipk
+Size: 156244
+SHA256sum: 9c5614d780b13951045eea377bc2f30661d36845ca328d8be6d29289084f6995
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-r1
+Depends: libc, python3-light, python3-logging
+License: Unlicense
+Section: lang
+URL: https://pypi.org/project/pyelftools
+Architecture: x86_64
+Installed-Size: 931840
+Filename: python3-pyelftools_0.31-r1_x86_64.ipk
+Size: 325719
+SHA256sum: db3d4978b3da4ab846e599f95b0fe147a9da979c3c663fd0dd7feaf7d5699026
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-tabulate-src
+Version: 0.9.0-r1
+Depends: libc
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: x86_64
+Installed-Size: 102400
+Filename: python3-tabulate-src_0.9.0-r1_x86_64.ipk
+Size: 23554
+SHA256sum: 0dbfb649dc6222b35cf739d55fc83c47f6f5bf4bc666202fd0a54bd8ef035bcf
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-r1
+Depends: libc, python3-light
+License: MIT
+Section: lang
+URL: https://pypi.org/project/tabulate
+Architecture: x86_64
+Installed-Size: 163840
+Filename: python3-tabulate_0.9.0-r1_x86_64.ipk
+Size: 54753
+SHA256sum: b1cd22d516a4f37d3546e8b7d0fabd20c91c41d632880cacd94e4d2806406241
+Description:  Pretty-print tabular data
+
