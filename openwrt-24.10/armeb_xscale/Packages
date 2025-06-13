@@ -1,3 +1,44 @@
+Package: liborcania
+Version: 2.3.0-r2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/orcania
+Architecture: armeb_xscale
+Installed-Size: 20480
+Filename: liborcania_2.3.0-r2_armeb_xscale.ipk
+Size: 6501
+SHA256sum: 3850f77ef0d0984f40a4225e4cd6111246e6cb28d1767e161143905cc29a44dc
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: armeb_xscale
+Installed-Size: 102400
+Filename: libulfius-gnutls_2.7.10-r2_armeb_xscale.ipk
+Size: 41831
+SHA256sum: 7809a19f77b6cc339a2bd4a948e3de3012a2ee011a401b53d84342cf33519726
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: armeb_xscale
+Installed-Size: 61440
+Filename: libulfius-nossl_2.7.10-r2_armeb_xscale.ipk
+Size: 23810
+SHA256sum: 7d3971e463531add6e6d92ddfffab7c20c0401d08f335e2a8fedd66922010562
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -7,8 +48,8 @@ URL: https://github.com/babelouest/yder
 Architecture: armeb_xscale
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_armeb_xscale.ipk
-Size: 4046
-SHA256sum: 0d7c54ee99f19f480b611f6a585e2fcf1bbc14ad507f6025369a182b0a93736f
+Size: 4051
+SHA256sum: 9157e2a3178fbb0e8c02416dd8240029bd03ee59b6a18d7ca7969545e3c84b0f
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +62,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: armeb_xscale
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.5-r1_armeb_xscale.ipk
-Size: 1235
-SHA256sum: 59df1f1f52d3388f0c91c940df533fa8731042572023e94121e79b029afcf98a
+Size: 1234
+SHA256sum: 73d210474bbb25479d75d9c6e194c5ebd03628f9b47781f5981f8ffbc21b930b
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +76,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: armeb_xscale
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_armeb_xscale.ipk
-Size: 919882
-SHA256sum: 0103ab20fdc9c27726febd9a2ade287a9f9b408619e93cd73953cdf9883455a4
+Size: 919720
+SHA256sum: 7fc22756b51b06bd9a6e8adffc9b5353596493e795e92abaf7ebaa4d05f1da83
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,8 +89,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: armeb_xscale
 Installed-Size: 952320
 Filename: meshtasticd_2.6.5-r1_armeb_xscale.ipk
-Size: 418678
-SHA256sum: 366f32f87c150af1d947a605fab0dbb4b4e20f2b10f68ef29dc9bc84a01fef03
+Size: 418696
+SHA256sum: 32ae2f60de6bc5e6d38b0e245e2dc50e7a796c54a62b7b9e6da6ac23407a0ee0
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -62,7 +103,7 @@ Architecture: armeb_xscale
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_armeb_xscale.ipk
 Size: 87597
-SHA256sum: 3b890600e2a005eb02eaf96cf66fbefe1efda5db5f1c07b256692d7e8fa3ef1f
+SHA256sum: c2f5a5c18c27680176892d7743314ffed25f00a1b9d4a794165d546edfa3aedb
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +120,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: armeb_xscale
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_armeb_xscale.ipk
-Size: 191861
-SHA256sum: 925ae6a135838e8ca0f6eeee85a4f5ff00da27205adb698d85ca70cac548ddeb
+Size: 191876
+SHA256sum: 8cb480ad1bbd7772e01eb8846f406af568e8bd1e5939cad6c5fbc6660f2f29ab
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: armeb_xscale
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_armeb_xscale.ipk
-Size: 156245
-SHA256sum: aa6d90b440737efe588a5f5d2a6d12f3eff70e29c3ef98872249466719c7fec5
+Size: 156236
+SHA256sum: 8ffd4865685b152f19923850e311cf7bc522c354ae013827328fea2af1cc9180
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +151,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: armeb_xscale
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_armeb_xscale.ipk
-Size: 325723
-SHA256sum: b87969ee0842aa72694faa4f83471036c9a344340a1eb76c34da0012b0a43a14
+Size: 325705
+SHA256sum: 2db97a3aaecf1134d6bb07542783013c26815c9316907f5b942a82f9a5167984
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +164,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: armeb_xscale
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_armeb_xscale.ipk
-Size: 23559
-SHA256sum: 60b51f3ab0b2b6c7b5cf4d036fa76405c870bcdcce3b49d705988f12e0eae04f
+Size: 23548
+SHA256sum: 45af7aca323677bde1ec7153e2256ea478a1cb3412d08eee25a0ec7659edb58c
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +179,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: armeb_xscale
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_armeb_xscale.ipk
-Size: 54756
-SHA256sum: 16e65d7be9ee1413e0227ed8fc698923b275e36f28e6089910b9a977248064e5
+Size: 54801
+SHA256sum: 1463a970130a1041306d4a332c673579760d5c055e566632463eae0a8218795c
 Description:  Pretty-print tabular data
 

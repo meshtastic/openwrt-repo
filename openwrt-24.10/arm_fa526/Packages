@@ -1,3 +1,44 @@
+Package: liborcania
+Version: 2.3.0-r2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/orcania
+Architecture: arm_fa526
+Installed-Size: 20480
+Filename: liborcania_2.3.0-r2_arm_fa526.ipk
+Size: 6536
+SHA256sum: 547aab9a22d89fb120561fe66addc26fadce66304bb7978e8587c8c9063e0db7
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: arm_fa526
+Installed-Size: 102400
+Filename: libulfius-gnutls_2.7.10-r2_arm_fa526.ipk
+Size: 42087
+SHA256sum: 201e061d743c7602cfc602a2ec8c058436d0eb18876caed165d45d394471dace
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: arm_fa526
+Installed-Size: 61440
+Filename: libulfius-nossl_2.7.10-r2_arm_fa526.ipk
+Size: 23936
+SHA256sum: a6b7e4034a4a22c7afb5fc49f8cf9877e254872d6dcff79bb0592c6efef13c26
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -7,8 +48,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_fa526
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_fa526.ipk
-Size: 4054
-SHA256sum: 1b2f3bbdd12103d0effaa48565fd65c9de168dbf8941062f66bfe9268313153c
+Size: 4050
+SHA256sum: ee326d9eb09bc7773058ff2cc55f9b5a495c3e9de625503cc95c40dbc1a8bf37
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +62,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_fa526
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.5-r1_arm_fa526.ipk
-Size: 1230
-SHA256sum: c136cc2611aebd19eaaa25de8b575ab45736bcfafbbb42c2702ce5ac3416b988
+Size: 1234
+SHA256sum: cff768032f45e3dd6255e3548bdb952bbb25bb61380022433e98760411091606
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +76,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_fa526
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_fa526.ipk
-Size: 919877
-SHA256sum: caa26e49406460012cd1d9f899545985b7d727097220698b8ca545cdbbbd32f6
+Size: 919713
+SHA256sum: ff0d082d7fc0e6b58161615182eb46a109b71fc6145476fac8cd35debc83dd90
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,8 +89,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_fa526
 Installed-Size: 952320
 Filename: meshtasticd_2.6.5-r1_arm_fa526.ipk
-Size: 419230
-SHA256sum: caa147cba7ccf751b859118b813b755b68bef8153704db15acb8752897a6603f
+Size: 419221
+SHA256sum: fcfad64af3bb1ba9a5c000e38ffc54cb4990ca79372a2d36ab141c456b006b44
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -61,8 +102,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_fa526
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_fa526.ipk
-Size: 87600
-SHA256sum: c2a5362f3f25d47c067768e7529d2bf2f84659406d9166cf57519a97a24916e6
+Size: 87595
+SHA256sum: 996fc9a0e48bb2f941d4effe0599e1b5dc002585bf4efd5f9ca753adc7891dc4
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +120,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_fa526
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_fa526.ipk
-Size: 191859
-SHA256sum: d0b1d5332df96d6f73dcfaba531fc88b6204b6b6c8d54b5b6e0d8f78acd896d2
+Size: 191875
+SHA256sum: 1235de28a9732355024442e52f8b0d393c43795275ac38b126b016948e1616cf
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_fa526
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_fa526.ipk
-Size: 156245
-SHA256sum: 92e9b6fea08fff3ebdfb20a137447f8502b96c6d98521bb5760562b1d19e1d9d
+Size: 156235
+SHA256sum: e017f7f5c926a67335024db4d6371bb500a76d0edbf1e1c7ebb9c79f208ca557
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +151,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_fa526
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_fa526.ipk
-Size: 325721
-SHA256sum: b00a4150776aeaa45c01c2b2c1c95467058441488a4f2538854abf8c2168d35d
+Size: 325705
+SHA256sum: 3efca456f3255b55d369b0e2bb3bbcb02b9cf67d3ae414797ff9c823f2b1f336
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +164,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_fa526
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_fa526.ipk
-Size: 23554
-SHA256sum: b28ae55b6559a8724acbd0f06df4affb871b1496a6c201bb580e0ded1a5c92fa
+Size: 23546
+SHA256sum: 0ccdfd3b97b6d4513a18afe86c0ec4e968147e971cf261d0b1d02759154b4225
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +179,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_fa526
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_fa526.ipk
-Size: 54757
-SHA256sum: fdd4053642bbf48a828aaa360a0b02c4cfaa678276dfca8ba1dd74f1993afa9f
+Size: 54797
+SHA256sum: b86adb5195896b0ca0cf66c1bb5718d008b2bb506c14ebbda07d0a36f947e520
 Description:  Pretty-print tabular data
 

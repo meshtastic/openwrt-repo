@@ -1,3 +1,44 @@
+Package: liborcania
+Version: 2.3.0-r2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/orcania
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 20480
+Filename: liborcania_2.3.0-r2_arm_arm1176jzf-s_vfp.ipk
+Size: 6548
+SHA256sum: f42148533647a00dd44a7cd175e6cca946dfb581dbc1522b04f249e80dd27ea4
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 102400
+Filename: libulfius-gnutls_2.7.10-r2_arm_arm1176jzf-s_vfp.ipk
+Size: 42160
+SHA256sum: 4c837953f078a5471b04c85f7525714a8ef9c67b7e18034cb6458b9cc26ba742
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 61440
+Filename: libulfius-nossl_2.7.10-r2_arm_arm1176jzf-s_vfp.ipk
+Size: 23905
+SHA256sum: ddddba9f3978805d29e8509a549f8a7d8ef75f8f720596bc7f34c80d5fad131a
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -7,8 +48,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 4041
-SHA256sum: f12fd0a0a6e1d0816bc0c06ba4507d58a40cec96488ae79c83fa71125cc6f324
+Size: 4037
+SHA256sum: 1742373542c3031818b0c1430bd1fbe04dace1190979f9d9b91d83b7eee103b0
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +62,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.5-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 1239
-SHA256sum: 79d1a454e2e46da7e85e1187b9d45a95b9a553a56599fba32955c7c4fc5d71c2
+Size: 1242
+SHA256sum: 7c9430a18c7abb006b573a0b1f5ce649650270e9769e06ae3359adf5c32703f5
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +76,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 919889
-SHA256sum: d59d0718179109c2821cad23533e44e8997951944ffda8b114dd7ab6456aa9bc
+Size: 919728
+SHA256sum: 4dbb2d87908b15c59d6e7ac854d1f54cdd843f82c23853d796b32ec86e637ff5
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,8 +89,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 931840
 Filename: meshtasticd_2.6.5-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 413618
-SHA256sum: 30913427d82ee266ac6d4e7d5d3d2d57cab13cd24ba424ec74b6f0eefefc86d3
+Size: 413611
+SHA256sum: 2a219b59eaf7cb7c8f8322ea08178adc9e6c49bbb3d721b6827e80d54992f209
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -61,8 +102,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_arm1176jzf-s_vfp.ipk
-Size: 87604
-SHA256sum: b8b2ad2167b64dbff9c901618b079c8de3183cc66eeade4c0099c396fc2b30ec
+Size: 87605
+SHA256sum: c6bc8214cb9fc77f254d37fbdf6b2f7b3f5b9a5b692bbca39c1ec920a1c7356d
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +120,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_arm1176jzf-s_vfp.ipk
-Size: 191866
-SHA256sum: e423e6a27bad63596fdce12b3a10f7bb92c30a96ee730777080f2f857a3adada
+Size: 191884
+SHA256sum: 4c96976c82cdf186d4e9995001e0020ff8104feb3a230f33afb63a168be9641e
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 156250
-SHA256sum: e0e8cb22851c80d36383acce539d7f32975beb6dd77f050b4251f13beaa9b223
+Size: 156239
+SHA256sum: 1c4d2ddb7739b7cbb5efade87eb4e1bb650b836f7d5abf9eb0c05ef45ac25bda
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +151,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 325729
-SHA256sum: 39bcaca047bf39f24d4570dadc6b48b1ad112d63b4a9cf102737e8482aa6d86c
+Size: 325710
+SHA256sum: 6eea4fbb023229b698c588bc2a2b2f8340e750897a01b2474e46e5b552ffa849
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +164,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 23564
-SHA256sum: fac2c458e4cf884f1523c9abbece56eaf9d3f47c51729c3324e13152a4bcc098
+Size: 23556
+SHA256sum: d990b79feec3b944121b4b8ffca274aff29483811594a4052cb31b2c4e6acc13
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +179,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 54761
-SHA256sum: 43650765412f1ee365a4d34311e24bba2ee41583b8d61c604facb8c4daea8415
+Size: 54809
+SHA256sum: 6152a8854e22c4e691677acf1f424ca58a808bddc335070850dd87d93c4b515a
 Description:  Pretty-print tabular data
 

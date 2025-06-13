@@ -1,3 +1,44 @@
+Package: liborcania
+Version: 2.3.0-r2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/orcania
+Architecture: arm_cortex-a9
+Installed-Size: 20480
+Filename: liborcania_2.3.0-r2_arm_cortex-a9.ipk
+Size: 6550
+SHA256sum: 18fa7c853d51c7b2926ec712a0d816fab13d793c40e2f06dd1d491b5adfc13fb
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: arm_cortex-a9
+Installed-Size: 102400
+Filename: libulfius-gnutls_2.7.10-r2_arm_cortex-a9.ipk
+Size: 41962
+SHA256sum: f4812dd5cca5e3e87aafa574f6d73fd2c84fd6453cf1e07192bd965b3e2d4953
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: arm_cortex-a9
+Installed-Size: 61440
+Filename: libulfius-nossl_2.7.10-r2_arm_cortex-a9.ipk
+Size: 23855
+SHA256sum: ac06f0556c3aa78441938ff2cb110b2ff0a919421d6287cedeede7aa3d4c9239
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -7,8 +48,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_cortex-a9
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9.ipk
-Size: 4018
-SHA256sum: 7a747ba7e526c281bec2ab5a940c931d5b74daca10d233b20755bc4b6ee71ff6
+Size: 4011
+SHA256sum: d7cdf78584893381859d7b72b72cac43d8716b5b2bb0042de6b8c5e88425cf8c
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +62,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.5-r1_arm_cortex-a9.ipk
-Size: 1236
-SHA256sum: 7b046adb242148c045b5777fbdec78ce500167d5205add31aec9ed546fb910ef
+Size: 1239
+SHA256sum: 68e1bc39a3f74bdf0ad33f27755ffbe832db1af2c3a92a7b7a44b0ba39134d44
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +76,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a9.ipk
-Size: 919882
-SHA256sum: d8144482a18f08adbf80d3ad38416eb7e0514875d98a149fc005c87ec9fe01c4
+Size: 919721
+SHA256sum: 9c967c897a268c355bb7c4231af6d09f4a4c9bbb1172c3403e5f6dbc24f2d75f
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,8 +89,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9
 Installed-Size: 942080
 Filename: meshtasticd_2.6.5-r1_arm_cortex-a9.ipk
-Size: 416733
-SHA256sum: 548d98fedcb213139babfc0eee2d003c0ca6f503f53bfe2987e91d17c680c395
+Size: 416757
+SHA256sum: 5a37317e6558204dd6b122d89ad03cac9eb5dfe1f84a2a21735e910eac5b5930
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -61,8 +102,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_cortex-a9
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_cortex-a9.ipk
-Size: 87603
-SHA256sum: 2b82875982b80adfbc9f47f040e5719aa0f972637d1a444faf4a273343ec6058
+Size: 87599
+SHA256sum: b455f4e646aef8748975c0ca049c98b29818cb4eb6369d2a4cc08f0f72b8a1a3
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +120,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_cortex-a9
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_cortex-a9.ipk
-Size: 191861
-SHA256sum: 51bcbd01cfd7422e8bbfa46dc55fd5dd834fb8f56aca5a9a288cedbdf0ec19c1
+Size: 191878
+SHA256sum: 7d93f73c11490e41ff71585fc84f911c8c838221972f702b9892b471e5e56877
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a9.ipk
-Size: 156248
-SHA256sum: d84ba9fe3adcb5f80c2cd0c6f5fdac43c195c3eda1f720733a91ccf92cd69c61
+Size: 156237
+SHA256sum: 8c080226f648bc4718e43eeaed0d0dfa0b0829040e89132a3f2bf00d00ffbf4d
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +151,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a9.ipk
-Size: 325724
-SHA256sum: 78708c391c0d982c152d12b96756c13b9da37770323bd3672ea3d865d51bbd9d
+Size: 325704
+SHA256sum: 009408802114c771b3768031ae3126fa5db055d14da018e3863008c740efe05c
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +164,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9.ipk
-Size: 23561
-SHA256sum: f96e376f4600191a8b4e430b4d44c7b45cc7de4f2976e46a9eb8e8e44480b286
+Size: 23549
+SHA256sum: fbba283e9032575fdc9a8fa994636800b77aecb2c0e156fa6084ebb703c9d7ac
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +179,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9.ipk
-Size: 54754
-SHA256sum: 2f09b3e7644842408b8d46b837dbf63ab7920195c9a89fe362c6bf6fe309fa80
+Size: 54799
+SHA256sum: 860fdbc991fd14bd63a44152aeecf8ea80c213f1b5a6949e1c81e4f63ad43fd8
 Description:  Pretty-print tabular data
 

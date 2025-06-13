@@ -1,3 +1,59 @@
+Package: liborcania
+Version: 2.3.0-r2
+Depends: libc
+Source: /feed/depends/liborcania
+SourceName: liborcania
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749821338
+URL: https://github.com/babelouest/orcania
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: riscv64_riscv64
+Installed-Size: 30720
+Filename: liborcania_2.3.0-r2_riscv64_riscv64.ipk
+Size: 7883
+SHA256sum: 97b84fb3861b4fa22525cac492e714df0d6fc57e360dc850f67940a82a79a158
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+Source: /feed/depends/libulfius
+SourceName: libulfius
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749821338
+URL: https://github.com/babelouest/ulfius
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: riscv64_riscv64
+Installed-Size: 102400
+Filename: libulfius-gnutls_2.7.10-r2_riscv64_riscv64.ipk
+Size: 43674
+SHA256sum: 75b34afaa800fd7cacabe51dd15b508fd2646f9745e8124ff91cf1a3de559dc3
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+Source: /feed/depends/libulfius
+SourceName: libulfius
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1749821338
+URL: https://github.com/babelouest/ulfius
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: riscv64_riscv64
+Installed-Size: 61440
+Filename: libulfius-nossl_2.7.10-r2_riscv64_riscv64.ipk
+Size: 25464
+SHA256sum: 7eb6cb2acfa11cfcf96b538d227dde983ec3531bfe8c0888f74ae858836ce327
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -6,14 +62,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_riscv64_riscv64.ipk
-Size: 4058
-SHA256sum: 59c13e7425f9b40e53ca7a85563818aaae8c5873ab8ac5d27624470e1b2eb82c
+Size: 4061
+SHA256sum: 2db7737ca176eec09b1bf2a10b8d31ffdc65ce89b8e4979893aae82ac1e53f78
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +81,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.5-r1_riscv64_riscv64.ipk
-Size: 1234
-SHA256sum: c1f74ceec12956824c5ee042bb77362aa9af3e006aa74ecabbd22d69ab61ea3f
+Size: 1233
+SHA256sum: d06c761feeb9c32d2cee0630b77c5ebe35fa82f83a793179141340ab087b3ef9
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +99,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_riscv64_riscv64.ipk
-Size: 919880
-SHA256sum: fdef25763bee7b44cb75f13c6cf6d6450564cbfc5112551a1276aaf890699e60
+Size: 919720
+SHA256sum: 7c9164c186fa29fef59b27cfc3448b902b63eda35269b36ce53bacfd7d8ef6c8
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,14 +117,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 1095680
 Filename: meshtasticd_2.6.5-r1_riscv64_riscv64.ipk
-Size: 489410
-SHA256sum: 65c05101991813ff7b20be72be4d125cbda7b860f4985055f41b16c34e699b89
+Size: 489439
+SHA256sum: 13d801b61a49236424d76922cbeca096c1928e471ced1bee6d047a6ecd60ca15
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -79,14 +135,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_riscv64_riscv64.ipk
-Size: 87600
-SHA256sum: cb8befd07c27a68bb526e32f5e466c082e0260c84ab08ddb90b8b1db5de9c789
+Size: 87593
+SHA256sum: 082bc93fa0d1f4956020299ca420003c414e1e4f49d732be6b64e038d806f01c
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -102,14 +158,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_riscv64_riscv64.ipk
-Size: 191862
-SHA256sum: a8147f4a0aa31672f238f3b116885436894c07216012f3b93185d2f7f90978e4
+Size: 191876
+SHA256sum: 1d8d8a1d09dea93604a73b388a98ed7c6820d34847f28548f6a18e5db04dbd00
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -123,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_riscv64_riscv64.ipk
-Size: 156250
-SHA256sum: 1c8f96f31f9ac74ed88297890b19eb1a165aacfe0288fb538728e13071cf62e9
+Size: 156235
+SHA256sum: a470130af7b444a37ced1bcd1db34e714f9cd697a98c6d7036df265bcd6b721c
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -143,14 +199,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_riscv64_riscv64.ipk
-Size: 325724
-SHA256sum: a20e82e0a6182de4dec27dd88d698489cf21b92d1522f7abf4544402b53e4312
+Size: 325705
+SHA256sum: 79264026f030f26610310190d94d60e0d94e4ea054d1e69019fe698e18505c19
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -161,14 +217,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_riscv64_riscv64.ipk
-Size: 23557
-SHA256sum: e9c7767618bd84adc4624b4732cc4c852c2de5ce409e348b20cc70344ab1f769
+Size: 23546
+SHA256sum: 9447e7f1ee7d346c5823f0a394c4558a623e6b8249ffa800583e6fbb5c958b92
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -181,13 +237,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749768078
+SourceDateEpoch: 1749821338
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: riscv64_riscv64
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_riscv64_riscv64.ipk
-Size: 54755
-SHA256sum: 0eb9136844b737b95f162ab238a9225c383e36ccd4f70e00858b85b376732b25
+Size: 54801
+SHA256sum: bf05e2849ee360219b3aa0949ea21e08f151a42fe4d36d702801d42f6884df50
 Description:  Pretty-print tabular data
 

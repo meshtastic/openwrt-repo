@@ -1,3 +1,44 @@
+Package: liborcania
+Version: 2.3.0-r2
+Depends: libc
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/orcania
+Architecture: mips64_mips64r2
+Installed-Size: 71680
+Filename: liborcania_2.3.0-r2_mips64_mips64r2.ipk
+Size: 6992
+SHA256sum: dcfdb44bdd137af39bcfc4a0a1fadca20850aff5e641ef233849628ada5cd58c
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: mips64_mips64r2
+Installed-Size: 143360
+Filename: libulfius-gnutls_2.7.10-r2_mips64_mips64r2.ipk
+Size: 41723
+SHA256sum: d71128170cd0a3b457935dae8e0a4bfd1931d7e00a78256b0230f64acf8c47cd
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.10-r2
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+License: LGPL-2.1-or-later
+Section: libs
+URL: https://github.com/babelouest/ulfius
+Architecture: mips64_mips64r2
+Installed-Size: 71680
+Filename: libulfius-nossl_2.7.10-r2_mips64_mips64r2.ipk
+Size: 24029
+SHA256sum: 4d30cee4e7963340da91453a03714495569ae5b1a28a09f9b4e303ff97201a7d
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -8,7 +49,7 @@ Architecture: mips64_mips64r2
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mips64_mips64r2.ipk
 Size: 3977
-SHA256sum: a418354b3bacf7c21eb533f26f02cd49ebdae8d7d1812286389e965a298075be
+SHA256sum: db3d59335a12d05dca761a71237b6aa8e75392f59fd211341bc065d84b5359d8
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -22,7 +63,7 @@ Architecture: mips64_mips64r2
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.5-r1_mips64_mips64r2.ipk
 Size: 1233
-SHA256sum: da5323745911a4f6c4084240fe3cb715db1c5958891bf4271c9d3267c9ccace2
+SHA256sum: e28118e635961d09ebbef98d23f8f8450a94c7300df840f4ba787e5ce3c52d03
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +76,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: mips64_mips64r2
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_mips64_mips64r2.ipk
-Size: 919881
-SHA256sum: ccf8c65bcc981c5241ceb48051e920645ec3296af20f7778270be9d98ab3eff5
+Size: 919719
+SHA256sum: c5c66991f7abdc881f53ea981ee72e49c1efffa23142430babebea4c585d2c07
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,8 +89,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: mips64_mips64r2
 Installed-Size: 1566720
 Filename: meshtasticd_2.6.5-r1_mips64_mips64r2.ipk
-Size: 506415
-SHA256sum: 07a522613cf3cdd631335242d44df63360be44c729d2cc5f237031d7676bedab
+Size: 506404
+SHA256sum: 0cc95e236d9bbce1a9576a1f52072cd62bf80671ad484c1ff8a3d702c7375c93
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -61,8 +102,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: mips64_mips64r2
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_mips64_mips64r2.ipk
-Size: 87600
-SHA256sum: eb5daaf593963d861b2fca1d9da15e9bfa5e78222d2fb2c1e167d7a7021bef7d
+Size: 87595
+SHA256sum: a9779f23ce8be5b5e6a7b8f1082ea1cffc04055edad7acf5fa7d0ddee891956a
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +120,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: mips64_mips64r2
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_mips64_mips64r2.ipk
-Size: 191861
-SHA256sum: 3a6aa2b734ba0361aec01c56cee20e43f68391fc72e031f47f68063a83c3d281
+Size: 191876
+SHA256sum: 0f0d24994456c0f8f78035f55956187284744cfa0229c7309215c21ce128ab36
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: mips64_mips64r2
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_mips64_mips64r2.ipk
-Size: 156252
-SHA256sum: eac5eb490d10310f00cb0f71567c40790d93b1ef048ea895a94870df4d6a9d48
+Size: 156236
+SHA256sum: ca7bf13be165204984459c697a171ef2678837f79dfdc5000a101e7c087b8fce
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +151,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: mips64_mips64r2
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_mips64_mips64r2.ipk
-Size: 325723
-SHA256sum: 968f84fed682d86a49ad4ed707d843052a76f3cfd6b16aa87ac834c593d62aab
+Size: 325708
+SHA256sum: af98ced3e5321bb9e41369a47fc868aa644d372f8bbe718372ca3d5d55d55213
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +164,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: mips64_mips64r2
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mips64_mips64r2.ipk
-Size: 23558
-SHA256sum: a763900fcd5dede2bcc71ad375f6e222861711d755a7371c27b8686888482cd1
+Size: 23546
+SHA256sum: 46393027871344b58b10411c8cc7b3660907b9348b619fa118b1002d90c9df4e
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +179,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: mips64_mips64r2
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mips64_mips64r2.ipk
-Size: 54756
-SHA256sum: 3151eb87243219a7a28a595d66c8d2abac128e44c48d8b8fd9a95dcfd06121ce
+Size: 54801
+SHA256sum: 396d181c20a4a5a89d961f8d6246863bf4aaa8376631ad2f3085996383420cee
 Description:  Pretty-print tabular data
 
