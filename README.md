@@ -23,7 +23,8 @@ Supported versions:
 ```sh
 opkg update
 opkg install wget-ssl
-wget -O /etc/opkg/keys/1d36966d48075ff5 https://openwrt.meshtastic.org/meshtastic-ipk.pub
+wget -O /tmp/meshtastic-ipk.pub https://openwrt.meshtastic.org/meshtastic-ipk.pub
+opkg-key add /tmp/meshtastic-ipk.pub && rm /tmp/meshtastic-ipk.pub
 sed -i '/meshtastic/d' /etc/opkg/customfeeds.conf
 ARCH=$( . /etc/openwrt_release; echo "$DISTRIB_ARCH" )
 echo "src/gz meshtastic https://openwrt.meshtastic.org/openwrt-24.10/${ARCH}" >> /etc/opkg/customfeeds.conf
@@ -36,7 +37,8 @@ Only use in regions where GitHub is blocked 🇨🇳
 ```sh
 opkg update
 opkg install wget-ssl
-wget -O /etc/opkg/keys/1d36966d48075ff5 https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/meshtastic-ipk.pub
+wget -O /tmp/meshtastic-ipk.pub https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/meshtastic-ipk.pub
+opkg-key add /tmp/meshtastic-ipk.pub && rm /tmp/meshtastic-ipk.pub
 sed -i '/meshtastic/d' /etc/opkg/customfeeds.conf
 ARCH=$( . /etc/openwrt_release; echo "$DISTRIB_ARCH" )
 echo "src/gz meshtastic https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/openwrt-24.10/${ARCH}" >> /etc/opkg/customfeeds.conf
