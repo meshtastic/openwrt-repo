@@ -6,14 +6,14 @@ SourceName: liborcania
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://github.com/babelouest/orcania
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 20480
 Filename: liborcania_2.3.0-r2_arm_cortex-a7_vfpv4.ipk
-Size: 6541
-SHA256sum: 8b59695a63c5637cf48a4f0184639e2aabcca619739ce16f1742a5e67a606698
+Size: 6539
+SHA256sum: fe2de7c8b0a107e87808270d611fc8eca8fe9bd068b09db317bfd9b520f5a746
 Description:  Potluck with different functions for different purposes that can be shared among C programs.
 
 Package: libulfius-gnutls
@@ -25,14 +25,14 @@ SourceName: libulfius
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://github.com/babelouest/ulfius
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 102400
 Filename: libulfius-gnutls_2.7.10-r2_arm_cortex-a7_vfpv4.ipk
-Size: 41865
-SHA256sum: 0a51fe266298ea36f8ef1f82cdee50752e89245f5cc35afcc55d074955fb5e01
+Size: 41883
+SHA256sum: d1c06b1b602b81b723a5f8abf8b5a1bc28697271b3de822b0bb84ae7628ec78c
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
 
 Package: libulfius-nossl
@@ -44,14 +44,14 @@ SourceName: libulfius
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://github.com/babelouest/ulfius
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 61440
 Filename: libulfius-nossl_2.7.10-r2_arm_cortex-a7_vfpv4.ipk
-Size: 23937
-SHA256sum: 6c41c06f64239f5b898488a9a84d2e2dc425ab90d4bb9cce39e8edeab8b1cc37
+Size: 23936
+SHA256sum: b3af379b10e559c670f951b0a84e28f33367d8b42d332c3387fea1cad543f424
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
 
 Package: libyder
@@ -62,33 +62,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a7_vfpv4.ipk
-Size: 4020
-SHA256sum: 859ca265d399299264df468760532815b1d554b50af6a4467e61938ce3dfeada
+Size: 4029
+SHA256sum: 92bfa26a5de0bcc95724babca9b6aba8a36d0f4ab9f1c6d97f4da2b8452c0337
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.5-r1
+Version: 2.6.10-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.5-r1_arm_cortex-a7_vfpv4.ipk
+Filename: meshtasticd-avahi-service_2.6.10-r1_arm_cortex-a7_vfpv4.ipk
 Size: 1240
-SHA256sum: 189b20c8d363ca9ffe45e68c7eedca3435f20780ba384ccdb0b6ece510634850
+SHA256sum: c4391af1e7ddd3b2ffb2397a13319263a4b687bf8b393250b7351d4ec97d3ebd
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -99,32 +99,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a7_vfpv4.ipk
-Size: 919727
-SHA256sum: 76ec782443d4fdd8b0a09e750669ec26aaf47b379c8650932b39285736502d76
+Size: 908176
+SHA256sum: 9a3c6a826a6d018d692a840818ceaeaf18f8895f4500df577a3b54e1557040fb
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.5-r1
+Version: 2.6.10-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
-Installed-Size: 931840
-Filename: meshtasticd_2.6.5-r1_arm_cortex-a7_vfpv4.ipk
-Size: 412889
-SHA256sum: d277b8f7e62ebc928160235d80413aa9b16621ace2bb9252259232058d4f4c76
+Installed-Size: 1054720
+Filename: meshtasticd_2.6.10-r1_arm_cortex-a7_vfpv4.ipk
+Size: 463433
+SHA256sum: 2a8e66410d6cf15c9be78f6ed8720ec3cefecebea06f76730afe3f20813f33fb
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -135,14 +135,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_cortex-a7_vfpv4.ipk
-Size: 87603
-SHA256sum: f59637c2a58b1486e7f5e5478c28329b94ea56f7b53295f92a8613440939576b
+Size: 87600
+SHA256sum: d72d36da52d9baacb099a430f105be29faf7c46b37cdd786f597ce37f62e3e89
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -158,14 +158,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_cortex-a7_vfpv4.ipk
-Size: 191884
-SHA256sum: a60a08cf1389e900ac8c0699a19e2ed72dd004b4be418d27bd9b81cf51a88d09
+Size: 191883
+SHA256sum: a6338dea1a701251b90c73f82cb57f8aab34b47f738c7967f7ec1ec9683ba7e6
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -179,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a7_vfpv4.ipk
-Size: 156243
-SHA256sum: 50e05a86e69b07a8c73bec2a1ca31e22c842f6ffcd452907a3a5573f83c84d1f
+Size: 156241
+SHA256sum: f853b383102f1a8d21bdba69e2a5d2e2d3dfc135bde9f3fe2f9b2052a4e2bb91
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -199,14 +199,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a7_vfpv4.ipk
-Size: 325712
-SHA256sum: 82a56c7497147de14f185c61a3fd48c0d0ea6fa00ee725cccd920e9303ddceb1
+Size: 325735
+SHA256sum: bf9e8d9ebc593fe55e87d6a91a0e96c324104d3691a2095caf4b295772ddbcfe
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -217,14 +217,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a7_vfpv4.ipk
-Size: 23553
-SHA256sum: f72df850253e016bf8492f48dcb53dacb683931347ae15e62d3f161fde4192a0
+Size: 23558
+SHA256sum: 174a955f0841fd263dcfe91a669ab1647d7cad84924d1f05a6e311635c97564b
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -237,13 +237,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a7_vfpv4.ipk
-Size: 54807
-SHA256sum: c7c4a28e3d271903a3353129441ec909f335d53be9676cc27c3d530ace136702
+Size: 54808
+SHA256sum: 65e951bb5fa6cda7795eb453a6f19d9db138cf40d76e1d8abaf202d3538674ab
 Description:  Pretty-print tabular data
 

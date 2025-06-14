@@ -7,8 +7,8 @@ URL: https://github.com/babelouest/orcania
 Architecture: arm_xscale
 Installed-Size: 20480
 Filename: liborcania_2.3.0-r2_arm_xscale.ipk
-Size: 6544
-SHA256sum: 342165be80a949d720937d869506f08341b196ab5b92f2bff2e9fc6d8aa5ce34
+Size: 6542
+SHA256sum: 686c4fa756cc79e7cb97c6c6ac54308a5dd57f07a13a6ef55f52b2841f4b51f4
 Description:  Potluck with different functions for different purposes that can be shared among C programs.
 
 Package: libulfius-gnutls
@@ -21,8 +21,8 @@ URL: https://github.com/babelouest/ulfius
 Architecture: arm_xscale
 Installed-Size: 102400
 Filename: libulfius-gnutls_2.7.10-r2_arm_xscale.ipk
-Size: 42003
-SHA256sum: 59fb1090dc601f1ff4bfdd6d7a34c62998f844028e7c9e6970cde50af9db383c
+Size: 42007
+SHA256sum: 7f6b2fa0c934267f43d341287b0aad96615683a6a244428530a8af8f180701a0
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
 
 Package: libulfius-nossl
@@ -35,8 +35,8 @@ URL: https://github.com/babelouest/ulfius
 Architecture: arm_xscale
 Installed-Size: 61440
 Filename: libulfius-nossl_2.7.10-r2_arm_xscale.ipk
-Size: 23891
-SHA256sum: 6d02a76a1ef33a34537483dfe69a15101c01740b40c0dc8f8b3b2356488a5686
+Size: 23888
+SHA256sum: 0d083d2ffebcc672de30779b6ecb4993cace7ccf77b6b5c8159c66bfaeacb3e6
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
 
 Package: libyder
@@ -49,21 +49,21 @@ Architecture: arm_xscale
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_xscale.ipk
 Size: 4033
-SHA256sum: 66199315d644f73e39207d183dcb1df177073c62fa8389f89e1599e9666523a2
+SHA256sum: 44d34ce13e1f691d602f3af7306361b72f3e1b6fb3abf6988323368b5bb16a3a
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.5-r1
+Version: 2.6.10-r1
 Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: arm_xscale
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.5-r1_arm_xscale.ipk
+Filename: meshtasticd-avahi-service_2.6.10-r1_arm_xscale.ipk
 Size: 1232
-SHA256sum: ecec1282d9f6ce8a78580e60627d24fcb11f33135a867436a47dae909e247b87
+SHA256sum: e3c269732eb1a6efe1b3f97ad79045e877fa457b0a74d172dac444af4cafd928
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -76,21 +76,21 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_xscale
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_xscale.ipk
-Size: 919720
-SHA256sum: 915b6ea62fd8049a4412df896e01d79b5f12883f6549fe088435b91c9c3a6254
+Size: 908174
+SHA256sum: a123bc32f598bd9575ec3e831f1344afdc884365f733aef441b3e82c6bf4bbd6
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.5-r1
+Version: 2.6.10-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: arm_xscale
-Installed-Size: 952320
-Filename: meshtasticd_2.6.5-r1_arm_xscale.ipk
-Size: 417836
-SHA256sum: 03e1b8791d0bc6f484f48052fa8d17042117b0ca45f5c8629a4fcb0a9a221bcf
+Installed-Size: 1075200
+Filename: meshtasticd_2.6.10-r1_arm_xscale.ipk
+Size: 469616
+SHA256sum: e130eecd46b708752d086042fb9523f5f44e28f2cbd2f1c328f70b367e71da49
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -103,7 +103,7 @@ Architecture: arm_xscale
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_xscale.ipk
 Size: 87595
-SHA256sum: 56f155e1b507dddba15de0c6f9da277b9750f4f5e37d497c7e75f707ac3f9c33
+SHA256sum: 85a662f57f097ffdd42856aae7d3dd6dba5d22d6d14caf0572db380f2d16e7a0
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -120,8 +120,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_xscale
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_xscale.ipk
-Size: 191875
-SHA256sum: b41ad750b1f2984d7f78940e6b1bd00ffe692538fe892a4ca799af8c6b47fd52
+Size: 191877
+SHA256sum: 7d84550a9b9fe5a217f33caa0420ae022fd916d85c8ec49cbe37c3aec8505e1d
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -137,7 +137,7 @@ Architecture: arm_xscale
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_xscale.ipk
 Size: 156235
-SHA256sum: feaefb83b86adb2b8b775a2038d510462c8dae1fd4de24cc0eee561e56d68236
+SHA256sum: e0ba4c8b1d0bef9cc9358b160c50a5811f65b2a807681d4e5861c1f0b0074882
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -151,8 +151,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_xscale
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_xscale.ipk
-Size: 325706
-SHA256sum: aa73ebbeed7af78e6dd99e280fd2ebf81c642620e19577e6821deebb981f7f36
+Size: 325728
+SHA256sum: 210e4c937ccad0ad06f6c3cd85b93e2a7637cbf4236732586ef6b5b31d78060d
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -164,8 +164,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_xscale
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_xscale.ipk
-Size: 23545
-SHA256sum: bac66c3de7cb65a77513487e17fb89b7629ceb2e47d9d6c368bb1ef72974ce7b
+Size: 23548
+SHA256sum: ee8e56eb06d557c1fd15693d39dff700ecc87841e3ffbcadb2e76381bc105249
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -180,6 +180,6 @@ Architecture: arm_xscale
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_xscale.ipk
 Size: 54803
-SHA256sum: 4788d60435c2d00982c1f5098352f8221a3ede95702dac91cdace55317b7c1e1
+SHA256sum: 4db85f341bf3ce9ce9506b7f7895c018ae10811a8470c398f50b0544e53e38e0
 Description:  Pretty-print tabular data
 

@@ -6,14 +6,14 @@ SourceName: liborcania
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://github.com/babelouest/orcania
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: armeb_xscale
 Installed-Size: 20480
 Filename: liborcania_2.3.0-r2_armeb_xscale.ipk
-Size: 6501
-SHA256sum: 3850f77ef0d0984f40a4225e4cd6111246e6cb28d1767e161143905cc29a44dc
+Size: 6507
+SHA256sum: b71c401e49fc11914a2a755cad3ab8054c64c192c5c4e5671d5286958d44bb20
 Description:  Potluck with different functions for different purposes that can be shared among C programs.
 
 Package: libulfius-gnutls
@@ -25,14 +25,14 @@ SourceName: libulfius
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://github.com/babelouest/ulfius
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: armeb_xscale
 Installed-Size: 102400
 Filename: libulfius-gnutls_2.7.10-r2_armeb_xscale.ipk
-Size: 41831
-SHA256sum: 7809a19f77b6cc339a2bd4a948e3de3012a2ee011a401b53d84342cf33519726
+Size: 41841
+SHA256sum: 3f494a34b0bddbfa3b5849f40e4f74e3c46f4939c46d7980c6651ee4dde023ee
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
 
 Package: libulfius-nossl
@@ -44,14 +44,14 @@ SourceName: libulfius
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://github.com/babelouest/ulfius
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: armeb_xscale
 Installed-Size: 61440
 Filename: libulfius-nossl_2.7.10-r2_armeb_xscale.ipk
-Size: 23810
-SHA256sum: 7d3971e463531add6e6d92ddfffab7c20c0401d08f335e2a8fedd66922010562
+Size: 23813
+SHA256sum: 2790c26d20356adf51df7757d6558bc8a71cc30fca5d313ee88c1980cf300b92
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
 
 Package: libyder
@@ -62,33 +62,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_armeb_xscale.ipk
-Size: 4051
-SHA256sum: 9157e2a3178fbb0e8c02416dd8240029bd03ee59b6a18d7ca7969545e3c84b0f
+Size: 4057
+SHA256sum: d141d665a5d14e5a3ca48baa3f83cb7deaf013d39c0113423dcbb76bffc2cabf
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.5-r1
+Version: 2.6.10-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.5-r1_armeb_xscale.ipk
+Filename: meshtasticd-avahi-service_2.6.10-r1_armeb_xscale.ipk
 Size: 1234
-SHA256sum: 73d210474bbb25479d75d9c6e194c5ebd03628f9b47781f5981f8ffbc21b930b
+SHA256sum: 4eb9453986896e7f939f80521c302aa08b6b78067a5aff3825be8c0cc80096b0
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -99,32 +99,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_armeb_xscale.ipk
-Size: 919720
-SHA256sum: 7fc22756b51b06bd9a6e8adffc9b5353596493e795e92abaf7ebaa4d05f1da83
+Size: 908173
+SHA256sum: c4373f921bd83089a7d57e0a7e61fa2c2c126841a4c945b519942dd59ed1863c
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.5-r1
+Version: 2.6.10-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: armeb_xscale
-Installed-Size: 952320
-Filename: meshtasticd_2.6.5-r1_armeb_xscale.ipk
-Size: 418696
-SHA256sum: 32ae2f60de6bc5e6d38b0e245e2dc50e7a796c54a62b7b9e6da6ac23407a0ee0
+Installed-Size: 1075200
+Filename: meshtasticd_2.6.10-r1_armeb_xscale.ipk
+Size: 471114
+SHA256sum: 10fd882c5d79673aab77305739adf9f5bf05e730db97bcd4d949bed8b6f9a49f
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -135,14 +135,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_armeb_xscale.ipk
-Size: 87597
-SHA256sum: c2f5a5c18c27680176892d7743314ffed25f00a1b9d4a794165d546edfa3aedb
+Size: 87595
+SHA256sum: e7d53f2f06da0bbb9f49c0a75c090b4f10e439f1fe27ebbd4b92bfe5da5c3b88
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -158,14 +158,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_armeb_xscale.ipk
-Size: 191876
-SHA256sum: 8cb480ad1bbd7772e01eb8846f406af568e8bd1e5939cad6c5fbc6660f2f29ab
+Size: 191875
+SHA256sum: f6e11e85f51f41800d36bfce6295f9b3039da4e9dd362e4c5a857a6e80c26aa5
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -179,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_armeb_xscale.ipk
-Size: 156236
-SHA256sum: 8ffd4865685b152f19923850e311cf7bc522c354ae013827328fea2af1cc9180
+Size: 156235
+SHA256sum: 68fafcc4c6ffa6889c80391764a0c2d542d3114ee300059fa3babb0428f89def
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -199,14 +199,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_armeb_xscale.ipk
-Size: 325705
-SHA256sum: 2db97a3aaecf1134d6bb07542783013c26815c9316907f5b942a82f9a5167984
+Size: 325730
+SHA256sum: 17a80fd366159f22e6b7c1950974b2fe83934f87940aec63c06631fd97a7001d
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -217,14 +217,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_armeb_xscale.ipk
-Size: 23548
-SHA256sum: 45af7aca323677bde1ec7153e2256ea478a1cb3412d08eee25a0ec7659edb58c
+Size: 23552
+SHA256sum: 7b1928a2846f1c8306e4b9a1edc908ed7d661716df70167fe482ef0d185c1132
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -237,13 +237,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749821338
+SourceDateEpoch: 1749863180
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: armeb_xscale
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_armeb_xscale.ipk
-Size: 54801
-SHA256sum: 1463a970130a1041306d4a332c673579760d5c055e566632463eae0a8218795c
+Size: 54802
+SHA256sum: 65f9ed02b79f4795da1ede1e8a600efad4f4cdc159b97e07ed2b7752c1a5fc52
 Description:  Pretty-print tabular data
 
