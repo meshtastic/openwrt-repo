@@ -1,51 +1,51 @@
 Package: liborcania
-Version: 2.3.3-1
+Version: 2.3.0-2
 Depends: libc
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: mipsel_mips32
-Installed-Size: 6283
-Filename: liborcania_2.3.3-1_mipsel_mips32.ipk
-Size: 7043
-SHA256sum: d7ed9e4325ef49805c3d5e9a89a651c8787c029d801ef88cc0bbaa8072336bc3
+Installed-Size: 6332
+Filename: liborcania_2.3.0-2_mipsel_mips32.ipk
+Size: 7090
+SHA256sum: dcfa50be2927a3c058f3722f5086ce050c0e95a64e3dadf09b56bdff378a21ea
 Description:  Potluck with different functions for different purposes that can be shared among C programs.
 
 Package: libulfius-gnutls
-Version: 2.7.15-1
+Version: 2.7.10-2
 Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
 Provides: libulfius
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: mipsel_mips32
-Installed-Size: 43495
-Filename: libulfius-gnutls_2.7.15-1_mipsel_mips32.ipk
-Size: 44193
-SHA256sum: bda5b3693e27fb38302d5d03f413b57657147b67f7ba683fc7155dbab4f4ea3f
+Installed-Size: 43298
+Filename: libulfius-gnutls_2.7.10-2_mipsel_mips32.ipk
+Size: 43986
+SHA256sum: 064730b25ea2f38964c15f934c7267081058f975b35bb2cb925657f20167f4c5
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
 
 Package: libulfius-nossl
-Version: 2.7.15-1
+Version: 2.7.10-2
 Depends: libc, libmicrohttpd, libcurl4, liborcania
 Provides: libulfius
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: mipsel_mips32
-Installed-Size: 24402
-Filename: libulfius-nossl_2.7.15-1_mipsel_mips32.ipk
-Size: 25203
-SHA256sum: 79bdb790d7b302c24dbc36ea573d29e9a84cb7d0fba18cdb0ba7e6f686df0a51
+Installed-Size: 24294
+Filename: libulfius-nossl_2.7.10-2_mipsel_mips32.ipk
+Size: 25083
+SHA256sum: 17b7565c1d356cc65b1d2c79f7f960e57b97ffe24eb8195e3381d6c2ae679904
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
 
 Package: libyder
-Version: 1.4.20-1
+Version: 1.4.17-1
 Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: mipsel_mips32
 Installed-Size: 3310
-Filename: libyder_1.4.20-1_mipsel_mips32.ipk
-Size: 3974
-SHA256sum: f4fe761e1378ba5ce47e8c2bd0cb924098e1e02854cd147495b383cd44fc828d
+Filename: libyder_1.4.17-1_mipsel_mips32.ipk
+Size: 3978
+SHA256sum: 710d2f42194b98671fa65b0578861b51ab914b538c47c31acc8d814e0ef4b9c8
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -55,10 +55,10 @@ Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 Architecture: mipsel_mips32
-Installed-Size: 366
+Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.10-1_mipsel_mips32.ipk
 Size: 1204
-SHA256sum: bfa7d4d22f9263ecd8c48cbead5474d5c1260583b848fa091bac509664505096
+SHA256sum: 8c0d6380cea5ddf145c098a82e122b06b66ad392d4942957c26cdffdbda3d463
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -68,10 +68,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: mipsel_mips32
-Installed-Size: 920045
+Installed-Size: 919947
 Filename: meshtasticd-web_2.6.4-1_mipsel_mips32.ipk
-Size: 919840
-SHA256sum: 8fce6fe4efcddd2e8927f10c58715527ede696df7c2ef95af8ddefa0bb15ff23
+Size: 919690
+SHA256sum: 259b89361686224c20ad5ffc18f588d548930a9d6286fe1a2910e44eb49b2973
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -80,10 +80,10 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: mipsel_mips32
-Installed-Size: 619689
+Installed-Size: 619687
 Filename: meshtasticd_2.6.10-1_mipsel_mips32.ipk
-Size: 618913
-SHA256sum: 587b1bbedb75163671a1618af54dd72facf2d85294835ed0703c365b9a2746f5
+Size: 618881
+SHA256sum: 7563885113d6b66d0d7f458bfd433a581370315718affaa2ba1202912c711377
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -92,10 +92,10 @@ Depends: libc
 License: MPL-2.0
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 1690
+Installed-Size: 1687
 Filename: python3-certifi-src_2023.7.22-2_mipsel_mips32.ipk
-Size: 2554
-SHA256sum: 85ab818412d93f27dade3191a621c9cf5177b4d2d254a36c3578498ddd506167
+Size: 2553
+SHA256sum: ba520673a9c92c4ea3d2e7e3616a2651cd83b98274d79310f715db1a431197e2
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -108,10 +108,10 @@ Depends: libc, python3-light, python3-urllib
 License: MPL-2.0
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 158833
+Installed-Size: 158831
 Filename: python3-certifi_2023.7.22-2_mipsel_mips32.ipk
-Size: 159776
-SHA256sum: c882f22a768615b443ba823ba0043184a7fffbe040eaaa67c63a2763a0fbde6b
+Size: 159779
+SHA256sum: 9eb6ceb9fdc2471bd9a757215ee74e1b8d98d0b70abf9635723250af135ee45d
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -122,10 +122,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 165834
+Installed-Size: 165831
 Filename: python3-chardet-src_5.1.0-2_mipsel_mips32.ipk
-Size: 161250
-SHA256sum: c3021229226e954b60d2944ebecd63b2f75b9390d8ccc9c52a91d92aa6bd66df
+Size: 161170
+SHA256sum: 0de1b66deb15a2edecf216658503df6706a9be2270c4eb9a0fe987c9aa4a8d51
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -136,10 +136,10 @@ Depends: libc, python3-light, python3-logging
 License: LGPL-2.1
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 225464
+Installed-Size: 225442
 Filename: python3-chardet_5.1.0-2_mipsel_mips32.ipk
-Size: 205728
-SHA256sum: ea475fdbf0e25d7e3e06f490154aea7088c2c67502ac90ac3526318fa6dceb45
+Size: 206055
+SHA256sum: 02141c402b3a8992d8e537dab6689eb1dcbab942c08bf5a7a45e32d7cdb53a48
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -148,10 +148,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 86569
+Installed-Size: 86566
 Filename: python3-click-src_8.1.7-2_mipsel_mips32.ipk
-Size: 87563
-SHA256sum: a7044140a95150dd5e7edbb6c1ee74341f2e52df6ebfcbc30dd6dedfab30ccfd
+Size: 87555
+SHA256sum: 6eae4d5241f99a2df4fb38929d0d078b34a051f94dfb09539457a799c91f38d5
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -165,10 +165,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 190787
+Installed-Size: 190778
 Filename: python3-click_8.1.7-2_mipsel_mips32.ipk
-Size: 191855
-SHA256sum: d2440b51a68f35fbdca08981a7ed6f2be7f33a51da6d4a7ecc2d01bb34a8158f
+Size: 191835
+SHA256sum: ac274c77490a63c96818de6a5aee2bc827b9aac66f4103d9841f0475180e440f
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -182,8 +182,8 @@ Section: lang
 Architecture: mipsel_mips32
 Installed-Size: 56825
 Filename: python3-idna-src_3.4-2_mipsel_mips32.ipk
-Size: 53913
-SHA256sum: 1970a914810ec89426e4ede44d590f037d1800854c9e5981c7ba38d8d6233672
+Size: 53900
+SHA256sum: 7499a5534feeef2967bff7a0452861603e405853cd39a14b7bff09648d55ba4a
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -197,10 +197,10 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 72465
+Installed-Size: 72462
 Filename: python3-idna_3.4-2_mipsel_mips32.ipk
-Size: 70607
-SHA256sum: bf45f3fae87388d6dbbb7eab67a17f1b26ad356dbbfd2bf005858002f4ddd32e
+Size: 70564
+SHA256sum: 95ecd6232d4cb2eca1ca1c19c1f85b0a58dc8138c18f4042a19c697427c213fa
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -212,10 +212,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 155342
+Installed-Size: 155326
 Filename: python3-pyelftools-src_0.31-1_mipsel_mips32.ipk
-Size: 156225
-SHA256sum: b55ed0856a317eb49c3bb6c086614c95f6ca4b9468e4f37c8c6d6ddde45b2cad
+Size: 156220
+SHA256sum: 2f63a06f0c96af802ce713eb68eb0ac1ed9ea37d6ba5fd079d0dfc38d5bfb34e
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -226,10 +226,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 325171
+Installed-Size: 325155
 Filename: python3-pyelftools_0.31-1_mipsel_mips32.ipk
-Size: 325689
-SHA256sum: 1d38475f86f8eebe6c4977cdd55968cb6efe7cc461094c34441a7957d71375e8
+Size: 325586
+SHA256sum: efb9a82f24c45f087fe9517269ed04df58c9c71e2a899cef171d626e7fec39c5
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -238,10 +238,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 70401
+Installed-Size: 70395
 Filename: python3-pyserial-src_3.5-2_mipsel_mips32.ipk
-Size: 71412
-SHA256sum: 79af87659b0fb8493fc6ada5b3c6b39391f2e03659d1400dcb4ef4b3094bca11
+Size: 71410
+SHA256sum: 897fe847018a7407a2bc8369b19a9df695b5decd09e20b86c1e2a318b63cb496
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -255,10 +255,10 @@ Depends: libc, python3-light, python3-logging, python3-urllib
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 152581
+Installed-Size: 152582
 Filename: python3-pyserial_3.5-2_mipsel_mips32.ipk
-Size: 153611
-SHA256sum: d4c51c016cb1d5fdfe145e02df82a6106103456b91afae0f4c1e86eed6fdeb16
+Size: 153607
+SHA256sum: 4095c7b2b9862613a3fc629f610125069a361577e93acaafbda63f6adc832c66
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -273,8 +273,8 @@ CPE-ID: cpe:/a:python:requests
 Architecture: mipsel_mips32
 Installed-Size: 48720
 Filename: python3-requests-src_2.30.0-2_mipsel_mips32.ipk
-Size: 49671
-SHA256sum: af4a9f3e0e62224d830424f98bb66ced2782f5e9a27d05138a7b41af8029f334
+Size: 49667
+SHA256sum: a1c1b07be37c77fd36f950764567e88485fbcdef6f963f5ed1fa4bbb8edcb711
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -286,10 +286,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: mipsel_mips32
-Installed-Size: 98275
+Installed-Size: 98270
 Filename: python3-requests_2.30.0-2_mipsel_mips32.ipk
-Size: 99233
-SHA256sum: e31e620b51d0f140d461ed15df1c3739e5bfeeb850e555d92a97383c24f63684
+Size: 99214
+SHA256sum: 8e8ea7452dfd248b1751efb1738d1c4c0b50d7b712fbfcf6d4c28895c2a82a29
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -298,10 +298,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 22717
+Installed-Size: 22713
 Filename: python3-tabulate-src_0.9.0-1_mipsel_mips32.ipk
-Size: 23519
-SHA256sum: 07fb010e9912938c0cc6e8279c11acb490f1f844d7595e7bc37c00f2eeec7003
+Size: 23520
+SHA256sum: 451c9d7e1b8e00422e3c2983ac03c60ff35370d825d6547feeb2d2c96589dc37
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -312,10 +312,10 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: mipsel_mips32
-Installed-Size: 53944
+Installed-Size: 53940
 Filename: python3-tabulate_0.9.0-1_mipsel_mips32.ipk
-Size: 54780
-SHA256sum: 655e6b9f45bde141782335eaa87a5f8e5236211ef8f34980450134ffd12fcb97
+Size: 54769
+SHA256sum: 1102964a44b0d843bc301f4f7b38bd697b971855b66f3aca93a1b6d9b74f39db
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -325,10 +325,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:urllib3
 Architecture: mipsel_mips32
-Installed-Size: 103673
+Installed-Size: 103669
 Filename: python3-urllib3-src_2.0.4-2_mipsel_mips32.ipk
-Size: 104576
-SHA256sum: 1f2c8b3396833adaae433621c6a389acae99aa9572d496a005d5466ad6918730
+Size: 104548
+SHA256sum: f72aa7349099aec151a3d2ba42a8d613460b2120a327cbf4e65855699bb9c22a
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -340,9 +340,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:urllib3
 Architecture: mipsel_mips32
-Installed-Size: 191259
+Installed-Size: 191253
 Filename: python3-urllib3_2.0.4-2_mipsel_mips32.ipk
-Size: 192223
-SHA256sum: 379e5daee258eb2473d9a764d78d205f4aaf943c3c2dd15541fcd05387f7e20a
+Size: 192216
+SHA256sum: 858a752439ccc35b714e4fb79a9b79a6c15c663d509477d2ea0373f23a09bc95
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

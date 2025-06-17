@@ -1,51 +1,51 @@
 Package: liborcania
-Version: 2.3.3-1
+Version: 2.3.0-2
 Depends: libc
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arm_cortex-a9
-Installed-Size: 5698
-Filename: liborcania_2.3.3-1_arm_cortex-a9.ipk
-Size: 6492
-SHA256sum: 5ceee5b0fded0157226b470b0d503b506f1ae4e26d54dd870d6e7eb1352ad96d
+Installed-Size: 5726
+Filename: liborcania_2.3.0-2_arm_cortex-a9.ipk
+Size: 6503
+SHA256sum: 4585b794b1b052cd8f7bbb12058e0961a0b0d00add2e48dfa9154d0f072fd440
 Description:  Potluck with different functions for different purposes that can be shared among C programs.
 
 Package: libulfius-gnutls
-Version: 2.7.15-1
+Version: 2.7.10-2
 Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
 Provides: libulfius
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arm_cortex-a9
-Installed-Size: 41635
-Filename: libulfius-gnutls_2.7.15-1_arm_cortex-a9.ipk
-Size: 42402
-SHA256sum: 282f5880aa82b58fb687bb1b37397f9cb7bd7ef246b435cdd85985225ac57abd
+Installed-Size: 41143
+Filename: libulfius-gnutls_2.7.10-2_arm_cortex-a9.ipk
+Size: 42013
+SHA256sum: 9d79fee5e34306d2aa71dcd5fbe6b96ceba710c3d28faf8a8143bb2c15d3b8da
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
 
 Package: libulfius-nossl
-Version: 2.7.15-1
+Version: 2.7.10-2
 Depends: libc, libmicrohttpd, libcurl4, liborcania
 Provides: libulfius
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arm_cortex-a9
-Installed-Size: 23325
-Filename: libulfius-nossl_2.7.15-1_arm_cortex-a9.ipk
-Size: 24153
-SHA256sum: ecf1fc30eb3812d45b1457f1ff78be1981730dba3a0ab0a3665019c1a7357217
+Installed-Size: 23058
+Filename: libulfius-nossl_2.7.10-2_arm_cortex-a9.ipk
+Size: 23887
+SHA256sum: c7fca4ef57edfc3962491eaef468dd7347d87f11d0c3ea29751f448d6a3e1075
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
 
 Package: libyder
-Version: 1.4.20-1
+Version: 1.4.17-1
 Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arm_cortex-a9
-Installed-Size: 3260
-Filename: libyder_1.4.20-1_arm_cortex-a9.ipk
-Size: 4061
-SHA256sum: 67f8b17fd3f27d31ebb99e6952f47f32692efd38eaf2e3ae4936f0a1f9d31d68
+Installed-Size: 3262
+Filename: libyder_1.4.17-1_arm_cortex-a9.ipk
+Size: 4052
+SHA256sum: eb74610f06c1e9b80f8ebc299769e823332741e6b5dc8d6f36794c6fda092d1a
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -55,10 +55,10 @@ Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a9
-Installed-Size: 366
+Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.10-1_arm_cortex-a9.ipk
-Size: 1204
-SHA256sum: 5268a2d71b3e34c0bf81166c385bf72b9cc2368fd255345059215fbb1f8587e0
+Size: 1202
+SHA256sum: e49c72fe51a1e335b85cb7436e678094edc850cd9365cbc6649c201632e8c155
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -68,10 +68,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a9
-Installed-Size: 920045
+Installed-Size: 919947
 Filename: meshtasticd-web_2.6.4-1_arm_cortex-a9.ipk
-Size: 919840
-SHA256sum: 908092ea25baf1fe2ddcb80f3fa7b1a43025c23b24c0b56afb03e0107d7d418d
+Size: 919692
+SHA256sum: 06e748e957272094d0a09e552317531b6ef28d1accdec27b70a3220806044cd4
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -80,10 +80,10 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a9
-Installed-Size: 470919
+Installed-Size: 470914
 Filename: meshtasticd_2.6.10-1_arm_cortex-a9.ipk
-Size: 470532
-SHA256sum: 47779d8e3c07d1ed245c12d6dddefe28df10e56ab69988d69c0a170bff1f57db
+Size: 470531
+SHA256sum: 5b9d2bcd955db8fac121180c4397c57ca087eccab8f463a491215da01c4788a1
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -92,10 +92,10 @@ Depends: libc
 License: MPL-2.0
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 1690
+Installed-Size: 1687
 Filename: python3-certifi-src_2023.7.22-2_arm_cortex-a9.ipk
-Size: 2556
-SHA256sum: d166c3be5c1c531369c7cf40ab7b7746cfa5988355cfc3bea1efd6e53414df7b
+Size: 2554
+SHA256sum: 9d94e8a37a037dd5df9e087db868f9a49560d4a56057c89827edc8e79fba925f
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -108,10 +108,10 @@ Depends: libc, python3-light, python3-urllib
 License: MPL-2.0
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 158833
+Installed-Size: 158831
 Filename: python3-certifi_2023.7.22-2_arm_cortex-a9.ipk
-Size: 159778
-SHA256sum: 067ed54ac05d3441a893dafdca27832eb624a9ca85247ccaa10a6ad5161831f8
+Size: 159775
+SHA256sum: e3580f4a346dd57fad8914998f2fb01c5d008850cf942c78966c70c237487fd0
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -122,10 +122,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 165834
+Installed-Size: 165831
 Filename: python3-chardet-src_5.1.0-2_arm_cortex-a9.ipk
-Size: 161252
-SHA256sum: e52e58bfeef2d866d58e5d6425eeb2d0e763469e09f3ebb899c0c61fe0110d8b
+Size: 161166
+SHA256sum: e9b766be68201dff0e68a7d261f91e8a4e2230b3ff3f6f18f47fa7a08f51fc04
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -136,10 +136,10 @@ Depends: libc, python3-light, python3-logging
 License: LGPL-2.1
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 225464
+Installed-Size: 225442
 Filename: python3-chardet_5.1.0-2_arm_cortex-a9.ipk
-Size: 205728
-SHA256sum: fde004570030109e984e7239efcffa96d86bdacb0e593ccad744862b7d6daadf
+Size: 206057
+SHA256sum: dd5d0dcdfe8e66a019c5cf011158afdfe226fca474323cb77c2878317692ce3e
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -148,10 +148,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 86569
+Installed-Size: 86566
 Filename: python3-click-src_8.1.7-2_arm_cortex-a9.ipk
-Size: 87564
-SHA256sum: 13b5c04841b00a28ca228f8ebe1f8aea965b21136da9557ff789594cb8b992ba
+Size: 87555
+SHA256sum: b214ecd886b0c0b28bff88b0211c4fcf37fc165315bf539afd8761e97dd35cfd
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -165,10 +165,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 190787
+Installed-Size: 190778
 Filename: python3-click_8.1.7-2_arm_cortex-a9.ipk
-Size: 191856
-SHA256sum: 2ba536ab3340867f30bc9e2abc736328939e6b6ad3af7537c833be170c9ffc0e
+Size: 191835
+SHA256sum: 6f5b63773928ce2d061962b367eb82680196e7179ecc5ba5c664504833000d35
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -182,8 +182,8 @@ Section: lang
 Architecture: arm_cortex-a9
 Installed-Size: 56825
 Filename: python3-idna-src_3.4-2_arm_cortex-a9.ipk
-Size: 53913
-SHA256sum: 56f44b3b232e5525902378824734c7c3cd971b7bbd2a1d3dfeed8ca5f2956a32
+Size: 53902
+SHA256sum: 2d39d973d34b451fbb4f62ee30cdc1bf6d9f9261f02387f9d753fa64f3f712a8
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -197,10 +197,10 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 72465
+Installed-Size: 72462
 Filename: python3-idna_3.4-2_arm_cortex-a9.ipk
-Size: 70612
-SHA256sum: cc6545eade5e985dbd90407c163eba32cc6b624450eb9e6cc7ff71cb96d98539
+Size: 70568
+SHA256sum: d73a1f760538b761c1523c756a11cd96848436a45ad1a3e666dfacecf9913522
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -212,10 +212,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 155342
+Installed-Size: 155326
 Filename: python3-pyelftools-src_0.31-1_arm_cortex-a9.ipk
-Size: 156226
-SHA256sum: 68b121d9feab827a59904ace7c610f35aa353d1e5c091a7880521c79c43d7621
+Size: 156222
+SHA256sum: 2c815fcc8fc5cd90f42f6a224b3468bc146942b872116cd6c877afee83083641
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -226,10 +226,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 325171
+Installed-Size: 325155
 Filename: python3-pyelftools_0.31-1_arm_cortex-a9.ipk
-Size: 325694
-SHA256sum: 6e95f31fc5764e820b0d55a61a36bf489589f5f7a1ca4ae29bbb406d5b4fc1dd
+Size: 325590
+SHA256sum: 695bdcb4cb0d293ce8a9fbb51b2d39fb113c2c5f7835af172e3d75eb73028bc2
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -238,10 +238,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 70401
+Installed-Size: 70395
 Filename: python3-pyserial-src_3.5-2_arm_cortex-a9.ipk
-Size: 71408
-SHA256sum: 3f4d624fa1cb37d3afd10113c60ece1e43c7513fda307e1ce2f2528ef8ba453e
+Size: 71415
+SHA256sum: e4e9c75a79c037d3ffd40a47555dfed4f00a4a2fdca96a3f65d10193456ad970
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -255,10 +255,10 @@ Depends: libc, python3-light, python3-logging, python3-urllib
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 152581
+Installed-Size: 152582
 Filename: python3-pyserial_3.5-2_arm_cortex-a9.ipk
-Size: 153612
-SHA256sum: f9a40829bcba9ada43420e6e481166be5149049563b478847b28607bc78d2391
+Size: 153608
+SHA256sum: cd0c4a07070251a65e1b991e78e3cadad1916c52fd1942299cb4ed9de88b01b3
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -273,8 +273,8 @@ CPE-ID: cpe:/a:python:requests
 Architecture: arm_cortex-a9
 Installed-Size: 48720
 Filename: python3-requests-src_2.30.0-2_arm_cortex-a9.ipk
-Size: 49673
-SHA256sum: 0e3f50e9a0ec4be6e91cea6295976e2afb65059711d061efcc7332feed4a1812
+Size: 49669
+SHA256sum: 1fc24c89f797d5cb731c02a47b717699a8e1ac6ff789ae9b4be10e4b96ec9c24
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -286,10 +286,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: arm_cortex-a9
-Installed-Size: 98275
+Installed-Size: 98270
 Filename: python3-requests_2.30.0-2_arm_cortex-a9.ipk
-Size: 99233
-SHA256sum: 3229876d485a0efa8f57237e1fbfceac97bd912be02baed266b481eab1ee69ba
+Size: 99218
+SHA256sum: db9894f82ad36d7cd8bb8103f9557650e725e6d85296ceba6625636ad0b5ee1d
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -298,10 +298,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 22717
+Installed-Size: 22713
 Filename: python3-tabulate-src_0.9.0-1_arm_cortex-a9.ipk
 Size: 23520
-SHA256sum: 168da97f3ffb0a577666b6c2f669d18785f09037e33449be8b9af544eaa698e8
+SHA256sum: 688df25c84f6368b964072b3b1e9618856f3a31dca164f3698506f904fe01967
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -312,10 +312,10 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: arm_cortex-a9
-Installed-Size: 53944
+Installed-Size: 53940
 Filename: python3-tabulate_0.9.0-1_arm_cortex-a9.ipk
-Size: 54786
-SHA256sum: 327b99003ded94b769b84ab9a2368bd2a673c98c25a325666dd32a476ce66090
+Size: 54774
+SHA256sum: 63af2dc853b69959bf7bc9e6d23cd180e9bac4a2b3b76b8b6a8cc39734f5680c
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -325,10 +325,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:urllib3
 Architecture: arm_cortex-a9
-Installed-Size: 103673
+Installed-Size: 103669
 Filename: python3-urllib3-src_2.0.4-2_arm_cortex-a9.ipk
-Size: 104577
-SHA256sum: d147b020e7cb8a140237994150aaddfe0e6cccebaf2a15d61fb574e6c35591a0
+Size: 104550
+SHA256sum: 3fed9bfb54d69a7f25ef198d260dc1f336a32cbaf24a82a16bd7c1109e0c3be6
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -340,9 +340,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:urllib3
 Architecture: arm_cortex-a9
-Installed-Size: 191259
+Installed-Size: 191253
 Filename: python3-urllib3_2.0.4-2_arm_cortex-a9.ipk
-Size: 192224
-SHA256sum: 5c52ea3a48acd512329c6fd78fd076e8c2d5afd8a1de357885f16e614a540550
+Size: 192216
+SHA256sum: 7043c8aeb46ecfbd0a45620d280affc108994b92ac83c4a36b7847d32502a995
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
