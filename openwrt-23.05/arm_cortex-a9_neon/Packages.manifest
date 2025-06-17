@@ -1,0 +1,470 @@
+Package: liborcania
+Version: 2.3.3-1
+Depends: libc
+Source: /feed/depends/liborcania
+SourceName: liborcania
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750157910
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5696
+Filename: liborcania_2.3.3-1_arm_cortex-a9_neon.ipk
+Size: 6492
+SHA256sum: 209f0d10ba930f759935105422abe9471d07587ff73c516c088cb206e6199620
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.15-1
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+Source: /feed/depends/libulfius
+SourceName: libulfius-gnutls
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750157910
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 41671
+Filename: libulfius-gnutls_2.7.15-1_arm_cortex-a9_neon.ipk
+Size: 42476
+SHA256sum: 220ab4d6c2e7859daa2e9c56899ea099bf993c314bd574c8db6cb13f4c140f9c
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.15-1
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+Source: /feed/depends/libulfius
+SourceName: libulfius-nossl
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750157910
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23347
+Filename: libulfius-nossl_2.7.15-1_arm_cortex-a9_neon.ipk
+Size: 24177
+SHA256sum: 74fb0ce4eb83459f2c43e6e8da77b365e5ff677ddd46a11a66ea56545151f1e2
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
+Package: libyder
+Version: 1.4.20-1
+Depends: libc, liborcania
+Source: /feed/depends/libyder
+SourceName: libyder
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3240
+Filename: libyder_1.4.20-1_arm_cortex-a9_neon.ipk
+Size: 4043
+SHA256sum: 3cfbc38a962403763e7e6c7a98663159aca9c31f152a18871ffaa76f61f8a5f3
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.10-1
+Depends: libc, meshtasticd, avahi-daemon
+Source: /feed/meshtasticd
+SourceName: meshtasticd-avahi-service
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 366
+Filename: meshtasticd-avahi-service_2.6.10-1_arm_cortex-a9_neon.ipk
+Size: 1206
+SHA256sum: f5f6aa2875b51fec22736cea8ab82aced0165b4213066eb30f807a61ed0daaab
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-1
+Depends: libc, meshtasticd
+Source: /feed/meshtasticd-web
+SourceName: meshtasticd-web
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 920045
+Filename: meshtasticd-web_2.6.4-1_arm_cortex-a9_neon.ipk
+Size: 919848
+SHA256sum: 8e6d7cbfd3331838b9344049e9c08829dc958d63d4beaca6d2b7fcaa835663fe
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.10-1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 466338
+Filename: meshtasticd_2.6.10-1_arm_cortex-a9_neon.ipk
+Size: 466357
+SHA256sum: aadba87a4deb776ced4574bc15aa7bb73f804b61f86b76673e454ca2ca587306
+Description:  Meshtastic Daemon
+
+Package: python3-certifi-src
+Version: 2023.7.22-2
+Depends: libc
+Source: /feed/depends/python-certifi
+SourceName: python3-certifi-src
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1690
+Filename: python3-certifi-src_2023.7.22-2_arm_cortex-a9_neon.ipk
+Size: 2554
+SHA256sum: 40fde74e775b8fccb6abaf910bb6623c0355b980378568557f2ba7d81b025aaa
+Description:  Certifi provides Mozilla's carefully curated collection of Root
+ Certificates for validating the trustworthiness of SSL certificates
+ while verifying the identity of TLS hosts.
+ 
+ This package contains the Python source files for python3-certifi.
+
+Package: python3-certifi
+Version: 2023.7.22-2
+Depends: libc, python3-light, python3-urllib
+Source: /feed/depends/python-certifi
+SourceName: python3-certifi
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 158833
+Filename: python3-certifi_2023.7.22-2_arm_cortex-a9_neon.ipk
+Size: 159782
+SHA256sum: a660a2db1313155c95574fc309662772131f3c27a06e6228c87479e8a513dd6d
+Description:  Certifi provides Mozilla's carefully curated collection of Root
+ Certificates for validating the trustworthiness of SSL certificates
+ while verifying the identity of TLS hosts.
+
+Package: python3-chardet-src
+Version: 5.1.0-2
+Depends: libc
+Source: /feed/depends/python-chardet
+SourceName: python3-chardet-src
+License: LGPL-2.1
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 165834
+Filename: python3-chardet-src_5.1.0-2_arm_cortex-a9_neon.ipk
+Size: 161254
+SHA256sum: 79d11cb1eb69a10b53a19dfdaee686fade111e4c4d8d4b08b6a84d640cfbf530
+Description:  Universal encoding detector for Python 2 and 3
+ 
+ This package contains the Python source files for python3-chardet.
+
+Package: python3-chardet
+Version: 5.1.0-2
+Depends: libc, python3-light, python3-logging
+Source: /feed/depends/python-chardet
+SourceName: python3-chardet
+License: LGPL-2.1
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 225464
+Filename: python3-chardet_5.1.0-2_arm_cortex-a9_neon.ipk
+Size: 205732
+SHA256sum: d7f120fe99fb1490ccbf6b28cf8919d9b208eebb42c5e2da7d221279aac1180a
+Description:  Universal encoding detector for Python 2 and 3
+
+Package: python3-click-src
+Version: 8.1.7-2
+Depends: libc
+Source: /feed/depends/python-click
+SourceName: python3-click-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 86569
+Filename: python3-click-src_8.1.7-2_arm_cortex-a9_neon.ipk
+Size: 87565
+SHA256sum: 0d8611adb0024922c62c9e93a744096abd6cc9e76d5cca611b8e474ea84bc22e
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-2
+Depends: libc, python3-light, python3-urllib, python3-uuid
+Source: /feed/depends/python-click
+SourceName: python3-click
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 190787
+Filename: python3-click_8.1.7-2_arm_cortex-a9_neon.ipk
+Size: 191856
+SHA256sum: eecf19c35827f9d771c69c695ebaae0ef24591cbeec25d9e71250aa3db2feb79
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-idna-src
+Version: 3.4-2
+Depends: libc
+Source: /feed/depends/python-idna
+SourceName: python3-idna-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 56825
+Filename: python3-idna-src_3.4-2_arm_cortex-a9_neon.ipk
+Size: 53920
+SHA256sum: 88acdbe025e9087b5f8b644ca27c3588aabe90c14ecf645de17bbea941251567
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+ 
+ This package contains the Python source files for python3-idna.
+
+Package: python3-idna
+Version: 3.4-2
+Depends: libc, python3-light, python3-codecs
+Source: /feed/depends/python-idna
+SourceName: python3-idna
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 72465
+Filename: python3-idna_3.4-2_arm_cortex-a9_neon.ipk
+Size: 70612
+SHA256sum: 74c20ea54c367334bada54994b04c0a3910dcd956d44c492323ba5dc968cbe86
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+
+Package: python3-pyelftools-src
+Version: 0.31-1
+Depends: libc
+Source: /feed/depends/python-pyelftools
+SourceName: python3-pyelftools-src
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 155342
+Filename: python3-pyelftools-src_0.31-1_arm_cortex-a9_neon.ipk
+Size: 156230
+SHA256sum: 6d7a228e5504fe34d71ee69efee593b6b21bdedc307dd906187f91c7518697bc
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-1
+Depends: libc, python3-light, python3-logging
+Source: /feed/depends/python-pyelftools
+SourceName: python3-pyelftools
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 325171
+Filename: python3-pyelftools_0.31-1_arm_cortex-a9_neon.ipk
+Size: 325694
+SHA256sum: 2b8840e72a182264b17d0d44f9d12a6e69908dd41e34c67725d71cdeefbb0f92
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-pyserial-src
+Version: 3.5-2
+Depends: libc
+Source: /feed/depends/python-pyserial
+SourceName: python3-pyserial-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 70401
+Filename: python3-pyserial-src_3.5-2_arm_cortex-a9_neon.ipk
+Size: 71416
+SHA256sum: 975362d7edf2011baf2818904ab8b8fa586cc4a33a4637ab9c0025e67e54749c
+Description:  This module encapsulates the access for the serial port. It provides
+ backends for Python running on Windows, OSX, Linux, BSD (possibly any
+ POSIX compliant system) and IronPython. The module named "serial"
+ automatically selects the appropriate backend.
+ 
+ This package contains the Python source files for python3-pyserial.
+
+Package: python3-pyserial
+Version: 3.5-2
+Depends: libc, python3-light, python3-logging, python3-urllib
+Source: /feed/depends/python-pyserial
+SourceName: python3-pyserial
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 152581
+Filename: python3-pyserial_3.5-2_arm_cortex-a9_neon.ipk
+Size: 153613
+SHA256sum: f3d5116ad91b57345e947754bc259e4cfcdffb523fbb1d167b5d80b4c6722c2d
+Description:  This module encapsulates the access for the serial port. It provides
+ backends for Python running on Windows, OSX, Linux, BSD (possibly any
+ POSIX compliant system) and IronPython. The module named "serial"
+ automatically selects the appropriate backend.
+
+Package: python3-requests-src
+Version: 2.30.0-2
+Depends: libc
+Source: /feed/depends/python-requests
+SourceName: python3-requests-src
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+CPE-ID: cpe:/a:python:requests
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 48720
+Filename: python3-requests-src_2.30.0-2_arm_cortex-a9_neon.ipk
+Size: 49679
+SHA256sum: ed77ad7778d90e183265060575006d04cee8ae66511c884f642ae28951aa9012
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+ 
+ This package contains the Python source files for python3-requests.
+
+Package: python3-requests
+Version: 2.30.0-2
+Depends: libc, python3-light, python3-chardet, python3-idna, python3-urllib3, python3-certifi
+Source: /feed/depends/python-requests
+SourceName: python3-requests
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+CPE-ID: cpe:/a:python:requests
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 98275
+Filename: python3-requests_2.30.0-2_arm_cortex-a9_neon.ipk
+Size: 99235
+SHA256sum: fc8034b894e8161d5f32c84a8a11bd641174233e6d9821acbf27d4ab9a2f60b2
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+
+Package: python3-tabulate-src
+Version: 0.9.0-1
+Depends: libc
+Source: /feed/depends/python-tabulate
+SourceName: python3-tabulate-src
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22717
+Filename: python3-tabulate-src_0.9.0-1_arm_cortex-a9_neon.ipk
+Size: 23524
+SHA256sum: eee46ed142dbb77034da960873c313e72a31ec0218697d471fb71426b7491d9d
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-1
+Depends: libc, python3-light
+Source: /feed/depends/python-tabulate
+SourceName: python3-tabulate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 53944
+Filename: python3-tabulate_0.9.0-1_arm_cortex-a9_neon.ipk
+Size: 54795
+SHA256sum: 2b4f731e77c52bdc86de3f614daa6aef2eb540fd47198ba2d4f36cc9e9046d9b
+Description:  Pretty-print tabular data
+
+Package: python3-urllib3-src
+Version: 2.0.4-2
+Depends: libc
+Source: /feed/depends/python-urllib3
+SourceName: python3-urllib3-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750157910
+CPE-ID: cpe:/a:python:urllib3
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 103673
+Filename: python3-urllib3-src_2.0.4-2_arm_cortex-a9_neon.ipk
+Size: 104582
+SHA256sum: 0cc668d7074973c01e3b6184ab59eac19b81a22bee0793fd986189613998bce7
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+ 
+ This package contains the Python source files for python3-urllib3.
+
+Package: python3-urllib3
+Version: 2.0.4-2
+Depends: libc, python3
+Source: /feed/depends/python-urllib3
+SourceName: python3-urllib3
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750157910
+CPE-ID: cpe:/a:python:urllib3
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 191259
+Filename: python3-urllib3_2.0.4-2_arm_cortex-a9_neon.ipk
+Size: 192228
+SHA256sum: e2e2429f0e12d2c63124b6d39dee9af621bea52b3b5fabe2fa8484142ad07c51
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+

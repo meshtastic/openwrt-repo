@@ -1,0 +1,470 @@
+Package: liborcania
+Version: 2.3.3-1
+Depends: libc
+Source: /feed/depends/liborcania
+SourceName: liborcania
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750157910
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: x86_64
+Installed-Size: 6957
+Filename: liborcania_2.3.3-1_x86_64.ipk
+Size: 7775
+SHA256sum: d007563e0088ce1014517885f9deab9facbb02b026fcd5011fb97c63e3c2c79a
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.15-1
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+Source: /feed/depends/libulfius
+SourceName: libulfius-gnutls
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750157910
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: x86_64
+Installed-Size: 44889
+Filename: libulfius-gnutls_2.7.15-1_x86_64.ipk
+Size: 45737
+SHA256sum: 59ee9c30bf9ca0b85846cb1a53f6a81c0d71477f322cd7a6ee1d34b27cabaa1b
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.15-1
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+Source: /feed/depends/libulfius
+SourceName: libulfius-nossl
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750157910
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: x86_64
+Installed-Size: 25959
+Filename: libulfius-nossl_2.7.15-1_x86_64.ipk
+Size: 26783
+SHA256sum: cacdd6afa31656958c7a9fd43c009bec82e0d7a7d922db2404578be5da4b8ab6
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
+Package: libyder
+Version: 1.4.20-1
+Depends: libc, liborcania
+Source: /feed/depends/libyder
+SourceName: libyder
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: x86_64
+Installed-Size: 3417
+Filename: libyder_1.4.20-1_x86_64.ipk
+Size: 4231
+SHA256sum: 2bfda82290458f2b4ff4600d06a857a2e2c5ca96f2ad2657fcd4811608e31df0
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.10-1
+Depends: libc, meshtasticd, avahi-daemon
+Source: /feed/meshtasticd
+SourceName: meshtasticd-avahi-service
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: x86_64
+Installed-Size: 366
+Filename: meshtasticd-avahi-service_2.6.10-1_x86_64.ipk
+Size: 1199
+SHA256sum: 99ab193f1c1d612c28f7371329b45c50c95d92fb1d31490a5dbd9bb63e04ef6d
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-1
+Depends: libc, meshtasticd
+Source: /feed/meshtasticd-web
+SourceName: meshtasticd-web
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: x86_64
+Installed-Size: 920045
+Filename: meshtasticd-web_2.6.4-1_x86_64.ipk
+Size: 919838
+SHA256sum: c9ae7de90b85012dcba3ea33fa61064830ae11e73c19ea901a9c4dc25ee6c2e0
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.10-1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: x86_64
+Installed-Size: 499864
+Filename: meshtasticd_2.6.10-1_x86_64.ipk
+Size: 500432
+SHA256sum: 6406a14e29cc4a6471d7b4da8c6e8e80e59cf545c2ff5076e02b09187e2f6a04
+Description:  Meshtastic Daemon
+
+Package: python3-certifi-src
+Version: 2023.7.22-2
+Depends: libc
+Source: /feed/depends/python-certifi
+SourceName: python3-certifi-src
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: x86_64
+Installed-Size: 1690
+Filename: python3-certifi-src_2023.7.22-2_x86_64.ipk
+Size: 2554
+SHA256sum: 17aafeedd5764431665b3a8996ff4a6029bc97209332230e12cb3644afe4cd44
+Description:  Certifi provides Mozilla's carefully curated collection of Root
+ Certificates for validating the trustworthiness of SSL certificates
+ while verifying the identity of TLS hosts.
+ 
+ This package contains the Python source files for python3-certifi.
+
+Package: python3-certifi
+Version: 2023.7.22-2
+Depends: libc, python3-light, python3-urllib
+Source: /feed/depends/python-certifi
+SourceName: python3-certifi
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: x86_64
+Installed-Size: 158833
+Filename: python3-certifi_2023.7.22-2_x86_64.ipk
+Size: 159775
+SHA256sum: c4455927d82181ca0e7ae2f83ea6e23fee8a8e1f6b24413e583cd4ba259e09f7
+Description:  Certifi provides Mozilla's carefully curated collection of Root
+ Certificates for validating the trustworthiness of SSL certificates
+ while verifying the identity of TLS hosts.
+
+Package: python3-chardet-src
+Version: 5.1.0-2
+Depends: libc
+Source: /feed/depends/python-chardet
+SourceName: python3-chardet-src
+License: LGPL-2.1
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: x86_64
+Installed-Size: 165834
+Filename: python3-chardet-src_5.1.0-2_x86_64.ipk
+Size: 161247
+SHA256sum: 38819553b3b2e146900face20d78f60b409f8e68bb98ab95c1222f54fa1fda64
+Description:  Universal encoding detector for Python 2 and 3
+ 
+ This package contains the Python source files for python3-chardet.
+
+Package: python3-chardet
+Version: 5.1.0-2
+Depends: libc, python3-light, python3-logging
+Source: /feed/depends/python-chardet
+SourceName: python3-chardet
+License: LGPL-2.1
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: x86_64
+Installed-Size: 225464
+Filename: python3-chardet_5.1.0-2_x86_64.ipk
+Size: 205727
+SHA256sum: cfbb6b7135ff4ccc7617a86880cf069dc043437247ae697cecdfcf6ed9f721c0
+Description:  Universal encoding detector for Python 2 and 3
+
+Package: python3-click-src
+Version: 8.1.7-2
+Depends: libc
+Source: /feed/depends/python-click
+SourceName: python3-click-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 86569
+Filename: python3-click-src_8.1.7-2_x86_64.ipk
+Size: 87560
+SHA256sum: a84c2430700f32e9cadcc16243b8a21a1258e2866028f1aef891aa78408c81c0
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-2
+Depends: libc, python3-light, python3-urllib, python3-uuid
+Source: /feed/depends/python-click
+SourceName: python3-click
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 190787
+Filename: python3-click_8.1.7-2_x86_64.ipk
+Size: 191851
+SHA256sum: 9f828ef8b446ea74cd70d1ab0c7d11bbf75c4a0b987666543ecb7fd5fea0fbae
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-idna-src
+Version: 3.4-2
+Depends: libc
+Source: /feed/depends/python-idna
+SourceName: python3-idna-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 56825
+Filename: python3-idna-src_3.4-2_x86_64.ipk
+Size: 53912
+SHA256sum: 63dd5aec0a579f3bffc6972d33f59b56d26f486f059cd3a05d1aa7cbe725231e
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+ 
+ This package contains the Python source files for python3-idna.
+
+Package: python3-idna
+Version: 3.4-2
+Depends: libc, python3-light, python3-codecs
+Source: /feed/depends/python-idna
+SourceName: python3-idna
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: x86_64
+Installed-Size: 72465
+Filename: python3-idna_3.4-2_x86_64.ipk
+Size: 70604
+SHA256sum: 0f995c250d464e6881c4a922a77162881443d0df6ab7ea3f00dcda6e93ffbb52
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+
+Package: python3-pyelftools-src
+Version: 0.31-1
+Depends: libc
+Source: /feed/depends/python-pyelftools
+SourceName: python3-pyelftools-src
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: x86_64
+Installed-Size: 155342
+Filename: python3-pyelftools-src_0.31-1_x86_64.ipk
+Size: 156225
+SHA256sum: 1f890a54ae738faf4a26f7cdf2ee928c62fb42b452a174d4e00ac975024bc2d0
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-1
+Depends: libc, python3-light, python3-logging
+Source: /feed/depends/python-pyelftools
+SourceName: python3-pyelftools
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: x86_64
+Installed-Size: 325171
+Filename: python3-pyelftools_0.31-1_x86_64.ipk
+Size: 325688
+SHA256sum: c509c06c1b17fc6fcdcd692d8c1bf36d9ae8b1b9df206a69054929416d989e4a
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-pyserial-src
+Version: 3.5-2
+Depends: libc
+Source: /feed/depends/python-pyserial
+SourceName: python3-pyserial-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: x86_64
+Installed-Size: 70401
+Filename: python3-pyserial-src_3.5-2_x86_64.ipk
+Size: 71405
+SHA256sum: 9be2196693be403cbf74b38216746f20fe7467749801fe94eee1483680b2cc65
+Description:  This module encapsulates the access for the serial port. It provides
+ backends for Python running on Windows, OSX, Linux, BSD (possibly any
+ POSIX compliant system) and IronPython. The module named "serial"
+ automatically selects the appropriate backend.
+ 
+ This package contains the Python source files for python3-pyserial.
+
+Package: python3-pyserial
+Version: 3.5-2
+Depends: libc, python3-light, python3-logging, python3-urllib
+Source: /feed/depends/python-pyserial
+SourceName: python3-pyserial
+License: BSD-3-Clause
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: x86_64
+Installed-Size: 152581
+Filename: python3-pyserial_3.5-2_x86_64.ipk
+Size: 153607
+SHA256sum: e42f1c8f950ab066000331922065639b1de1e187291ff6493ca3176f9faa547b
+Description:  This module encapsulates the access for the serial port. It provides
+ backends for Python running on Windows, OSX, Linux, BSD (possibly any
+ POSIX compliant system) and IronPython. The module named "serial"
+ automatically selects the appropriate backend.
+
+Package: python3-requests-src
+Version: 2.30.0-2
+Depends: libc
+Source: /feed/depends/python-requests
+SourceName: python3-requests-src
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+CPE-ID: cpe:/a:python:requests
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: x86_64
+Installed-Size: 48720
+Filename: python3-requests-src_2.30.0-2_x86_64.ipk
+Size: 49669
+SHA256sum: 3370fa67ef273d55937085da4393036dfc7140915d584839e114aebe87dac43f
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+ 
+ This package contains the Python source files for python3-requests.
+
+Package: python3-requests
+Version: 2.30.0-2
+Depends: libc, python3-light, python3-chardet, python3-idna, python3-urllib3, python3-certifi
+Source: /feed/depends/python-requests
+SourceName: python3-requests
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+CPE-ID: cpe:/a:python:requests
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: x86_64
+Installed-Size: 98275
+Filename: python3-requests_2.30.0-2_x86_64.ipk
+Size: 99225
+SHA256sum: 630210ea62623f14e7797583b7933e415df5ada6bf6b449f7530ce2510e429e6
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+
+Package: python3-tabulate-src
+Version: 0.9.0-1
+Depends: libc
+Source: /feed/depends/python-tabulate
+SourceName: python3-tabulate-src
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: x86_64
+Installed-Size: 22717
+Filename: python3-tabulate-src_0.9.0-1_x86_64.ipk
+Size: 23519
+SHA256sum: 8ae544d776d5d1c51ccfb2eb6e54be567e94c38ce02650300094c787ca13aa91
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-1
+Depends: libc, python3-light
+Source: /feed/depends/python-tabulate
+SourceName: python3-tabulate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750157910
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: x86_64
+Installed-Size: 53944
+Filename: python3-tabulate_0.9.0-1_x86_64.ipk
+Size: 54787
+SHA256sum: 26a6b368b7b860ef8cd95dbc90b459e121d5d7a56815899bf4a4aaa2bd1f2df6
+Description:  Pretty-print tabular data
+
+Package: python3-urllib3-src
+Version: 2.0.4-2
+Depends: libc
+Source: /feed/depends/python-urllib3
+SourceName: python3-urllib3-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750157910
+CPE-ID: cpe:/a:python:urllib3
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: x86_64
+Installed-Size: 103673
+Filename: python3-urllib3-src_2.0.4-2_x86_64.ipk
+Size: 104577
+SHA256sum: c47689a00059c863d53374a43ea64506fb1bd579473e1ae2b32d099a9ec5f033
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+ 
+ This package contains the Python source files for python3-urllib3.
+
+Package: python3-urllib3
+Version: 2.0.4-2
+Depends: libc, python3
+Source: /feed/depends/python-urllib3
+SourceName: python3-urllib3
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750157910
+CPE-ID: cpe:/a:python:urllib3
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: x86_64
+Installed-Size: 191259
+Filename: python3-urllib3_2.0.4-2_x86_64.ipk
+Size: 192220
+SHA256sum: 497f4e7dd19b17cd4ada9821ff23d394180b2cf9dee832c9b6275db706a3b048
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+
