@@ -7,6 +7,7 @@ If you're looking for the package source code, check out [meshtastic/openwrt](ht
 ## Supported OpenWRT versions
 - `SNAPSHOT` (master branch)
 - `24.10` (stable)
+- `23.05` (stable)
 
 ## How to use
 
@@ -17,6 +18,7 @@ Used in stable versions of OpenWRT.
 
 Supported versions:
 - `24.10`
+- `23.05`
 
 ##### Add OPKG repository to your OpenWRT device (GitHub)
 
@@ -27,7 +29,8 @@ wget -O /tmp/meshtastic-ipk.pub https://openwrt.meshtastic.org/meshtastic-ipk.pu
 opkg-key add /tmp/meshtastic-ipk.pub && rm /tmp/meshtastic-ipk.pub
 sed -i '/meshtastic/d' /etc/opkg/customfeeds.conf
 ARCH=$( . /etc/openwrt_release; echo "$DISTRIB_ARCH" )
-echo "src/gz meshtastic https://openwrt.meshtastic.org/openwrt-24.10/${ARCH}" >> /etc/opkg/customfeeds.conf
+WRT_VER=$( . /etc/openwrt_release; echo "${DISTRIB_RELEASE%%-*}" | cut -d. -f1-2 )
+echo "src/gz meshtastic https://openwrt.meshtastic.org/openwrt-${WRT_VER}/${ARCH}" >> /etc/opkg/customfeeds.conf
 opkg update
 ```
 
@@ -41,7 +44,8 @@ wget -O /tmp/meshtastic-ipk.pub https://cdn.jsdelivr.net/gh/meshtastic/openwrt-r
 opkg-key add /tmp/meshtastic-ipk.pub && rm /tmp/meshtastic-ipk.pub
 sed -i '/meshtastic/d' /etc/opkg/customfeeds.conf
 ARCH=$( . /etc/openwrt_release; echo "$DISTRIB_ARCH" )
-echo "src/gz meshtastic https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/openwrt-24.10/${ARCH}" >> /etc/opkg/customfeeds.conf
+WRT_VER=$( . /etc/openwrt_release; echo "${DISTRIB_RELEASE%%-*}" | cut -d. -f1-2 )
+echo "src/gz meshtastic https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/openwrt-${WRT_VER}/${ARCH}" >> /etc/opkg/customfeeds.conf
 opkg update
 ```
 
