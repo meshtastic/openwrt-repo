@@ -4,10 +4,10 @@ Depends: libc
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: riscv64_riscv64
-Installed-Size: 5702
+Installed-Size: 5704
 Filename: liborcania_2.3.0-2_riscv64_riscv64.ipk
-Size: 6469
-SHA256sum: 5b758cfd98aae6d7bbd394df24dfa11177f2e7241c8916a94858d269b2f07b6b
+Size: 6475
+SHA256sum: bf2ae85818e1c1fd1bc6e309600c1eed423249758ca048489393d55b6e1e79e9
 Description:  Potluck with different functions for different purposes that can be shared among C programs.
 
 Package: libulfius-gnutls
@@ -17,10 +17,10 @@ Provides: libulfius
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: riscv64_riscv64
-Installed-Size: 38757
+Installed-Size: 38755
 Filename: libulfius-gnutls_2.7.10-2_riscv64_riscv64.ipk
-Size: 39632
-SHA256sum: f99704d827cb3fcf28e169362cf040a5d8e0af5ae7e7ed5c811840c18189b202
+Size: 39643
+SHA256sum: 7551096dda7e9f035885b1e1b55143d69ed87cde48f57009ede785a0ce74ac28
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
 
 Package: libulfius-nossl
@@ -30,10 +30,10 @@ Provides: libulfius
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: riscv64_riscv64
-Installed-Size: 22033
+Installed-Size: 22029
 Filename: libulfius-nossl_2.7.10-2_riscv64_riscv64.ipk
-Size: 22792
-SHA256sum: 5114ff96667fad9ce01fe0d385d6f1b2a5a5255b525c36e555bafba6e2e86dc9
+Size: 22787
+SHA256sum: 709ebe38ed181b814f228a273eabe0aa85fcbc6492ba736ffff08f11498af359
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
 
 Package: libyder
@@ -42,10 +42,10 @@ Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: riscv64_riscv64
-Installed-Size: 3009
+Installed-Size: 3010
 Filename: libyder_1.4.17-1_riscv64_riscv64.ipk
-Size: 3809
-SHA256sum: 8f3915a1442f68ca43fcf5a956b31e07246808c2a5e808e14735474c315bcd03
+Size: 3816
+SHA256sum: 264fc27e41d2bd3fe8b0eccdf36c0c2215a0264275860e81bacf37267b59a3f1
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -58,7 +58,7 @@ Architecture: riscv64_riscv64
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.10-1_riscv64_riscv64.ipk
 Size: 1202
-SHA256sum: 5fd62ce54ac74937bbda1ea1c8ef7f881586b6f9f5eef0cb3f1620f3f6396877
+SHA256sum: 1f8fab94acf053545ffce85896dadd1b0e34417882e392cf9f3e0707a5db1766
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -68,10 +68,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: riscv64_riscv64
-Installed-Size: 919947
+Installed-Size: 919948
 Filename: meshtasticd-web_2.6.4-1_riscv64_riscv64.ipk
-Size: 919692
-SHA256sum: 8ec2eb4fec5e8635acdc00c10c60b5666cabc27a8517b9a8760bb792321e48e8
+Size: 919521
+SHA256sum: a7565940721c29ae5cd037cbcad4768ece9118e3a37a48e80d18ced22c4df1e3
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -80,10 +80,10 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: riscv64_riscv64
-Installed-Size: 557974
+Installed-Size: 557976
 Filename: meshtasticd_2.6.10-1_riscv64_riscv64.ipk
-Size: 557402
-SHA256sum: 9953ae0413451d1933dd17c9d13f715d2070fd3d3c1779d84e4b5fbc690564eb
+Size: 557401
+SHA256sum: b2ae16c4652a48689d6e53d59176811ffa9d6d5468e33d223ccd2dce55dfd70e
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -92,10 +92,10 @@ Depends: libc
 License: MPL-2.0
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 1687
+Installed-Size: 1690
 Filename: python3-certifi-src_2023.7.22-2_riscv64_riscv64.ipk
-Size: 2554
-SHA256sum: 4642419643316ba49d0ebec533680bd201d2a650dcfa1599d1767c75df7ba3c4
+Size: 2556
+SHA256sum: 20553c38e194ba6a122d8ff45128693ed000fdbfa20b5991b908a890e570ad07
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -108,10 +108,10 @@ Depends: libc, python3-light, python3-urllib
 License: MPL-2.0
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 158831
+Installed-Size: 158833
 Filename: python3-certifi_2023.7.22-2_riscv64_riscv64.ipk
-Size: 159778
-SHA256sum: e14e0a22053cbbbb68e3985f4248d5df4c93a61cbdf270435c4fa6b09e94c852
+Size: 159767
+SHA256sum: c9e8365a551aab63d962f278c90c346956a310cb8ad27c7fe0f524152a3aad07
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -122,10 +122,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 165831
+Installed-Size: 165827
 Filename: python3-chardet-src_5.1.0-2_riscv64_riscv64.ipk
-Size: 161166
-SHA256sum: a406e75e7b5d6a3a7793513b36afffdf19c253733b147d1745fb5786178d2e8b
+Size: 161189
+SHA256sum: 7a0fb7ba5bf60b32e168cac89339a862a2c0a93051daf26cdd1c0ccd4a99d3f6
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -136,10 +136,10 @@ Depends: libc, python3-light, python3-logging
 License: LGPL-2.1
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 225442
+Installed-Size: 225446
 Filename: python3-chardet_5.1.0-2_riscv64_riscv64.ipk
-Size: 206053
-SHA256sum: 8ea31376d7f87e7501956c859582fc6c1b1bdf4ed2dabc801a1ec0ad7daf72ae
+Size: 205299
+SHA256sum: 6ee78666269e0d5b0a008625962581fe274e1a02d265334e60167f58c30908e3
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -148,10 +148,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 86566
+Installed-Size: 86564
 Filename: python3-click-src_8.1.7-2_riscv64_riscv64.ipk
-Size: 87555
-SHA256sum: b0d873fd656bb2c85c35a93129b53bbe3290f78739a8bd1c4656a867f80cb63f
+Size: 87562
+SHA256sum: 3814989ba5a88eb4f85b5ff4200f27b75a03d22c2aa1c9be68aced64d05c376e
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -165,10 +165,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 190778
+Installed-Size: 190779
 Filename: python3-click_8.1.7-2_riscv64_riscv64.ipk
-Size: 191832
-SHA256sum: edfc78acd612e40abf207163b00626f7ddc357ca8a34bffc5e6e9ef79cf4bca0
+Size: 191833
+SHA256sum: 12027f882dff17ee49cdacc4b87823475c75b927d9030dd0a704536d11ad1e18
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -180,10 +180,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 56825
+Installed-Size: 56824
 Filename: python3-idna-src_3.4-2_riscv64_riscv64.ipk
-Size: 53899
-SHA256sum: 2b5e6da8508274de3980ebcd81ad2d4f6e2a28168c0364497e2c2d66b0b591be
+Size: 53887
+SHA256sum: 055369da64728764ee5d7a48feaa59d7ee393db5ef5175fa9d507020532ef3ba
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -197,10 +197,10 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 72462
+Installed-Size: 72459
 Filename: python3-idna_3.4-2_riscv64_riscv64.ipk
-Size: 70562
-SHA256sum: 47a554e3805fedd1c9e5a4ecc6e891448a587cb9b1c79445ce20b1210a1eac69
+Size: 70616
+SHA256sum: fa233a80159285fb92356f7c7b120e2990103c4236b5cfc70158ed5ee91179a0
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -212,10 +212,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 155326
+Installed-Size: 155332
 Filename: python3-pyelftools-src_0.31-1_riscv64_riscv64.ipk
-Size: 156220
-SHA256sum: 65dc573560c1dcd49a80debe372278097c783d8f9a6b1d4fdcb484dccf198d47
+Size: 156212
+SHA256sum: 31b72c3eda6e21b574410ecee52f929add350f2e72c0dd218422d365eb8bea4e
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -226,10 +226,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 325155
+Installed-Size: 325166
 Filename: python3-pyelftools_0.31-1_riscv64_riscv64.ipk
-Size: 325588
-SHA256sum: a073667ef6f659e077dc6d130155ca2a3dca055a444b9dc0ad7a3061306cf231
+Size: 325754
+SHA256sum: f8c577c54bacc47ff61c7ebd99a5276a8ac37b7d9b712a36a915128efae717b9
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -238,10 +238,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 70395
+Installed-Size: 70396
 Filename: python3-pyserial-src_3.5-2_riscv64_riscv64.ipk
 Size: 71410
-SHA256sum: f9edde7759c5b4f7fe328d3760f757544073ce077603429454909ebe1c460be8
+SHA256sum: f262ec0f59301f90b8cbeb3ee5af686e5ccf10b8e47ec929ca032ab3edb2ef84
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -255,10 +255,10 @@ Depends: libc, python3-light, python3-logging, python3-urllib
 License: BSD-3-Clause
 Section: lang
 Architecture: riscv64_riscv64
-Installed-Size: 152582
+Installed-Size: 152581
 Filename: python3-pyserial_3.5-2_riscv64_riscv64.ipk
-Size: 153604
-SHA256sum: f0f03ff032e7e2a2948d78ca91f71d97512694a62fc8124238677ffa83ffa463
+Size: 153605
+SHA256sum: 40e73c309c229f7f5f4fd9d3a35b8d9b31f9cf110b070be376384bdebe9e84b2
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -271,10 +271,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: riscv64_riscv64
-Installed-Size: 48720
+Installed-Size: 48718
 Filename: python3-requests-src_2.30.0-2_riscv64_riscv64.ipk
-Size: 49666
-SHA256sum: 2dd777e17928f6e04da04bb01ceed079e69db53a847b1093e5ed2c7f509fd5c5
+Size: 49669
+SHA256sum: d8530776cecc48f30e3bb3496c558be416951c3e20256fae32a73b8e75d27d50
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -286,10 +286,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: riscv64_riscv64
-Installed-Size: 98270
+Installed-Size: 98274
 Filename: python3-requests_2.30.0-2_riscv64_riscv64.ipk
-Size: 99213
-SHA256sum: 0e54db109afe30274aaa1232c1bcf018fddedc79289eba87b2e977caa55548bc
+Size: 99225
+SHA256sum: 6c769e62669dfde0b3f400e524a05fd05b24384519cb3f1e093fc0a88eb02a12
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -300,8 +300,8 @@ Section: lang
 Architecture: riscv64_riscv64
 Installed-Size: 22713
 Filename: python3-tabulate-src_0.9.0-1_riscv64_riscv64.ipk
-Size: 23518
-SHA256sum: 1e39c441c7bd19e422b254c3bfd23c7a226962fff1e011fe3c2d287a68ebe763
+Size: 23517
+SHA256sum: b7e01ab95e10a6a87173523770c1fc415c5f194490062c90d6db25fc2eab6e3d
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -314,8 +314,8 @@ Section: lang
 Architecture: riscv64_riscv64
 Installed-Size: 53940
 Filename: python3-tabulate_0.9.0-1_riscv64_riscv64.ipk
-Size: 54777
-SHA256sum: a9c298584e8918f0a3babda172f94e12ee8188def9d462b76c2eabb1499d98da
+Size: 54787
+SHA256sum: 75f63b45156f1212804ff6a4626c9a6d739eb78e5f5e216dbbea1f96e1ad722e
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -325,10 +325,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:urllib3
 Architecture: riscv64_riscv64
-Installed-Size: 103669
+Installed-Size: 103665
 Filename: python3-urllib3-src_2.0.4-2_riscv64_riscv64.ipk
-Size: 104549
-SHA256sum: aa648e6132d361d1cc135638837f53cf5e614ad591c07ca532e8c80449d7f87d
+Size: 104571
+SHA256sum: 8c191b73a242fa1949153b973612afaafb3ed88e675749b3603fa396eb410559
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -342,7 +342,7 @@ CPE-ID: cpe:/a:python:urllib3
 Architecture: riscv64_riscv64
 Installed-Size: 191253
 Filename: python3-urllib3_2.0.4-2_riscv64_riscv64.ipk
-Size: 192216
-SHA256sum: e3bb4956a607a8ea0809d766d336147ac83bf3c40480b1fb5ec13e0bb6f4b83d
+Size: 192214
+SHA256sum: d249c050956176680639941433e38520c500b6db730a85afbb3203ba72e968e5
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
