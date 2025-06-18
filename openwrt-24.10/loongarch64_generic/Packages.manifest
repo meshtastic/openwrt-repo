@@ -6,33 +6,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 30720
 Filename: libyder_1.4.17-r1_loongarch64_generic.ipk
-Size: 4214
-SHA256sum: 74bb46209974d3a4917192d62eeef016c81c8e5481b40130184d1bea322d8a16
+Size: 4212
+SHA256sum: 372c9d2d238cdd689bbd11d3a313eac0fee98c3809572bf19cbadc303cf49ed7
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.10-r1_loongarch64_generic.ipk
-Size: 1238
-SHA256sum: 1f130ea2003c000e51e743725d8d6196b8d4c7ca2af4cc6aab19048c9c5eefe8
+Filename: meshtasticd-avahi-service_2.6.11-r1_loongarch64_generic.ipk
+Size: 1231
+SHA256sum: 23be8117e13a54bccb2308c0e48b1f2066f9cde4c6642b3fb536dcac93676f91
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,32 +43,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_loongarch64_generic.ipk
-Size: 919681
-SHA256sum: 027f975030c7f6f78e4c7d23fbd201f8c1e9aae74f35c8af65ad0f1ceb10d94b
+Size: 908360
+SHA256sum: f9d3d44d4576e8b24d24e2c27d8961917c5c43362271f8bbdba249ea94816df2
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 1361920
-Filename: meshtasticd_2.6.10-r1_loongarch64_generic.ipk
-Size: 522209
-SHA256sum: 397af838b941ccf8c9424daca44d2abcbecd83d30173ff634b79b5e9ddb25bf6
+Filename: meshtasticd_2.6.11-r1_loongarch64_generic.ipk
+Size: 523823
+SHA256sum: ef215111929deba422657eb134dd262c249706ff553289809c6ddaba8b619985
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -79,14 +79,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_loongarch64_generic.ipk
-Size: 87604
-SHA256sum: 62d3f53684b5763e66e35e6ff35af6e8e9448adb52e4c7f84e2c1d9f6e3be74b
+Size: 87597
+SHA256sum: d19f9051963a13aa423c1e6035bb83b644624b3dac49872ae23f92b9bfdcd85f
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -102,14 +102,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_loongarch64_generic.ipk
-Size: 191871
-SHA256sum: 868157b6019a260cae98febcc34054d71d6fda51afe364a4cc72e3b0a57dd8cd
+Size: 191884
+SHA256sum: 9d6959f5204b4f40e315e6d7002a6f6490cc7653da3bb41efc1af5ae48193eb0
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -123,14 +123,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_loongarch64_generic.ipk
-Size: 156230
-SHA256sum: bcd60b990504428840da22c6c428bde5e9726bf8db8d4170b05c4862aa044db7
+Size: 156244
+SHA256sum: 25a60acf94a5b7ea9dc94a0ac44fec8c5e6a29bb94f5afbf992e92c6a2929bcd
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -143,14 +143,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_loongarch64_generic.ipk
-Size: 325779
-SHA256sum: 1154c1ae57ac64a19a8f65636bce09e32f557f55cfee058d281b518495bf6129
+Size: 325659
+SHA256sum: cc4155c9c3f1a382c43f92f45c5729539fb4e7b8720aa34b280c6bf08c60c865
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -161,14 +161,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_loongarch64_generic.ipk
-Size: 23557
-SHA256sum: 08cd79afde00db319289691247427bef976b32ca348caee04db950501b4974c3
+Size: 23562
+SHA256sum: 0e1e7f0f6420f0c03aba974e5f32548dee502355b000cd849891ac28e0b495a4
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -181,13 +181,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750200369
+SourceDateEpoch: 1750255539
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: loongarch64_generic
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_loongarch64_generic.ipk
-Size: 54810
-SHA256sum: 0111939b811ce677224c4cdd64f376e331dc52a602e8cdc1c68274f68088a727
+Size: 54757
+SHA256sum: b93b820f838e6128535f5e24ea1d4d8cd2a962a8a3f4db2b1fc1518d5f7ead15
 Description:  Pretty-print tabular data
 

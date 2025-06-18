@@ -8,21 +8,21 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_aarch64_cortex-a72.ipk
 Size: 4292
-SHA256sum: eae130f1d2ffdd38d7165895770121b5850c46d39b0a8a2078f5400f3eb33c5b
+SHA256sum: e6724cff2ed7a94dc7f766fad6b31d8f34d790a4fe5ddc775457bd4d1d0164c4
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.10-r1_aarch64_cortex-a72.ipk
-Size: 1240
-SHA256sum: 6146899e040ed244f9308ea5323d64574622b6b3152b2633c67bff23d86fda39
+Filename: meshtasticd-avahi-service_2.6.11-r1_aarch64_cortex-a72.ipk
+Size: 1236
+SHA256sum: ac4e9100c92160c04ac3cdd04f3424844da03f500befaafdc8b51b7d3696d6e2
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,21 +35,21 @@ URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_cortex-a72
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_aarch64_cortex-a72.ipk
-Size: 919681
-SHA256sum: 40a3257e662395f0154ce74e18e25c68fd778e3901518b3ec201728ba4a01e11
+Size: 908362
+SHA256sum: 81aceb74f43d5067b80f6c377d1dc2ffd7cc01bf578841990a2b5d0bc92b94a6
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_cortex-a72
 Installed-Size: 1361920
-Filename: meshtasticd_2.6.10-r1_aarch64_cortex-a72.ipk
-Size: 505241
-SHA256sum: 06b32acb0a1c8c94a53d3e151102d606ad1aac8068c6e4564a3eafc1460e5e4a
+Filename: meshtasticd_2.6.11-r1_aarch64_cortex-a72.ipk
+Size: 506742
+SHA256sum: ac1402d9d8ea9ea233e25fd08fef5e0f7273c9aad2eba5c3aae2b6b3a2418e26
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -61,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: aarch64_cortex-a72
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_aarch64_cortex-a72.ipk
-Size: 87604
-SHA256sum: 9b9f0e3ace0746c9405ea68f70a96151dd4ee0ec91926607aa50738d6a511d30
+Size: 87599
+SHA256sum: 55b8c5ffda9d3f1449ad85b36b64b94cd5b4bbbaf576ccff6f9c7d1b92362284
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: aarch64_cortex-a72
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_aarch64_cortex-a72.ipk
-Size: 191872
-SHA256sum: aa58d24ea09c4ef38100c468bc72b7b04a9c3f62ee7d7e1939162063601bd245
+Size: 191884
+SHA256sum: 49d1b8fba9f41d110f842cce10fac94509e552829b717c4b4b1913a1ec1e648d
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: aarch64_cortex-a72
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_aarch64_cortex-a72.ipk
-Size: 156230
-SHA256sum: 0ea6e1a188194bd4c7fc8c40febecd1f8d6b67f8b5467c9c3ba100e0621fcc5f
+Size: 156244
+SHA256sum: c41468802a50862e8ad2d2468cfbe51a1f859311868e668248c505b80b1a95fb
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: aarch64_cortex-a72
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_aarch64_cortex-a72.ipk
-Size: 325776
-SHA256sum: a55c43780d5a6ba8fea8ee2c20a667d987b56f095ef3bc956304ec1382c419dd
+Size: 325659
+SHA256sum: 728dbdb801e841fc15dac7edfde17a595e30e31163e2dad70a21d22c611d6cb7
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: aarch64_cortex-a72
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_aarch64_cortex-a72.ipk
-Size: 23562
-SHA256sum: c8aaef764da26436840169fa70b51da00a9864eaaa91fa21e91d81b5ffb5b335
+Size: 23559
+SHA256sum: 8fc2c381cb126e6fb2bd0725c5b77bf92097d98492028aad5d14b482a3698b2c
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +138,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: aarch64_cortex-a72
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_aarch64_cortex-a72.ipk
-Size: 54810
-SHA256sum: 1ebc3fff144092d15664b727c323771c43ae2e43bd711a433d132f1eced367aa
+Size: 54755
+SHA256sum: 6ba1b0c4f29b52c4e838eed2e7608291bba1768d0d6d7bfb498b87317ce11fec
 Description:  Pretty-print tabular data
 

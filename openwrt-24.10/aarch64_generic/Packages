@@ -8,21 +8,21 @@ Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_aarch64_generic.ipk
 Size: 4284
-SHA256sum: e1f242494ce7e3f91accc65b01a302f0cf89cd037eefc32e5747c878ca9197bf
+SHA256sum: cab5b23795791dc79133edff33e112017b0bbd038723d871dda0fe9d094d6c50
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_generic
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.10-r1_aarch64_generic.ipk
-Size: 1239
-SHA256sum: 639e6f67b1fe5e65df35dc8d42a99358826999be71c69d4b68e5de911f9442c1
+Filename: meshtasticd-avahi-service_2.6.11-r1_aarch64_generic.ipk
+Size: 1232
+SHA256sum: 082bb0ec97850cde809a6a997acb168b5a7e456025e31cae764cb3c90f98d1e6
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,21 +35,21 @@ URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_generic
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_aarch64_generic.ipk
-Size: 919679
-SHA256sum: 70bea56e16cb759609eaf7c36b5d7910f7c41a4757eb6523275eed2a582033b9
+Size: 908359
+SHA256sum: a9ca1fecada3492c189874696a989bf6bbab8e722cbaa798a21c22a7425b2f82
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_generic
 Installed-Size: 1361920
-Filename: meshtasticd_2.6.10-r1_aarch64_generic.ipk
-Size: 505229
-SHA256sum: c780f0fc8dedce4dca3f632fc54d10ee2aa0ee8b3d8e285aa786257096e9c6b4
+Filename: meshtasticd_2.6.11-r1_aarch64_generic.ipk
+Size: 506742
+SHA256sum: 34383950b161e511c61334ed9adcd4204284d5986936fa6c11a54c20ce86acf2
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -61,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: aarch64_generic
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_aarch64_generic.ipk
-Size: 87598
-SHA256sum: 1fc4d4db5624b7161bd0c538ae1bb7c3bc1c0957346564e01125c6d5d86f5fb8
+Size: 87593
+SHA256sum: 28e91ae39324d3e283ac8f6a464b41cd9bedc4f938c3b6a68ce6e0d49a0117d8
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: aarch64_generic
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_aarch64_generic.ipk
-Size: 191870
-SHA256sum: 088978402a3e6365025172a4c1b89b03632067d115b071a3c84ee667cd86829f
+Size: 191882
+SHA256sum: 6063c8446ba1b19bce1aa870231cdff8ee9e33a6f6d2f0d85cc2bf0d0f17294d
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: aarch64_generic
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_aarch64_generic.ipk
-Size: 156228
-SHA256sum: e537875932e2acf3c5e199a34259a81936bf09004166602f1eca1d70baefbcb6
+Size: 156242
+SHA256sum: 56efd0a1fa3a6446e4f64721caede28f189e1f0bf6bcc593272e411885b13283
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: aarch64_generic
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_aarch64_generic.ipk
-Size: 325777
-SHA256sum: c8ac7fca5f90ed592c20ae43956e24a666133445d1e20dacde34068f48df0d85
+Size: 325657
+SHA256sum: 80604089b6f22df554c090c61bbd34d9f1e9ba87c90511e8c003dee488d21482
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: aarch64_generic
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_aarch64_generic.ipk
-Size: 23557
-SHA256sum: 11fa2e4b954ab5b036674e67c6baef6648a92ec2cd2218c932b45202cb99c9bf
+Size: 23555
+SHA256sum: 6cc2f78af70156804f341e87ff05b0099192a895d69278e1a545dd202d7df102
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,8 +138,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: aarch64_generic
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_aarch64_generic.ipk
-Size: 54808
-SHA256sum: 4bc9da1ec77caa87eba973f72e201ac8a32672f002bc3d86d78713f22dab13b9
+Size: 54751
+SHA256sum: f728b507eb083a8c8fedb1b00537375867b0aa37a796c9e3e27121af22268ca1
 Description:  Pretty-print tabular data
 
 

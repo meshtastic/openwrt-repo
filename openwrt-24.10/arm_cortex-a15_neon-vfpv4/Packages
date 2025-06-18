@@ -8,21 +8,21 @@ Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 4023
-SHA256sum: 894c90aa6490ea1dafdd5550dcbe1d1fbd0de03089a391e5502dc94bf874e20d
+SHA256sum: ec89d36a4aaf59f08401ff2643a4562a7a8fa24571b632451034461b6c615d30
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.10-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1244
-SHA256sum: 4610552089c422520e1cf5496af85208e70fe24ece143c135f6e91238ec043f6
+Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1239
+SHA256sum: 2acc991fd47ef4e93d1c8139e62f2286fc912cf65bb158381161fb19604b4666
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,21 +35,21 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 919687
-SHA256sum: 90a8738dc03aecd0f1cf9437710dcb150641374a90c6d31b3059b2e613e2e77c
+Size: 908367
+SHA256sum: cc659a15a282e62563c1e2ae939724a184242fbbafaba5659e4f11d5b0476c20
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 1054720
-Filename: meshtasticd_2.6.10-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 461867
-SHA256sum: 60e0f87e1db2fd1fe7bacbe7d5f0ccda4eb5a061f105d2d2fee8d780da420078
+Filename: meshtasticd_2.6.11-r1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 463491
+SHA256sum: e14936f92595d9277b6552ee4900a2f231ee6ff6fc3ce815e3664e467ae26864
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -61,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 87610
-SHA256sum: c4e438c6899eb281652433a54cf5a1804a068928936cbfda286566072fd4132a
+Size: 87604
+SHA256sum: 50a388623f5f3b888e4fcc340bb6a713e172da22671bcfcadb2cbdc772d2309a
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 191879
-SHA256sum: e872618948c809f31d24484ce4bfa622a203721a41a66c30f34a224c983d901f
+Size: 191892
+SHA256sum: 92c0d9a83cbad73a442e608d8db151469edbc024929171c213f23bd085a60c74
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 156244
-SHA256sum: 0b8d9a720151ae406d6fe9012cc2783c21bc5ddc21933419f351499401ee2967
+Size: 156255
+SHA256sum: 5c6296dd13f36dddd3a82475edca1a40d6e91c5829f56f8dee02a253618b511f
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 325781
-SHA256sum: 9fb24bee087f23f9388a612706606ab17d81211dfd11fbd3b2cc2990251d355b
+Size: 325664
+SHA256sum: 1fc7f1c528a012e3c625aac83b14eaf1ce9854cc9fb52ba545b689b6ea144e93
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 23565
-SHA256sum: f3f95b8226b4d25e87c2cbab388a89280e2a3211a13e96b98feecf75ce374bd9
+Size: 23564
+SHA256sum: 664a8d19141122f4527f540d3ac46daaa60464de736336bca6d08c5943e8ce64
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +138,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 54814
-SHA256sum: 364bf9d93fd8206b6cded95e5b3dbc7adf8ef48d8e9d01c20565df72003378a5
+Size: 54758
+SHA256sum: 10eabb60ffc6e0d2c67b8d710b7a48c497369be31fd0a7489a0116d2c39d08e8
 Description:  Pretty-print tabular data
 

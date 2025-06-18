@@ -8,21 +8,21 @@ Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mipsel_24kc.ipk
 Size: 3848
-SHA256sum: ce3280ea18182e947777b1f2f9759d4e0d2118da00e2f42542c7d5c890557f05
+SHA256sum: 010d742dc1cf17649b66abd11bbdc2f9ffadd5cc19f72f3fc3a930692574f3a7
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: mipsel_24kc
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.10-r1_mipsel_24kc.ipk
+Filename: meshtasticd-avahi-service_2.6.11-r1_mipsel_24kc.ipk
 Size: 1231
-SHA256sum: 6d573927df80008176d81f8f49bb18277a1e142ce50ca0b023826b364f2e6884
+SHA256sum: 98bdd375d4183a1f6d28ba3e83e53d4f3276d76b10dc0f1b0a3cded7964b1fb0
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,21 +35,21 @@ URL: http://github.com/meshtastic/firmware
 Architecture: mipsel_24kc
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_mipsel_24kc.ipk
-Size: 919675
-SHA256sum: 406f33c07d3781d40c2d53f411992bb7fc632b19a48b167bb3a5f638dbea1f09
+Size: 908354
+SHA256sum: faae3a4161f1fe69df35d4d7a9110fd74b8e71d372d959e8d58a8fe647df9681
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.10-r1
+Version: 2.6.11-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: mipsel_24kc
 Installed-Size: 1402880
-Filename: meshtasticd_2.6.10-r1_mipsel_24kc.ipk
-Size: 555573
-SHA256sum: 821fd3c96900ff02eb0e7a8b87d93707df8943a4fb92b36cee1bf810c364419d
+Filename: meshtasticd_2.6.11-r1_mipsel_24kc.ipk
+Size: 557396
+SHA256sum: aad5f7e59d2d3299d6f64b6f597e53bcd8dc2c0aad5c3a5b98709b043310dcc4
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -61,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: mipsel_24kc
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_mipsel_24kc.ipk
-Size: 87597
-SHA256sum: 783960872efdd525cd067f37c14eedf9928486393ca1d385a753795b6eac437b
+Size: 87593
+SHA256sum: 8fca5ee9c2c6160d0598714b2d518b3f42c5bcb7ba7193d7532f14df301707d4
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -79,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: mipsel_24kc
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_mipsel_24kc.ipk
-Size: 191869
-SHA256sum: d76af3aee994654162d5f41320d81c5aa0e91b0c3f4e1173310f1afa8c7e5d86
+Size: 191881
+SHA256sum: 67e72bc073f8936fbb755257ca4d8c86f568112cdf5746d09773947e76823543
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -95,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: mipsel_24kc
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_mipsel_24kc.ipk
-Size: 156228
-SHA256sum: d317557dbe6eda1cb03faad3db6c50c32f7124034af65e038eca22f4959e720a
+Size: 156240
+SHA256sum: bd26785c9515bc2256966a829c124902d4de031cd9bfed0d67f721e29b59a3cf
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: mipsel_24kc
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_mipsel_24kc.ipk
-Size: 325776
-SHA256sum: 11c3e7332f9ff9286f3fcfcf529e485587f4754bee62fb4a00132bac4ddc6976
+Size: 325657
+SHA256sum: 2d69ec86ae1f65d4c5e2319419bb1ddc9f7a51e3ebb94b1485a6c49deea2c71e
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: mipsel_24kc
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mipsel_24kc.ipk
-Size: 23556
-SHA256sum: 9938f0767f241a298658480cf4147bb47a1e00edf00f832208d8ce35bc7914d0
+Size: 23555
+SHA256sum: 7f58f3f326cb3f9b5b8882128ef1b0814accf49e67489961a64d57e3a19ab812
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +138,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: mipsel_24kc
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mipsel_24kc.ipk
-Size: 54805
-SHA256sum: 5378a48387c81a137a441ae66e425f6e3ef869abd13c09660e4f3c79cb1445f3
+Size: 54750
+SHA256sum: c29fa8a0de1e828fc28f629080695421f78fd97e72e8c443564a5b7f81819c87
 Description:  Pretty-print tabular data
 
