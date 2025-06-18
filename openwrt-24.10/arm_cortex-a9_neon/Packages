@@ -1,44 +1,3 @@
-Package: liborcania
-Version: 2.3.0-r2
-Depends: libc
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/orcania
-Architecture: arm_cortex-a9_neon
-Installed-Size: 20480
-Filename: liborcania_2.3.0-r2_arm_cortex-a9_neon.ipk
-Size: 6559
-SHA256sum: a0ec06441bbb14036ccb3ed77b9b085421f326cbb4f6f72f25cc5f0c5075337f
-Description:  Potluck with different functions for different purposes that can be shared among C programs.
-
-Package: libulfius-gnutls
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: arm_cortex-a9_neon
-Installed-Size: 102400
-Filename: libulfius-gnutls_2.7.10-r2_arm_cortex-a9_neon.ipk
-Size: 41987
-SHA256sum: 02998c70009bb208a95c2c9f5da0f978f215e8a93ce5210cb23c77603815089f
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
-
-Package: libulfius-nossl
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: arm_cortex-a9_neon
-Installed-Size: 61440
-Filename: libulfius-nossl_2.7.10-r2_arm_cortex-a9_neon.ipk
-Size: 23877
-SHA256sum: 42f23435c6616a968cc248d2a0d19c5da513995b8b9c1ffa0a94222f42b9adbd
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
-
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -48,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_cortex-a9_neon
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9_neon.ipk
-Size: 4019
-SHA256sum: 38e60932c7efa1b4edd359ce1b9de3e96aebb2d6dee56caf053f93d6372e47a9
+Size: 4028
+SHA256sum: 4be556591a8845b29f3086348e42aa7b0ec45333528e2d6268ed990e03228ae7
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -62,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9_neon
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.10-r1_arm_cortex-a9_neon.ipk
-Size: 1240
-SHA256sum: 7d443207f259838d1932d0b6d10bd0a909e608a4a502c08a5b4bbde7890d3f2c
+Size: 1239
+SHA256sum: e447e610607281cd3fb01fb429fb0c060fa289b74453f5776107a6a4c91de164
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -76,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a9_neon.ipk
-Size: 908176
-SHA256sum: f8e4e41efc95d72d1672a9d57d243e301537447c81309a5fc7d93343ff7422bd
+Size: 919681
+SHA256sum: c8315f8d93de35fb8d1b28ca882cd98157b92ad746d25d0e248bb0e488872cea
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -89,8 +48,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1054720
 Filename: meshtasticd_2.6.10-r1_arm_cortex-a9_neon.ipk
-Size: 463343
-SHA256sum: e6e40dd59bad2eee93c9cf969a178e1393cac18d1a782e69da109f36e8e67a81
+Size: 463378
+SHA256sum: f9cf8e8b86a9c2311421b971cb67a8d22a9a02e1b1e6b68977ddacfe37c260a9
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -102,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_cortex-a9_neon
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_cortex-a9_neon.ipk
-Size: 87601
-SHA256sum: 706bc368f9b149f4aa051a8539d4af9f1bc75e31a85f92fa1845f7dc066bbd5c
+Size: 87606
+SHA256sum: 410428c0a66b5d11a14424a23ba19d3abf3a27b56c9448abd3a6b05a8899c44f
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -120,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_cortex-a9_neon
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_cortex-a9_neon.ipk
-Size: 191880
-SHA256sum: 044ae549b479b2aaf91f55474017d6d70fa06ebd45e0abbe1d5b78d9369d9c3d
+Size: 191872
+SHA256sum: b0cff6396c8e2c87f8bbbef949dd8799c0bdf3fb547c1a424f1a5fd546ca14d9
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -136,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9_neon
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a9_neon.ipk
-Size: 156238
-SHA256sum: 8185bf05f260986dbb2c4492a408587c6ce2ef4b48e795ac6d09e0456f2c2ee7
+Size: 156231
+SHA256sum: d2e1ad4a8e19cace3fd36440fcd8b80844f40b9c92e26773dd713064bb12b0f1
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -151,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9_neon
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a9_neon.ipk
-Size: 325733
-SHA256sum: 5acc1147d64ec006226e572aec82782cd193d8bbe17720cde473df6959ff4e53
+Size: 325777
+SHA256sum: 0016bf1c2d726ee8088b737d205c837e2fd00155e9613b523a916e4bd728054f
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -164,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9_neon
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9_neon.ipk
-Size: 23557
-SHA256sum: 30b6ab7eef0194e06b23b1ed06489f91ca142fe1dc8e3c626b19fb81c9837281
+Size: 23561
+SHA256sum: 52cdbb741fad92ade1fa5f638d8b910e9fc1356eebb1f648f7e38acd2ec0fcd2
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -179,7 +138,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9_neon
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9_neon.ipk
-Size: 54808
-SHA256sum: 4667b3b2181cd548ab4e54336b1450ad60b650e85efb3d714c6d275dcd5b9a61
+Size: 54809
+SHA256sum: 7f57e24fc88b60ac76a7c291d23231e6db388336c7721795eb68e55b42c16c65
 Description:  Pretty-print tabular data
 

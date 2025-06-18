@@ -1,44 +1,3 @@
-Package: liborcania
-Version: 2.3.0-r2
-Depends: libc
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/orcania
-Architecture: arm_arm926ej-s
-Installed-Size: 20480
-Filename: liborcania_2.3.0-r2_arm_arm926ej-s.ipk
-Size: 6544
-SHA256sum: 3435725e9654c3972ffafd33b199de86cd24dfce8ab7c917f6cfacbb81acd5ea
-Description:  Potluck with different functions for different purposes that can be shared among C programs.
-
-Package: libulfius-gnutls
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: arm_arm926ej-s
-Installed-Size: 102400
-Filename: libulfius-gnutls_2.7.10-r2_arm_arm926ej-s.ipk
-Size: 42022
-SHA256sum: 7de4f43296ec942ac38f6f569fbd7809591f4fac2b14d6e3627909d724101ffa
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
-
-Package: libulfius-nossl
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: arm_arm926ej-s
-Installed-Size: 61440
-Filename: libulfius-nossl_2.7.10-r2_arm_arm926ej-s.ipk
-Size: 23945
-SHA256sum: 6f243d63e45bf9d254cb1cb15fbc697697498ff4aa8de3762bf141b4a34ed0e2
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
-
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -48,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_arm926ej-s
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_arm926ej-s.ipk
-Size: 4038
-SHA256sum: a0864b43f8c4943baa33883eab798eae85a03b7f79585211be49ba5f2d86f593
+Size: 4036
+SHA256sum: 91ab6e536dfb247e6c2bba81b392704d2c525d5167bea3ad563cbafda8de8a59
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -62,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_arm926ej-s
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.10-r1_arm_arm926ej-s.ipk
-Size: 1234
-SHA256sum: e990db7eb92ea5de4c445566e4c67d5a339552f8cbbd0fcf813cf39249bdf523
+Size: 1235
+SHA256sum: 1d7d5aab0e0e188899ee6be8dfce9a14929a626bcd89a9852c34bbbf249702e5
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -76,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_arm926ej-s
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_arm926ej-s.ipk
-Size: 908175
-SHA256sum: d9338eabde9c0b18f6de5d80f5ba69f7d732a847da79ffe1f4e03ca62157127d
+Size: 919678
+SHA256sum: 6b3baaf35ca84fc0a56d175760db947b3cec670dcab439c8134c50ef6e60e781
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -89,8 +48,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_arm926ej-s
 Installed-Size: 1075200
 Filename: meshtasticd_2.6.10-r1_arm_arm926ej-s.ipk
-Size: 469665
-SHA256sum: cd9567559bac1373015a799131489a912b43ad91c11db05b8ea6a83e3e63c372
+Size: 469710
+SHA256sum: 100364baff9bb29823ecaccb9e0ae5a5e6be204a52fd7379101c89bdc8a64ed9
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -102,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_arm926ej-s
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_arm926ej-s.ipk
-Size: 87598
-SHA256sum: 30e06e0eb389a9f75b74d956308429818f9617774fb2d3f6bf2de3970f795e36
+Size: 87602
+SHA256sum: f7863d938e8f78fb1c3ecff64052b272179a41d472d1dea7759aac19f8e72f0d
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -120,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_arm926ej-s
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_arm926ej-s.ipk
-Size: 191877
-SHA256sum: d5cf400a77bb8636e4ef870f98e10a101a8e0f8aa2c59c41b8a0a91740b23a92
+Size: 191869
+SHA256sum: 8a729541242ac5b08bd17531a52c249472e6bda679bf22199f7e74d998c69658
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -136,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_arm926ej-s
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_arm926ej-s.ipk
-Size: 156236
-SHA256sum: 4f326e661ca49149df88c472801e2fd0f39709662ed9698f41f880c8bb857fa5
+Size: 156228
+SHA256sum: 072c5db292a4032813ebf65d36511acde4b8fe1cc8f77be00112a210584ebf91
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -151,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_arm926ej-s
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_arm926ej-s.ipk
-Size: 325732
-SHA256sum: 11fd20f04ec8c79bcb152c7c4d816141561191156610f3e8bb4286afda9eceb8
+Size: 325777
+SHA256sum: b6789c2ea12daf46aa959995b1f5676de6ea3f60581df5bfcd8ef88ff68455cf
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -164,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_arm926ej-s
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_arm926ej-s.ipk
-Size: 23550
-SHA256sum: 63626f2c0b13009aa3e275af646e03bcf1645493ac6c24e84d41ef68a1872cee
+Size: 23557
+SHA256sum: c77f09f66af10832076e887aa847f44621ce33c1343cc766b11eb71592b20270
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -179,7 +138,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_arm926ej-s
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_arm926ej-s.ipk
-Size: 54804
-SHA256sum: 1dc637418eac4e552bbf37eb41ff94eb3293211ffeca747ea39d891865142353
+Size: 54808
+SHA256sum: 3efa3072256a8b9c0627874137fc759a2846e0f6714007678b306157ae86f74e
 Description:  Pretty-print tabular data
 

@@ -1,44 +1,3 @@
-Package: liborcania
-Version: 2.3.0-r2
-Depends: libc
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/orcania
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 20480
-Filename: liborcania_2.3.0-r2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 6564
-SHA256sum: c1c13a80a12ce28e8ae13d1ad3827bf86fb869eabb07660d8fdb9d52437830be
-Description:  Potluck with different functions for different purposes that can be shared among C programs.
-
-Package: libulfius-gnutls
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 102400
-Filename: libulfius-gnutls_2.7.10-r2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 41890
-SHA256sum: 53b5b8b33f635764ec5b23c4f854b0fae8e160d653fa453eea653ceb5a5f1632
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
-
-Package: libulfius-nossl
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 61440
-Filename: libulfius-nossl_2.7.10-r2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 23851
-SHA256sum: 30acce9cb6ad2bd78a83c10919e1f57d889acdc4b0ef3759236d3cdab1c9e92e
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
-
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -48,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4025
-SHA256sum: 539fb9fc6b0d40285a9b436420a83e75058e6c9f260381bd74b5dfddccdd006e
+Size: 4033
+SHA256sum: 15dcfcd9a86c76d61c3182911b99c564b11d6fc74044c9d672e7edde30f9392a
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -63,7 +22,7 @@ Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.10-r1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 1240
-SHA256sum: 6bca158a60235d062e6cd0c2d5e4332a86eb130d39d95231ef8af66a50787ece
+SHA256sum: f7c36ac5f01b01619d88e4bfd39188ebc7ff2de3c110c0489aade66e3a1dfaef
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -76,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 908178
-SHA256sum: 5547d950d96e2262beb59b659ded84eecbc4a0fb0857a7bafc3949882557b7b6
+Size: 919687
+SHA256sum: 002707cce6a1ce0a397b6588fc7ca9b5cc3dd462d5c07fc6d42815aeadfa6116
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -89,8 +48,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 1054720
 Filename: meshtasticd_2.6.10-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 463440
-SHA256sum: 855b52a19386d126266e12b408fdd1cb47950e9935355ba14d13fffe4c25c9d3
+Size: 463466
+SHA256sum: 18d16db3dd8151d6abf80f40a53a61f69909264bcc825b802312a25cb2bb8f14
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -102,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 87606
-SHA256sum: 6dfa42cb22594e3f9e64c5679d1a61d3dfeb25507096c042f0ac41839ff9013a
+Size: 87610
+SHA256sum: 2a75947e459e412f40f97ecbf4681f5cf72b4a315d3d562224901afb8e85023e
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -120,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 191886
-SHA256sum: e3279070d125a73dbb681face877ebf9ba9a7a30274392da6bce13671bd4d24d
+Size: 191877
+SHA256sum: c045b6954ce1a9d0724a83e6375675e74eae723f809dc69a573358fcde87e304
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -136,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 156247
-SHA256sum: 3d29f052f15d9f0ec2c44e37b19ee7838aa56054e8b11b5624a81d9a6bd6e6e0
+Size: 156243
+SHA256sum: 99fe9377065d02a4aa84504f50a622f4fcfcb74222d0ae3c37f64f55c6304f5a
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -151,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 325738
-SHA256sum: 8d88a37c62fbe56aced84939ab32dffbabd4056307f8b088e5bc19865f302010
+Size: 325784
+SHA256sum: ab310319c415f4582b292499824a9e9e80827108a00566d089542d9d6f8dc847
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -164,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 23560
-SHA256sum: cfc59889125a9e7b2a7a7732d0166115da76bc1c72eef26b7ca591a05ff218d6
+Size: 23564
+SHA256sum: a9b9ce160d3e6a86bd3882d78ce6f419790698308aeccf2aa66fcb2492b4bf99
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -179,7 +138,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 54811
-SHA256sum: 1f40e4a1079717a1b42eac26b8c899b3f3399e9d8d7cd72cc858ef9e31dda6eb
+Size: 54813
+SHA256sum: 31b26d182485ef5f39d6d5174a4effe1a4f8b91a711fe6bbdcfde273d9267f0d
 Description:  Pretty-print tabular data
 

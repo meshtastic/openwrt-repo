@@ -1,59 +1,3 @@
-Package: liborcania
-Version: 2.3.0-r2
-Depends: libc
-Source: /feed/depends/liborcania
-SourceName: liborcania
-License: LGPL-2.1-or-later
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1749863180
-URL: https://github.com/babelouest/orcania
-Maintainer: Toni Uhlig <matzeton@googlemail.com>
-Architecture: mipsel_74kc
-Installed-Size: 71680
-Filename: liborcania_2.3.0-r2_mipsel_74kc.ipk
-Size: 6188
-SHA256sum: 5274ddb8058b150a730a7cb161800914909dbda3fd0d6cfe6f1aea18434098ed
-Description:  Potluck with different functions for different purposes that can be shared among C programs.
-
-Package: libulfius-gnutls
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
-Provides: libulfius
-Source: /feed/depends/libulfius
-SourceName: libulfius
-License: LGPL-2.1-or-later
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1749863180
-URL: https://github.com/babelouest/ulfius
-Maintainer: Toni Uhlig <matzeton@googlemail.com>
-Architecture: mipsel_74kc
-Installed-Size: 143360
-Filename: libulfius-gnutls_2.7.10-r2_mipsel_74kc.ipk
-Size: 39341
-SHA256sum: c3938c7ff762366909149367163e41f5d012254a5744a2f74d2de8b79a055252
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
-
-Package: libulfius-nossl
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania
-Provides: libulfius
-Source: /feed/depends/libulfius
-SourceName: libulfius
-License: LGPL-2.1-or-later
-LicenseFiles: LICENSE
-Section: libs
-SourceDateEpoch: 1749863180
-URL: https://github.com/babelouest/ulfius
-Maintainer: Toni Uhlig <matzeton@googlemail.com>
-Architecture: mipsel_74kc
-Installed-Size: 71680
-Filename: libulfius-nossl_2.7.10-r2_mipsel_74kc.ipk
-Size: 21965
-SHA256sum: 85eb8baf0a0d42e85cda436ecf9c66e73a820fcd773d8ba527e32d6ccdb2d705
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
-
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -62,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mipsel_74kc.ipk
 Size: 3859
-SHA256sum: 344a29c50d5ed3e8321c7f770fef88c99c5f20759d661362dab6ba2ed6e87e8a
+SHA256sum: 9655b2f2d122a36697d9b0c0f3de4e0482ca0066096ca225bc9cbf309f2442af
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -81,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.10-r1_mipsel_74kc.ipk
-Size: 1234
-SHA256sum: 59ff316abc368bd72a8302998e2b4a46ddce9ce04ea7eecf4c2235030c1cd558
+Size: 1231
+SHA256sum: a435df46ba99b68a7b7d39a3e2d599d1b5a3b3bb48295ec469c82a8655e7f1a0
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -99,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_mipsel_74kc.ipk
-Size: 908170
-SHA256sum: d0b28cb4273edf96844cad57e090720497c7f8b16f523fbacb323402f4cd9222
+Size: 919676
+SHA256sum: 71acdb5717a8263adf75740c5a48624df635db3dcd5d0142fc9bdd4cc35f492d
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -117,14 +61,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 1402880
 Filename: meshtasticd_2.6.10-r1_mipsel_74kc.ipk
-Size: 560095
-SHA256sum: 7c2f19372720271f57b2d5d230dbe51dc01a158ca1ccd6edb2023f4f0b760bd4
+Size: 560085
+SHA256sum: c83282bfcced1913d7045ca7831d3a9d60e16f3cd7938e70eab76104eb76a7b6
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -135,14 +79,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_mipsel_74kc.ipk
-Size: 87594
-SHA256sum: 8f25bcaf3fc6320a1411b42bd8e8391661e561f6092251a10bc2f0e24ddb6737
+Size: 87597
+SHA256sum: 7b9e6c957d03e8a79a5e0d0026deafd19fb8d5bb36734d07cb75212dbff61a7e
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -158,14 +102,14 @@ SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_mipsel_74kc.ipk
-Size: 191876
-SHA256sum: 0e0c468b22fedc55179c42ea27a70636a602e5858ddd7e61cdf9bc97f21de879
+Size: 191868
+SHA256sum: 9f08b01c759b1f1f0a673c4b6a787705d1f2cdb6976538d0d34859c2a38e4d0a
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -179,14 +123,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_mipsel_74kc.ipk
-Size: 156235
-SHA256sum: 2efde5a340ef07461979d657a4c33859ed406f3dcf8ccc7066eafc8825876a87
+Size: 156226
+SHA256sum: a66dad42ea5801440a260ee955356313ac1483a5dca62d5d811f847886bdcecc
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -199,14 +143,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_mipsel_74kc.ipk
-Size: 325731
-SHA256sum: 71772bbee59753149f2523e92f2a6dd476831426b3aa7048ed0c02a6517bd74e
+Size: 325775
+SHA256sum: 04268e4d17bc9a866e76c262090ed76daadd9df54433c12cac6d2532d19d0e8e
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -217,14 +161,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mipsel_74kc.ipk
-Size: 23549
-SHA256sum: 949a6889079b312b0d622744611966a5e04b804b9557cfe663d30ded862c1acc
+Size: 23555
+SHA256sum: fc9d7abc0e5a663ace6f45f7c0bf70220269eee401ad1faacb0f3df3ba6f2a62
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -237,13 +181,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1749863180
+SourceDateEpoch: 1750200369
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_74kc
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mipsel_74kc.ipk
-Size: 54800
-SHA256sum: 380d71af0e3042dac123045e63dc6b088b258453f8e726a6dabfae71d606d1b9
+Size: 54805
+SHA256sum: 3a48fbebf2cf1031ab7fd9731f8c5aff63d5503f9f0df3c2050feb1bdf4ffdde
 Description:  Pretty-print tabular data
 

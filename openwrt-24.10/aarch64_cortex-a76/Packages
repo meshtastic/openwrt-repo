@@ -1,44 +1,3 @@
-Package: liborcania
-Version: 2.3.0-r2
-Depends: libc
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/orcania
-Architecture: aarch64_cortex-a76
-Installed-Size: 71680
-Filename: liborcania_2.3.0-r2_aarch64_cortex-a76.ipk
-Size: 8682
-SHA256sum: 8e3cd73a3494a60b83cb808fd12bb2c16b379e697ec55f93dc99cbca474575c6
-Description:  Potluck with different functions for different purposes that can be shared among C programs.
-
-Package: libulfius-gnutls
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: aarch64_cortex-a76
-Installed-Size: 143360
-Filename: libulfius-gnutls_2.7.10-r2_aarch64_cortex-a76.ipk
-Size: 47229
-SHA256sum: 0f310a85a7bd923f3fd20f4fb6ae3357b4a6d1f899f52ee05d4a9fc20e29df64
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
-
-Package: libulfius-nossl
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: aarch64_cortex-a76
-Installed-Size: 143360
-Filename: libulfius-nossl_2.7.10-r2_aarch64_cortex-a76.ipk
-Size: 27873
-SHA256sum: ced565c5180f661b7a33389d57e54dfaae03657337170cba83b87e52ba7beacd
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
-
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -48,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: aarch64_cortex-a76
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_aarch64_cortex-a76.ipk
-Size: 4295
-SHA256sum: 20a8a3e21c46f145351359a95a96690fbe11f0215a4144ee73a577113239c75a
+Size: 4293
+SHA256sum: 7a5d53c4a9f57d35f5dd38a11f8b89235c0bec65161ec6dbcc08c311e5513eb1
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -62,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_cortex-a76
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.10-r1_aarch64_cortex-a76.ipk
-Size: 1239
-SHA256sum: 72a450b7a62a78483b802bac3d82c1d4abd924321f4b826bfae544441413233e
+Size: 1238
+SHA256sum: 953d94bd489e84431866c09c5c69dc08680d8550c065ff1f51ab44802b0f54e7
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -76,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_cortex-a76
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_aarch64_cortex-a76.ipk
-Size: 908176
-SHA256sum: 6b42d05ebd2d6a513e0c610de79d57fce36ee8914c5a829330b684ab81921de9
+Size: 919681
+SHA256sum: cc8bd788f4f33c26bca129db7b20d5c30dbf5c27a2611909319e3146ca887b9b
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -89,8 +48,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: aarch64_cortex-a76
 Installed-Size: 1361920
 Filename: meshtasticd_2.6.10-r1_aarch64_cortex-a76.ipk
-Size: 505233
-SHA256sum: 8df12b891335871d9206a2c440e96d0b6910d59a8605d09d0d96d1c6f5147a87
+Size: 505238
+SHA256sum: f8dcb5c5729f47add3abcdb1478a47db67f70b0c3761441763ba5aa082322626
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -102,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: aarch64_cortex-a76
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_aarch64_cortex-a76.ipk
-Size: 87600
-SHA256sum: a2eb0b85d1648cd38592c3e967877ac68dbe197673a82432a1eb277ab86063c1
+Size: 87605
+SHA256sum: 23c34d763ac663b121d1d3665dd60aca7c186cc6e3a121abf364044c57cab1a0
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -120,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: aarch64_cortex-a76
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_aarch64_cortex-a76.ipk
-Size: 191879
-SHA256sum: 7d98bd42a2f34a7faef41ec25fd7078f9d33b1c89ea51fa43bde13cb44ef6cc2
+Size: 191871
+SHA256sum: 1557c824a6d8ef137cce8d27179fb4370e3b73ffff7872824423b2e68d0d3d12
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -136,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: aarch64_cortex-a76
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_aarch64_cortex-a76.ipk
-Size: 156239
-SHA256sum: f2958a43cdbf6c0652f48e8c32b11eea2336e3de63eb281f24538c59206d5b99
+Size: 156229
+SHA256sum: 7588f6ad348e5cbfb096536c68d40d9785161c53daef1794fb655704de05e312
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -151,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: aarch64_cortex-a76
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_aarch64_cortex-a76.ipk
-Size: 325734
-SHA256sum: 674a75d3152ababf2cbd37964f6f6dc503720c175aa8149803169cf31699c02a
+Size: 325777
+SHA256sum: 777a01902fd72980aa14f764d828ed6aec63f03363af359815ceae079c1dc08d
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -164,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: aarch64_cortex-a76
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_aarch64_cortex-a76.ipk
-Size: 23556
-SHA256sum: a9d5585ecfe227837920ab59985fe1834c9d81be558d19a24a892d63150216b0
+Size: 23561
+SHA256sum: 37ff2dacee1be5ccdb9bab27b45d2460df1bdd4c8df290108095105991e44a93
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -179,7 +138,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: aarch64_cortex-a76
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_aarch64_cortex-a76.ipk
-Size: 54807
-SHA256sum: 80b3d404738fab82167286db3984c8442b17cdd055e9581e08006a1a66ac07ab
+Size: 54810
+SHA256sum: 8227a8bd5151a5bb262e4ae175425e4054beed4226df9da057439f32964f0c11
 Description:  Pretty-print tabular data
 

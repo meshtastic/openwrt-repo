@@ -1,44 +1,3 @@
-Package: liborcania
-Version: 2.3.0-r2
-Depends: libc
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/orcania
-Architecture: powerpc64_e5500
-Installed-Size: 71680
-Filename: liborcania_2.3.0-r2_powerpc64_e5500.ipk
-Size: 9147
-SHA256sum: 02b023d2bcecc1f17aea035d7c4a2e6741f8b53628a052b7b85d451c9627ea73
-Description:  Potluck with different functions for different purposes that can be shared among C programs.
-
-Package: libulfius-gnutls
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: powerpc64_e5500
-Installed-Size: 204800
-Filename: libulfius-gnutls_2.7.10-r2_powerpc64_e5500.ipk
-Size: 48839
-SHA256sum: a31932ba9337b122af02cb36afc07875ebb6457fcb5bf54dbb68140808513a3c
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
-
-Package: libulfius-nossl
-Version: 2.7.10-r2
-Depends: libc, libmicrohttpd, libcurl4, liborcania
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-URL: https://github.com/babelouest/ulfius
-Architecture: powerpc64_e5500
-Installed-Size: 143360
-Filename: libulfius-nossl_2.7.10-r2_powerpc64_e5500.ipk
-Size: 28733
-SHA256sum: f2d9bb48cc46245b2bd416f085a5ca6114c9a5f05b2ca1fee7fa96cdb4cb6e62
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
-
 Package: libyder
 Version: 1.4.17-r1
 Depends: libc, liborcania
@@ -48,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: powerpc64_e5500
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_powerpc64_e5500.ipk
-Size: 4477
-SHA256sum: c7b6d473d8a63148e4dff9c823e1d687ed1cdb8ee21e8932372c206a6ae3b197
+Size: 4487
+SHA256sum: 8a742628a3c113f2e46553c3be52b7134dd0fdcf2f8b30ac880db72f4838b491
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -62,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: powerpc64_e5500
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.10-r1_powerpc64_e5500.ipk
-Size: 1231
-SHA256sum: 09e996495ff835511d56d5170a130d9db43e5d1f0d1a32c275c2753ee4476c46
+Size: 1237
+SHA256sum: 25a7ce48295082e6c61814a270239357f47984d2954561b33bf75e8951ee9d11
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -76,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: powerpc64_e5500
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_powerpc64_e5500.ipk
-Size: 908176
-SHA256sum: 5b1c7fadc88ff93b3a3662d7b1bf72bcabed8e1a63d7638879f9c77441663713
+Size: 919679
+SHA256sum: cd5e0b1cd1c4fea5ac97932e99cb5939211509e9569658c58057658e9b29c3d9
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -89,8 +48,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: powerpc64_e5500
 Installed-Size: 1884160
 Filename: meshtasticd_2.6.10-r1_powerpc64_e5500.ipk
-Size: 582543
-SHA256sum: 5b136a5bb4a056d82171d939b06659011144912069e63b8164af9765f6fcc759
+Size: 582578
+SHA256sum: 2ed934f87cc0a1dbbc6656e023bd64e2d27a5cb22c36a05cbf4f7ae2ef741006
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
@@ -102,8 +61,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: powerpc64_e5500
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_powerpc64_e5500.ipk
-Size: 87597
-SHA256sum: 387b6336d04a121cd065be3986705845d7e6017c281903492ef0477a33867005
+Size: 87601
+SHA256sum: 916f46f1d011c7f4ed560127641e1abec3a212efcb27d0b73cca93eadc68364f
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -120,8 +79,8 @@ URL: https://palletsprojects.com/p/click/
 Architecture: powerpc64_e5500
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_powerpc64_e5500.ipk
-Size: 191879
-SHA256sum: 59d952041aeb699eb559079a4c720376e09ddf5b31b182f183f2d612cd0ec8e5
+Size: 191872
+SHA256sum: 7ace78d94fab0417d1292af6dfb27e81fde83061b95a380a99e66796a1823631
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -136,8 +95,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: powerpc64_e5500
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_powerpc64_e5500.ipk
-Size: 156238
-SHA256sum: 6e20a3a816cee0826096b95116564319bcf8a385429c7ee96b5285229474f984
+Size: 156229
+SHA256sum: ef12a6925b8a2bdfe190d45ad838d19c7285c4433e640599dd53b7e077b9090b
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -151,8 +110,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: powerpc64_e5500
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_powerpc64_e5500.ipk
-Size: 325733
-SHA256sum: 95b6fe664f53b0a257866683aae26f1e54185174299a76d1e5022279e00d8a69
+Size: 325777
+SHA256sum: 790cc3233bc2d141fc1aeccfa0e3b2e5d2e76d54e06c1b8afe0f9def4042fb33
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -164,8 +123,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: powerpc64_e5500
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_powerpc64_e5500.ipk
-Size: 23552
-SHA256sum: 383341ceb7a368268c8900c4f84585bed329d893db08384319b8882a9610c101
+Size: 23558
+SHA256sum: f1a6146d629a7c4619aece2c3d4fd7347b2bcba5388f47ae7166bd2bdc85f951
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -179,7 +138,9 @@ URL: https://pypi.org/project/tabulate
 Architecture: powerpc64_e5500
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_powerpc64_e5500.ipk
-Size: 54804
-SHA256sum: bda8433a0a5b84d5b1d17495d883b486e02c7112ef0039384fc78337a13af283
+Size: 54808
+SHA256sum: 814d367787c4e4f166a810063514956ea3a0ff537de306db2e424c779698237c
 Description:  Pretty-print tabular data
+
+
 
