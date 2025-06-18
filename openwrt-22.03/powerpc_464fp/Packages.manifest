@@ -6,13 +6,13 @@ SourceName: liborcania
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: powerpc_464fp
-Installed-Size: 8282
+Installed-Size: 8286
 Filename: liborcania_2.2.1-2_powerpc_464fp.ipk
-Size: 8998
-SHA256sum: 0297afe171d84a498330862e42ad99615c45d46da7c8ba53d7aa867269d28d7a
+Size: 9012
+SHA256sum: 5c06781f96b06cc57d2b92e02bdbf6bca8333590484efb08433fa66d320ef426
 Description:  Potluck with different functions for different purposes that can be shared among C programs.
 
 Package: libulfius-gnutls
@@ -24,13 +24,13 @@ SourceName: libulfius-gnutls
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: powerpc_464fp
-Installed-Size: 48296
+Installed-Size: 48297
 Filename: libulfius-gnutls_2.7.3-2_powerpc_464fp.ipk
-Size: 48659
-SHA256sum: ab662c85abe8f69e93a4ea40e77a677d7f5cbeacec0dfc777f6cc87cacc151d6
+Size: 48674
+SHA256sum: a3bddbd1e1e9e1f883ba83545631420ac4988eaa3f51a4daa8020c61ffbf0894
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
 
 Package: libulfius-nossl
@@ -42,13 +42,13 @@ SourceName: libulfius-nossl
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Toni Uhlig <matzeton@googlemail.com>
 Architecture: powerpc_464fp
-Installed-Size: 27068
+Installed-Size: 27070
 Filename: libulfius-nossl_2.7.3-2_powerpc_464fp.ipk
-Size: 27735
-SHA256sum: f37f27867ca3adaae749f036216a6f7800d47684cc50e719250cff0969e94c47
+Size: 27742
+SHA256sum: 04227b9d8355dcebf800b2a2c25aebf4d062114b0947e3f30f73578b6a215f84
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
 
 Package: libyder
@@ -59,31 +59,31 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 3679
+Installed-Size: 3680
 Filename: libyder_1.4.14-1_powerpc_464fp.ipk
-Size: 4347
-SHA256sum: 7b1f2d34d9b18b11324c58d02cccf0c45caf3aaa09fad726b362daef1fbe401e
+Size: 4345
+SHA256sum: 482be6423ce6384beaca6c3bf7d772b76533a43f6357d9ffa488f152fcead68e
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.10-1
+Version: 2.6.11-1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd-avahi-service
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 365
-Filename: meshtasticd-avahi-service_2.6.10-1_powerpc_464fp.ipk
-Size: 1205
-SHA256sum: 09a69d2e964f5b7a608a5261d7b9e835c9bac307b525c832f3c6658cfdf303b0
+Installed-Size: 366
+Filename: meshtasticd-avahi-service_2.6.11-1_powerpc_464fp.ipk
+Size: 1206
+SHA256sum: c6f960f0e140ba4235a9e59f31c29d291e821fd4cf79bdcf6c8d7fc04af6a93e
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -94,30 +94,30 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 920039
+Installed-Size: 920045
 Filename: meshtasticd-web_2.6.4-1_powerpc_464fp.ipk
-Size: 919777
-SHA256sum: 9d7691f9585c0d947ccc02b211efcc7c8516ad1fd2c7aaf322b843da6df483db
+Size: 919717
+SHA256sum: 6f22db9e9c7efd8c7679612a0c82e534b72d70704006d9565ec24c5a41d75d09
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.10-1
+Version: 2.6.11-1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 582043
-Filename: meshtasticd_2.6.10-1_powerpc_464fp.ipk
-Size: 580170
-SHA256sum: 8ddd06b26ee58e5f12fd7d1e730ac1f220cf700b18efaa39e92420ebdf599285
+Installed-Size: 583005
+Filename: meshtasticd_2.6.11-1_powerpc_464fp.ipk
+Size: 581170
+SHA256sum: 0f4424ab0554ec6d65071b8d3bad07063540a89ebb3d7b42415029fe573b18b7
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -128,13 +128,13 @@ SourceName: python3-certifi-src
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: powerpc_464fp
 Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_powerpc_464fp.ipk
-Size: 2300
-SHA256sum: 0707a3e07016e365336eededb2e85ee95a25ad53f22a279b92dd0324f18514e4
+Size: 2297
+SHA256sum: 5b91336c3318e1e7bd87d5db05c525d80f919b572bf9fdb44345c8192f4625c6
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -148,13 +148,13 @@ SourceName: python3-certifi
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: powerpc_464fp
 Installed-Size: 148605
 Filename: python3-certifi_2021.10.8-2_powerpc_464fp.ipk
-Size: 149542
-SHA256sum: 1b754b3de7f9dae0c87f324d74b1165d9ff0503d62b2537d83327f861613802c
+Size: 149539
+SHA256sum: 80043a8e012f0ff9877ecacf306758124e3e4ea5bf379179aa7058cffd9246f2
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -165,13 +165,13 @@ Source: /feed/depends/python-chardet
 SourceName: python3-chardet-src
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 145623
+Installed-Size: 145630
 Filename: python3-chardet-src_4.0.0-2_powerpc_464fp.ipk
-Size: 143666
-SHA256sum: 923f7edbcf137b8a57860a7993a9fe2656e00c2383cce90cfd6d275531e80923
+Size: 143576
+SHA256sum: d639594f6a9f9947a927d677ea91f057798ccbcba6274e09415935b60db37eac
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -183,13 +183,13 @@ Source: /feed/depends/python-chardet
 SourceName: python3-chardet
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 148966
+Installed-Size: 148967
 Filename: python3-chardet_4.0.0-2_powerpc_464fp.ipk
-Size: 147149
-SHA256sum: 0989b87080bf243273949a49aa1907211c5e1d34200c792e99e2122c7bb97347
+Size: 147155
+SHA256sum: 1ea8953a72d7155a7cc27d42863cab8a5e9494f84e70f3eacf7f500e6f45badb
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -200,13 +200,13 @@ SourceName: python3-click-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 86573
+Installed-Size: 86572
 Filename: python3-click-src_8.1.7-1_powerpc_464fp.ipk
-Size: 87573
-SHA256sum: 94df9ef7c122c2be1e1755a7008b47315c827337840ca85fa2103a8bc824c7b3
+Size: 87571
+SHA256sum: 75ccb2655194b16b7011e1f0f2a0bfb4d551ace97f715b25ff9666325a0c958a
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -222,13 +222,13 @@ SourceName: python3-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 123119
+Installed-Size: 123113
 Filename: python3-click_8.1.7-1_powerpc_464fp.ipk
-Size: 124150
-SHA256sum: 3b395bb35ca6fb96b75a10e576d59b0dbf60c02af9ccda929067a94227c247c1
+Size: 124149
+SHA256sum: a25a3ef9e7b516eb3232add6819b866020227851f9289cfa936f63350f4c9135
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -242,13 +242,13 @@ SourceName: python3-idna-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 56265
+Installed-Size: 56268
 Filename: python3-idna-src_3.3-2_powerpc_464fp.ipk
-Size: 53399
-SHA256sum: 99ec1be3ffba404428855df25a23932bc2305fe68342103812919fad159a5b2d
+Size: 53434
+SHA256sum: 3ad2a4ed283abe00c68e0c0c92fd6301c35cd52eed2e0b1697932b21fc03611b
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -264,13 +264,13 @@ SourceName: python3-idna
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 66825
+Installed-Size: 66823
 Filename: python3-idna_3.3-2_powerpc_464fp.ipk
-Size: 66623
-SHA256sum: 56ae7252e108954bba0d4f65da3353dec731359c356d388a7bf725dcf0be8729
+Size: 66634
+SHA256sum: 3ca38aaa167a91b45e7183aecc336147b0c861a80cf82e73693094df196ffa0d
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -284,13 +284,13 @@ SourceName: python3-pyelftools-src
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 155341
+Installed-Size: 155348
 Filename: python3-pyelftools-src_0.31-1_powerpc_464fp.ipk
-Size: 156233
-SHA256sum: 6456e7c3ab2c1e1052e9e47c432278a0de7674d8f45e92edab2e4395970fe688
+Size: 156231
+SHA256sum: 8c010400aaca02cd91f6039db4f2666605ed8d77351b0969e69c78c6fa2b58fa
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -303,13 +303,13 @@ SourceName: python3-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 214580
+Installed-Size: 214591
 Filename: python3-pyelftools_0.31-1_powerpc_464fp.ipk
-Size: 215096
-SHA256sum: 859cd6f02571c5004ac561dd3e9836f554910833c39b150fed3b39ab85316dc2
+Size: 215104
+SHA256sum: 7d4a6656848fc965ae38054becb09e294ac1b67be3ff6e6240863f7ba713464a
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -319,13 +319,13 @@ Source: /feed/depends/python-pyserial
 SourceName: python3-pyserial-src
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: powerpc_464fp
-Installed-Size: 73215
+Installed-Size: 73222
 Filename: python3-pyserial-src_3.4-2_powerpc_464fp.ipk
-Size: 74211
-SHA256sum: 704a75bb230d7dc099dedb3908432f527718180e0165a45b51041f1b46f9848b
+Size: 74232
+SHA256sum: 5e661106bbf8b661ed7056310b2aa4253ddf88b7b7061a8d8208628384183afe
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -340,13 +340,13 @@ Source: /feed/depends/python-pyserial
 SourceName: python3-pyserial
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: powerpc_464fp
-Installed-Size: 98897
+Installed-Size: 98898
 Filename: python3-pyserial_3.4-2_powerpc_464fp.ipk
-Size: 99917
-SHA256sum: b17365fe986c7e8a4f9b7e32380381868f196779b82e10e5b9911d8f0ef837e9
+Size: 99919
+SHA256sum: 6cba528de21d37a1ba2d63e05dcbfdd085100089ac44977042e9b79945b50a99
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -360,14 +360,14 @@ SourceName: python3-requests-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 48797
+Installed-Size: 48798
 Filename: python3-requests-src_2.31.0-2_powerpc_464fp.ipk
 Size: 49738
-SHA256sum: 3df04b20fad59e8321b9d01e434c25049f5beaaf6380b1c31be1dd3c89ad4f42
+SHA256sum: 6786d18dc84ae2eb7a2cd89c33e12e2af0e1f9f086a3984b38fee9dc071a4c97
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -380,14 +380,14 @@ SourceName: python3-requests
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: powerpc_464fp
 Installed-Size: 66485
 Filename: python3-requests_2.31.0-2_powerpc_464fp.ipk
-Size: 67434
-SHA256sum: f6076e66f2194d9f73834b67c9ca3a81a48d9ebc6c151e6bd3637d3550d9ff4d
+Size: 67433
+SHA256sum: 754d3c5d3a23dd433f86ece698b0666ac191be94a664fc5ad5e2c6a405b24166
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -398,13 +398,13 @@ SourceName: python3-tabulate-src
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 22717
+Installed-Size: 22720
 Filename: python3-tabulate-src_0.9.0-1_powerpc_464fp.ipk
-Size: 23521
-SHA256sum: d195539cf49a60ca8ecbcf66dec919dd66965a77a61f00c1151b9c0280204115
+Size: 23524
+SHA256sum: a450546724c333c84c236fc19ea01939874c167e99a141afbe0c59a3a30c9bed
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -417,13 +417,13 @@ SourceName: python3-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 38400
+Installed-Size: 38405
 Filename: python3-tabulate_0.9.0-1_powerpc_464fp.ipk
-Size: 39261
-SHA256sum: cb471b29ba72875353f3243768fd80d44c6d2483762fe02ec92eaa7e8f6c9855
+Size: 39266
+SHA256sum: 5f677e45bbfe03f491b0615c3b6b0bf7acee132f8e24e5e83fd20edaf5802714
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -434,14 +434,14 @@ SourceName: python3-urllib3-src
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 103670
+Installed-Size: 103669
 Filename: python3-urllib3-src_2.0.4-1_powerpc_464fp.ipk
-Size: 104577
-SHA256sum: 5d07c730023df018fa1adcf9a0b203afc6dcfcbb2510c53c6e415f7284a7e606
+Size: 104563
+SHA256sum: 58ca006873309830c6395a4ebf708f1b48faaadfa0512cfb2f7b72aa70d1714e
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -454,13 +454,13 @@ SourceName: python3-urllib3
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1750213537
+SourceDateEpoch: 1750255566
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: powerpc_464fp
-Installed-Size: 130617
+Installed-Size: 130624
 Filename: python3-urllib3_2.0.4-1_powerpc_464fp.ipk
-Size: 131548
-SHA256sum: 981de23a6960f2d2e2630f31ea5cfcce764ba96f7fbc6fe04835af7692d40c4e
+Size: 131552
+SHA256sum: fe418b51277cd72214d707b763ba33437540cc7f376e9aa319b39dd425f0249b
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

@@ -4,10 +4,10 @@ Depends: libc
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arm_arm926ej-s
-Installed-Size: 5622
+Installed-Size: 5623
 Filename: liborcania_2.2.1-2_arm_arm926ej-s.ipk
-Size: 6413
-SHA256sum: c501b5571e232f531e6d79699bebaacfb1abdbe09b8990a666c00fbbaf5fd158
+Size: 6408
+SHA256sum: 58f3a9171eeda661de204b6e5f5ba555eb93cdcd4f2d1907c7e1b859ad0bdc43
 Description:  Potluck with different functions for different purposes that can be shared among C programs.
 
 Package: libulfius-gnutls
@@ -19,8 +19,8 @@ Section: libs
 Architecture: arm_arm926ej-s
 Installed-Size: 39761
 Filename: libulfius-gnutls_2.7.3-2_arm_arm926ej-s.ipk
-Size: 40540
-SHA256sum: 86bb0bbe50a44f8c948141acd9091ccc8f38780307b071af3d4c310692e1ce2b
+Size: 40546
+SHA256sum: 9b1d225dbd3bb0a34bc84392e28753d17a7ae06c3521e1636b0017b563001c21
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
 
 Package: libulfius-nossl
@@ -30,10 +30,10 @@ Provides: libulfius
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arm_arm926ej-s
-Installed-Size: 21564
+Installed-Size: 21565
 Filename: libulfius-nossl_2.7.3-2_arm_arm926ej-s.ipk
-Size: 22349
-SHA256sum: 5e1e59498421949987a175456dc81c508ad077bea2acaa685c433772322f1d47
+Size: 22354
+SHA256sum: 62f04b4b0eba947bfb6358077b81f2d3214bd383233cfea20eb20383cef8b349
 Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
 
 Package: libyder
@@ -42,23 +42,23 @@ Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arm_arm926ej-s
-Installed-Size: 2837
+Installed-Size: 2839
 Filename: libyder_1.4.14-1_arm_arm926ej-s.ipk
-Size: 3634
-SHA256sum: 476df22b3a7590acef343a46e8bfb24cb8b39a0ca3b767963ea8bead7eaab956
+Size: 3639
+SHA256sum: 63eb08f50c194b4ea5933d58234cb7856398951609b48f02efaa1c02cdaab805
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.10-1
+Version: 2.6.11-1
 Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 Architecture: arm_arm926ej-s
-Installed-Size: 365
-Filename: meshtasticd-avahi-service_2.6.10-1_arm_arm926ej-s.ipk
-Size: 1202
-SHA256sum: 53e328aa3ad846dd6370addcedfbf5e58e4446ed96a2271f14f936289b001dbe
+Installed-Size: 366
+Filename: meshtasticd-avahi-service_2.6.11-1_arm_arm926ej-s.ipk
+Size: 1204
+SHA256sum: 8de08a1e2de979ab63643846e5fa0032457abfc912032fa01b97b320d1ccd660
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -68,22 +68,22 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: arm_arm926ej-s
-Installed-Size: 920039
+Installed-Size: 920045
 Filename: meshtasticd-web_2.6.4-1_arm_arm926ej-s.ipk
-Size: 919779
-SHA256sum: 76323b34cf3edb151a523daef6a5963f6ddb02b68118413a7abd58699938ffa2
+Size: 919717
+SHA256sum: 09f1b3ce3df7e5ea3772f946d53767786b6f7151d292173118b565bbcb2c68ee
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.10-1
+Version: 2.6.11-1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
 License: GPL-3.0
 Section: net
 Architecture: arm_arm926ej-s
-Installed-Size: 466232
-Filename: meshtasticd_2.6.10-1_arm_arm926ej-s.ipk
-Size: 466264
-SHA256sum: 365cde83eb6b3406028d8d9daaa9afd494794140e57c143e407d44868e57a8a2
+Installed-Size: 468249
+Filename: meshtasticd_2.6.11-1_arm_arm926ej-s.ipk
+Size: 468355
+SHA256sum: 69f95e41ce574f1473267f0724d8503ef296fb088679ec343cde01ccc6facb2d
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -94,8 +94,8 @@ Section: lang
 Architecture: arm_arm926ej-s
 Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_arm_arm926ej-s.ipk
-Size: 2297
-SHA256sum: eb7d0a045b6dea68dee12de9d001f773acdeff37766ea630767d4447eb16be5e
+Size: 2299
+SHA256sum: 5bea208e6c16b401ad1013e510d77a7aa5477eaaa68d051710bb5ac94cabdebd
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -109,8 +109,8 @@ Section: lang
 Architecture: arm_arm926ej-s
 Installed-Size: 148605
 Filename: python3-certifi_2021.10.8-2_arm_arm926ej-s.ipk
-Size: 149545
-SHA256sum: 8f2bb9d2fe0b7908c7ca35b7af0c16988c65d5a770a167ba1e67c75566a15f47
+Size: 149534
+SHA256sum: 3547ed3b43d03ead6d9f33bb86ec4c5a92344e16befadcdff255099cd225ebfa
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -120,10 +120,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 145623
+Installed-Size: 145630
 Filename: python3-chardet-src_4.0.0-2_arm_arm926ej-s.ipk
-Size: 143667
-SHA256sum: 0353789ee9d259885d36d6012147dcb23580bd55d2974bb822d148c6218aa654
+Size: 143577
+SHA256sum: bcceed19afb8713c7a2debc760e71b7a65f84ab781c52f1aa3511561c822dedc
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -134,10 +134,10 @@ Depends: libc, python3-light
 License: LGPL-2.1
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 148966
+Installed-Size: 148967
 Filename: python3-chardet_4.0.0-2_arm_arm926ej-s.ipk
 Size: 147150
-SHA256sum: 4b25c8b4e06c1d0072ffa37567a54dd5d85c64bd8d996d0420545ba5fb545d2f
+SHA256sum: df83467a362d43e4f7cf7fb28601b7526548ccf13b8102c19b2733892b794cd9
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -146,10 +146,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 86573
+Installed-Size: 86572
 Filename: python3-click-src_8.1.7-1_arm_arm926ej-s.ipk
-Size: 87573
-SHA256sum: 6d09129caf6a5204f4290b4633f049aab01f696d8e11b9613606acb5da0bec24
+Size: 87571
+SHA256sum: 11358833f01603046c71ddb990f7ceba236ad716cc8e7e9b65497e46afa51a18
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -163,10 +163,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 123119
+Installed-Size: 123112
 Filename: python3-click_8.1.7-1_arm_arm926ej-s.ipk
-Size: 124149
-SHA256sum: 08edce8d58b8a63d6286a5c8e98e1934ffa87a2762b0e006c559d9ec87ff3b95
+Size: 124150
+SHA256sum: c30957eaaebcdb5071a92eeba518dd444660d78f3ea6a99e80c7d86946dc19a3
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -178,10 +178,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 56265
+Installed-Size: 56268
 Filename: python3-idna-src_3.3-2_arm_arm926ej-s.ipk
-Size: 53399
-SHA256sum: 926b9b57a23d289645cdf5242bab1317a1bd6bc80f389ab2fe95e3a067429d81
+Size: 53437
+SHA256sum: 8ca93576024333efc78238ede871549c498748b33ad2ff4c96ee81fd41d32289
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -195,10 +195,10 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 66825
+Installed-Size: 66823
 Filename: python3-idna_3.3-2_arm_arm926ej-s.ipk
-Size: 66624
-SHA256sum: d9dfe3bb0fabfe9e397a3f3ee365ad369d0b5188816f5e08b3ba9a489d3176ee
+Size: 66636
+SHA256sum: 86a4c2b34e76628afd7c2a788c0d7ab50d4f74a73cca54c94ef11bf7ead0c7b4
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -210,10 +210,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 155341
+Installed-Size: 155348
 Filename: python3-pyelftools-src_0.31-1_arm_arm926ej-s.ipk
 Size: 156234
-SHA256sum: eaa4921e7e3d3776b64d79ec9877221174f978232ea8086772d40deee5ab6512
+SHA256sum: b035c713e3ae056555ab4d0abbd0f9e031187ba937b2d6b6f99ddec4d004af1e
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -224,10 +224,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 214580
+Installed-Size: 214590
 Filename: python3-pyelftools_0.31-1_arm_arm926ej-s.ipk
-Size: 215101
-SHA256sum: c035e6c0446c26fde79647067fba908eb395c7809136b493968ee5f4d44dbfb0
+Size: 215109
+SHA256sum: 426045e4d712db2fd84ee175045ef806eb3b6af562ee87629fd4c26bd97efd64
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -236,10 +236,10 @@ Depends: libc
 License: BSD
 Section: lang-python
 Architecture: arm_arm926ej-s
-Installed-Size: 73215
+Installed-Size: 73222
 Filename: python3-pyserial-src_3.4-2_arm_arm926ej-s.ipk
-Size: 74214
-SHA256sum: 53bfc65f1ced3a7497a43e0a229dab6c0b05cc908cddc9c4d35b63dac2c83953
+Size: 74235
+SHA256sum: 8c865ba55ce25677d5be781395fa8b77f470b66f667543d8327ad615c8cf564a
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -253,10 +253,10 @@ Depends: libc, python3-light
 License: BSD
 Section: lang-python
 Architecture: arm_arm926ej-s
-Installed-Size: 98897
+Installed-Size: 98898
 Filename: python3-pyserial_3.4-2_arm_arm926ej-s.ipk
-Size: 99917
-SHA256sum: 47b86c5f0f818192596270f05382dc4dc6af1c6efeab67683ea0d3b9d8114088
+Size: 99921
+SHA256sum: e8d55e1d7ad1f871547c2213254d530d3ca8a11a4ee3a6765fd8506cc373fd84
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -269,10 +269,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python-requests:requests
 Architecture: arm_arm926ej-s
-Installed-Size: 48797
+Installed-Size: 48798
 Filename: python3-requests-src_2.31.0-2_arm_arm926ej-s.ipk
-Size: 49736
-SHA256sum: 87000236ac9de8dd11a40658244c34b0b3b2023f6f2c01651c8665d5b16f6ce4
+Size: 49733
+SHA256sum: 990ed4e607a136a919894207898e357e2268f36749e64bd2656846f9f19aedc6
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -286,8 +286,8 @@ CPE-ID: cpe:/a:python-requests:requests
 Architecture: arm_arm926ej-s
 Installed-Size: 66485
 Filename: python3-requests_2.31.0-2_arm_arm926ej-s.ipk
-Size: 67431
-SHA256sum: 3cc374ad05cf9261cf9605a0bed053b12a1f74e29aef49af827ea2ddb6f5b5c6
+Size: 67430
+SHA256sum: 827c531cec768b9ec89993dbd8b4a21d037fd8e1f04d4d54c71f1de34be0bb1a
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -296,10 +296,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 22717
+Installed-Size: 22720
 Filename: python3-tabulate-src_0.9.0-1_arm_arm926ej-s.ipk
-Size: 23525
-SHA256sum: a10130ba739ea842fcf94258acb49f380c6c0f393ed737ab534ce78146d24a20
+Size: 23527
+SHA256sum: b0e0be2451be7b8228287f6b55897180c452e5b396bc86e1f1eab58acdeac4fd
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -310,10 +310,10 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: arm_arm926ej-s
-Installed-Size: 38400
+Installed-Size: 38405
 Filename: python3-tabulate_0.9.0-1_arm_arm926ej-s.ipk
-Size: 39273
-SHA256sum: 92701e9689e036607ab4fc9fb863828d50a079f15286694793705b603fdf42be
+Size: 39285
+SHA256sum: e10f0f83852a76a351ca6cf9a7191c865746391fc3230261fd3638b1435967c7
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -323,10 +323,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: arm_arm926ej-s
-Installed-Size: 103670
+Installed-Size: 103669
 Filename: python3-urllib3-src_2.0.4-1_arm_arm926ej-s.ipk
-Size: 104590
-SHA256sum: 9719a923a238bb17f47eaad7bd6d42854e4c6bc56bf20ad3b034f32dcc562e7a
+Size: 104575
+SHA256sum: d5bb7f6e74b21ad24a4393ff1bf4dfc538c75cbe3be3e1308de54dfa639aef94
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -338,9 +338,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: arm_arm926ej-s
-Installed-Size: 130621
+Installed-Size: 130622
 Filename: python3-urllib3_2.0.4-1_arm_arm926ej-s.ipk
-Size: 131556
-SHA256sum: 371b3b6a8c2f83d538c87fca8d073e26876672f2c9efe61ace4b8605268fabff
+Size: 131554
+SHA256sum: 043f00148cfb79d826255137ca65436ad86855427bb2312fe1c7850ebc536b25
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
