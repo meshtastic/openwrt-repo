@@ -1,0 +1,466 @@
+Package: liborcania
+Version: 2.2.1-2
+Depends: libc
+Source: /feed/depends/liborcania
+SourceName: liborcania
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750213537
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 5457
+Filename: liborcania_2.2.1-2_arm_arm1176jzf-s_vfp.ipk
+Size: 6256
+SHA256sum: 198f617b4605abeb7025eb4fe1f9417aa11c72fc0e02b6ccffc73cf4739a168b
+Description:  Potluck with different functions for different purposes that can be shared among C programs.
+
+Package: libulfius-gnutls
+Version: 2.7.3-2
+Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
+Provides: libulfius
+Source: /feed/depends/libulfius
+SourceName: libulfius-gnutls
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750213537
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 39956
+Filename: libulfius-gnutls_2.7.3-2_arm_arm1176jzf-s_vfp.ipk
+Size: 40722
+SHA256sum: 4bc4be80f29afd0f80d764117e58f98e350411d8e55c0c9eb388fd7eacd283be
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
+
+Package: libulfius-nossl
+Version: 2.7.3-2
+Depends: libc, libmicrohttpd, libcurl4, liborcania
+Provides: libulfius
+Source: /feed/depends/libulfius
+SourceName: libulfius-nossl
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750213537
+Maintainer: Toni Uhlig <matzeton@googlemail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 21691
+Filename: libulfius-nossl_2.7.3-2_arm_arm1176jzf-s_vfp.ipk
+Size: 22423
+SHA256sum: 05db1c549d2ae360bed8d1285ee3e795904776a0a9485f433c3cd8ac59c2f5a0
+Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
+
+Package: libyder
+Version: 1.4.14-1
+Depends: libc, liborcania
+Source: /feed/depends/libyder
+SourceName: libyder
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1750213537
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 2842
+Filename: libyder_1.4.14-1_arm_arm1176jzf-s_vfp.ipk
+Size: 3655
+SHA256sum: 34636e8c4affb83301e7e74e096532e8bd28d00b7e5ae227422fa7e3ed783e58
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.10-1
+Depends: libc, meshtasticd, avahi-daemon
+Source: /feed/meshtasticd
+SourceName: meshtasticd-avahi-service
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1750213537
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 365
+Filename: meshtasticd-avahi-service_2.6.10-1_arm_arm1176jzf-s_vfp.ipk
+Size: 1211
+SHA256sum: 6eb9758ae6a9db62aa36ab0fd23e7ecee51247e40d1f5a237a7653abc5e5920e
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-1
+Depends: libc, meshtasticd
+Source: /feed/meshtasticd-web
+SourceName: meshtasticd-web
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1750213537
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 920039
+Filename: meshtasticd-web_2.6.4-1_arm_arm1176jzf-s_vfp.ipk
+Size: 919785
+SHA256sum: 0abea33df7c968fbd3f21f5fb4084167c1534d36796b4c59be5f1b33a9bee5a7
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.10-1
+Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1750213537
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 461669
+Filename: meshtasticd_2.6.10-1_arm_arm1176jzf-s_vfp.ipk
+Size: 461777
+SHA256sum: 6b9275ed8f405cbb8f2123181b5bae9ca79d9a20844db9404b14c460a3273617
+Description:  Meshtastic Daemon
+
+Package: python3-certifi-src
+Version: 2021.10.8-2
+Depends: libc
+Source: /feed/depends/python-certifi
+SourceName: python3-certifi-src
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 1412
+Filename: python3-certifi-src_2021.10.8-2_arm_arm1176jzf-s_vfp.ipk
+Size: 2309
+SHA256sum: e28990a2def726a2380e9d66d5074ecc52f6a1db050161ea3ba8f78aedfb5d41
+Description:  Certifi is a carefully curated collection of Root Certificates for validating the
+ trustworthiness of SSL certificates while verifying the identity of TLS hosts.
+ 
+ This package contains the Python source files for python3-certifi.
+
+Package: python3-certifi
+Version: 2021.10.8-2
+Depends: libc, python3-light
+Source: /feed/depends/python-certifi
+SourceName: python3-certifi
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 148605
+Filename: python3-certifi_2021.10.8-2_arm_arm1176jzf-s_vfp.ipk
+Size: 149552
+SHA256sum: 28236d734530d128a2bfa270924f5571dd491e56256791a419fcd518547b380b
+Description:  Certifi is a carefully curated collection of Root Certificates for validating the
+ trustworthiness of SSL certificates while verifying the identity of TLS hosts.
+
+Package: python3-chardet-src
+Version: 4.0.0-2
+Depends: libc
+Source: /feed/depends/python-chardet
+SourceName: python3-chardet-src
+License: LGPL-2.1
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 145623
+Filename: python3-chardet-src_4.0.0-2_arm_arm1176jzf-s_vfp.ipk
+Size: 143678
+SHA256sum: 6a404cf57305147937621d3c27e916e5f09ef7ac5ee3e3d92e1b4affef61e6ab
+Description:  Universal encoding detector for Python 2 and 3
+ 
+ This package contains the Python source files for python3-chardet.
+
+Package: python3-chardet
+Version: 4.0.0-2
+Depends: libc, python3-light
+Source: /feed/depends/python-chardet
+SourceName: python3-chardet
+License: LGPL-2.1
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 148966
+Filename: python3-chardet_4.0.0-2_arm_arm1176jzf-s_vfp.ipk
+Size: 147154
+SHA256sum: 42cd63d303d6a96b50305d2c7bc84d5738be8a4369fd04b5f3822bb7a864d58c
+Description:  Universal encoding detector for Python 2 and 3
+
+Package: python3-click-src
+Version: 8.1.7-1
+Depends: libc
+Source: /feed/depends/python-click
+SourceName: python3-click-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 86573
+Filename: python3-click-src_8.1.7-1_arm_arm1176jzf-s_vfp.ipk
+Size: 87579
+SHA256sum: 49759e5d2bc209c7065a27bafd754a3f9f6fcf21536762d03d1b1df5bcdf17e2
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-1
+Depends: libc, python3-light, python3-urllib, python3-uuid
+Source: /feed/depends/python-click
+SourceName: python3-click
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 123121
+Filename: python3-click_8.1.7-1_arm_arm1176jzf-s_vfp.ipk
+Size: 124157
+SHA256sum: 3185db8476cfe442ac87a95e31fb73c7e271f1eaad3e21265c5a69d45536d0b4
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-idna-src
+Version: 3.3-2
+Depends: libc
+Source: /feed/depends/python-idna
+SourceName: python3-idna-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 56265
+Filename: python3-idna-src_3.3-2_arm_arm1176jzf-s_vfp.ipk
+Size: 53405
+SHA256sum: a6d32568199dce4e33382e1664fb9c83d506966601ecdd30344d7026f200bd32
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+ 
+ This package contains the Python source files for python3-idna.
+
+Package: python3-idna
+Version: 3.3-2
+Depends: libc, python3-light, python3-codecs
+Source: /feed/depends/python-idna
+SourceName: python3-idna
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 66825
+Filename: python3-idna_3.3-2_arm_arm1176jzf-s_vfp.ipk
+Size: 66629
+SHA256sum: f9e9da29ff7e7326a6e5458f2317363a5ad34fa50686404262248d0eb2aedb65
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+
+Package: python3-pyelftools-src
+Version: 0.31-1
+Depends: libc
+Source: /feed/depends/python-pyelftools
+SourceName: python3-pyelftools-src
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 155341
+Filename: python3-pyelftools-src_0.31-1_arm_arm1176jzf-s_vfp.ipk
+Size: 156237
+SHA256sum: 01fec6e44dc966ac58a8f7faf43354d6af17de3f7eb649269318e846056c1d67
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-1
+Depends: libc, python3-light, python3-logging
+Source: /feed/depends/python-pyelftools
+SourceName: python3-pyelftools
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 214579
+Filename: python3-pyelftools_0.31-1_arm_arm1176jzf-s_vfp.ipk
+Size: 215103
+SHA256sum: 611b3502039ed8c1ddd2f7619a709759b7b20fe3f16484df738414c522514f8f
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-pyserial-src
+Version: 3.4-2
+Depends: libc
+Source: /feed/depends/python-pyserial
+SourceName: python3-pyserial-src
+License: BSD
+Section: lang-python
+SourceDateEpoch: 1750213537
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 73215
+Filename: python3-pyserial-src_3.4-2_arm_arm1176jzf-s_vfp.ipk
+Size: 74220
+SHA256sum: 4463b04d3e4dcff9b7345758802ec7b7dd5ae2d7f75c7699e38d74415490d5fa
+Description:  This module encapsulates the access for the serial port. It provides backends
+ for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
+ system) and IronPython. The module named "serial" automatically selects the
+ appropriate backend.
+ 
+ This package contains the Python source files for python3-pyserial.
+
+Package: python3-pyserial
+Version: 3.4-2
+Depends: libc, python3-light
+Source: /feed/depends/python-pyserial
+SourceName: python3-pyserial
+License: BSD
+Section: lang-python
+SourceDateEpoch: 1750213537
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 98897
+Filename: python3-pyserial_3.4-2_arm_arm1176jzf-s_vfp.ipk
+Size: 99923
+SHA256sum: 6a16cb94523d7267f5f4d45b2c6771830db9011cf8f7fd2abbf9585ffc4ababb
+Description:  This module encapsulates the access for the serial port. It provides backends
+ for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
+ system) and IronPython. The module named "serial" automatically selects the
+ appropriate backend.
+
+Package: python3-requests-src
+Version: 2.31.0-2
+Depends: libc
+Source: /feed/depends/python-requests
+SourceName: python3-requests-src
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750213537
+CPE-ID: cpe:/a:python-requests:requests
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 48797
+Filename: python3-requests-src_2.31.0-2_arm_arm1176jzf-s_vfp.ipk
+Size: 49744
+SHA256sum: 068926faa2bf7ed010003742db0e971b78fc5f823781604b3de696c96b39defa
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+ 
+ This package contains the Python source files for python3-requests.
+
+Package: python3-requests
+Version: 2.31.0-2
+Depends: libc, python3-light, python3-chardet, python3-idna, python3-urllib3, python3-certifi
+Source: /feed/depends/python-requests
+SourceName: python3-requests
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750213537
+CPE-ID: cpe:/a:python-requests:requests
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 66485
+Filename: python3-requests_2.31.0-2_arm_arm1176jzf-s_vfp.ipk
+Size: 67434
+SHA256sum: 93738af921cdb86766571b70a8e5770e9fc64cd70db2f0ad47a377c7e2e16759
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+
+Package: python3-tabulate-src
+Version: 0.9.0-1
+Depends: libc
+Source: /feed/depends/python-tabulate
+SourceName: python3-tabulate-src
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 22717
+Filename: python3-tabulate-src_0.9.0-1_arm_arm1176jzf-s_vfp.ipk
+Size: 23531
+SHA256sum: 6ecd5626c1821b091917f0a1b0c2c5a2e2d71255796e0c13d91b2d06de6259dd
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-1
+Depends: libc, python3-light
+Source: /feed/depends/python-tabulate
+SourceName: python3-tabulate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1750213537
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 38400
+Filename: python3-tabulate_0.9.0-1_arm_arm1176jzf-s_vfp.ipk
+Size: 39276
+SHA256sum: a0dd2b8eb7f9739e137e2e93160f1c578146723bb6d445188503977ec8ec2870
+Description:  Pretty-print tabular data
+
+Package: python3-urllib3-src
+Version: 2.0.4-1
+Depends: libc
+Source: /feed/depends/python-urllib3
+SourceName: python3-urllib3-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750213537
+CPE-ID: cpe:/a:urllib3_project:urllib3
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 103670
+Filename: python3-urllib3-src_2.0.4-1_arm_arm1176jzf-s_vfp.ipk
+Size: 104596
+SHA256sum: b4b119b924d4ada49970d4a36bad4f606d2d5a8b8aa20314628cca9f6e4c3dc1
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+ 
+ This package contains the Python source files for python3-urllib3.
+
+Package: python3-urllib3
+Version: 2.0.4-1
+Depends: libc, python3
+Source: /feed/depends/python-urllib3
+SourceName: python3-urllib3
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1750213537
+CPE-ID: cpe:/a:urllib3_project:urllib3
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: arm_arm1176jzf-s_vfp
+Installed-Size: 130620
+Filename: python3-urllib3_2.0.4-1_arm_arm1176jzf-s_vfp.ipk
+Size: 131559
+SHA256sum: 90ebbe7f00b06629e32f622196ecb39df9515a3eedad11624893d0b5808910a8
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+
