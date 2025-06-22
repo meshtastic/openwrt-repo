@@ -7,7 +7,8 @@ If you're looking for the package source code, check out [meshtastic/openwrt](ht
 ## Supported OpenWRT versions
 - `SNAPSHOT` (master branch)
 - `24.10` (stable)
-- `23.05` (stable)
+- `23.05` (old-stable)
+- `22.03` (old-stable)
 
 ## How to use
 
@@ -19,6 +20,7 @@ Used in stable versions of OpenWRT.
 Supported versions:
 - `24.10`
 - `23.05`
+- `22.03`
 
 ##### Add OPKG repository to your OpenWRT device (GitHub)
 
