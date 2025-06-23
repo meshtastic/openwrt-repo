@@ -1,41 +1,3 @@
-Package: liborcania
-Version: 2.3.0-2
-Depends: libc
-License: LGPL-2.1-or-later
-Section: libs
-Architecture: x86_64
-Installed-Size: 7045
-Filename: liborcania_2.3.0-2_x86_64.ipk
-Size: 7857
-SHA256sum: 398e4695c12fcd8e173db26e984fb9bb186d851a7739f90bb848d7f880956a32
-Description:  Potluck with different functions for different purposes that can be shared among C programs.
-
-Package: libulfius-gnutls
-Version: 2.7.10-2
-Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-Architecture: x86_64
-Installed-Size: 44550
-Filename: libulfius-gnutls_2.7.10-2_x86_64.ipk
-Size: 45409
-SHA256sum: 9043fa76cc24fbf715877ff299f14786c6e73b83623174e13b7e34e1f6ef17b5
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
-
-Package: libulfius-nossl
-Version: 2.7.10-2
-Depends: libc, libmicrohttpd, libcurl4, liborcania
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-Architecture: x86_64
-Installed-Size: 25714
-Filename: libulfius-nossl_2.7.10-2_x86_64.ipk
-Size: 26542
-SHA256sum: ada3fecbafe93a9f32f93f1429816be01c9f827767364f6d1094251b9c1e5501
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
-
 Package: libyder
 Version: 1.4.17-1
 Depends: libc, liborcania
@@ -44,8 +6,8 @@ Section: libs
 Architecture: x86_64
 Installed-Size: 3420
 Filename: libyder_1.4.17-1_x86_64.ipk
-Size: 4238
-SHA256sum: 2e21845777744a95540076f0c5294157ec6ebf30510140f94e6baf0f18b85dec
+Size: 4241
+SHA256sum: e4576a68402e9fc134c777c46d1067e63284955ca0fdf2a90aaf646ec23d4909
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -58,7 +20,7 @@ Architecture: x86_64
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.11-1_x86_64.ipk
 Size: 1197
-SHA256sum: 64d387f461d90ed488eb8b38d1226f9628a320d3f0c2d3c79a32804e2243ffb2
+SHA256sum: defc13fc96e46e1aa4876c93446937192afbdd5f735e2f3664cf065c5d2ee6f4
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -68,10 +30,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 919949
+Installed-Size: 919938
 Filename: meshtasticd-web_2.6.4-1_x86_64.ipk
-Size: 919703
-SHA256sum: 528d273a94011f5fe0b9aa0710e753f60cecd19096f8d654b310afcb2247dd6e
+Size: 919554
+SHA256sum: a8b4fd01d6de4db4674eaaba0ea24119ea2fe71f12b185ba8277a39931a1c7ae
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -80,10 +42,10 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: x86_64
-Installed-Size: 501956
+Installed-Size: 501959
 Filename: meshtasticd_2.6.11-1_x86_64.ipk
-Size: 502451
-SHA256sum: 4c8f3eed2c37fce40fef2c372ae9fef27a2a5717089a04bf3098f83d2273e78c
+Size: 502453
+SHA256sum: 4b46f5accf78fc6b749d6c7a11f3bbe37a57d72512f2a48b52f47a1ae5e665e5
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -94,8 +56,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 1690
 Filename: python3-certifi-src_2023.7.22-2_x86_64.ipk
-Size: 2553
-SHA256sum: cdc2a3891c1d1050547b4eefabe416d77554e8ae14479ffe2969726b3cc78dff
+Size: 2556
+SHA256sum: c20590ff79cb2686fb97689609b5141c2c550a83e24fc1333d26130121b177e0
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -110,8 +72,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 158832
 Filename: python3-certifi_2023.7.22-2_x86_64.ipk
-Size: 159763
-SHA256sum: b577cd0e50109917f677cd289883abda6457c148b4fc09185fa438fd3e7108d0
+Size: 159780
+SHA256sum: 440a081708a151ffbc8e86cf64905c4432d435619f83b9bb2bc2a34f71017b03
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -122,10 +84,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: x86_64
-Installed-Size: 165825
+Installed-Size: 165826
 Filename: python3-chardet-src_5.1.0-2_x86_64.ipk
-Size: 161345
-SHA256sum: 13f7f0227d4c05d2f4915fa02929fe44ffc045cd5c002c12a4b3abfd9ee14ab3
+Size: 161302
+SHA256sum: ed06d32f36579ecc4d5fb8b8be06b073a4299a15be821b584b37cd8016f2821f
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -136,10 +98,10 @@ Depends: libc, python3-light, python3-logging
 License: LGPL-2.1
 Section: lang
 Architecture: x86_64
-Installed-Size: 225448
+Installed-Size: 225445
 Filename: python3-chardet_5.1.0-2_x86_64.ipk
-Size: 205360
-SHA256sum: 5c86dcd9d83cd898e6db110eb047f596c61009d50686518869fbf1464f061be8
+Size: 205720
+SHA256sum: acfbd3b84cc9fec91daa568cb2daa6a7bc0680f702cf899f8da2155d70ee58e9
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -148,10 +110,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: x86_64
-Installed-Size: 86566
+Installed-Size: 86565
 Filename: python3-click-src_8.1.7-2_x86_64.ipk
-Size: 87555
-SHA256sum: 416b1ee27df28d491eb14d1738c6581764a2474ba0e282832f2fdec11086a882
+Size: 87559
+SHA256sum: 2a099dab723a020928e94ce850df20c62f154f5be07294abcc69125c9d4e2f8d
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -165,10 +127,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: x86_64
-Installed-Size: 190779
+Installed-Size: 190776
 Filename: python3-click_8.1.7-2_x86_64.ipk
-Size: 191832
-SHA256sum: 61cf06d87d15bf1ee8abe58b7a682dd650b52ddb54ce5453740b00071cf6fd83
+Size: 191827
+SHA256sum: 04643b22a9e2f6465e54066e01b59e331eb12bd4889a01839fc68127bcf47f96
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -182,8 +144,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 56823
 Filename: python3-idna-src_3.4-2_x86_64.ipk
-Size: 53896
-SHA256sum: 28b972f34a0c2fe118599dca08c89379affafae422e4d53f82f294b257a7e77a
+Size: 53905
+SHA256sum: 032c9078e3f17b68f3aa59a101d654702f6ee96cc2fd29306685870df7daeb6a
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -197,10 +159,10 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: x86_64
-Installed-Size: 72460
+Installed-Size: 72461
 Filename: python3-idna_3.4-2_x86_64.ipk
-Size: 70619
-SHA256sum: 766679309f0908f631726dfc3b4331bbd2d6623e7245376cf8ff6f22e69fe820
+Size: 70618
+SHA256sum: aa5c4d4c686de79eebff93fe4a1e61682a3e1c744e5e558a69c81bee2a3ff4fb
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -214,8 +176,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 155336
 Filename: python3-pyelftools-src_0.31-1_x86_64.ipk
-Size: 156221
-SHA256sum: 96795e058c3c7357f9ad135eef8367e661063850f600a526b15bf2c850a77169
+Size: 156218
+SHA256sum: 3ddb3863bd59a012f09695a5c78f405c91c08082bad2f36390fa1da46a2b93d7
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -226,10 +188,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: x86_64
-Installed-Size: 325165
+Installed-Size: 325166
 Filename: python3-pyelftools_0.31-1_x86_64.ipk
-Size: 325739
-SHA256sum: b83fb5345ea4ff0f1f5b0676498d00ba354f87aa0a5d8c06bfc928eff4c26306
+Size: 325668
+SHA256sum: 11571b74c8de63546bb2de19c1df8fd05ff5c41f059d25a9615bab75e6d9be43
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -238,10 +200,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: x86_64
-Installed-Size: 70394
+Installed-Size: 70399
 Filename: python3-pyserial-src_3.5-2_x86_64.ipk
-Size: 71392
-SHA256sum: 90be09b2a0cf797193c6e65a4b3d027136750c1b439683a6e147fcab0b8ae695
+Size: 71417
+SHA256sum: 5ed6d524e2fd709b51d57069e5eb8a92618828370f35d7a8798ae1b9c5bd31f9
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -255,10 +217,10 @@ Depends: libc, python3-light, python3-logging, python3-urllib
 License: BSD-3-Clause
 Section: lang
 Architecture: x86_64
-Installed-Size: 152577
+Installed-Size: 152578
 Filename: python3-pyserial_3.5-2_x86_64.ipk
-Size: 153607
-SHA256sum: 3032d75e8fd154ae8a18c4f703f074c631d7a89c1bf5f1c9cd8f766fa8a2a9e6
+Size: 153610
+SHA256sum: 633b6b308b98252699ddb03f3ec45651ed48414ddaa6bf7100ccfa07f5710564
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -271,10 +233,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: x86_64
-Installed-Size: 48716
+Installed-Size: 48717
 Filename: python3-requests-src_2.30.0-2_x86_64.ipk
-Size: 49658
-SHA256sum: 1b5cc18b594dfa04a9c8c254f3953643396588ea3e331a7bdc03aa68a5c856eb
+Size: 49666
+SHA256sum: 19e928a2aada6d5f1217933cec46aef6472df8208c234931409e5d35429d489d
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -286,10 +248,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: x86_64
-Installed-Size: 98270
+Installed-Size: 98272
 Filename: python3-requests_2.30.0-2_x86_64.ipk
-Size: 99228
-SHA256sum: 76161dbed29017c463d98c1f0cf0c77cbb5cc51acfc12d45f553099e61ec5c40
+Size: 99224
+SHA256sum: af27282a39a8e153000699108cdb5f132e6d8be86af826254cc43c347c0c9215
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -298,10 +260,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: x86_64
-Installed-Size: 22714
+Installed-Size: 22716
 Filename: python3-tabulate-src_0.9.0-1_x86_64.ipk
 Size: 23521
-SHA256sum: 3ce95714b3f17dc922b92b00732bb9c0a5a389c12928475f6a1b8d3611eb1029
+SHA256sum: 786dc9c0a20348775f357eb382edb0090855b72983aa8c6f34aac2c2ce8e8534
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -314,8 +276,8 @@ Section: lang
 Architecture: x86_64
 Installed-Size: 53941
 Filename: python3-tabulate_0.9.0-1_x86_64.ipk
-Size: 54778
-SHA256sum: 648c22fad2b2f554d400ff94005f28cb7e8399f5c573d41f2a1557415966e032
+Size: 54775
+SHA256sum: e4e74986f724dd93456aeebec45f2edecfad3dcb8d5ed4c3a98e934087d8c25e
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -327,8 +289,8 @@ CPE-ID: cpe:/a:python:urllib3
 Architecture: x86_64
 Installed-Size: 103663
 Filename: python3-urllib3-src_2.0.4-2_x86_64.ipk
-Size: 104563
-SHA256sum: 25c191aeecf3ca6922f4101a9ad3822935b054159e7d7811b05ee7a956993831
+Size: 104569
+SHA256sum: 6a0215cad84737d220dfa198c6410bc956391d01dfe3351c5014b8c3de6ff5a1
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -340,9 +302,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:urllib3
 Architecture: x86_64
-Installed-Size: 191253
+Installed-Size: 191251
 Filename: python3-urllib3_2.0.4-2_x86_64.ipk
-Size: 192207
-SHA256sum: 7c8d144be4eb12dba5fd108814aed1f4110d0a9780c5ffb3d737e1f2f5de654d
+Size: 192209
+SHA256sum: 32f8153632875b976f575c270c7f2972ab1751dab22ee590793d690d7573eac9
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

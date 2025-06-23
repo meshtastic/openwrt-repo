@@ -1,51 +1,13 @@
-Package: liborcania
-Version: 2.3.0-2
-Depends: libc
-License: LGPL-2.1-or-later
-Section: libs
-Architecture: aarch64_cortex-a72
-Installed-Size: 7899
-Filename: liborcania_2.3.0-2_aarch64_cortex-a72.ipk
-Size: 8618
-SHA256sum: e215cb3bb8b73d419bf92e9a1b4859ebd0f217c4217841c1af90c61863a3f973
-Description:  Potluck with different functions for different purposes that can be shared among C programs.
-
-Package: libulfius-gnutls
-Version: 2.7.10-2
-Depends: libc, libmicrohttpd, libcurl4, liborcania, libgnutls, zlib
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-Architecture: aarch64_cortex-a72
-Installed-Size: 46285
-Filename: libulfius-gnutls_2.7.10-2_aarch64_cortex-a72.ipk
-Size: 47082
-SHA256sum: a0d3a78594e357b90932dbd58293c2c7ea11eeed72758f58bdc30a042e1ee175
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language. with SSL support
-
-Package: libulfius-nossl
-Version: 2.7.10-2
-Depends: libc, libmicrohttpd, libcurl4, liborcania
-Provides: libulfius
-License: LGPL-2.1-or-later
-Section: libs
-Architecture: aarch64_cortex-a72
-Installed-Size: 27189
-Filename: libulfius-nossl_2.7.10-2_aarch64_cortex-a72.ipk
-Size: 27881
-SHA256sum: 02a917bc1a228abcbc9e72b772bab6c681d30123b3eaf556f1ace60914fcb3cb
-Description:  Web Framework to build REST APIs, Webservices or any HTTP endpoint in C language.
-
 Package: libyder
 Version: 1.4.17-1
 Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: aarch64_cortex-a72
-Installed-Size: 3670
+Installed-Size: 3669
 Filename: libyder_1.4.17-1_aarch64_cortex-a72.ipk
-Size: 4335
-SHA256sum: a0a3bc1a5b379906e1a911ac95e297195ece48cc4bea1aa2bd0e8c6d1f476fb0
+Size: 4343
+SHA256sum: 05c2b36d9e2cc0e2cfdaa41548818f1a54aaa972e07b792e37bc2649e6accea0
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -58,7 +20,7 @@ Architecture: aarch64_cortex-a72
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.11-1_aarch64_cortex-a72.ipk
 Size: 1206
-SHA256sum: 6896151c10a67320b6d26d795d0de763e386515bd36b8fd85f40f342281467df
+SHA256sum: b13000ac68ddede6abddccd57bab729eb39e302e4ea05bdf7bc34bbc9b98ed46
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -68,10 +30,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: aarch64_cortex-a72
-Installed-Size: 919949
+Installed-Size: 919938
 Filename: meshtasticd-web_2.6.4-1_aarch64_cortex-a72.ipk
-Size: 919714
-SHA256sum: 4e983e46f2dac1e577b0a22d04cd1b4948709c8d0e109c487e9f3f8e7f9c9d5d
+Size: 919560
+SHA256sum: d4b47d897c22c837efaa99de5a69dda6f152816d06c68ff75fc536384e8998ad
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -82,8 +44,8 @@ Section: net
 Architecture: aarch64_cortex-a72
 Installed-Size: 506945
 Filename: meshtasticd_2.6.11-1_aarch64_cortex-a72.ipk
-Size: 507203
-SHA256sum: a4d15bf2022a143254a2f433061c2fc9d90b31ab0f499237500a6994d309df5b
+Size: 507225
+SHA256sum: 223036a0b8690c9a04016704ae0c2d8bc64ad76d3f75e97a01ac9aca9119a93b
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -94,8 +56,8 @@ Section: lang
 Architecture: aarch64_cortex-a72
 Installed-Size: 1690
 Filename: python3-certifi-src_2023.7.22-2_aarch64_cortex-a72.ipk
-Size: 2558
-SHA256sum: c1c6674f097543528dc00a0130511ee4a5417a5a0673bcef5ba9194180c4f0f3
+Size: 2565
+SHA256sum: cf98f28b8fe3a6f84e6f66c1f44ef769eac1bc607c2b4bb50b784ee3a10d909f
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -110,8 +72,8 @@ Section: lang
 Architecture: aarch64_cortex-a72
 Installed-Size: 158832
 Filename: python3-certifi_2023.7.22-2_aarch64_cortex-a72.ipk
-Size: 159770
-SHA256sum: 80890542542eb9956d6ddb434b354c3448e0146a28bd232ee5dfc2e23a4ec65c
+Size: 159787
+SHA256sum: 642e68f71fad12686995cf365dc432b0ad0583aade3e54ec6451652c7704ffef
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -122,10 +84,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 165825
+Installed-Size: 165826
 Filename: python3-chardet-src_5.1.0-2_aarch64_cortex-a72.ipk
-Size: 161354
-SHA256sum: 3044598efccacfebab42ff679db995dff61c683e14a43dbdcb854bcd76446eb3
+Size: 161311
+SHA256sum: 8d86570deddaba17392c34a78572ece674734d8a95679c780f9b7b07878e7608
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -136,10 +98,10 @@ Depends: libc, python3-light, python3-logging
 License: LGPL-2.1
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 225448
+Installed-Size: 225445
 Filename: python3-chardet_5.1.0-2_aarch64_cortex-a72.ipk
-Size: 205369
-SHA256sum: 779a3ae600ede77a80d60f50c3916a1e0a78583f0cc76df3a0a9df6d134843a8
+Size: 205725
+SHA256sum: 310d2b014a8af8be64dea772af6f4a95c9f8fab023b86801d2fa454f6a2306c7
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -148,10 +110,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 86566
+Installed-Size: 86565
 Filename: python3-click-src_8.1.7-2_aarch64_cortex-a72.ipk
-Size: 87561
-SHA256sum: e249460aacf399a86de0ffe95dc38f494e23101990e6112ef8c2ee21828598b5
+Size: 87567
+SHA256sum: 1a0ef04cd8b0297b5a879b4ea1e6f1b0665dc68ddab6f865dce263db8bd1fc75
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -165,10 +127,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 190779
+Installed-Size: 190776
 Filename: python3-click_8.1.7-2_aarch64_cortex-a72.ipk
 Size: 191838
-SHA256sum: d0d0207bd3f211967bd33bbaaae3ee92374c87d14417ca1fd2a3ab08f3a001e8
+SHA256sum: adff697b3ae0bb50c4cb074c007d3b4e382d952cf1a77e9daee89a62baa5d3a6
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -182,8 +144,8 @@ Section: lang
 Architecture: aarch64_cortex-a72
 Installed-Size: 56823
 Filename: python3-idna-src_3.4-2_aarch64_cortex-a72.ipk
-Size: 53901
-SHA256sum: f050f015b0584baf7bd58d2f6e4c7e49b5630d2c1705a9ae0564de35d479ab43
+Size: 53911
+SHA256sum: f404460177d5e494c892788e3f390ee0cd87f4a30f2ce96310b3f7c6b15016f1
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -197,10 +159,10 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 72460
+Installed-Size: 72461
 Filename: python3-idna_3.4-2_aarch64_cortex-a72.ipk
-Size: 70629
-SHA256sum: 6be981c68c961b977aee694cc5d85768062f2f33cf1056b332e7777fd5d4c4ea
+Size: 70625
+SHA256sum: 329787a38d923c7d7a9022bd5cd6bb9c3bb00d911673e8fe270c8b19f4c7b4e3
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -214,8 +176,8 @@ Section: lang
 Architecture: aarch64_cortex-a72
 Installed-Size: 155336
 Filename: python3-pyelftools-src_0.31-1_aarch64_cortex-a72.ipk
-Size: 156223
-SHA256sum: 001d208062d8ae328db8ed91f16c1eda24a652a58b7f58bc91238e0101473e56
+Size: 156222
+SHA256sum: fc9e295e1ea1b73ee65e443277e0d61571c263d5f181aad1528cfe2e8d6b07bf
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -226,10 +188,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 325165
+Installed-Size: 325166
 Filename: python3-pyelftools_0.31-1_aarch64_cortex-a72.ipk
-Size: 325745
-SHA256sum: fd544475be88554c1e12abd9eca21eaf9109e98268b1d5a36a6065446988ff17
+Size: 325674
+SHA256sum: 62cbf369cb10e2030fc1f620cb680d43edee6893b79e915756da9d0aed6b8f4e
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -238,10 +200,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 70394
+Installed-Size: 70399
 Filename: python3-pyserial-src_3.5-2_aarch64_cortex-a72.ipk
-Size: 71399
-SHA256sum: 64c289f4e015bcc12570524263aa3da3339f8430e612956c8aa40067caf0fc7d
+Size: 71421
+SHA256sum: adfdf9fd01ac324c093d5850d8e8851b9aa74cbb6a44454e70226084d63992f2
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -255,10 +217,10 @@ Depends: libc, python3-light, python3-logging, python3-urllib
 License: BSD-3-Clause
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 152577
+Installed-Size: 152578
 Filename: python3-pyserial_3.5-2_aarch64_cortex-a72.ipk
-Size: 153612
-SHA256sum: eb5cde15bfc40452dd96b1b91ef065a95271814814abec6f7104d77cca99f4e9
+Size: 153617
+SHA256sum: 697c615795637116f2ffc35921abb1ec9436bf4d1b03354c567ade58c5e28467
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -271,10 +233,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: aarch64_cortex-a72
-Installed-Size: 48716
+Installed-Size: 48717
 Filename: python3-requests-src_2.30.0-2_aarch64_cortex-a72.ipk
-Size: 49667
-SHA256sum: a1fcdc15e7025635b69b68575e598b6e4ef80146d23e6069df7929a3f8cfb92d
+Size: 49675
+SHA256sum: ce8df0c86ec7d14958f288b4363e21452066e701854fbaea6d3fd70b7d9bf30f
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -286,10 +248,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: aarch64_cortex-a72
-Installed-Size: 98270
+Installed-Size: 98272
 Filename: python3-requests_2.30.0-2_aarch64_cortex-a72.ipk
-Size: 99234
-SHA256sum: 229be97058928fad76bd7e3e3470446759a5215fd8a309ee955b8f24cf71eb53
+Size: 99235
+SHA256sum: db3fff37535a59763e9b827e8a8b2198b98bd61bac80b8b1a77e130209e14974
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -298,10 +260,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: aarch64_cortex-a72
-Installed-Size: 22714
+Installed-Size: 22716
 Filename: python3-tabulate-src_0.9.0-1_aarch64_cortex-a72.ipk
-Size: 23527
-SHA256sum: 331c71abaa5d438018616fdbf20874715eee3c25c666685397903acfc8afcacd
+Size: 23529
+SHA256sum: aea39e7a277eca51201d0339e61baed79b293bf60d193d409d54197b0fac2378
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -314,8 +276,8 @@ Section: lang
 Architecture: aarch64_cortex-a72
 Installed-Size: 53941
 Filename: python3-tabulate_0.9.0-1_aarch64_cortex-a72.ipk
-Size: 54786
-SHA256sum: 63285a42277a9c3eaec01c80e5ffbb702aa60bda6035681b72c9babb3fad01fd
+Size: 54787
+SHA256sum: 753a68af0e0c6fb8eb5b5f7c84fe4058a32e92c4ea7a67dff1d61fe54edc0c5a
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -327,8 +289,8 @@ CPE-ID: cpe:/a:python:urllib3
 Architecture: aarch64_cortex-a72
 Installed-Size: 103663
 Filename: python3-urllib3-src_2.0.4-2_aarch64_cortex-a72.ipk
-Size: 104570
-SHA256sum: 614e7d73b043f3eba2d17434a1ac4d9c69dafb9edbed1e5516315432fb06c033
+Size: 104568
+SHA256sum: d2842ee857b498aa658bb2c95f786969e17c50dc940099ff0c4f2cc37f03b750
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -340,9 +302,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:python:urllib3
 Architecture: aarch64_cortex-a72
-Installed-Size: 191253
+Installed-Size: 191251
 Filename: python3-urllib3_2.0.4-2_aarch64_cortex-a72.ipk
-Size: 192216
-SHA256sum: 238c627f6feae5360d8568586432fe628da94bccfe2d3170650fcfffabe9efb8
+Size: 192219
+SHA256sum: cb0178814a7802b4cfba89f722ada398ca7d3a70a6cbb4cfe5a1221481468122
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
