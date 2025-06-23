@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 4045
-SHA256sum: 868b0d9ed58acf6956728c13f3a74049b47a0e7ee1682feb9ec9f8596f32aa5f
+Size: 4044
+SHA256sum: a558d22fd12c0a2c2d2f1b9752ec774b4e504c92138d9997b13d2c6f6143b6d6
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 1235
-SHA256sum: 7496a52afc53a2f445a8786f7acb2584a1ea02699935245d02ae23a2fd0ddd3e
+Size: 1240
+SHA256sum: 536ebdf9a77ce0ee3179de6b5a806f62862c40d11b508d3cecdfdb1c5a282bd6
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 908366
-SHA256sum: 376c0fe7a24f1f183f813061499689e8ab5ad5c70470f970ee711d4f15315d62
+Size: 908215
+SHA256sum: cb16843a25ce038dce06e12d19ee9d86a9b9c9e2e0d8524acc02df4c2602b2d7
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,32 +61,32 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 1064960
 Filename: meshtasticd_2.6.11-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 466116
-SHA256sum: 082cc4e064565bd4a8e733e6a2b6b70f5df68c2f0cee2052683c14fddb1e89be
+Size: 466123
+SHA256sum: 39758ad32b685568695c4e2408c16f1aed778bdc4c6c3130a293c6762953ce02
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
 Version: 8.1.7-r2
 Depends: libc
-Source: /feed/depends/python-click
+Source: /feed/backports/python-click
 SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_arm1176jzf-s_vfp.ipk
 Size: 87602
-SHA256sum: 518d83d48bb73c536efd6bb0c31cce729ff0f274b0b3d39c6f21e40d8c5f5838
+SHA256sum: fd049a822d54722482ebc7ba220847f050bbf4658c092f155b3e6dc0523f5099
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -97,19 +97,19 @@ Description:  Click is a Python package for creating beautiful command line inte
 Package: python3-click
 Version: 8.1.7-r2
 Depends: libc, python3-light, python3-urllib, python3-uuid
-Source: /feed/depends/python-click
+Source: /feed/backports/python-click
 SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_arm1176jzf-s_vfp.ipk
-Size: 191886
-SHA256sum: bcd701a12323fd0b1b435e366b34cafcdfd8c8fa387bb67e91863bded53a2b79
+Size: 191882
+SHA256sum: deda8ea5fc50309ca4fcd46fba0cb6b3863b8927d3bf270c20a1e1413ac09d77
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -123,14 +123,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 156244
-SHA256sum: 6b3f9850c5fc45a8ae063ff2c0ad9fe97aae984892a0e90c8a98667657f354ec
+Size: 156254
+SHA256sum: 75eab788e6fbf038c28aaf0cb65bc3358102ce07b3bc67869f975b7c49db3598
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -143,14 +143,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 325661
-SHA256sum: caba03b2cde568b199905a558d88536bd70d1ac5c543a86d3cc7d5430371a5f3
+Size: 325795
+SHA256sum: 9c6fc58fcc67657bd1b2d9ed65c41c1480a5478ef06d505f3028684d2ec0b10a
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -161,14 +161,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 23562
-SHA256sum: 5b1d176c460f10fedb619740af5e5202a28ecb34ea686bb36b200a38e4d4f92b
+Size: 23561
+SHA256sum: 6f1221c88a91548773586388429efa9e73c5ecfd1942ca7b06e1be57925df9a4
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -181,13 +181,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm1176jzf-s_vfp
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_arm1176jzf-s_vfp.ipk
-Size: 54757
-SHA256sum: 7bf962a07b7a26722a013ddbc4e8bfacd71f802f2d5badd8e8ec692a966983e3
+Size: 54756
+SHA256sum: 3008e7711ff02740337c8632bdc58337a6780ece8932cf3db98f04f165ec4cba
 Description:  Pretty-print tabular data
 

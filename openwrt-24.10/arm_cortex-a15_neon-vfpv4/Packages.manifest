@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 4023
-SHA256sum: ec89d36a4aaf59f08401ff2643a4562a7a8fa24571b632451034461b6c615d30
+Size: 4024
+SHA256sum: d01b2d2185b8d3048d3ec1c03f3e6b578090519534dc36e303ee0803acf56d34
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1239
-SHA256sum: 2acc991fd47ef4e93d1c8139e62f2286fc912cf65bb158381161fb19604b4666
+Size: 1242
+SHA256sum: 81cacd12c6255daf08baa6569adca26d42d4d0154f319f65c88ef04fd6109131
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 908367
-SHA256sum: cc659a15a282e62563c1e2ae939724a184242fbbafaba5659e4f11d5b0476c20
+Size: 908218
+SHA256sum: ca650112066de94f524b2a97a0e7a88ccd1bcfeaede1c50637a3df28afc4e8bd
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,32 +61,32 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 1054720
 Filename: meshtasticd_2.6.11-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 463491
-SHA256sum: e14936f92595d9277b6552ee4900a2f231ee6ff6fc3ce815e3664e467ae26864
+Size: 463518
+SHA256sum: c74e97d8e65a5d2e30ccdeaeea90fd2f99c8c46815efb59fd0286bae69677db8
 Description:  Meshtastic Daemon
 
 Package: python3-click-src
 Version: 8.1.7-r2
 Depends: libc
-Source: /feed/depends/python-click
+Source: /feed/backports/python-click
 SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 368640
 Filename: python3-click-src_8.1.7-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 87604
-SHA256sum: 50a388623f5f3b888e4fcc340bb6a713e172da22671bcfcadb2cbdc772d2309a
+Size: 87599
+SHA256sum: abe147992b3a8533d6a0d4990fc4e8d4ec0a60ac849f1993999b2e0b8f3b1156
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -97,19 +97,19 @@ Description:  Click is a Python package for creating beautiful command line inte
 Package: python3-click
 Version: 8.1.7-r2
 Depends: libc, python3-light, python3-urllib, python3-uuid
-Source: /feed/depends/python-click
+Source: /feed/backports/python-click
 SourceName: python-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://palletsprojects.com/p/click/
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 501760
 Filename: python3-click_8.1.7-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 191892
-SHA256sum: 92c0d9a83cbad73a442e608d8db151469edbc024929171c213f23bd085a60c74
+Size: 191889
+SHA256sum: e4359b13718a1aba2cc7078f116b3dea397e92a01f6c8c345be59ed8a2253a9b
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -123,14 +123,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 156255
-SHA256sum: 5c6296dd13f36dddd3a82475edca1a40d6e91c5829f56f8dee02a253618b511f
+Size: 156268
+SHA256sum: 4424558cb65208a807af3029ab0c84695d9a03ae8de243db09f93f8d7b24593e
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -143,14 +143,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 325664
-SHA256sum: 1fc7f1c528a012e3c625aac83b14eaf1ce9854cc9fb52ba545b689b6ea144e93
+Size: 325797
+SHA256sum: 89c47a98cc0e959bc0a02a6be9606f1ee3e4a95376b0f105d5740fc5824b2e69
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -161,14 +161,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 23564
-SHA256sum: 664a8d19141122f4527f540d3ac46daaa60464de736336bca6d08c5943e8ce64
+SHA256sum: 99aefd5b835bb8cb4ba2d6ce0019d0fd1c4f7a0a68d871f1ead7f76accf9991e
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -181,13 +181,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750255539
+SourceDateEpoch: 1750693676
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a15_neon-vfpv4.ipk
 Size: 54758
-SHA256sum: 10eabb60ffc6e0d2c67b8d710b7a48c497369be31fd0a7489a0116d2c39d08e8
+SHA256sum: d3c47e1791efe264b870f08e1301b1689bb5499b617f94f6969890af0fa65909
 Description:  Pretty-print tabular data
 
