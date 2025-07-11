@@ -1,11 +1,11 @@
-# Meshtastic OpenWRT Repo
+# Meshtastic OpenWrt Repo
 
-Home to our APK and OPKG repositories for easily installing Meshtastic on OpenWRT-supported routers.
+Home to our APK and OPKG repositories for easily installing Meshtastic on OpenWrt-supported routers.
 
 If you're looking for the package source code, check out [meshtastic/openwrt](https://github.com/meshtastic/openwrt).
 
-## Supported OpenWRT versions
-- `SNAPSHOT` (master branch)
+## Supported OpenWrt versions
+- `SNAPSHOT` (`main` branch)
 - `24.10` (stable)
 - `23.05` (old-stable)
 - `22.03` (old-stable)
@@ -15,14 +15,14 @@ If you're looking for the package source code, check out [meshtastic/openwrt](ht
 This repository is currently hosted on [GitHub Pages](https://github.com). If you have problems accessing [this repo](https://openwrt.meshtastic.org) or access to GitHub [may be blocked](https://en.wikipedia.org/wiki/Censorship_of_GitHub) in your country, skip to the `Add repository to your OpenWrt device (jsDelivr)` sections. Both repositories use HTTPS protocol and require one of the SSL support packages to be installed on your router.
 
 ### OPKG
-Used in stable versions of OpenWRT.
+Used in stable versions of OpenWrt.
 
 Supported versions:
 - `24.10`
 - `23.05`
 - `22.03`
 
-##### Add OPKG repository to your OpenWRT device (GitHub)
+##### Add OPKG repository to your OpenWrt device (GitHub)
 
 ```sh
 opkg update
@@ -36,7 +36,7 @@ echo "src/gz meshtastic https://openwrt.meshtastic.org/openwrt-${WRT_VER}/${ARCH
 opkg update
 ```
 
-##### Add OPKG repository to your OpenWRT device (jsDelivr)
+##### Add OPKG repository to your OpenWrt device (jsDelivr)
 Only use in regions where GitHub is blocked 🇨🇳
 
 ```sh
@@ -56,9 +56,9 @@ Please note that there may be delay in [jsDelivr CDN](https://cdn.jsdelivr.net/g
 ---
 
 ### APK
-Used in `SNAPSHOT` (master) builds. For stable OpenWRT versions see `OPKG` above.
+Used in `SNAPSHOT` (`main`) builds. For stable OpenWrt versions see `OPKG` above.
 
-##### Add APK repository to your OpenWRT device (GitHub)
+##### Add APK repository to your OpenWrt device (GitHub)
 
 ```sh
 echo "https://openwrt.meshtastic.org/main/$(cat /etc/apk/arch)/packages.adb" > /etc/apk/repositories.d/meshtastic.list
@@ -66,7 +66,7 @@ wget https://openwrt.meshtastic.org/meshtastic-apk.pem -O /etc/apk/keys/meshtast
 apk update
 ```
 
-##### Add APK repository to your OpenWRT device (jsDelivr)
+##### Add APK repository to your OpenWrt device (jsDelivr)
 Only use in regions where GitHub is blocked 🇨🇳
 
 ```sh
