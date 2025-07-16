@@ -7,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_cortex-a9_neon
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9_neon.ipk
-Size: 4026
-SHA256sum: 2a3b704c66b9da8024c12c864bbd1fedfa4da876b0864adac9e9e2b3d2813b2a
+Size: 4021
+SHA256sum: 1322b16565c61eb6fb2f4364c80b01cc34318bafefd3f84c8ce76ec020674e11
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -22,7 +22,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a9_neon.ipk
 Size: 1240
-SHA256sum: 8f0db3e26f3906023c99389aa882d2d13f60617cebca4d3a474b2a158eb24240
+SHA256sum: 719b2d3da9707fe1dac383865da2b5469e02f0601de554efafdac968c2471d31
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a9_neon.ipk
-Size: 908214
-SHA256sum: 49a9b48bd8418354a4ef415f18bacbe52c8a9f7b676475856968550c040cfde8
+Size: 919585
+SHA256sum: 386c29c5c43ca71f39fd95947d6a38a4a55c251ba052915ec8041c5226feb662
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,43 +48,9 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1064960
 Filename: meshtasticd_2.6.11-r1_arm_cortex-a9_neon.ipk
-Size: 465131
-SHA256sum: 2a9f07f3bfb3482a423628b7c8c7e910a71e28932bc75f3ba9142dcd22f25ec0
+Size: 465090
+SHA256sum: 7cfcc86e9fbda05995d935471d7b66b466ec31694c3504a838709dd8e5369278
 Description:  Meshtastic Daemon
-
-Package: python3-click-src
-Version: 8.1.7-r2
-Depends: libc
-License: BSD-3-Clause
-Section: lang
-URL: https://palletsprojects.com/p/click/
-Architecture: arm_cortex-a9_neon
-Installed-Size: 368640
-Filename: python3-click-src_8.1.7-r2_arm_cortex-a9_neon.ipk
-Size: 87602
-SHA256sum: d1df10e8115e00d26b6499161d600a0f54e2051f0617e4f4b8a41d2a21e093ee
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
- 
- This package contains the Python source files for python3-click.
-
-Package: python3-click
-Version: 8.1.7-r2
-Depends: libc, python3-light, python3-urllib, python3-uuid
-License: BSD-3-Clause
-Section: lang
-URL: https://palletsprojects.com/p/click/
-Architecture: arm_cortex-a9_neon
-Installed-Size: 501760
-Filename: python3-click_8.1.7-r2_arm_cortex-a9_neon.ipk
-Size: 191880
-SHA256sum: 47984382d305b7dd7fb739c57d6465b09f7ba4e82dbc82a3c8c1d584ef80a46f
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
 
 Package: python3-pyelftools-src
 Version: 0.31-r1
@@ -95,8 +61,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9_neon
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a9_neon.ipk
-Size: 156255
-SHA256sum: 8ad0f9ba1d73b1d71d5aeb19e3130e656b02208dfd481e48808bb9b34cfa1007
+Size: 156251
+SHA256sum: 6c04703eb4aaea19fed599713e8cddb2cf44073bea7592be2b14b84568edff68
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +76,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9_neon
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a9_neon.ipk
-Size: 325795
-SHA256sum: 617dbab33080134d5a8cf12220c82c5e6bd793d84d12215bdde3148303b25175
+Size: 325731
+SHA256sum: b48ccf0a45fb9a531c0a0d8b64e177cf544521762d9c04d1b581fdedce12a014
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +89,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9_neon
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9_neon.ipk
-Size: 23560
-SHA256sum: fc3b1f6413282949545c7b6106a8601629c3c9d0228f0716066e8d1a1ae74351
+Size: 23562
+SHA256sum: 0cfd5986fed2445ceab91d5a61a6fa62e7b370a55d9201fe25c673a685cf0587
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +104,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9_neon
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9_neon.ipk
-Size: 54755
-SHA256sum: 84ab409c90254f14abe55729bcbc3be9fe141ccf08d264f0fcd2b2f26d598010
+Size: 54761
+SHA256sum: 6e6ecd11f623999f562c173fca7614954303c3dc90512bf497583582d6a76471
 Description:  Pretty-print tabular data
 

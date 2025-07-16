@@ -7,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: loongarch64_generic
 Installed-Size: 30720
 Filename: libyder_1.4.17-r1_loongarch64_generic.ipk
-Size: 4208
-SHA256sum: 80fce2c8051dd843190692f76bc482dfd3bad208081afd917780d548742b6d09
+Size: 4205
+SHA256sum: a664ad52055f85f652cc94fe036d7ca8dd199b68b5f8ea218eb03570e67b8651
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: loongarch64_generic
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_loongarch64_generic.ipk
-Size: 1239
-SHA256sum: 7c7a92ccecbfac235af68abb4138403ac2731cfac8d554ef41ac9241d8aadf84
+Size: 1238
+SHA256sum: 5eacbba360105e26b90f2c8743aa50d72c51249da9249a3379c1ce9f6cf8db6b
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: loongarch64_generic
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_loongarch64_generic.ipk
-Size: 908211
-SHA256sum: cb587d7592690245c299bd1961f8ed23a714acf7315f7fb85ffdf0ac548b3d3f
+Size: 919588
+SHA256sum: d3bd6609cb5580c65ee64b37b27cbcde1339caf24da4dee94bf3f3b20c064833
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,43 +48,9 @@ URL: http://github.com/meshtastic/firmware
 Architecture: loongarch64_generic
 Installed-Size: 1361920
 Filename: meshtasticd_2.6.11-r1_loongarch64_generic.ipk
-Size: 523730
-SHA256sum: 590ea6a8384d7b339271cc7903856868214ade049227ad0c6d56f77975088e79
+Size: 523748
+SHA256sum: 952e13d73270627f8b5732b25e8bf2983024767c3446c9bf5d7cb69f7288618d
 Description:  Meshtastic Daemon
-
-Package: python3-click-src
-Version: 8.1.7-r2
-Depends: libc
-License: BSD-3-Clause
-Section: lang
-URL: https://palletsprojects.com/p/click/
-Architecture: loongarch64_generic
-Installed-Size: 368640
-Filename: python3-click-src_8.1.7-r2_loongarch64_generic.ipk
-Size: 87600
-SHA256sum: 53f9d5e6e6a007cd23f61a3c8fad5e9ab519aadb3ecabd07c84dd2953d5f1a14
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
- 
- This package contains the Python source files for python3-click.
-
-Package: python3-click
-Version: 8.1.7-r2
-Depends: libc, python3-light, python3-urllib, python3-uuid
-License: BSD-3-Clause
-Section: lang
-URL: https://palletsprojects.com/p/click/
-Architecture: loongarch64_generic
-Installed-Size: 501760
-Filename: python3-click_8.1.7-r2_loongarch64_generic.ipk
-Size: 191879
-SHA256sum: 15370aa1ad9ba8c8cca60c1798771d3a4e5c44f24d1661a47f7986313568ed0a
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
 
 Package: python3-pyelftools-src
 Version: 0.31-r1
@@ -95,8 +61,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: loongarch64_generic
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_loongarch64_generic.ipk
-Size: 156257
-SHA256sum: 6b28fc4727dd3dbbc6d6af9c315c29fa952a8e566bf1571eb25470fa9f03a196
+Size: 156250
+SHA256sum: eab4cb94ad3042f1e985c92aec44f663b01af0493ea56325a65918f4422cc949
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +76,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: loongarch64_generic
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_loongarch64_generic.ipk
-Size: 325793
-SHA256sum: 19b47be8a6f702029ad37e86239a9428becadc0e872b0d38bca1a1255c3a550b
+Size: 325729
+SHA256sum: 41fcd1ad364015cb813cf9386f56f556218546784488373b17675cf59de1b30e
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +89,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: loongarch64_generic
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_loongarch64_generic.ipk
-Size: 23561
-SHA256sum: efb88ea461227cacb9ac453fd9507a3b48ef60c46725ccec556d845f2ea75829
+Size: 23562
+SHA256sum: bda2dc26a8a17c02ec553a82635881d0b0b152bc93710be6e9cddbc4e1264c9c
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +104,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: loongarch64_generic
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_loongarch64_generic.ipk
-Size: 54755
-SHA256sum: 9b6a8ce72c7781155dcca5571cf81af2822b686c9a04c825238a74603cb7c54f
+Size: 54762
+SHA256sum: 3134e3ca5572d26796cf7cbc7ae780b4fae5dee213832335335d2c4598cc6c38
 Description:  Pretty-print tabular data
 

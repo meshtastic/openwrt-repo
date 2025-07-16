@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9.ipk
-Size: 4017
-SHA256sum: 312ff586a69de41a00da6a86ccd3de5b0d822af78c0817fa70ac039743cff54d
+Size: 4015
+SHA256sum: 4a7d1ee01ee9510cd4ac90fc8bbd8a930be4bd31855b683a5c481e1579a5ff69
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a9.ipk
-Size: 1237
-SHA256sum: 37b8e77ad4bbd7fa8a41bcd08513f46ac31d85a90b5042141f6235906fe9f3b9
+Size: 1236
+SHA256sum: 6b7e06f39e57c38bf63d280d77f1a8d90c57e44fa0d4196399a6d5f61968adc1
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a9.ipk
-Size: 908207
-SHA256sum: 4a07472da538ac4668d241ce360e750c4cca1b1fdd0b910c3fc135cbb95a40ad
+Size: 919585
+SHA256sum: 501eb0ab1989aaab88c82c5beb8b769e01241257a099e832d0085dfbcbf96719
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,59 +61,15 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 1075200
 Filename: meshtasticd_2.6.11-r1_arm_cortex-a9.ipk
-Size: 469905
-SHA256sum: 16faccac8c6ccf04889ec1d6329dfc448b89f1465541d7bd5419e300cfb68a1c
+Size: 469936
+SHA256sum: 81700841527b359a3c0e5d556c02ca64141d574ccacad46fc5475749f4921efe
 Description:  Meshtastic Daemon
-
-Package: python3-click-src
-Version: 8.1.7-r2
-Depends: libc
-Source: /feed/backports/python-click
-SourceName: python-click
-License: BSD-3-Clause
-LicenseFiles: LICENSE.rst
-Section: lang
-SourceDateEpoch: 1750693676
-URL: https://palletsprojects.com/p/click/
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: arm_cortex-a9
-Installed-Size: 368640
-Filename: python3-click-src_8.1.7-r2_arm_cortex-a9.ipk
-Size: 87597
-SHA256sum: 673ed46199a2228465e0bebd719e4cc4029863551eecbfd59d6cd6b1c382747d
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
- 
- This package contains the Python source files for python3-click.
-
-Package: python3-click
-Version: 8.1.7-r2
-Depends: libc, python3-light, python3-urllib, python3-uuid
-Source: /feed/backports/python-click
-SourceName: python-click
-License: BSD-3-Clause
-LicenseFiles: LICENSE.rst
-Section: lang
-SourceDateEpoch: 1750693676
-URL: https://palletsprojects.com/p/click/
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: arm_cortex-a9
-Installed-Size: 501760
-Filename: python3-click_8.1.7-r2_arm_cortex-a9.ipk
-Size: 191878
-SHA256sum: fb2de4d6cd67cf8bb7ed882c6638d6eb1563c811342c0a586cedbd9ef4ab77f2
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
 
 Package: python3-pyelftools-src
 Version: 0.31-r1
@@ -123,14 +79,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a9.ipk
-Size: 156255
-SHA256sum: a0183d0a4eebc0fa23af44abe5580ae9a76d8515c21d55b47a1b4e3457d02bc0
+Size: 156248
+SHA256sum: 5dee0c2cb94443444c9645044267071fe3d8146142bddd943a9ca779741b0659
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -143,14 +99,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a9.ipk
-Size: 325790
-SHA256sum: bdd7ab849f30735fa0749826601e4464b1f60aa98d6fec8a201b4210833fbf13
+Size: 325725
+SHA256sum: 82b316dfac387fc6c75c89d1ae71bd49e5754ad5dc7e37e283818477e7bbcb20
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -161,14 +117,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9.ipk
-Size: 23558
-SHA256sum: ccf629a8beacf7e06985a9b095a1cc4d6ded22ad92c45137fd0c1f02e5be5c5a
+Size: 23560
+SHA256sum: 48939baa5b9eb699c20ff43265f39d5b07bbcc0e43c83b6c77e41dd7bc9f7af2
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -181,13 +137,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9.ipk
-Size: 54747
-SHA256sum: 0a2b8f2e90a06ab3fbfa781c175f0f4fa2b9def3f933f4c9380000e6b8c24f07
+Size: 54757
+SHA256sum: 1f6b385ed6c9cfd0a182920a7fc6dbee4cd3119485cb39f7db2aa4e833d9045c
 Description:  Pretty-print tabular data
 

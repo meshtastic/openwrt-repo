@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_4kec
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mips_4kec.ipk
-Size: 3831
-SHA256sum: 43465f4b06c2e612c931b548c4717df0f539ba18ad6ed22c07bb360f3adf5a31
+Size: 3832
+SHA256sum: 9c77faacfb8707356f545a53bfdc5a1118119e0b951063507eb936f1103e149c
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_4kec
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_mips_4kec.ipk
-Size: 1229
-SHA256sum: 32cb5f3405fac6a671014b4c0b1c226e36efe4c21ccd5249b604b2ac08c60a66
+Size: 1231
+SHA256sum: 7d27c95f6a41013391d8069500f2252e3e6dcadf48474f2f0de8570ef89c20d2
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_4kec
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_mips_4kec.ipk
-Size: 908204
-SHA256sum: 360f8c8f3aa080747ccab247b329caa9dcf66fb50abec4af8720c3dcaee03be1
+Size: 919578
+SHA256sum: 81665b231a3c6432f33c2edea8cc88be79abc10d17757de2dfe0a8e6f69ff39f
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,59 +61,15 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_4kec
 Installed-Size: 1402880
 Filename: meshtasticd_2.6.11-r1_mips_4kec.ipk
-Size: 566650
-SHA256sum: 01947aa340218791512966e8ab224dc661e0b8462935c7710e007d2a6ea92c7b
+Size: 566624
+SHA256sum: b9918525d5979538d135f2e6c038f6e1121795d6e2b7f49f384c7b7f52133a16
 Description:  Meshtastic Daemon
-
-Package: python3-click-src
-Version: 8.1.7-r2
-Depends: libc
-Source: /feed/backports/python-click
-SourceName: python-click
-License: BSD-3-Clause
-LicenseFiles: LICENSE.rst
-Section: lang
-SourceDateEpoch: 1750693676
-URL: https://palletsprojects.com/p/click/
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: mips_4kec
-Installed-Size: 368640
-Filename: python3-click-src_8.1.7-r2_mips_4kec.ipk
-Size: 87593
-SHA256sum: f3e16900ea260a70911c2b87a7dc438d6ea0f22ccd312427ea26a1591604fd01
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
- 
- This package contains the Python source files for python3-click.
-
-Package: python3-click
-Version: 8.1.7-r2
-Depends: libc, python3-light, python3-urllib, python3-uuid
-Source: /feed/backports/python-click
-SourceName: python-click
-License: BSD-3-Clause
-LicenseFiles: LICENSE.rst
-Section: lang
-SourceDateEpoch: 1750693676
-URL: https://palletsprojects.com/p/click/
-Maintainer: Jeffery To <jeffery.to@gmail.com>
-Architecture: mips_4kec
-Installed-Size: 501760
-Filename: python3-click_8.1.7-r2_mips_4kec.ipk
-Size: 191877
-SHA256sum: c0e3570959f4ae1d03d21f2d7630dd4573ecbc90793c554b713a131739c690bb
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
 
 Package: python3-pyelftools-src
 Version: 0.31-r1
@@ -123,14 +79,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_4kec
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_mips_4kec.ipk
-Size: 156251
-SHA256sum: 398114c57fa6f88a026cf19ff98a4b6681c27e3d65bfb5f4d1adcd5344a978ce
+Size: 156246
+SHA256sum: 9fcf512e050078d5242e060a8343986a5b551552a9c71e23bd9e734e9c9f8c0f
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -143,14 +99,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_4kec
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_mips_4kec.ipk
-Size: 325789
-SHA256sum: bef272d38ddc32b7f4917bc6cb6c7232dfb7752449c3d1067b1201999cea0e7f
+Size: 325723
+SHA256sum: 68531899776fbef54bc813c3cf8c86973574f5c69d10ceef414b29a64c6cc588
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -161,14 +117,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_4kec
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mips_4kec.ipk
-Size: 23551
-SHA256sum: ed4b16bb8011df905a72c59f5e403282638b4b90554bad090201421d364f302a
+Size: 23556
+SHA256sum: 9c1b113ccbe4d0a01c05b0c7b0d05cfc37d92f9702dd908c541904142dc25e63
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -181,13 +137,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1750693676
+SourceDateEpoch: 1752621922
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_4kec
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mips_4kec.ipk
-Size: 54748
-SHA256sum: e360e08b96fd6c3875487c3e951a2cec1d905998b96371a966d78303f574abbc
+Size: 54758
+SHA256sum: 29a5d58adb14e79c4dfda0d337860f6618d01e2a35827de50f97e83f1db201ea
 Description:  Pretty-print tabular data
 

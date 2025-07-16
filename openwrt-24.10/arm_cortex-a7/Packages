@@ -7,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_cortex-a7
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a7.ipk
-Size: 4017
-SHA256sum: dd0405c7cdfd00dcb64cbb331e726023ce370e11caf4f6fa94f3099fc2f5da9f
+Size: 4016
+SHA256sum: ca34ffe34b79e4f55079f3e8cc1bd4f9b7f1318ce4e530c6f1d3e996d1b47e8b
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a7
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a7.ipk
-Size: 1233
-SHA256sum: b551b2dcdb3ea3db387a1b82077585d18a741607ef658c93bfc5e090bc8163d7
+Size: 1235
+SHA256sum: 270bfda0bae318ad171e6196059c0765f1f66ccb9c2001bf711640b96b3ed964
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a7
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a7.ipk
-Size: 908211
-SHA256sum: 0706f61679c52b5e6e2b176c4bae91ea2f5899824bc5df629b98ce4a13e3147a
+Size: 919585
+SHA256sum: d315141e3eacd6eb36d0b7e263df539ce54807729263a06b00549647cf4aee49
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,43 +48,9 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a7
 Installed-Size: 1075200
 Filename: meshtasticd_2.6.11-r1_arm_cortex-a7.ipk
-Size: 469249
-SHA256sum: 1914627778b58cfd044703c292f7ff4b9bab7881a5b3f147135fa0935e4507de
+Size: 469307
+SHA256sum: ef2acb99f6c110c4bbb732a1ea864a5b34bb653d0690db23cf705e52bb96adcc
 Description:  Meshtastic Daemon
-
-Package: python3-click-src
-Version: 8.1.7-r2
-Depends: libc
-License: BSD-3-Clause
-Section: lang
-URL: https://palletsprojects.com/p/click/
-Architecture: arm_cortex-a7
-Installed-Size: 368640
-Filename: python3-click-src_8.1.7-r2_arm_cortex-a7.ipk
-Size: 87593
-SHA256sum: c66e99fe374cb21ec700b1414632c3a05ce40b45b187e6bbd3a2cfae30667b66
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
- 
- This package contains the Python source files for python3-click.
-
-Package: python3-click
-Version: 8.1.7-r2
-Depends: libc, python3-light, python3-urllib, python3-uuid
-License: BSD-3-Clause
-Section: lang
-URL: https://palletsprojects.com/p/click/
-Architecture: arm_cortex-a7
-Installed-Size: 501760
-Filename: python3-click_8.1.7-r2_arm_cortex-a7.ipk
-Size: 191878
-SHA256sum: 80fb24519568110bb74fe37f1a985878b14d5321b44b1b1618475907e7180baa
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
 
 Package: python3-pyelftools-src
 Version: 0.31-r1
@@ -95,8 +61,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a7
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a7.ipk
-Size: 156254
-SHA256sum: 8a29f96801e6a28b7a030742f339c4eee525ff5a48d74f5e1d7385664316aaf2
+Size: 156249
+SHA256sum: ba364f175335406aeede794e1c42d2436f0a6b0d25e33c4dd4bf24138ed72b9c
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +76,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a7
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_arm_cortex-a7.ipk
-Size: 325791
-SHA256sum: 287a2ed00102629ac76ed989a759395c7780a3697e8ec1275f6a6d7f17f38161
+Size: 325725
+SHA256sum: aa555752650645403e506a90132fc9731f85415a60b2aee93450e30d6c23d133
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +89,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a7
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a7.ipk
-Size: 23555
-SHA256sum: dcec38e52cdb75932bfe9c4ebb6012a900b57deb4b7e162d5da3872ab748e187
+Size: 23559
+SHA256sum: 95eab7c81bb8346f123d2da04804b2fb2204c3e407f91912a3e2cea1c67c1c92
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +104,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a7
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a7.ipk
-Size: 54747
-SHA256sum: 986f08d6e6eab4c20d4f648568052041af1a6e75bcaa2c44d346ba05f7ba7dba
+Size: 54759
+SHA256sum: d7280d69a20327213141752427cbebc280b844153a3cce703e0da227fc76cb6c
 Description:  Pretty-print tabular data
 

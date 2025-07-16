@@ -8,7 +8,7 @@ Architecture: mips64_octeonplus
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mips64_octeonplus.ipk
 Size: 4007
-SHA256sum: eb1d5e72978b3ae2e74de90a0e047f9e83b904c84fbc95082797e159c2d298f0
+SHA256sum: c9e47f48056fd602d12fba8ad1f98375d68cc1760fa3acf544c4f036e6a7744f
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: mips64_octeonplus
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_mips64_octeonplus.ipk
-Size: 1234
-SHA256sum: 0aa63bdd91b3a0bb2a2937de013a233cd5374079fb80cca737d7ff0ed7589853
+Size: 1235
+SHA256sum: ec8c0956e829bf1bc06e9cdb75c0babb39a0505721858cef3e83b614c74b95db
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: mips64_octeonplus
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_mips64_octeonplus.ipk
-Size: 908211
-SHA256sum: 61c687d8164a9fb3b3757f830cac73b7feb5be34ed189bb81e75cf294958d411
+Size: 919584
+SHA256sum: 92c5c4d4617bb44fc04e4e98b0442e809ffeebbe050cca9b3beacb6521720653
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,43 +48,9 @@ URL: http://github.com/meshtastic/firmware
 Architecture: mips64_octeonplus
 Installed-Size: 1822720
 Filename: meshtasticd_2.6.11-r1_mips64_octeonplus.ipk
-Size: 584374
-SHA256sum: 1e336f5c4a04bdf221e17d0d81c9748923ca231d068d87f1693f986202539d57
+Size: 584428
+SHA256sum: 309f29624396556bfea58f6eaaab737908b9e940e4ebd54c3bd808b89b7b6765
 Description:  Meshtastic Daemon
-
-Package: python3-click-src
-Version: 8.1.7-r2
-Depends: libc
-License: BSD-3-Clause
-Section: lang
-URL: https://palletsprojects.com/p/click/
-Architecture: mips64_octeonplus
-Installed-Size: 368640
-Filename: python3-click-src_8.1.7-r2_mips64_octeonplus.ipk
-Size: 87599
-SHA256sum: 4e547f5cf8a436007f61fcc4f896e51ba6944aeb99bc37a5dad06c6d95deb498
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
- 
- This package contains the Python source files for python3-click.
-
-Package: python3-click
-Version: 8.1.7-r2
-Depends: libc, python3-light, python3-urllib, python3-uuid
-License: BSD-3-Clause
-Section: lang
-URL: https://palletsprojects.com/p/click/
-Architecture: mips64_octeonplus
-Installed-Size: 501760
-Filename: python3-click_8.1.7-r2_mips64_octeonplus.ipk
-Size: 191880
-SHA256sum: b6266b5d47dc588b33b8bb1555ef4fc5a8fb7f056fea0239b72adac462745e26
-Description:  Click is a Python package for creating beautiful command line interfaces
- in a composable way with as little code as necessary. It's the "Command
- Line Interface Creation Kit". It's highly configurable but comes with
- sensible defaults out of the box.
 
 Package: python3-pyelftools-src
 Version: 0.31-r1
@@ -95,8 +61,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: mips64_octeonplus
 Installed-Size: 737280
 Filename: python3-pyelftools-src_0.31-r1_mips64_octeonplus.ipk
-Size: 156256
-SHA256sum: c6467258d2007740cf186125033a103c74530fefd77ba3f0729fda71b7d83baf
+Size: 156252
+SHA256sum: ed71441d95a49ef9aa7fff55319a242a06e1ad396ec6f4d7f398f15b4b27afa2
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -110,8 +76,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: mips64_octeonplus
 Installed-Size: 931840
 Filename: python3-pyelftools_0.31-r1_mips64_octeonplus.ipk
-Size: 325792
-SHA256sum: b08ce159d83ce751af26ddaa61b571abe9a160b69ac67d1fd824446747233df5
+Size: 325727
+SHA256sum: e6e0350f35d16e54fab9976ed24fe4d1b91beab4ee9d7b33111f4620b53503ee
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -123,8 +89,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: mips64_octeonplus
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mips64_octeonplus.ipk
-Size: 23560
-SHA256sum: 33ea9d7ce00a6832a4fe006c1b09b6ef16a5e0a44beb00065176f8677accce96
+Size: 23561
+SHA256sum: 3bd621f08131ae78f5f4df99511082b49abf73d76abad8946b5d5a20ff680de9
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -138,7 +104,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: mips64_octeonplus
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mips64_octeonplus.ipk
-Size: 54755
-SHA256sum: dc0aba89e03b934af31a3ab2616dfa08c52cac98b959058b55676a772e280c85
+Size: 54764
+SHA256sum: eb7930892f608ded4adfde0926f8cee45c0cb19a6bff569d59ff1e1b64b6cecf
 Description:  Pretty-print tabular data
 
