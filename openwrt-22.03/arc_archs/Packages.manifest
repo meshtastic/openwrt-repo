@@ -1,0 +1,413 @@
+Package: libyder
+Version: 1.4.14-1
+Depends: libc, librt, libpthread, liborcania
+Source: /feed/depends/libyder
+SourceName: libyder
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1752627176
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arc_archs
+Installed-Size: 3123
+Filename: libyder_1.4.14-1_arc_archs.ipk
+Size: 3934
+SHA256sum: 578f3f28703686fa3510785eeb38001e2c00c0cacb6feeebe10b2a23e2bcb788
+Description:  Simple and easy to use logging library.
+ You can log messages to the console, a file, Syslog, journald or a callback function.
+
+Package: meshtasticd-avahi-service
+Version: 2.6.11-1
+Depends: libc, librt, libpthread, meshtasticd, avahi-daemon
+Source: /feed/meshtasticd
+SourceName: meshtasticd-avahi-service
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1752627176
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arc_archs
+Installed-Size: 363
+Filename: meshtasticd-avahi-service_2.6.11-1_arc_archs.ipk
+Size: 1207
+SHA256sum: 923a36ca7cc0d779c61c37c795ee4f3ab68134810fd9fd53f8a0c8ce5c37e4d8
+Description:  This package contains the service definition for announcing the
+ meshtastic daemon via mDNS.
+
+Package: meshtasticd-web
+Version: 2.6.4-1
+Depends: libc, librt, libpthread, meshtasticd
+Source: /feed/meshtasticd-web
+SourceName: meshtasticd-web
+License: GPL-3.0
+Section: net
+SourceDateEpoch: 1752627176
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arc_archs
+Installed-Size: 920020
+Filename: meshtasticd-web_2.6.4-1_arc_archs.ipk
+Size: 919760
+SHA256sum: d8d60353a8fb7f7344b33bf4981660c13de51b16273c5d3cb2b84826623600c6
+Description:  Meshtastic Daemon Web Interface
+
+Package: meshtasticd
+Version: 2.6.11-1
+Depends: libc, librt, libpthread, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1752627176
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arc_archs
+Installed-Size: 484581
+Filename: meshtasticd_2.6.11-1_arc_archs.ipk
+Size: 484307
+SHA256sum: b74620520037d80ffda3f364dc6b8f98b79847b3dd622ed66fec5cd0b7f384da
+Description:  Meshtastic Daemon
+
+Package: python3-certifi-src
+Version: 2021.10.8-2
+Depends: libc, librt, libpthread
+Source: /feed/backports/python-certifi
+SourceName: python3-certifi-src
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arc_archs
+Installed-Size: 1410
+Filename: python3-certifi-src_2021.10.8-2_arc_archs.ipk
+Size: 2310
+SHA256sum: 18df78de6953fe36d39101119ac191a43c1db082135e1bbb3d954161f60db29a
+Description:  Certifi is a carefully curated collection of Root Certificates for validating the
+ trustworthiness of SSL certificates while verifying the identity of TLS hosts.
+ 
+ This package contains the Python source files for python3-certifi.
+
+Package: python3-certifi
+Version: 2021.10.8-2
+Depends: libc, librt, libpthread, python3-light
+Source: /feed/backports/python-certifi
+SourceName: python3-certifi
+License: MPL-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: arc_archs
+Installed-Size: 148605
+Filename: python3-certifi_2021.10.8-2_arc_archs.ipk
+Size: 149556
+SHA256sum: e8635f4d2f992a7013ed043f6b517152dabe0b81610460e7bb47fca771b67530
+Description:  Certifi is a carefully curated collection of Root Certificates for validating the
+ trustworthiness of SSL certificates while verifying the identity of TLS hosts.
+
+Package: python3-chardet-src
+Version: 4.0.0-2
+Depends: libc, librt, libpthread
+Source: /feed/backports/python-chardet
+SourceName: python3-chardet-src
+License: LGPL-2.1
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arc_archs
+Installed-Size: 145618
+Filename: python3-chardet-src_4.0.0-2_arc_archs.ipk
+Size: 143425
+SHA256sum: e09cce220416428383e40937bb80cd20ce555d8bec9ecb55d5c9be8dc4148059
+Description:  Universal encoding detector for Python 2 and 3
+ 
+ This package contains the Python source files for python3-chardet.
+
+Package: python3-chardet
+Version: 4.0.0-2
+Depends: libc, librt, libpthread, python3-light
+Source: /feed/backports/python-chardet
+SourceName: python3-chardet
+License: LGPL-2.1
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arc_archs
+Installed-Size: 148958
+Filename: python3-chardet_4.0.0-2_arc_archs.ipk
+Size: 146595
+SHA256sum: 879068a828c16aae729486d13e0edc385dd2dbd2096d9274170b2dd326dbaf17
+Description:  Universal encoding detector for Python 2 and 3
+
+Package: python3-click-src
+Version: 8.1.7-1
+Depends: libc, librt, libpthread
+Source: /feed/backports/python-click
+SourceName: python3-click-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arc_archs
+Installed-Size: 86567
+Filename: python3-click-src_8.1.7-1_arc_archs.ipk
+Size: 87567
+SHA256sum: a9529a88c50ae11b6eaa01b353d3dfc9484ce0ed569764f0b965873810b83b3d
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+ 
+ This package contains the Python source files for python3-click.
+
+Package: python3-click
+Version: 8.1.7-1
+Depends: libc, librt, libpthread, python3-light, python3-urllib, python3-uuid
+Source: /feed/backports/python-click
+SourceName: python3-click
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arc_archs
+Installed-Size: 123114
+Filename: python3-click_8.1.7-1_arc_archs.ipk
+Size: 124151
+SHA256sum: c8c6a52436c2e5907dd129cbf53ed3936059610f42da76290ede7884aa835700
+Description:  Click is a Python package for creating beautiful command line interfaces
+ in a composable way with as little code as necessary. It's the "Command
+ Line Interface Creation Kit". It's highly configurable but comes with
+ sensible defaults out of the box.
+
+Package: python3-idna-src
+Version: 3.3-2
+Depends: libc, librt, libpthread
+Source: /feed/backports/python-idna
+SourceName: python3-idna-src
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arc_archs
+Installed-Size: 56265
+Filename: python3-idna-src_3.3-2_arc_archs.ipk
+Size: 53411
+SHA256sum: 1478181de266015210b9de651e33549ba398322de76c06794344ddea634576b2
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+ 
+ This package contains the Python source files for python3-idna.
+
+Package: python3-idna
+Version: 3.3-2
+Depends: libc, librt, libpthread, python3-light, python3-codecs
+Source: /feed/backports/python-idna
+SourceName: python3-idna
+License: BSD-3-Clause
+LicenseFiles: LICENSE.rst
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Jeffery To <jeffery.to@gmail.com>
+Architecture: arc_archs
+Installed-Size: 66818
+Filename: python3-idna_3.3-2_arc_archs.ipk
+Size: 66639
+SHA256sum: e638e4e874b850c3b442489254d28989d9bf04bc929a06f0f8f0b41eef2473c7
+Description:  A library to support the Internationalised Domain Names in Applications
+ (IDNA) protocol as specified in RFC 5891. This version of the protocol
+ is often referred to as "IDNA2008" and can produce different results
+ from the earlier standard from 2003.
+
+Package: python3-pyelftools-src
+Version: 0.31-1
+Depends: libc, librt, libpthread
+Source: /feed/depends/python-pyelftools
+SourceName: python3-pyelftools-src
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arc_archs
+Installed-Size: 155339
+Filename: python3-pyelftools-src_0.31-1_arc_archs.ipk
+Size: 156218
+SHA256sum: 7c3847898bbc1864021575df377d06a05a259b642aba97f27189eb2145df21a2
+Description:  Library for analyzing ELF files and DWARF debugging information
+ 
+ This package contains the Python source files for python3-pyelftools.
+
+Package: python3-pyelftools
+Version: 0.31-1
+Depends: libc, librt, libpthread, python3-light, python3-logging
+Source: /feed/depends/python-pyelftools
+SourceName: python3-pyelftools
+License: Unlicense
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arc_archs
+Installed-Size: 214584
+Filename: python3-pyelftools_0.31-1_arc_archs.ipk
+Size: 215113
+SHA256sum: dc108b666d907cb0de67d90f4473e1d5b916f31dd64fcb716ea69c96cf616bdd
+Description:  Library for analyzing ELF files and DWARF debugging information
+
+Package: python3-pyserial-src
+Version: 3.4-2
+Depends: libc, librt, libpthread
+Source: /feed/backports/python-pyserial
+SourceName: python3-pyserial-src
+License: BSD
+Section: lang-python
+SourceDateEpoch: 1752627176
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: arc_archs
+Installed-Size: 73219
+Filename: python3-pyserial-src_3.4-2_arc_archs.ipk
+Size: 74215
+SHA256sum: fde5509fb6209b2ffebad9cbf1ee63d71a4b4ee29df8c4ec109abea290518f9e
+Description:  This module encapsulates the access for the serial port. It provides backends
+ for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
+ system) and IronPython. The module named "serial" automatically selects the
+ appropriate backend.
+ 
+ This package contains the Python source files for python3-pyserial.
+
+Package: python3-pyserial
+Version: 3.4-2
+Depends: libc, librt, libpthread, python3-light
+Source: /feed/backports/python-pyserial
+SourceName: python3-pyserial
+License: BSD
+Section: lang-python
+SourceDateEpoch: 1752627176
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: arc_archs
+Installed-Size: 98893
+Filename: python3-pyserial_3.4-2_arc_archs.ipk
+Size: 99924
+SHA256sum: a7fd82a4cee36d6cdfffa632ca9d98b743710669e6864fa6e794d968c2964d71
+Description:  This module encapsulates the access for the serial port. It provides backends
+ for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
+ system) and IronPython. The module named "serial" automatically selects the
+ appropriate backend.
+
+Package: python3-requests-src
+Version: 2.31.0-2
+Depends: libc, librt, libpthread
+Source: /feed/backports/python-requests
+SourceName: python3-requests-src
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1752627176
+CPE-ID: cpe:/a:python-requests:requests
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arc_archs
+Installed-Size: 48797
+Filename: python3-requests-src_2.31.0-2_arc_archs.ipk
+Size: 49758
+SHA256sum: 78fa54bcb72ff6f5785195289ee3f092471ab11870cd36cdb4f89ae603036978
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+ 
+ This package contains the Python source files for python3-requests.
+
+Package: python3-requests
+Version: 2.31.0-2
+Depends: libc, librt, libpthread, python3-light, python3-chardet, python3-idna, python3-urllib3, python3-certifi
+Source: /feed/backports/python-requests
+SourceName: python3-requests
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1752627176
+CPE-ID: cpe:/a:python-requests:requests
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: arc_archs
+Installed-Size: 66478
+Filename: python3-requests_2.31.0-2_arc_archs.ipk
+Size: 67430
+SHA256sum: 80a558374acc1bb9a1dddc8a1c53450ff8830a1069aacbd6a3d66b5cf9eb358e
+Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
+
+Package: python3-tabulate-src
+Version: 0.9.0-1
+Depends: libc, librt, libpthread
+Source: /feed/depends/python-tabulate
+SourceName: python3-tabulate-src
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arc_archs
+Installed-Size: 22717
+Filename: python3-tabulate-src_0.9.0-1_arc_archs.ipk
+Size: 23533
+SHA256sum: bead93b3465da11587f3aafd21b93d8144227a20617f5c38e294031c3c13a0ca
+Description:  Pretty-print tabular data
+ 
+ This package contains the Python source files for python3-tabulate.
+
+Package: python3-tabulate
+Version: 0.9.0-1
+Depends: libc, librt, libpthread, python3-light
+Source: /feed/depends/python-tabulate
+SourceName: python3-tabulate
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1752627176
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arc_archs
+Installed-Size: 38397
+Filename: python3-tabulate_0.9.0-1_arc_archs.ipk
+Size: 39263
+SHA256sum: 0f88505049c1bf0d568875e2af3f33fb57090698d21193d2144f0dacf554a488
+Description:  Pretty-print tabular data
+
+Package: python3-urllib3-src
+Version: 2.0.4-2
+Depends: libc, librt, libpthread
+Source: /feed/backports/python-urllib3
+SourceName: python3-urllib3-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1752627176
+CPE-ID: cpe:/a:urllib3_project:urllib3
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: arc_archs
+Installed-Size: 103663
+Filename: python3-urllib3-src_2.0.4-2_arc_archs.ipk
+Size: 104586
+SHA256sum: abf9ac8e4c9c658f95b7f3aa2dfdff1c92083cf45b6de3cedc6cc3bb70f9406f
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+ 
+ This package contains the Python source files for python3-urllib3.
+
+Package: python3-urllib3
+Version: 2.0.4-2
+Depends: libc, librt, libpthread, python3
+Source: /feed/backports/python-urllib3
+SourceName: python3-urllib3
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1752627176
+CPE-ID: cpe:/a:urllib3_project:urllib3
+Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: arc_archs
+Installed-Size: 130615
+Filename: python3-urllib3_2.0.4-2_arc_archs.ipk
+Size: 131551
+SHA256sum: ff80863d5ba34718088e152283b013362705e9dc3830b23ab992925a9e8ef7c1
+Description:  HTTP library with thread-safe connection pooling, file post, and more.
+
