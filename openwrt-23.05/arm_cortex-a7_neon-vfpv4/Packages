@@ -4,10 +4,10 @@ Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 3233
+Installed-Size: 3232
 Filename: libyder_1.4.17-1_arm_cortex-a7_neon-vfpv4.ipk
 Size: 4038
-SHA256sum: cebb8f2bf91d12f8480a4f085a22bc286315fb6a41ea259ecfd2d8351f5f2cec
+SHA256sum: aa87360afc628105389f2da0fafa0eefddf398c2cc0276ba42c2e95672970609
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -19,8 +19,8 @@ Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 366
 Filename: meshtasticd-avahi-service_2.6.11-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 1211
-SHA256sum: 123905474a0cc2f560072196f0de5ca5499c394ab9e833f34c20a48fbe8e8c3a
+Size: 1216
+SHA256sum: 7a2d310e6843468a17870fbfb1c9c7935115d236b98464b1f5c37216c4ad9b75
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -30,10 +30,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 920056
+Installed-Size: 920058
 Filename: meshtasticd-web_2.6.4-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 919840
-SHA256sum: 34cdb0306d81b7615dfa0fb64a7493535ae139acd1e5b333a93ce5cb12fa2ea2
+Size: 919584
+SHA256sum: 08762eb16b21551f785143c1f43e9484c82a109ac4b67ffa76c943a39281024c
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -42,10 +42,10 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 468088
+Installed-Size: 468085
 Filename: meshtasticd_2.6.11-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 468153
-SHA256sum: 720769263069303978b4d669ea4e3f98c98417ba3240e6ba8e3eb106716b67d3
+Size: 468067
+SHA256sum: b2abe789482e0844fe6d8c8336906a22f23a7482c77369b4a3dae6fac9816eab
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -54,10 +54,10 @@ Depends: libc
 License: MPL-2.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 1691
+Installed-Size: 1690
 Filename: python3-certifi-src_2023.7.22-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 2563
-SHA256sum: 93e5b2a2a0d0b7595374f6eb64d956fb18a4ad584c21f412593fcda3a624efcb
+Size: 2566
+SHA256sum: c62c8f5dcb946ea7e4b33248a107babdf2fa74a4322d487de0938ef3fcf0f449
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -70,10 +70,10 @@ Depends: libc, python3-light, python3-urllib
 License: MPL-2.0
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 158833
+Installed-Size: 158834
 Filename: python3-certifi_2023.7.22-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 159793
-SHA256sum: c664d121dd5c89d619cdac47fee6474254b61da4f9860a6e891101a32d98eea0
+Size: 159797
+SHA256sum: 13b8cc5911c166da318253a1307f3437c17a610dcd67299c803c8c52e11a9c9b
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -84,10 +84,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 165839
+Installed-Size: 165825
 Filename: python3-chardet-src_5.1.0-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 161392
-SHA256sum: 93e45d93cbc423e0b40aaa22be7888c041a71df457bd77de8a3da33a74112522
+Size: 161546
+SHA256sum: c6f9f0608f430b45654ef566ea18f4eb0233af20d70e339b7cd2d0d0f9d68f3f
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -100,8 +100,8 @@ Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
 Installed-Size: 225465
 Filename: python3-chardet_5.1.0-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 205508
-SHA256sum: 52f04703b0235dc24f1f59c3dbab659ab73c4caa0620e80319106b63eee41206
+Size: 206129
+SHA256sum: f14cad83b26c7a8b9e0859d0ef9de36fb8d600781a153b8fbcf1525cd78337b8
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-idna-src
@@ -110,10 +110,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 56824
+Installed-Size: 56828
 Filename: python3-idna-src_3.4-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 53919
-SHA256sum: fcc3402ba9b98a1d0f3bf9df74fd837ff354f8764b011c08e5e6704fc946a24a
+Size: 53911
+SHA256sum: 97d16c872041263d955ffa8f61bd4949c0d0f6896cd6c6fafa1b1a0b86f4c883
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -127,39 +127,39 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 72465
+Installed-Size: 72464
 Filename: python3-idna_3.4-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 70621
-SHA256sum: 03fad880355c99341012a55805b5aee23851a03485e8beb33346ba7dd64ed208
+Size: 70531
+SHA256sum: 548305b2d3e87ad859c3ea96f3453563724302e629f83bbce3f68041dffbd41c
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
 
 Package: python3-pyelftools-src
-Version: 0.31-1
+Version: 0.32-1
 Depends: libc
 License: Unlicense
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 155342
-Filename: python3-pyelftools-src_0.31-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 156229
-SHA256sum: d5dbc78f6d29d03aaed289eaf1c8d47ffb31b9409f933ef25201e81ade547212
+Installed-Size: 162983
+Filename: python3-pyelftools-src_0.32-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 163890
+SHA256sum: de5a3721a25a9589018156ccd474d6d13df9a0d9a83df4a97a20614288c1abd4
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
 
 Package: python3-pyelftools
-Version: 0.31-1
+Version: 0.32-1
 Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 325182
-Filename: python3-pyelftools_0.31-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 325718
-SHA256sum: 8f88d1120e6218b82b98cd079e34ec20fd23d92249b5b91cb54c096ab90b18c9
+Installed-Size: 337079
+Filename: python3-pyelftools_0.32-1_arm_cortex-a7_neon-vfpv4.ipk
+Size: 337483
+SHA256sum: 157c18129eb86b799f569eb60177872f9bcf4f26f7ba040833f00347f44f08ec
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -168,10 +168,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 70401
+Installed-Size: 70400
 Filename: python3-pyserial-src_3.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 71431
-SHA256sum: 418de765bafb433cefae6e9c311df1ec82762f542a7623a6f8492a38f87272eb
+Size: 71434
+SHA256sum: fa7726e8a88641b3dbe231207c28ebc0dd4ce77260a8543560a8b797e93b3af8
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -185,10 +185,10 @@ Depends: libc, python3-light, python3-logging, python3-urllib
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 152581
+Installed-Size: 152579
 Filename: python3-pyserial_3.5-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 153607
-SHA256sum: 933448d33f289aacdcdbf9a44a223ee83ad12b8c7aae4340b1d83d22e7d0d4c3
+Size: 153627
+SHA256sum: 8fd44d713c05539b2fc77da2ad328817a7a0ee1622179df282c8ad0b458a1a46
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -201,10 +201,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 48721
+Installed-Size: 48724
 Filename: python3-requests-src_2.30.0-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 49684
-SHA256sum: b513e4616f4bc7beff899e0fda76c454e7f2ef2a87bce3b61e161f73ebbf9fe1
+Size: 49688
+SHA256sum: be4881e37c2a297d666064ec0e6fd2c0d686598248c81492e8827baf7d68831f
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -216,10 +216,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 98274
+Installed-Size: 98276
 Filename: python3-requests_2.30.0-2_arm_cortex-a7_neon-vfpv4.ipk
-Size: 99252
-SHA256sum: 46a3b5054ffb97888c254d80407e7b24fe83ed62db5d53eb63dd22ec1f064cbb
+Size: 99256
+SHA256sum: a8706d1d8f2d0d16e44f29cedbc75571885fcb53170104898ce7d2869cc114e2
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -228,10 +228,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 22720
+Installed-Size: 22718
 Filename: python3-tabulate-src_0.9.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 23537
-SHA256sum: faeb7a34b9526fcf567a221a1df811853d2e5214dd3be00674a9fc2510638015
+Size: 23536
+SHA256sum: 61c6ab73ea0f5ad64c49fbf3f5f226b25a5cdfc4c1c3352001bb198ec7a69c6b
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -242,9 +242,9 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: arm_cortex-a7_neon-vfpv4
-Installed-Size: 53946
+Installed-Size: 53889
 Filename: python3-tabulate_0.9.0-1_arm_cortex-a7_neon-vfpv4.ipk
-Size: 54794
-SHA256sum: 755633efe8a246b69cee9169b972cff9ace43bb85a611c2066c084ffae264aef
+Size: 54751
+SHA256sum: d2400a214334c89ff7d6150e89c32b47a6604d76b36d1cc22b7efa8df65d1cae
 Description:  Pretty-print tabular data
 
