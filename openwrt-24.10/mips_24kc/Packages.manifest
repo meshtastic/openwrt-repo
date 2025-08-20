@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mips_24kc.ipk
-Size: 3822
-SHA256sum: b4cd80cc0a8539e3bf894a72bab265a4fa235e34415bc7b4a090798c52c76eda
+Size: 3826
+SHA256sum: d68bb48ce04fe35ea06a5b169a510c8f986e9aa3b3223ea824316569221a5968
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_mips_24kc.ipk
-Size: 1229
-SHA256sum: 7a949bd9cbc2b2f735ff99767212279b9b45d3112f85a5798d3fc816383ec62c
+Size: 1228
+SHA256sum: 29f46bc5cb80a01dc4fcc08bc7d6607fecaa7e3c00cb508bb0ceb252e0eec2cd
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_mips_24kc.ipk
-Size: 919694
-SHA256sum: 03c31d5875112cddda073fc3bca2aa04d53e653c459ce39c608d9dbb37dfdc8d
+Size: 919773
+SHA256sum: 7c2632b963d868f317c172437657e5148f054ce27f7f6b44810eff26c1d3ad6e
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,52 +61,52 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 1402880
 Filename: meshtasticd_2.6.11-r1_mips_24kc.ipk
-Size: 568318
-SHA256sum: 633a7de46aa31d24f3ea52d313774d841d35c1b9957d5807d959ef8ba7b77927
+Size: 568333
+SHA256sum: 70d6e46fe7eb81bfc590576adb42bae0b6614d97b01fcc7aba9fab25353052fd
 Description:  Meshtastic Daemon
 
 Package: python3-pyelftools-src
-Version: 0.31-r1
+Version: 0.32-r1
 Depends: libc
 Source: /feed/depends/python-pyelftools
 SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 737280
-Filename: python3-pyelftools-src_0.31-r1_mips_24kc.ipk
-Size: 156252
-SHA256sum: 81e0e90dd902f1fa6bb6fe65a020d605692c11ba822b594394231ef55e449599
+Installed-Size: 768000
+Filename: python3-pyelftools-src_0.32-r1_mips_24kc.ipk
+Size: 163907
+SHA256sum: 358dafb4aa7926aa37bca9584ac0ad3f9026c443343e0a4ab2934786a855caee
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
 
 Package: python3-pyelftools
-Version: 0.31-r1
+Version: 0.32-r1
 Depends: libc, python3-light, python3-logging
 Source: /feed/depends/python-pyelftools
 SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 931840
-Filename: python3-pyelftools_0.31-r1_mips_24kc.ipk
-Size: 325641
-SHA256sum: a1f6775d9eac418a399b2a407c094f06557ff42adf7cb55c018a62368267e12f
+Installed-Size: 962560
+Filename: python3-pyelftools_0.32-r1_mips_24kc.ipk
+Size: 337573
+SHA256sum: b17851d1523cd2c918de40b3e876445dd490ff9b09b8ee56595799052063a1a7
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -117,14 +117,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mips_24kc.ipk
-Size: 23554
-SHA256sum: 8db99e7b1b718508b0ef6115e6dc2e82595b872a60bd5e28787852f240b959a9
+Size: 23547
+SHA256sum: 97004e585354518ea38ccec0b09cc0fa9dd63d25381ef9f26757e292bb9fd285
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -137,13 +137,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mips_24kc.ipk
-Size: 54756
-SHA256sum: ec28447e2d6c1eaf8e56145e34a61fa5f9f01704261dd83b98d48bfe450e9cf2
+Size: 54739
+SHA256sum: 60208279153f478e186e8f21bc50d41cec15ac8ba18a64e8b46319b6ad8a55d0
 Description:  Pretty-print tabular data
 

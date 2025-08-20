@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9_neon.ipk
-Size: 4027
-SHA256sum: 093e410bed5e3b60f57afa8bc2fc90654eee0beaa501bc68e95b07ba2eb42f13
+Size: 4023
+SHA256sum: 8d7933718aed4f5b2dbdb6c9301123c44e19bcda9e74a72d1cb22c3393d2d49f
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a9_neon.ipk
-Size: 1233
-SHA256sum: 5ce90e8ed848a59bcab108c5d79c9a493775e2ef3761e405856bb1d44526d466
+Size: 1234
+SHA256sum: ebb1468af0ba9d4918f08e91ef88354450368b112c156eaa6fda7dfbe645f2c5
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a9_neon.ipk
-Size: 919700
-SHA256sum: 5a6626e290144cdf5fd8715058c495bd772e2e580f01b2884af8b4841188c54e
+Size: 919780
+SHA256sum: 194cfa8113061dc10497197f745b4581e28b9b30f9e4861801cde4c55b7bb3bf
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,52 +61,52 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1064960
 Filename: meshtasticd_2.6.11-r1_arm_cortex-a9_neon.ipk
-Size: 465101
-SHA256sum: 839301ef4b36d5e7bc0f8586153065ce24c6b4c1d8c24e7e2c278905f5d0ee96
+Size: 465163
+SHA256sum: 98548deb71566ccc2e124370291cf26b1d55c7437517bad61a87f25d162e8359
 Description:  Meshtastic Daemon
 
 Package: python3-pyelftools-src
-Version: 0.31-r1
+Version: 0.32-r1
 Depends: libc
 Source: /feed/depends/python-pyelftools
 SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 737280
-Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a9_neon.ipk
-Size: 156256
-SHA256sum: c197ad91b60fc0b6afdead36fb8827f871504ec33d8f66de0640392cf9b2fb41
+Installed-Size: 768000
+Filename: python3-pyelftools-src_0.32-r1_arm_cortex-a9_neon.ipk
+Size: 163912
+SHA256sum: dd6282541930db153bb86ea55ae9375f2ac925a15e57284679ee8758d3675937
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
 
 Package: python3-pyelftools
-Version: 0.31-r1
+Version: 0.32-r1
 Depends: libc, python3-light, python3-logging
 Source: /feed/depends/python-pyelftools
 SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 931840
-Filename: python3-pyelftools_0.31-r1_arm_cortex-a9_neon.ipk
-Size: 325646
-SHA256sum: eae5700501b904158a9cecb2290f1923e1737fc133b5f67827df4d508d23215c
+Installed-Size: 962560
+Filename: python3-pyelftools_0.32-r1_arm_cortex-a9_neon.ipk
+Size: 337581
+SHA256sum: 322d556bde3703853bacb4160bbb05b0b259575cf552877bbffa0f5d9102b889
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -117,14 +117,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9_neon.ipk
-Size: 23561
-SHA256sum: cb98c03b333d094edb6f3c710a688aece7a80573d9aa5cb20cbea238a9874441
+Size: 23554
+SHA256sum: edb9c3ded738f1294d6bcc5adb203ed5be0f7657f5998a787c76818119bcc788
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -137,13 +137,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9_neon.ipk
-Size: 54761
-SHA256sum: 9a69df9616960215a002932252b87eb81e93be4cd6bc4e7a83853b84fcd7f39e
+Size: 54745
+SHA256sum: b2d2c5a3ee3ed7826a0e06bc6f9e7ce4fe85c6e22d4be048a725c3dc30821635
 Description:  Pretty-print tabular data
 

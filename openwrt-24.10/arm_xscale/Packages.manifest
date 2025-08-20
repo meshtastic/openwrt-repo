@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_xscale.ipk
-Size: 4036
-SHA256sum: 2d4b9886d82e0f1e98380b886f984ad44efa65f6a3c15ff6715afb00e1676bfd
+Size: 4041
+SHA256sum: c3885bb0c140cfca306862737575d86d983d746b5e2abfea531c9f961ee26219
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_xscale.ipk
-Size: 1226
-SHA256sum: 52fb2a41d4e5f4356926e2c1747dfbf4658edb7498809dafbfeea803cace6103
+Size: 1228
+SHA256sum: 1baa914d05d70318cf0905bc76f86d263fac4c1bde181c354de13b79c466c765
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_xscale.ipk
-Size: 919696
-SHA256sum: 1a1f489987b1c95255d322aa284e3b96c79afd000c2c24ea1d1958e1d2e69112
+Size: 919774
+SHA256sum: 7bd6193cea9852043ae68194daa7df2f90d6edf401dc7447605476a2705172ce
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,52 +61,52 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 1085440
 Filename: meshtasticd_2.6.11-r1_arm_xscale.ipk
-Size: 471205
-SHA256sum: b76e6fbfbf86b4212e480ac0d499b9f5142f9cdc740e1d86be1d67bbc65df9a1
+Size: 471678
+SHA256sum: 00e4eab04f433592d77b82b401a0b0d970cba62d4ebda935d54cf4667dcb7c4c
 Description:  Meshtastic Daemon
 
 Package: python3-pyelftools-src
-Version: 0.31-r1
+Version: 0.32-r1
 Depends: libc
 Source: /feed/depends/python-pyelftools
 SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 737280
-Filename: python3-pyelftools-src_0.31-r1_arm_xscale.ipk
-Size: 156251
-SHA256sum: b39b2f9d8239a749fcfeca9a8a0c0b0ca19ae0fdb719db9e6ef0422a20bc3000
+Installed-Size: 768000
+Filename: python3-pyelftools-src_0.32-r1_arm_xscale.ipk
+Size: 163910
+SHA256sum: 1bef5da26e8d8bd84ef93ed9210ae69fbcc57843cd7efc3f8fbd2288de32d62b
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
 
 Package: python3-pyelftools
-Version: 0.31-r1
+Version: 0.32-r1
 Depends: libc, python3-light, python3-logging
 Source: /feed/depends/python-pyelftools
 SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 931840
-Filename: python3-pyelftools_0.31-r1_arm_xscale.ipk
-Size: 325641
-SHA256sum: c543de5a61283388e74d14a99651ff24cd11c549cac9a5bc06279b023eab05a0
+Installed-Size: 962560
+Filename: python3-pyelftools_0.32-r1_arm_xscale.ipk
+Size: 337577
+SHA256sum: ebaf13cf0be3a8d6f5f0b1280b137661b8923d9b3c9a667068b33039df1fa30e
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -117,14 +117,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_xscale.ipk
-Size: 23553
-SHA256sum: 73f8051daa59b3d5674ec784fe39557e6bd733847507a968dfe59e62e272abd0
+Size: 23547
+SHA256sum: 51117bd58ec6e90e7104f2a6f8130f1b285c93a62445f9983cef72d55036aac5
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -137,13 +137,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_xscale.ipk
-Size: 54756
-SHA256sum: 51037eca9d56c16c6f55cb0900723e45e12aed6a6b758573c2743c02e28e85d5
+Size: 54741
+SHA256sum: 1788e817092073df9b559e5ad266b9a2a5b2d4d6d6bc206e5b82657ab847c951
 Description:  Pretty-print tabular data
 

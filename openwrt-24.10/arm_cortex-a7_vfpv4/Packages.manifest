@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a7_vfpv4.ipk
-Size: 4025
-SHA256sum: 0a7770f9ce3a90d7d63ddb13cce85a7d81f4d99e5f34b23ec5a51cfb957007d4
+Size: 4027
+SHA256sum: 9588b8fc6a7d8bd9e1ec3850c73ed823a1fa222b653d4b6eef1d786845c3fed2
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a7_vfpv4.ipk
-Size: 1232
-SHA256sum: d17eeb309c47e5c117ee9d984d92ad73d60bd0523c73478da1e45d3779083b86
+Size: 1237
+SHA256sum: ed56d194d037866358f7b4445c20aff58f8fd4d36a6ef26dbe36fef006dbf6df
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a7_vfpv4.ipk
-Size: 919701
-SHA256sum: c39b88f432b868fe8207757f6d00c1da2ff86a83f23ee4f58d58f73090852308
+Size: 919782
+SHA256sum: 7f336a3d3ec1fec77116372f255c9d351a2c64e2b90d828dd275db73135fe154
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,52 +61,52 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 1064960
 Filename: meshtasticd_2.6.11-r1_arm_cortex-a7_vfpv4.ipk
-Size: 465068
-SHA256sum: 5f117850176ecf6b8607ab757c30328ca02cdcb176c1eecd53e677925e8c64a2
+Size: 465058
+SHA256sum: 9803f10b679eeda412e7900741c1accf7c532c29b98a5874eccb04f4ebeacefd
 Description:  Meshtastic Daemon
 
 Package: python3-pyelftools-src
-Version: 0.31-r1
+Version: 0.32-r1
 Depends: libc
 Source: /feed/depends/python-pyelftools
 SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
-Installed-Size: 737280
-Filename: python3-pyelftools-src_0.31-r1_arm_cortex-a7_vfpv4.ipk
-Size: 156257
-SHA256sum: c1d44dfb2756df9e54bf697c2ea03a80c7b63edc46698b1d7be7aebdf08e7f00
+Installed-Size: 768000
+Filename: python3-pyelftools-src_0.32-r1_arm_cortex-a7_vfpv4.ipk
+Size: 163912
+SHA256sum: 38e1c5e0dbb3e883a68e8cc93409c2965a5aebf473d663e63047008df3414d67
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
 
 Package: python3-pyelftools
-Version: 0.31-r1
+Version: 0.32-r1
 Depends: libc, python3-light, python3-logging
 Source: /feed/depends/python-pyelftools
 SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
-Installed-Size: 931840
-Filename: python3-pyelftools_0.31-r1_arm_cortex-a7_vfpv4.ipk
-Size: 325649
-SHA256sum: 96b4ba52bf53039b5fb91a7ecba16209daba01f09f4674ee52521f7d4d858b13
+Installed-Size: 962560
+Filename: python3-pyelftools_0.32-r1_arm_cortex-a7_vfpv4.ipk
+Size: 337587
+SHA256sum: a3f7c080ab72cc85d6e2eb04186c5624d0867156294d2e2c1990e599523d233d
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -117,14 +117,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a7_vfpv4.ipk
-Size: 23564
-SHA256sum: d2c8649557060095f4dce5073c1de04d0d72b79b3505bda80d6bbd13e8eeddc2
+Size: 23557
+SHA256sum: ab64cc1f73462fe9dcf9ec2dd28dc7a55408a6b26d553498586c0d0a4b20942d
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -137,13 +137,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1752688410
+SourceDateEpoch: 1755639792
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a7_vfpv4
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a7_vfpv4.ipk
-Size: 54762
-SHA256sum: 0cfd86d8b57df0423faba7c1fccc94fbe9b44e8a4240926e6493b01bc0a62833
+Size: 54747
+SHA256sum: 9fc959b8c63a58d9ec56e7863d7c3b3613de8a35aec7a67a134683ccd1511f4f
 Description:  Pretty-print tabular data
 
