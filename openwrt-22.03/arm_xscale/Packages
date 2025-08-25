@@ -6,8 +6,8 @@ Section: libs
 Architecture: arm_xscale
 Installed-Size: 2842
 Filename: libyder_1.4.14-1_arm_xscale.ipk
-Size: 3644
-SHA256sum: 430321556b06f23c27c7a396afc81d188891aba42699b01053294d906ab408d9
+Size: 3648
+SHA256sum: be7c4d08a7d88c3896e0620ddefddf860815300bc5dbfbe2ce97c7da81c5ff09
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -19,8 +19,8 @@ Section: net
 Architecture: arm_xscale
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.11-1_arm_xscale.ipk
-Size: 1200
-SHA256sum: a437356b9b73b3090330c743df8a15b5208082c380bd66f64df6237e565e36bf
+Size: 1203
+SHA256sum: fffed86b7ffe797b7336a418607745e10ca64447d4633f20e5386698e37b5bee
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -30,10 +30,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: arm_xscale
-Installed-Size: 920049
+Installed-Size: 919946
 Filename: meshtasticd-web_2.6.4-1_arm_xscale.ipk
-Size: 919556
-SHA256sum: c3a30c5e295d122c072643982796005665eca67e31f5c846c1959122c4ef53be
+Size: 919497
+SHA256sum: 4c950770a69c33a9a280176bd3a57f2d0bc1f4d37562801e9861f6e399a60b7e
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -42,10 +42,10 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: arm_xscale
-Installed-Size: 468035
+Installed-Size: 468036
 Filename: meshtasticd_2.6.11-1_arm_xscale.ipk
-Size: 468119
-SHA256sum: fa9b76d13f4b26435462f27bd9d51e16f2b14085f1ab3c55d2a39ab73682f64a
+Size: 468153
+SHA256sum: 86be20705290f6e21bb07156cef23ee962a53c9a7c274889aff926db3fd8a183
 Description:  Meshtastic Daemon
 
 Package: python3-certifi-src
@@ -56,8 +56,8 @@ Section: lang
 Architecture: arm_xscale
 Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_arm_xscale.ipk
-Size: 2297
-SHA256sum: 9a9f5c229fd741e985dc665009517438204bab7edcdb5f500c70dd63eeeeb0f4
+Size: 2301
+SHA256sum: ce7a392a1c7c3e3e0e68045df1e10414e589cfdc3032f92c223e74a7ccbdf68d
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -69,10 +69,10 @@ Depends: libc, python3-light
 License: MPL-2.0
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 148606
+Installed-Size: 148604
 Filename: python3-certifi_2021.10.8-2_arm_xscale.ipk
 Size: 149542
-SHA256sum: 41c7a8003e5ec0cf222c622d609ea3deb67fc817814b83e7879f9b5aecc52e50
+SHA256sum: 89c102265e9ea79981cf18f28266f9662265fceb76dcf235d389339274e46612
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -82,10 +82,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 145618
+Installed-Size: 145624
 Filename: python3-chardet-src_4.0.0-2_arm_xscale.ipk
-Size: 143506
-SHA256sum: dd8c5648bd20f35169a3a20eff574679b34178c1ef0f0ba175baa26f96ab46eb
+Size: 143563
+SHA256sum: dc5558deaa7f1d305a1478f213fa2581f470078ec1ba1267b355aa73fe8e5b8a
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -96,10 +96,10 @@ Depends: libc, python3-light
 License: LGPL-2.1
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 148961
+Installed-Size: 148963
 Filename: python3-chardet_4.0.0-2_arm_xscale.ipk
-Size: 147517
-SHA256sum: e0eed13a16dc334efa6e5fff364de384ef04febd14bcdfead9f69fccf8c944d5
+Size: 146987
+SHA256sum: ac887005b9a8ad3c7d920c814f21aec2dad4024b368525a3d760830ccc38ec86
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -108,10 +108,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 86566
+Installed-Size: 86565
 Filename: python3-click-src_8.1.7-1_arm_xscale.ipk
-Size: 87564
-SHA256sum: dfcc453444a591527762aa2c719fde9f38b04199c36cdf6b7c0fab08691fcbf6
+Size: 87566
+SHA256sum: 117639936b5b0ab873fb49fb6dc8c21be8c459c0583afeeeca93ce509590dae7
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -125,10 +125,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 123111
+Installed-Size: 123118
 Filename: python3-click_8.1.7-1_arm_xscale.ipk
-Size: 124150
-SHA256sum: 12d2d68fc598f15001a6fd12a8dd10acf72104a663611d4a0d1c557a4d5a22f6
+Size: 124155
+SHA256sum: e7a2e925d7129b9ceb318d86fa50bec02cad7ea052254c809f06139898420cdb
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -140,10 +140,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 56268
+Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_arm_xscale.ipk
-Size: 53426
-SHA256sum: 4f827bcfd50b02ef7667c6899db15d9ad45f6963fd5ee895eec4b0830f303e68
+Size: 53387
+SHA256sum: ee98eece842130adfc22b53a22130a59c3224baccfda188aa9d8074a3b247eab
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -157,10 +157,10 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 66822
+Installed-Size: 66825
 Filename: python3-idna_3.3-2_arm_xscale.ipk
-Size: 66606
-SHA256sum: 0c2b5637d2979aea1fb5d91f682929ed1f4b8f1ea3eca6553ac3b760351fc921
+Size: 66517
+SHA256sum: 898b30fe08096f3c08b9f002e9ef61f50011aac7a17844c2bc1ea1034c315a33
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -172,10 +172,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 162977
+Installed-Size: 162973
 Filename: python3-pyelftools-src_0.32-1_arm_xscale.ipk
-Size: 163876
-SHA256sum: 02ee0a4a0e56854355f29313a43946f568ae596ad8e34382fddd4fe8240e5978
+Size: 163865
+SHA256sum: 82cdd70f6c4fa78a8c65a0c4d18572c7b92abcac6aaae595eb1886eba40fae21
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -186,10 +186,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 222680
+Installed-Size: 222682
 Filename: python3-pyelftools_0.32-1_arm_xscale.ipk
-Size: 223220
-SHA256sum: f288960532c7d8cd8fad58bf50dc69dd4e70c8bbe7982f15dafa419973abca3f
+Size: 223193
+SHA256sum: b6dd4ca8293d3ce52577639d6927f8b58904e50bd952ba44b6dbc1587c9fa0b8
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -198,10 +198,10 @@ Depends: libc
 License: BSD
 Section: lang-python
 Architecture: arm_xscale
-Installed-Size: 73216
+Installed-Size: 73219
 Filename: python3-pyserial-src_3.4-2_arm_xscale.ipk
-Size: 74228
-SHA256sum: b5f073fd658ccf278f244c1bedb4530ea8f4f0b9de237b8ddaee4a78724e7048
+Size: 74227
+SHA256sum: 6b847e87c733315b144544ae8d2ef9b436711c213c4f1d795a502394fc3e472e
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -215,10 +215,10 @@ Depends: libc, python3-light
 License: BSD
 Section: lang-python
 Architecture: arm_xscale
-Installed-Size: 98900
+Installed-Size: 98901
 Filename: python3-pyserial_3.4-2_arm_xscale.ipk
-Size: 99913
-SHA256sum: 596312e7d2a17bc09a63f22790bee710532e6c6d5a1a59d64112ba7fdb9ed93e
+Size: 99926
+SHA256sum: e5815294efa154bf36b78a6bb52b6986347993b847725c66a4d847dd7cf77df3
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -231,10 +231,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python-requests:requests
 Architecture: arm_xscale
-Installed-Size: 48797
+Installed-Size: 48795
 Filename: python3-requests-src_2.31.0-2_arm_xscale.ipk
-Size: 49737
-SHA256sum: c350c5a80fdf44f72f8f268677e3c1503ece00a2d30cdc5d6a4d7ec3af1adbbb
+Size: 49759
+SHA256sum: 15a58e5d521f3895811c57482892019b1d26b309bd313e83b448d88303a90c54
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -248,8 +248,8 @@ CPE-ID: cpe:/a:python-requests:requests
 Architecture: arm_xscale
 Installed-Size: 66484
 Filename: python3-requests_2.31.0-2_arm_xscale.ipk
-Size: 67431
-SHA256sum: 26e46d77b4c76be017e903919ae70b9b6d62f77f932a449fbf956ae211be70a0
+Size: 67427
+SHA256sum: 942c89d2354f1d0f0f6b77c279c4cf63306df82e3cca4271205060022cd203de
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -258,10 +258,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: arm_xscale
-Installed-Size: 22720
+Installed-Size: 22716
 Filename: python3-tabulate-src_0.9.0-1_arm_xscale.ipk
-Size: 23526
-SHA256sum: bd77f9ede031080c1d7ac6e120eb2602af4af9444c526f0897865690eec1718b
+Size: 23523
+SHA256sum: e6ede5b675c20d5d3d798a2daca761ef74bc0106f96e0e16055df6477d3d1b80
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -274,8 +274,8 @@ Section: lang
 Architecture: arm_xscale
 Installed-Size: 38398
 Filename: python3-tabulate_0.9.0-1_arm_xscale.ipk
-Size: 39260
-SHA256sum: 65236aecff8c15bf153a93f83d4446e8ec467bb8f48082e98f8359c6a5d25cec
+Size: 39263
+SHA256sum: 6487902a5046f4127e2b059af3f1e06c0655d26d197cbbbdaa403dbf9d189f59
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -285,10 +285,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: arm_xscale
-Installed-Size: 103671
+Installed-Size: 103663
 Filename: python3-urllib3-src_2.0.4-2_arm_xscale.ipk
-Size: 104588
-SHA256sum: 50ca468180bb92f9770a7de2610f56d897b46949bb4448fee0b648b8527658eb
+Size: 104571
+SHA256sum: da8303e15ffd8a8fe6ed6c30e4918ac304cf5f6b6f5bdf93cce7303831e8328b
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -300,9 +300,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: arm_xscale
-Installed-Size: 130628
+Installed-Size: 130622
 Filename: python3-urllib3_2.0.4-2_arm_xscale.ipk
-Size: 131558
-SHA256sum: 6a084c1e56f094d9612079165edcb89bc9a16f5b4529d712f28ed67ee013f264
+Size: 131564
+SHA256sum: 40a36c6001960a7fe5927d347ce65cdc9d2dd6eb05799578402b9c8fcb9e0267
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
