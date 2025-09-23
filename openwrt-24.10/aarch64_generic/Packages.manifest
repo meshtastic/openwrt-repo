@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_aarch64_generic.ipk
-Size: 4289
-SHA256sum: e6558a566a8e535e95e4b3dc9ee77b39fffd424c6bf9b2edb2fb317869c03070
+Size: 4286
+SHA256sum: 3a0e6b215661c5bced02604af949b848c5a9060b2f230a82f2cdaf695b17d0f7
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_aarch64_generic.ipk
-Size: 1233
-SHA256sum: 5a767cbc984894995ab554fadfc731c4a67e67b189b385e3639c30fd8f7d8e20
+Size: 1235
+SHA256sum: 42827bf14508eb4654490b49f43a1043aeb2d812aeb3c0489ba368cd5706e6dd
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_aarch64_generic.ipk
-Size: 908296
-SHA256sum: 36a3efefab0cf5610b028f67ec756e1e06713e57e513597df6be242bb1c45c90
+Size: 919602
+SHA256sum: ddc5b849c899658c8b0c578aae361caf45672a917072776bf6b878e032175151
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,15 +61,95 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 1361920
 Filename: meshtasticd_2.6.11-r1_aarch64_generic.ipk
-Size: 506741
-SHA256sum: 1b70739fae578d3ba6d89127417dfbb8c12917b2fe08bc763f4332e42404f12f
+Size: 506713
+SHA256sum: 8bdffdf75a43819775296cbe0eff9f99e26cd946fa50bc074fc0920134553050
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-r1
+Depends: libc
+Source: /feed/depends/python-ajsonrpc
+SourceName: python-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758657313
+URL: https://pypi.org/project/ajsonrpc
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 81920
+Filename: python3-ajsonrpc-src_1.2.0-r1_aarch64_generic.ipk
+Size: 14835
+SHA256sum: a715586bf567e7a7c6fdf025d593700660116864e0f14619b2aa4d757e4b0784
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-r1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+Source: /feed/depends/python-ajsonrpc
+SourceName: python-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758657313
+URL: https://pypi.org/project/ajsonrpc
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 153600
+Filename: python3-ajsonrpc_1.2.0-r1_aarch64_generic.ipk
+Size: 43801
+SHA256sum: 32c94be256cbe86d055cbc53ac8587a5ee5728b960aabbcf927ad9182db726bb
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+
+Package: python3-platformio-src
+Version: 6.1.18-r2
+Depends: libc
+Source: /feed/depends/python-platformio
+SourceName: python-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758657313
+URL: https://github.com/platformio/platformio-core
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 1280000
+Filename: python3-platformio-src_6.1.18-r2_aarch64_generic.ipk
+Size: 209772
+SHA256sum: 3938964b68e7bd3f81f536c54c182b1c7727333f4bd164b7e28a5db44820ec34
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-r2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Source: /feed/depends/python-platformio
+SourceName: python-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758657313
+URL: https://github.com/platformio/platformio-core
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: aarch64_generic
+Installed-Size: 1914880
+Filename: python3-platformio_6.1.18-r2_aarch64_generic.ipk
+Size: 626077
+SHA256sum: 94b07b68e6329177208684337ab0fd2bc4d016781cf098f57e724b4fce73a149
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -79,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_aarch64_generic.ipk
-Size: 163905
-SHA256sum: 39aa3cd99891b10678c115b9e05f07258b2fac19790c783f62b4b6cbf606428c
+Size: 163916
+SHA256sum: 6ff294f34f605f7e8131e37aa62da02084ad3d4deb0148f75f52a966c06e6a99
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -99,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_aarch64_generic.ipk
-Size: 337513
-SHA256sum: 8be0914f12e44c5634b2919a068d746bd359a1b7874faf2a0c005c46ff638787
+Size: 337410
+SHA256sum: cb8d953defe94ebf0e1a2133d4a3fb348567024a691f2387ca3b1fea6af36a3b
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -117,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_aarch64_generic.ipk
-Size: 23555
-SHA256sum: d87918f61cfb6009b756afd853e64dfe1ecbdf8832852712e7c816ec85e1448e
+Size: 23557
+SHA256sum: 8755ca1c9bf4dfe8705bb7a9c89060a8526f5b899110114cbac240e88641f5bc
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -137,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_aarch64_generic.ipk
-Size: 54747
-SHA256sum: 27067d3cd94ac24f0bae78caa0f1bb13e132807d7489474f6c9ecf8d33b065d7
+Size: 54743
+SHA256sum: eda26399342d1b87be6f80ef67986c229edf52c48a69ef0a625793cfa55ed7f9
 Description:  Pretty-print tabular data
 

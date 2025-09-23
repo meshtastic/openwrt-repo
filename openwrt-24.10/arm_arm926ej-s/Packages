@@ -7,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_arm926ej-s
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_arm926ej-s.ipk
-Size: 4040
-SHA256sum: f06b94a5c0811cebce0da5fcc192fbaed58d385db55cbc3c4b1adabb78280515
+Size: 4042
+SHA256sum: d9d7b00dbd985e49a45f090b298a57f0d05ca553171967b8f0e6f2c450ecc835
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -22,7 +22,7 @@ Architecture: arm_arm926ej-s
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_arm926ej-s.ipk
 Size: 1235
-SHA256sum: f5b98514e1d2e9efefd3a6851269ad6d431dd83089f6a7869df2e57c367e782d
+SHA256sum: 31cb019b48be85bab739f6b11313ce624718261d3c3e1ae6ed9531642240d076
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_arm926ej-s
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_arm926ej-s.ipk
-Size: 908295
-SHA256sum: 9807c3e7c21e290d81f526ec3d33d8cdaba8f8170a3372a5fc6e6e3e5384574d
+Size: 919602
+SHA256sum: 1d745e4fbb2e46ef5541eeb08cee10cf560db21a188ab971ab6808314085803c
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,9 +48,69 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_arm926ej-s
 Installed-Size: 1085440
 Filename: meshtasticd_2.6.11-r1_arm_arm926ej-s.ipk
-Size: 471776
-SHA256sum: 039ba691853fb00fc24baed0a9a82deceac812d0e7c37f93a7c3768089b62785
+Size: 471771
+SHA256sum: a6f078731b09d9ec85ffb59a6ddfb1fe90861071e276b1618125054f675f006a
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-r1
+Depends: libc
+License: MIT
+Section: lang
+URL: https://pypi.org/project/ajsonrpc
+Architecture: arm_arm926ej-s
+Installed-Size: 81920
+Filename: python3-ajsonrpc-src_1.2.0-r1_arm_arm926ej-s.ipk
+Size: 14835
+SHA256sum: c8ea4336b3f3f3c1e37904fa290a2b1bdaef2ff5a3864e352e7bec74a1db15b4
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-r1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+License: MIT
+Section: lang
+URL: https://pypi.org/project/ajsonrpc
+Architecture: arm_arm926ej-s
+Installed-Size: 153600
+Filename: python3-ajsonrpc_1.2.0-r1_arm_arm926ej-s.ipk
+Size: 43801
+SHA256sum: 35941acfe15528648fc1008e6e3b3e34652d43f4d4736be184717eb7e8b17f13
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+
+Package: python3-platformio-src
+Version: 6.1.18-r2
+Depends: libc
+License: Apache-2.0
+Section: meshtastic
+URL: https://github.com/platformio/platformio-core
+Architecture: arm_arm926ej-s
+Installed-Size: 1280000
+Filename: python3-platformio-src_6.1.18-r2_arm_arm926ej-s.ipk
+Size: 209775
+SHA256sum: 9c40dc9319612152696ae178e78c65e188ddb206f4f7952f289b9cdea6f63d76
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-r2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+License: Apache-2.0
+Section: meshtastic
+URL: https://github.com/platformio/platformio-core
+Architecture: arm_arm926ej-s
+Installed-Size: 1914880
+Filename: python3-platformio_6.1.18-r2_arm_arm926ej-s.ipk
+Size: 626077
+SHA256sum: 2c3726c665bb16a7a451e4272f2ce2c4a031b93824eaebe90127c213113ddfc9
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -61,8 +121,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_arm926ej-s
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_arm_arm926ej-s.ipk
-Size: 163905
-SHA256sum: 2e6fd2627d25d8d193d15b71dd7d2adf29469b2fb59d222c9d5cd1ca21966ac1
+Size: 163916
+SHA256sum: 3fff06e9c15df6c22899fd5fdd2831bf6e6c27b76ab86c90cdfefd72b074cfb3
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -76,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_arm926ej-s
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_arm_arm926ej-s.ipk
-Size: 337514
-SHA256sum: 5bb9c512c27319867f9b5fd6df07d5161cbc8b4d83079ba1eea4b063d6407735
+Size: 337410
+SHA256sum: 4e2d8ce3fd3427af05f4dc03691632d135b3aaa87328598694f04ae90304a5fc
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -89,8 +149,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_arm926ej-s
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_arm926ej-s.ipk
-Size: 23555
-SHA256sum: 1f2701963ddba81f9fc2dc21fe666369a00062e52e098600e834142c9a878f8a
+Size: 23558
+SHA256sum: efea2d79f5d63d909dac3699516a3f2ca405431ed3b2f95f6618c0d43915fe54
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -104,7 +164,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_arm926ej-s
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_arm926ej-s.ipk
-Size: 54745
-SHA256sum: d394622703ea024a6721877a4bd3ee622351f54fbe1342994f22c154cec82e56
+Size: 54742
+SHA256sum: 5dd0126d361982986c658f6648121429cc7991cb6f1c18436f36bc83cd059096
 Description:  Pretty-print tabular data
 

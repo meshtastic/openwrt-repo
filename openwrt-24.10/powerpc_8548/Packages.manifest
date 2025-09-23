@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8548
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_powerpc_8548.ipk
 Size: 4541
-SHA256sum: c70e0088a83b612f14b53de28a2d9ff7ccfac4f04247b67421f80fe6ff1402dd
+SHA256sum: e66efa51330e28ba078a0708975be14c15c745b4a3570fae039e9d39f656b53e
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8548
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_powerpc_8548.ipk
-Size: 1235
-SHA256sum: 3898df124be73154b9427496c8cbff6a73ad8a9f7550e8cc106d561aa99be1da
+Size: 1231
+SHA256sum: fabed7d7b0ff975041df00376b653e75d223fc475347bc790e88532cf41bc54a
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8548
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_powerpc_8548.ipk
-Size: 908296
-SHA256sum: 0a7f4dfda999f66df6b7311150f75ff5dc8f0818b8e454cf209f96689c0a748c
+Size: 919602
+SHA256sum: 487edee7d30816c9fa0ffff502d8d387969c3265d2d44d0ddfff6ddc165df997
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,15 +61,95 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8548
 Installed-Size: 1751040
 Filename: meshtasticd_2.6.11-r1_powerpc_8548.ipk
-Size: 583340
-SHA256sum: c086d9de39278015eb556d06b2bbe16b8ef8fdc2010121bf88ce5ce6bb771768
+Size: 583295
+SHA256sum: c6af8dd15258d939647d25e08377302de3621e82c2a787911278ea7a2937160e
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-r1
+Depends: libc
+Source: /feed/depends/python-ajsonrpc
+SourceName: python-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758657313
+URL: https://pypi.org/project/ajsonrpc
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: powerpc_8548
+Installed-Size: 81920
+Filename: python3-ajsonrpc-src_1.2.0-r1_powerpc_8548.ipk
+Size: 14833
+SHA256sum: a1d2049c7862368b654607e853061d761d5521b7b5e0bb3ccb95ddcb595223cd
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-r1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+Source: /feed/depends/python-ajsonrpc
+SourceName: python-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758657313
+URL: https://pypi.org/project/ajsonrpc
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: powerpc_8548
+Installed-Size: 153600
+Filename: python3-ajsonrpc_1.2.0-r1_powerpc_8548.ipk
+Size: 43795
+SHA256sum: 060025f82b3fe10ecfec4c4e9b0705787906e20d030eab0409845a48f5de535b
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+
+Package: python3-platformio-src
+Version: 6.1.18-r2
+Depends: libc
+Source: /feed/depends/python-platformio
+SourceName: python-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758657313
+URL: https://github.com/platformio/platformio-core
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: powerpc_8548
+Installed-Size: 1280000
+Filename: python3-platformio-src_6.1.18-r2_powerpc_8548.ipk
+Size: 209774
+SHA256sum: 233a146f25f998d01a6e35b507ceb3aac5efcd5cbc981728edfcc00b57553475
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-r2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Source: /feed/depends/python-platformio
+SourceName: python-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758657313
+URL: https://github.com/platformio/platformio-core
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: powerpc_8548
+Installed-Size: 1914880
+Filename: python3-platformio_6.1.18-r2_powerpc_8548.ipk
+Size: 626073
+SHA256sum: ff579afbed5aba0d80f9695eec8801ec2752960438994a4b15a9a66c502f77e2
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -79,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8548
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_powerpc_8548.ipk
-Size: 163903
-SHA256sum: feb2e2409db2fa0bed0bbcb9ff443cb36450a56cad57210c3966853f494ac51c
+Size: 163915
+SHA256sum: 85a8fba1bd15f14907d66aecb823627223ed09814c34db70c1843edbd260cfb0
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -99,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8548
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_powerpc_8548.ipk
-Size: 337512
-SHA256sum: 7cd239a87f94d367f651fef4e30a62bf612178e25c2b868eae2b15fd5dd1babc
+Size: 337410
+SHA256sum: c9ea2cd64ea82a7fcf238ba0707298b9120f4edba996e40412ff4b536cfb8d50
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -117,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8548
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_powerpc_8548.ipk
 Size: 23556
-SHA256sum: fbae811f1e188ba063fd771dbf8bf0f52da4fc721f18428ad33236f38285d953
+SHA256sum: c3326a8a638f0f24a0daf0ccba18fbb6aa4355826e9ddc9181a16e61cf00757b
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -137,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8548
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_powerpc_8548.ipk
-Size: 54746
-SHA256sum: 2001ffcbe156ae87bddeb0bbc82991667f8375aa2b9c9cb92212d16a0468c8be
+Size: 54743
+SHA256sum: 62e5392da4de19a58b5982d41756eaefa44d6fa5ad59957ec163f8bf5960ab3d
 Description:  Pretty-print tabular data
 

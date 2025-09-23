@@ -7,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: loongarch64_generic
 Installed-Size: 30720
 Filename: libyder_1.4.17-r1_loongarch64_generic.ipk
-Size: 4216
-SHA256sum: f819174b31871a7e2888eda432925ee5a0d8c4894bf44e80a329c4c8545ec056
+Size: 4212
+SHA256sum: b888cd45adc9a4a95fbfd1a06d164bddfdae622ab0539622247e218181678461
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: loongarch64_generic
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_loongarch64_generic.ipk
-Size: 1237
-SHA256sum: a826a7067ca9b1f9786a08823ff80f81dbea799b76ca521b334b6502ef900c6e
+Size: 1240
+SHA256sum: ac7baaaa1a2b54fb8bc5827ffbd11ad207a0e04b8a73e04d840c67cefd74ec9b
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: loongarch64_generic
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_loongarch64_generic.ipk
-Size: 908299
-SHA256sum: d90566d65b5a4413873628f934b8f638e496ac84953f91ac58aa7c112d3fa450
+Size: 919607
+SHA256sum: 9bc3bb347f418c74ae30d071bf240dda090b2d47e65985dbe60d12bb9626f50d
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,9 +48,69 @@ URL: http://github.com/meshtastic/firmware
 Architecture: loongarch64_generic
 Installed-Size: 1361920
 Filename: meshtasticd_2.6.11-r1_loongarch64_generic.ipk
-Size: 523824
-SHA256sum: c8afff20afaf54d253be85676846cba0c7128ed236167b09c314eb3c5847be09
+Size: 523791
+SHA256sum: 7bbf336707a81039ae0433b23bc4fbcfaf763c628ca1979f19408c15611d6740
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-r1
+Depends: libc
+License: MIT
+Section: lang
+URL: https://pypi.org/project/ajsonrpc
+Architecture: loongarch64_generic
+Installed-Size: 81920
+Filename: python3-ajsonrpc-src_1.2.0-r1_loongarch64_generic.ipk
+Size: 14842
+SHA256sum: bd602e4f0a30707de1d704a4c212e102da837f59cf165609c0c62bf9f837cd17
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-r1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+License: MIT
+Section: lang
+URL: https://pypi.org/project/ajsonrpc
+Architecture: loongarch64_generic
+Installed-Size: 153600
+Filename: python3-ajsonrpc_1.2.0-r1_loongarch64_generic.ipk
+Size: 43800
+SHA256sum: d71ff81ceb3836eb9ce3b479ae06d673fbc4b7b4ee67eebc0a9e1742a8059528
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+
+Package: python3-platformio-src
+Version: 6.1.18-r2
+Depends: libc
+License: Apache-2.0
+Section: meshtastic
+URL: https://github.com/platformio/platformio-core
+Architecture: loongarch64_generic
+Installed-Size: 1280000
+Filename: python3-platformio-src_6.1.18-r2_loongarch64_generic.ipk
+Size: 209776
+SHA256sum: f55a7d78fb21bab7aad04f6c185cb15f6c9f4a05df0dc57651e05279de93d897
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-r2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+License: Apache-2.0
+Section: meshtastic
+URL: https://github.com/platformio/platformio-core
+Architecture: loongarch64_generic
+Installed-Size: 1914880
+Filename: python3-platformio_6.1.18-r2_loongarch64_generic.ipk
+Size: 626078
+SHA256sum: 9ab7b3938e946d36b0d3a58efc92e21dbd3340926ac954fcdb5713af28b4c65f
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -61,8 +121,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: loongarch64_generic
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_loongarch64_generic.ipk
-Size: 163905
-SHA256sum: 287ab9e35a370d7d3a76fb1a61923d142901a366c6f58931c14edee529f788e6
+Size: 163916
+SHA256sum: 65b7b23e03673503aac6720d823e347381187afaf02c8bcf366a05095833000c
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -76,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: loongarch64_generic
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_loongarch64_generic.ipk
-Size: 337513
-SHA256sum: 377449de162e2e498bc2e16370ed721dbc009a8fd7aa3c0b6d3cd2d918094e0f
+Size: 337411
+SHA256sum: 0bb38ac97f1537e8fd020bbeac3f645fdad0169f3ca9920ab27fdf0bde361ed6
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -89,8 +149,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: loongarch64_generic
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_loongarch64_generic.ipk
-Size: 23560
-SHA256sum: c234dc8736ec812a63cac4cb8772951bc7e2ce0b52dc80a4ffe895fbcf6aeefb
+Size: 23559
+SHA256sum: 394c64024dcbe1d88956581289125b88652d5081635ff966065949ff8486cea7
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -104,7 +164,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: loongarch64_generic
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_loongarch64_generic.ipk
-Size: 54748
-SHA256sum: ac9a612fe87f2b63ca99139efff6ea7e5139325f0728873130ae650b33f2a675
+Size: 54745
+SHA256sum: d4cde7bbb4733fc14c2bb01ee925dae2a44162afb61ddae36892f587ab994a91
 Description:  Pretty-print tabular data
 

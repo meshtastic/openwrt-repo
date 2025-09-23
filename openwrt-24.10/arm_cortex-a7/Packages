@@ -8,7 +8,7 @@ Architecture: arm_cortex-a7
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a7.ipk
 Size: 4018
-SHA256sum: 7c0643977692ce3b3fe93854bd0f60f432403d5ee3587153bcc06a2419a067d3
+SHA256sum: 6c5d77fed9fdc683b0cdcebce68f7f8cad279f06a46dc774df05223db06b7a2a
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +21,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a7
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a7.ipk
-Size: 1233
-SHA256sum: 11272f23cac4fb10da40d2c923443d33b0a25f431a03ff4b27960cd6c64a01c3
+Size: 1237
+SHA256sum: fdc589fe40f3f5114c38c3bb85f6d4768b223a9d2e04a57d8e11c7e02b1a6994
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,8 +35,8 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a7
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_arm_cortex-a7.ipk
-Size: 908294
-SHA256sum: 5e132722153da235ce6d65eda7f056eff0694e80abacfabcb7553d6fe2aa1db6
+Size: 919602
+SHA256sum: 9b83ebfdcccd1839f9c7b7a3350fe4d294f089ba0e7d0fce54a57337511c06d2
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -48,9 +48,69 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a7
 Installed-Size: 1075200
 Filename: meshtasticd_2.6.11-r1_arm_cortex-a7.ipk
-Size: 469298
-SHA256sum: a8c0e5596a0ff460ebc4830335ae0fa903d4a2c3bf768d6991f545e26e275c9c
+Size: 469291
+SHA256sum: f4f5e51814e75e217d67015d664bcd2b31811aca907375de5d8e87d1ad37afde
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-r1
+Depends: libc
+License: MIT
+Section: lang
+URL: https://pypi.org/project/ajsonrpc
+Architecture: arm_cortex-a7
+Installed-Size: 81920
+Filename: python3-ajsonrpc-src_1.2.0-r1_arm_cortex-a7.ipk
+Size: 14836
+SHA256sum: cb271b7ac6777eb1d4f143d227e96e96a3e5a58386da47642ed20356ef9c4bb0
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-r1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+License: MIT
+Section: lang
+URL: https://pypi.org/project/ajsonrpc
+Architecture: arm_cortex-a7
+Installed-Size: 153600
+Filename: python3-ajsonrpc_1.2.0-r1_arm_cortex-a7.ipk
+Size: 43801
+SHA256sum: 256550dbbe87ef22c191bb34a16d8850d662ea04ef881dac6dad88804eccba9f
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+
+Package: python3-platformio-src
+Version: 6.1.18-r2
+Depends: libc
+License: Apache-2.0
+Section: meshtastic
+URL: https://github.com/platformio/platformio-core
+Architecture: arm_cortex-a7
+Installed-Size: 1280000
+Filename: python3-platformio-src_6.1.18-r2_arm_cortex-a7.ipk
+Size: 209774
+SHA256sum: c104a2a469bd464f2d3ed249a5b0f28ddd4337764dca6d7908b41103a5e705c6
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-r2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+License: Apache-2.0
+Section: meshtastic
+URL: https://github.com/platformio/platformio-core
+Architecture: arm_cortex-a7
+Installed-Size: 1914880
+Filename: python3-platformio_6.1.18-r2_arm_cortex-a7.ipk
+Size: 626075
+SHA256sum: 08ccb98a5cded1f46b8da1325bf5a95b24c7735caa06ba57442d81ced00bb15b
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -61,8 +121,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a7
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_arm_cortex-a7.ipk
-Size: 163903
-SHA256sum: dd924cb428c7367b2bba345aa210dca26c2b3d6e2de149d712e8a17210437774
+Size: 163917
+SHA256sum: 3b58cd8966c5446633f2e7ff22d3ea22c84d14d1840e2a446e7e1a58556e2e5c
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -76,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a7
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_arm_cortex-a7.ipk
-Size: 337509
-SHA256sum: 444e06fd086caa7f59dcf24d915511b98e0cdac780edb4a24f78638e172195ed
+Size: 337406
+SHA256sum: 815948ad047a7d74cb03903c050b5c297abd12d14511108481a3ef5ae1a5e650
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -89,8 +149,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a7
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a7.ipk
-Size: 23554
-SHA256sum: 8a74b614e7562154477201cd785dcd790a97627bc3b43f2cf799890c4b8a711e
+Size: 23557
+SHA256sum: ff729e50135119047b85bbf9c805c377c6fe3d10603f921d7167b69e4d4e3393
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -104,7 +164,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a7
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a7.ipk
-Size: 54745
-SHA256sum: da87672856d9febd3056aac6d44b904ebc4a2769931f1c0dcd8091fb4121d0e0
+Size: 54737
+SHA256sum: da918f6d3a9637c159b8141dfbbd5db0575b6b877526bdc4290c7cc032162f93
 Description:  Pretty-print tabular data
 

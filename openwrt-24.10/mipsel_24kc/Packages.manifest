@@ -6,14 +6,14 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mipsel_24kc.ipk
-Size: 3844
-SHA256sum: 1a268efdf60aa715a42880564ab96d1c58264ec58dac1dc9c0996f739c0ddc5f
+Size: 3853
+SHA256sum: e5c1f8d87e386f02884edd062bebb034347537ab20d18956a1aaf45a33da94dc
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -25,14 +25,14 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.6.11-r1_mipsel_24kc.ipk
-Size: 1232
-SHA256sum: f9d76dd43277049636a906e0813a2710ac64947962c76f6259a5b65848da4f38
+Size: 1237
+SHA256sum: 7ebf8c064f7b3ab076725c7856fbe330750a90783923834644641a644ee70606
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,14 +43,14 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 3799040
 Filename: meshtasticd-web_2.6.4-r1_mipsel_24kc.ipk
-Size: 908295
-SHA256sum: d0f444711021ddda890a11ade5ba9a2c8eabdf926ee7ee38c4dd62bc2b569ee7
+Size: 919599
+SHA256sum: 2ff97cc172286aa2d30b5a84958cda7dd7289b2c9e6a0f769d3b6686c30b19c0
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -61,15 +61,95 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 1402880
 Filename: meshtasticd_2.6.11-r1_mipsel_24kc.ipk
-Size: 557352
-SHA256sum: 2d29be3f7e2e7e1b603630f97b7c8d66acbbc53ac0d8265f45addbdf47194189
+Size: 557374
+SHA256sum: 344858d827cf701173c2b7ac8b5842117fa65212435b7cc43eecc8c37f208d84
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-r1
+Depends: libc
+Source: /feed/depends/python-ajsonrpc
+SourceName: python-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758657313
+URL: https://pypi.org/project/ajsonrpc
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 81920
+Filename: python3-ajsonrpc-src_1.2.0-r1_mipsel_24kc.ipk
+Size: 14836
+SHA256sum: 250d6f577b672d5f154b7f34224afeb0521cf15a7b4d9ca23b2675e5f3ef9828
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-r1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+Source: /feed/depends/python-ajsonrpc
+SourceName: python-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758657313
+URL: https://pypi.org/project/ajsonrpc
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 153600
+Filename: python3-ajsonrpc_1.2.0-r1_mipsel_24kc.ipk
+Size: 43798
+SHA256sum: b854372d766f52eb721c444cadd0bbc84f2631b9ce6abe1650e9357eb3099670
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+
+Package: python3-platformio-src
+Version: 6.1.18-r2
+Depends: libc
+Source: /feed/depends/python-platformio
+SourceName: python-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758657313
+URL: https://github.com/platformio/platformio-core
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1280000
+Filename: python3-platformio-src_6.1.18-r2_mipsel_24kc.ipk
+Size: 209776
+SHA256sum: 0403aa63e128c572fd20115e1058f489762147c5edb7daf9159a206bc90372ed
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-r2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Source: /feed/depends/python-platformio
+SourceName: python-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758657313
+URL: https://github.com/platformio/platformio-core
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 1914880
+Filename: python3-platformio_6.1.18-r2_mipsel_24kc.ipk
+Size: 626073
+SHA256sum: ef7136afbdd108f2563aab0668d8187b335dfa510774facdcd58affd2a1a3123
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -79,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_mipsel_24kc.ipk
-Size: 163904
-SHA256sum: f7306420072affa783030b8a5cd489aa07fafba96a6fbf2c4c3361e4fb42e7e4
+Size: 163916
+SHA256sum: 72552650b362b696d36f2bd3d2217a5a5bc1812d8991807410f309dff60c663a
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -99,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_mipsel_24kc.ipk
-Size: 337513
-SHA256sum: 5833f62f7e87473ce9a9732728bc05c31adda59cf3ccdbe3584aa7ba62b72fe9
+Size: 337405
+SHA256sum: 74e62cff7b9cfbd16675110e74d8248d4fc99fcb48810910e139516189c93d87
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -117,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mipsel_24kc.ipk
-Size: 23555
-SHA256sum: 383b63da478d765c015a3ff266586d6d464077ce35c6fb036f58a6aca735d723
+Size: 23557
+SHA256sum: 70cc1b546e828c7564398becc4becdbfbea3348fc921bda377904f028e4550f7
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -137,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1755978364
+SourceDateEpoch: 1758657313
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mipsel_24kc.ipk
-Size: 54744
-SHA256sum: 321da427b51a9aae731613f9cde11ce38c93440ce4f855b3e6bc529a17a8879a
+Size: 54739
+SHA256sum: 316ddcd671ac3632b3d3f000b77e33cff998c8dd953cfe19609a57048c7e13e3
 Description:  Pretty-print tabular data
 
