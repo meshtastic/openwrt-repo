@@ -4,10 +4,10 @@ Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: mips64_octeonplus
-Installed-Size: 3396
+Installed-Size: 3394
 Filename: libyder_1.4.17-1_mips64_octeonplus.ipk
-Size: 4086
-SHA256sum: d0d3495ddbbe2d40e4e273f60f99e8e62226824451ff4c1c1c2537e8b52a060c
+Size: 4085
+SHA256sum: 2c4398924a7b761a8be9baf206d3df0d1de69c3b09cb61b8be536f6748cf60db
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -17,10 +17,10 @@ Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 Architecture: mips64_octeonplus
-Installed-Size: 365
+Installed-Size: 366
 Filename: meshtasticd-avahi-service_2.6.11-1_mips64_octeonplus.ipk
 Size: 1207
-SHA256sum: b6f6a0bbf1e3ad0f11f8387e8d300e808950cfe98bd2a6a82e3e4822b889e189
+SHA256sum: 3b271ac2ac05fd831918eb3cec78add817d2970d1012dc048f6bd8b3e69a8520
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -30,10 +30,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: mips64_octeonplus
-Installed-Size: 920063
+Installed-Size: 919924
 Filename: meshtasticd-web_2.6.4-1_mips64_octeonplus.ipk
-Size: 919679
-SHA256sum: 2a1e05956122cc1d616accafb00a9ca7c6184b494b0a8ccd29b87129a3afe554
+Size: 919693
+SHA256sum: 8a80e5a5e8496bbc4b7fc8caeccb7abd4079626ddeae31160bb8a96ab5d71a4a
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -42,11 +42,37 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: mips64_octeonplus
-Installed-Size: 590599
+Installed-Size: 590537
 Filename: meshtasticd_2.6.11-1_mips64_octeonplus.ipk
-Size: 588716
-SHA256sum: 95c1c2a8f4548551764060b4f3728eb2efc8be196896e976a798f877bee2eadb
+Size: 588664
+SHA256sum: 1f9adf8749dd70237593847cbdeae345b1cc203f8d29a60177579aabb8c14ca4
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-1
+Depends: libc
+License: MIT
+Section: lang
+Architecture: mips64_octeonplus
+Installed-Size: 13976
+Filename: python3-ajsonrpc-src_1.2.0-1_mips64_octeonplus.ipk
+Size: 14811
+SHA256sum: d770cbe647efc9f17b60d49dd9302fb30111f7f00eff269d66971e5e1075fe7f
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+License: MIT
+Section: lang
+Architecture: mips64_octeonplus
+Installed-Size: 42855
+Filename: python3-ajsonrpc_1.2.0-1_mips64_octeonplus.ipk
+Size: 43772
+SHA256sum: 4b60260544b10782953ed389be917e50bfef150216054aaac0d7a09c8b566d2d
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
 Version: 2023.7.22-2
@@ -56,8 +82,8 @@ Section: lang
 Architecture: mips64_octeonplus
 Installed-Size: 1689
 Filename: python3-certifi-src_2023.7.22-2_mips64_octeonplus.ipk
-Size: 2560
-SHA256sum: 1b58626557bb57fcce207861121995a32900ef494b415640570d18d13af5f4a3
+Size: 2562
+SHA256sum: 31c826fc2db59c0cd7471cc8f8dfb3a189dad4280d2172be2f961cb08bb77381
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -70,10 +96,10 @@ Depends: libc, python3-light, python3-urllib
 License: MPL-2.0
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 158836
+Installed-Size: 158832
 Filename: python3-certifi_2023.7.22-2_mips64_octeonplus.ipk
-Size: 159784
-SHA256sum: 5fbd3615cbd4f5c18e5a806bb3b7f6a79b383a050e6ca6a0f6b5cbc23afc5e3c
+Size: 159780
+SHA256sum: dc4daef89203c8a2b1e4d78120a3dd5329f3a2b5ca7944bae4469b23c6378583
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -84,10 +110,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 165842
+Installed-Size: 165825
 Filename: python3-chardet-src_5.1.0-2_mips64_octeonplus.ipk
-Size: 161267
-SHA256sum: dbb446a1109da3efca99bef12c8a25108269de65f4fd19885656b1a600dae30a
+Size: 161415
+SHA256sum: 8b5ddd4ac53a26cecd7cdf1dc0b0cf027b34300d480a25df82e58bfbad12c1b2
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -98,10 +124,10 @@ Depends: libc, python3-light, python3-logging
 License: LGPL-2.1
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 225467
+Installed-Size: 225438
 Filename: python3-chardet_5.1.0-2_mips64_octeonplus.ipk
-Size: 206161
-SHA256sum: 59fade7bdd4db53ed34ec990b337b3bc8f9fcb95e6140f8f9083f1fc4ff1c333
+Size: 205601
+SHA256sum: 261ffeb4d9d6a33aab49469252806b67b523404acacae5bd6bda49e77309f175
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-idna-src
@@ -110,10 +136,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 56827
+Installed-Size: 56825
 Filename: python3-idna-src_3.4-2_mips64_octeonplus.ipk
-Size: 53921
-SHA256sum: 881b4496fc4cb2478788a3b4cb54b5cae121f05cdb855197b29d4473e3ca08f9
+Size: 53889
+SHA256sum: 7c730429e8a1d12efaac02d2ebcc674d32296cadcbbe91ab5c6685c46f553972
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -127,14 +153,44 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 72466
+Installed-Size: 72453
 Filename: python3-idna_3.4-2_mips64_octeonplus.ipk
-Size: 70490
-SHA256sum: 79d2abefa716c1cd3166ef9dae2b9369c9520cb95c5397aa1bdfbc26c87f8eab
+Size: 70492
+SHA256sum: 165394a28a740a84d8886fb45597a6cf3cbdfc7da10ad09a25297a9d9d2c30de
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
+
+Package: python3-platformio-src
+Version: 6.1.18-2
+Depends: libc
+License: Apache-2.0
+Section: meshtastic
+Architecture: mips64_octeonplus
+Installed-Size: 208922
+Filename: python3-platformio-src_6.1.18-2_mips64_octeonplus.ipk
+Size: 209764
+SHA256sum: a51871f071bf48e7853363803ebb097f2f6d983adfa6b2c7efa640b4152580d3
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+License: Apache-2.0
+Section: meshtastic
+Architecture: mips64_octeonplus
+Installed-Size: 624628
+Filename: python3-platformio_6.1.18-2_mips64_octeonplus.ipk
+Size: 625763
+SHA256sum: 76fa8c9dccb7bcfafd839247688feae87b4eea1aadc9dd093cabb700314956eb
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -142,10 +198,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 162975
+Installed-Size: 162969
 Filename: python3-pyelftools-src_0.32-1_mips64_octeonplus.ipk
-Size: 163876
-SHA256sum: b7fc2d5698dbfdffa8be9b24fb45eb8441c5cf73c331926dcf38e7f5afdd8d26
+Size: 163882
+SHA256sum: 1c2b2494e478c42b0cfd01f04ee2eaaf3dfe2b0335014c84c97bc449b88d008e
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -156,10 +212,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 337066
+Installed-Size: 337067
 Filename: python3-pyelftools_0.32-1_mips64_octeonplus.ipk
-Size: 337449
-SHA256sum: 4389b8ef0c1b5b16809d45b897028fd3fdc2bbe88e50f14dc780d8cf83fda427
+Size: 337455
+SHA256sum: d4fbade26bd434dd0c96a3455e79463cfd6a87f5a41997e0a3f07c76e119e2c7
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -168,10 +224,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 70403
+Installed-Size: 70392
 Filename: python3-pyserial-src_3.5-2_mips64_octeonplus.ipk
-Size: 71435
-SHA256sum: d8817b9ec5767097cd056314bb1562b9d80a6ceb772230a94a2ef9ca1f8646ef
+Size: 71418
+SHA256sum: 85a8c61f0603f07be91e28f02537aa1fc687dd6389751477dd9710673719f139
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -185,10 +241,10 @@ Depends: libc, python3-light, python3-logging, python3-urllib
 License: BSD-3-Clause
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 152583
+Installed-Size: 152580
 Filename: python3-pyserial_3.5-2_mips64_octeonplus.ipk
-Size: 153614
-SHA256sum: dc4b57d83d9a7acff2dda5cd9f4c48eec7d67665a7512de3105e8a919bf713b2
+Size: 153612
+SHA256sum: 21915544cc2077078106a3060160b93054e6b55b351cc3ce30a0fcad0ca51343
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -201,10 +257,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python:requests
 Architecture: mips64_octeonplus
-Installed-Size: 48727
+Installed-Size: 48721
 Filename: python3-requests-src_2.30.0-2_mips64_octeonplus.ipk
-Size: 49681
-SHA256sum: 01eee3256971a4c9749151b9ab896258ba210e07b7a7b0fedacecaad829b3269
+Size: 49679
+SHA256sum: c01cd3ec9caad7127aace2db3e0ee1f2a347ce182d29d646abac0ae7f0f230dc
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -218,8 +274,8 @@ CPE-ID: cpe:/a:python:requests
 Architecture: mips64_octeonplus
 Installed-Size: 98271
 Filename: python3-requests_2.30.0-2_mips64_octeonplus.ipk
-Size: 99243
-SHA256sum: 2884879ac7ab2c102f657eda37b512c9abe028f9f41e24fdccdecb16ac019536
+Size: 99234
+SHA256sum: b8e1edf4e037e3c9ec56c0399998f4cbfff363d36792cff6056c8e7f32b4e909
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -228,10 +284,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 22718
+Installed-Size: 22714
 Filename: python3-tabulate-src_0.9.0-1_mips64_octeonplus.ipk
-Size: 23528
-SHA256sum: a85dcdd87e46e88abfa242d52db5824ee7650ab777505d927892c95698f861b4
+Size: 23521
+SHA256sum: 092338c4eb7a9adaba8533362f2d1592ea0c9f83ec68bf3540261adb40ffa1ba
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -242,9 +298,9 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: mips64_octeonplus
-Installed-Size: 53940
+Installed-Size: 53941
 Filename: python3-tabulate_0.9.0-1_mips64_octeonplus.ipk
-Size: 54783
-SHA256sum: a81135e25251476e5b88c88a22b4cef01aeeec1ea456a5475e1cb4988d39d708
+Size: 54788
+SHA256sum: b61854bf7678b3a21462f30b71c43bf0ccf36504f8a8a0f167cb664cf36ee338
 Description:  Pretty-print tabular data
 

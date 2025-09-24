@@ -6,13 +6,13 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 3179
+Installed-Size: 3178
 Filename: libyder_1.4.17-1_mips_24kc.ipk
-Size: 3864
-SHA256sum: 39303ebc2410413d75c026a7da7268c6a0adaa2dd2fc33ed6b94e93ac3c794ef
+Size: 3867
+SHA256sum: f4229af7a8b6f27a62ea9259661a60bcebd85132157828764487ca82d76ece97
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -24,13 +24,13 @@ SourceName: meshtasticd-avahi-service
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 365
+Installed-Size: 366
 Filename: meshtasticd-avahi-service_2.6.11-1_mips_24kc.ipk
-Size: 1204
-SHA256sum: cf6dfbba0a6e752b64cef01a57435da2424e0fbb54951efe9566a81e9d609705
+Size: 1200
+SHA256sum: dc5b39effcffcafdb90dda82d38d9ae1fe58ef116f86bbc40111d3e654ae8f34
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -41,13 +41,13 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 920063
+Installed-Size: 919924
 Filename: meshtasticd-web_2.6.4-1_mips_24kc.ipk
-Size: 919674
-SHA256sum: a9f0062425d0b9373cb066d30c879047dfaa98919c52915e170fe67c1234a473
+Size: 919687
+SHA256sum: a927666e1c1d09ce176b5724b07a9d47486f3c4518c3bd42b621ae27f85b9ccb
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -58,14 +58,50 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 571818
+Installed-Size: 571807
 Filename: meshtasticd_2.6.11-1_mips_24kc.ipk
-Size: 570610
-SHA256sum: 10f57ba6646f539952899cababb78b1c2bac9c93c134a954cb1b73be9000cfeb
+Size: 570640
+SHA256sum: 504c4b468908291e29c501a43b55a0a2c3ceb9624a2c6472e8dfb0b8ae7d5c02
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-1
+Depends: libc
+Source: /feed/depends/python-ajsonrpc
+SourceName: python3-ajsonrpc-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758669712
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 13976
+Filename: python3-ajsonrpc-src_1.2.0-1_mips_24kc.ipk
+Size: 14807
+SHA256sum: e4b81b5810dd59d5a5527f30c56af7c1ad08719fb4fee5cf9b2c8595823260be
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+Source: /feed/depends/python-ajsonrpc
+SourceName: python3-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758669712
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 42855
+Filename: python3-ajsonrpc_1.2.0-1_mips_24kc.ipk
+Size: 43764
+SHA256sum: e0da7d3fcb4608b52adceb19483fbbdb5aee9b09b1017517aa8302cf20889d50
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
 Version: 2023.7.22-2
@@ -75,13 +111,13 @@ SourceName: python3-certifi-src
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 1689
 Filename: python3-certifi-src_2023.7.22-2_mips_24kc.ipk
 Size: 2557
-SHA256sum: caa1b09d7016bddd9d166cae4c293c0d8f7e09fb186c67f0dba65a79be8fb756
+SHA256sum: 17a91367c4e70324830ce9620121635c0e560692d76a0453cbbd5839fcd90d61
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -96,13 +132,13 @@ SourceName: python3-certifi
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 158836
+Installed-Size: 158832
 Filename: python3-certifi_2023.7.22-2_mips_24kc.ipk
-Size: 159779
-SHA256sum: 717579644c67c01f4ed62d93215433f8d0ab4c44efe69c66103a9b56b1951b1f
+Size: 159776
+SHA256sum: 394b08d280b832bb4ac607a7c1d87c2cc440a01808e48811ba87d6ca99f30bda
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -114,13 +150,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet-src
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 165842
+Installed-Size: 165825
 Filename: python3-chardet-src_5.1.0-2_mips_24kc.ipk
-Size: 161256
-SHA256sum: 5cab2b9321bfbb300c571435d4339a40438ec8c2ae46f8451ce7276ca7229dbd
+Size: 161405
+SHA256sum: c00ea4d6c8a3d6ae5e26832c6beea585b2a535bc8677c1c396d4e4aeaac2493c
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -132,13 +168,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 225467
+Installed-Size: 225438
 Filename: python3-chardet_5.1.0-2_mips_24kc.ipk
-Size: 206163
-SHA256sum: 5837c10f8be3feec0e74aaf135191d70fc143748659b6530bfbd6cd972781f02
+Size: 205599
+SHA256sum: 5681cf269487912dfa80349425db28e627a6a9d7c4f1a2dc8fe083b8d5853ade
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-idna-src
@@ -149,13 +185,13 @@ SourceName: python3-idna-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 56827
+Installed-Size: 56825
 Filename: python3-idna-src_3.4-2_mips_24kc.ipk
-Size: 53918
-SHA256sum: f7515a32946ae30ef2203084f39bf3087f63310f58214b4ec7183dc22bdc2bb8
+Size: 53881
+SHA256sum: 97f7d8d78c6fd74aaa35437e0c3bc6bb868214de005e742af820e1b9845c58c9
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -171,17 +207,57 @@ SourceName: python3-idna
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 72466
+Installed-Size: 72453
 Filename: python3-idna_3.4-2_mips_24kc.ipk
-Size: 70485
-SHA256sum: a8e6b4663c9b5d7e9941b77bcc852599da8d08d02c9edb1ef88a443cfeac3127
+Size: 70494
+SHA256sum: 4d34724b982d1de79bb0f05e4e7d4073f79a987e6c47320c486d626e61252402
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
+
+Package: python3-platformio-src
+Version: 6.1.18-2
+Depends: libc
+Source: /feed/depends/python-platformio
+SourceName: python3-platformio-src
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758669712
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 208922
+Filename: python3-platformio-src_6.1.18-2_mips_24kc.ipk
+Size: 209757
+SHA256sum: abfbdb1e6eddd115ce023ff9c9aa1bc34e0e924057c36793edce51e4e83cf5c0
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Source: /feed/depends/python-platformio
+SourceName: python3-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758669712
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: mips_24kc
+Installed-Size: 624628
+Filename: python3-platformio_6.1.18-2_mips_24kc.ipk
+Size: 625763
+SHA256sum: 8aa6d19ed6681b50e3d4087de6f0215f318e01567619a6bc8a24eb72b1c9b3ae
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -191,13 +267,13 @@ SourceName: python3-pyelftools-src
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 162975
+Installed-Size: 162969
 Filename: python3-pyelftools-src_0.32-1_mips_24kc.ipk
-Size: 163869
-SHA256sum: 7c0d0dfb51ef46114e51f981231b66e6e078b3152de0a420cdb819e8f93201e8
+Size: 163876
+SHA256sum: 9deb133bef3391ceb5e185083c07cfcba02eb2178f88950b88901143a91a1dec
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -210,13 +286,13 @@ SourceName: python3-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 337066
+Installed-Size: 337067
 Filename: python3-pyelftools_0.32-1_mips_24kc.ipk
-Size: 337445
-SHA256sum: 92a74aca457b5cac1241e288dd849198874ea05ad794ba05b7c8393ec1adfd1a
+Size: 337446
+SHA256sum: 3a3c19d3c216c267e252f16d240ecf1aa81e46649bb1b6e2da9d66720b978ac6
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -227,13 +303,13 @@ SourceName: python3-pyserial-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: mips_24kc
-Installed-Size: 70403
+Installed-Size: 70392
 Filename: python3-pyserial-src_3.5-2_mips_24kc.ipk
-Size: 71433
-SHA256sum: 3c6959d067bd7a2f0dcfc004189b768ce2a8ec743b8bdc626029fd53815e8c23
+Size: 71414
+SHA256sum: 580e51223c6c01bffa1f23481b48c39c24e5028e59de085c14e7d3ce4dd89f64
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -249,13 +325,13 @@ SourceName: python3-pyserial
 License: BSD-3-Clause
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: mips_24kc
-Installed-Size: 152583
+Installed-Size: 152580
 Filename: python3-pyserial_3.5-2_mips_24kc.ipk
-Size: 153610
-SHA256sum: 54ed3837cd329f13e8f8e5d67aadb430b434ec2ece047dde5c60f4998c67cc2f
+Size: 153608
+SHA256sum: aa976a82e5a895b66f1439b14296e003dcd80babf813da6ffe60e64eb33f18b3
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -269,14 +345,14 @@ SourceName: python3-requests-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 CPE-ID: cpe:/a:python:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 48727
+Installed-Size: 48721
 Filename: python3-requests-src_2.30.0-2_mips_24kc.ipk
-Size: 49677
-SHA256sum: b6ca52d69fd1c51cee049f6ba6e71ffad16b0d5fb09ce3e85e807157518b53f2
+Size: 49675
+SHA256sum: 3384bc28bf3a51d45da2f70b58f1c149890e50d4d91c3ec6ab8f1b95c81bf9d9
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -289,14 +365,14 @@ SourceName: python3-requests
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 CPE-ID: cpe:/a:python:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: mips_24kc
 Installed-Size: 98271
 Filename: python3-requests_2.30.0-2_mips_24kc.ipk
-Size: 99230
-SHA256sum: 1257938a0c2509e0d695b7dbeb7e6896be6ab7b917f2810975ba40cbaf6d8875
+Size: 99225
+SHA256sum: 20ddb22b54b1407ea15ac53c28af74be9632e22130730e4eb771b7645b4432be
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -307,13 +383,13 @@ SourceName: python3-tabulate-src
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 22718
+Installed-Size: 22714
 Filename: python3-tabulate-src_0.9.0-1_mips_24kc.ipk
-Size: 23524
-SHA256sum: 2688a37f41bee852318162c94e958351b918fc785040542a0fca4fdc3d50d1a9
+Size: 23520
+SHA256sum: eaae9450383eb062a13b24c3ae86d38a963afcd03dd6d1ddea3ddb544ace15ec
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -326,12 +402,12 @@ SourceName: python3-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips_24kc
-Installed-Size: 53940
+Installed-Size: 53941
 Filename: python3-tabulate_0.9.0-1_mips_24kc.ipk
-Size: 54778
-SHA256sum: f4c107a913a94bb8efbf75ed16442fbbea247175774dd499fcdcc7102779542d
+Size: 54783
+SHA256sum: 68c584cd9b6d587a8e2cc86976ec65b7cc9aeaa4b39b83431590479d1fccba7f
 Description:  Pretty-print tabular data
 

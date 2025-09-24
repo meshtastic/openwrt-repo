@@ -6,13 +6,13 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 3304
+Installed-Size: 3301
 Filename: libyder_1.4.17-1_arm_fa526.ipk
-Size: 4100
-SHA256sum: fd398923eee91ddab923b0cdfa155aadd9d87728e0c8e131f3c4886d5478217d
+Size: 4096
+SHA256sum: 46ba051cf3dcc0b49ad5a657e5e6e9dd42bd52bbf9e3be5e19a1a87eaae113dc
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -24,13 +24,13 @@ SourceName: meshtasticd-avahi-service
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 365
+Installed-Size: 366
 Filename: meshtasticd-avahi-service_2.6.11-1_arm_fa526.ipk
-Size: 1205
-SHA256sum: 5cb1601ffad37fc08d29995d86c31317d689a4be492b7d4941b37cbc75d153f4
+Size: 1196
+SHA256sum: 489a4dcecb3202cc959caa26cce45a79708e26e61acbfe59e441a171ea91cca8
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -41,13 +41,13 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 920063
+Installed-Size: 919924
 Filename: meshtasticd-web_2.6.4-1_arm_fa526.ipk
-Size: 919673
-SHA256sum: 370e3f2321f9ca01e060e7290af4d78bb7adf6ce04ae8f2ca8f0fcff3b5b43ae
+Size: 919687
+SHA256sum: f7fb6ccb6fb0467ab77d9013e5cd4fd88503cf02c1c26b3e3b57ba377b218d79
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -58,14 +58,50 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 475647
+Installed-Size: 475643
 Filename: meshtasticd_2.6.11-1_arm_fa526.ipk
-Size: 475514
-SHA256sum: 33bf18cc31033b48dffa4826ef2823fa7989cef37103ee10e07912134b446fd5
+Size: 475536
+SHA256sum: 753ee356628288b63e296ee7943a66177cef49d91d2a40bf2a2a73be19f5f012
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-1
+Depends: libc
+Source: /feed/depends/python-ajsonrpc
+SourceName: python3-ajsonrpc-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758669712
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_fa526
+Installed-Size: 13976
+Filename: python3-ajsonrpc-src_1.2.0-1_arm_fa526.ipk
+Size: 14806
+SHA256sum: f3111b6db7cc83ddf57f34aab3e72903f9b5e6d43d3a5606c16472bf5da6d400
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+Source: /feed/depends/python-ajsonrpc
+SourceName: python3-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758669712
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_fa526
+Installed-Size: 42855
+Filename: python3-ajsonrpc_1.2.0-1_arm_fa526.ipk
+Size: 43759
+SHA256sum: 65cfe5ae57bf24e97c80108768a4ffa6cc41005ddaef6f80c02c6f35b8f3176d
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
 Version: 2023.7.22-2
@@ -75,13 +111,13 @@ SourceName: python3-certifi-src
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 1689
 Filename: python3-certifi-src_2023.7.22-2_arm_fa526.ipk
 Size: 2558
-SHA256sum: eb6cb75044eefe908b24e8c29505f94ea52426588946010e4eec27cc5d475aa4
+SHA256sum: 31eda1d0b47e619fc6281890823d3bd719caa738b9e233052077d8ba3f51e52b
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -96,13 +132,13 @@ SourceName: python3-certifi
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 158836
+Installed-Size: 158832
 Filename: python3-certifi_2023.7.22-2_arm_fa526.ipk
-Size: 159779
-SHA256sum: bdb75a6df6506fef133c68e9a93613ff90ed16aaa8e424b4811c312c07776a44
+Size: 159774
+SHA256sum: 32dbc5c9b81d904c94e71efd990295e02436e4078a9c50ea708da0b721ccaf6c
 Description:  Certifi provides Mozilla's carefully curated collection of Root
  Certificates for validating the trustworthiness of SSL certificates
  while verifying the identity of TLS hosts.
@@ -114,13 +150,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet-src
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 165842
+Installed-Size: 165825
 Filename: python3-chardet-src_5.1.0-2_arm_fa526.ipk
-Size: 161257
-SHA256sum: 93ebc9018f700713f30b6d0edce30a9701bbd80c1889d1a5a35ba636e40f7fb3
+Size: 161404
+SHA256sum: 6f2a96c98274515f02ee406f87e01ec74db6941bfc8691088021732fe2d601f1
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -132,13 +168,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 225467
+Installed-Size: 225438
 Filename: python3-chardet_5.1.0-2_arm_fa526.ipk
-Size: 206159
-SHA256sum: f8f29146c6eaa29cd6b16b6ce195b8720069f1db9544e058daa969efbc17658f
+Size: 205601
+SHA256sum: 0a593b932e23e5f0b84e291d4cb386a9952da56b640af175959ac90ee132c32a
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-idna-src
@@ -149,13 +185,13 @@ SourceName: python3-idna-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 56827
+Installed-Size: 56825
 Filename: python3-idna-src_3.4-2_arm_fa526.ipk
-Size: 53917
-SHA256sum: 033ea19c80248195a1bbfd5221cf777bab6a94b51f384ea4709a423b7d34d331
+Size: 53881
+SHA256sum: 460ca123774f3ffe9a89e6ea3660d795f6d8fcf4b33a643fa829c949e3dabfcf
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -171,17 +207,57 @@ SourceName: python3-idna
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 72466
+Installed-Size: 72453
 Filename: python3-idna_3.4-2_arm_fa526.ipk
-Size: 70485
-SHA256sum: 3bf546f8e004b23b8b0e231dd483a1825a5cc47d5b8c171dc90bac77f69737d0
+Size: 70490
+SHA256sum: a086c88c1b0410d70b2a7ad820b9f869d62ada478ddcbe305f2a42c3c0fce265
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
+
+Package: python3-platformio-src
+Version: 6.1.18-2
+Depends: libc
+Source: /feed/depends/python-platformio
+SourceName: python3-platformio-src
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758669712
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_fa526
+Installed-Size: 208922
+Filename: python3-platformio-src_6.1.18-2_arm_fa526.ipk
+Size: 209758
+SHA256sum: 3a579715fe849ab02eb1bef7fdc24628ff513539fe779d27f61efbd6a2df4e4d
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Source: /feed/depends/python-platformio
+SourceName: python3-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758669712
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: arm_fa526
+Installed-Size: 624628
+Filename: python3-platformio_6.1.18-2_arm_fa526.ipk
+Size: 625766
+SHA256sum: f161aa852763d94c88ad5c60dd3d8f1af824d4b0b0ee9ad19f8e82e96f88365c
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -191,13 +267,13 @@ SourceName: python3-pyelftools-src
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 162975
+Installed-Size: 162969
 Filename: python3-pyelftools-src_0.32-1_arm_fa526.ipk
-Size: 163869
-SHA256sum: cf421f895862fa9912d1a72176760b6f55f1997b5e3a94f2a44f1be1e3bc9793
+Size: 163876
+SHA256sum: 9a7ec02a3a703f6996c88f17b8b25f46a03729b1dfd55e58c4b921006964eec3
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -210,13 +286,13 @@ SourceName: python3-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 337066
+Installed-Size: 337067
 Filename: python3-pyelftools_0.32-1_arm_fa526.ipk
-Size: 337439
-SHA256sum: 7ed587a347adceffacf42b06bff6e853abf7607c2fc9a0f801234193af622479
+Size: 337445
+SHA256sum: 280c0c998b21fd73337747d7c38c81e7512596f530d485af9fa0943dc5cba9b6
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -227,13 +303,13 @@ SourceName: python3-pyserial-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: arm_fa526
-Installed-Size: 70403
+Installed-Size: 70392
 Filename: python3-pyserial-src_3.5-2_arm_fa526.ipk
-Size: 71434
-SHA256sum: 6bf85be1677d7bd71bc765444e3ee49ebb1dd924b86c5385681be018f16644a2
+Size: 71414
+SHA256sum: 9c0e64dcd628b11c4aa95230a81c0bb21ee1a7305348ca07adf363637267b8d5
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -249,13 +325,13 @@ SourceName: python3-pyserial
 License: BSD-3-Clause
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: arm_fa526
-Installed-Size: 152583
+Installed-Size: 152580
 Filename: python3-pyserial_3.5-2_arm_fa526.ipk
-Size: 153611
-SHA256sum: 7956c3bd0850fea514023dee869bf8e13b72bd32cf8a2457abaac9b37ca5eead
+Size: 153607
+SHA256sum: 00e8370ac66dfc3199b50fd984ecb239f3454f1c865374bd687a13deb784ec85
 Description:  This module encapsulates the access for the serial port. It provides
  backends for Python running on Windows, OSX, Linux, BSD (possibly any
  POSIX compliant system) and IronPython. The module named "serial"
@@ -269,14 +345,14 @@ SourceName: python3-requests-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 CPE-ID: cpe:/a:python:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 48727
+Installed-Size: 48721
 Filename: python3-requests-src_2.30.0-2_arm_fa526.ipk
-Size: 49678
-SHA256sum: 12342f9d0a609f27445a1eb610e2a617bd6f4fbcf41766490542372b55e4b34b
+Size: 49676
+SHA256sum: 5d6ff2f7ac9a122dbc3fe9833ba1eadfead91ee0b59d8776d99272f8f7da9b0f
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -289,14 +365,14 @@ SourceName: python3-requests
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 CPE-ID: cpe:/a:python:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 98271
 Filename: python3-requests_2.30.0-2_arm_fa526.ipk
-Size: 99232
-SHA256sum: da103c320865142e6ad536eb61f98b9965cf54ee7deb8b45cb8fbda6f9a71a5c
+Size: 99224
+SHA256sum: 9272960fb7886ab3d7484af69d50d273cb5c4987db89e3bca95714c89128bc6a
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -307,13 +383,13 @@ SourceName: python3-tabulate-src
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 22718
+Installed-Size: 22714
 Filename: python3-tabulate-src_0.9.0-1_arm_fa526.ipk
 Size: 23521
-SHA256sum: e1c2b5876ee148b8e0b369d8d81244e1cb30f98a530e4e89fffccc94c9e5ab43
+SHA256sum: e1032dbfb23e5a9125dbb0e304c8774e84e74e790511f2459c973ece8c8f4224
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -326,12 +402,12 @@ SourceName: python3-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756134907
+SourceDateEpoch: 1758669712
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 53940
+Installed-Size: 53941
 Filename: python3-tabulate_0.9.0-1_arm_fa526.ipk
-Size: 54775
-SHA256sum: a2519d3217e716c990462914fd5dacaba65afb17de122eaf3b5e3ff95e6e248b
+Size: 54783
+SHA256sum: 7071cf840b925bbd2f3adca4c7ffc006353449e34e538dde0e18c81910e5f375
 Description:  Pretty-print tabular data
 
