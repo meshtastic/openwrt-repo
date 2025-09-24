@@ -4,10 +4,10 @@ Depends: libc, librt, libpthread, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: arc_archs
-Installed-Size: 3125
+Installed-Size: 3126
 Filename: libyder_1.4.14-1_arc_archs.ipk
-Size: 3936
-SHA256sum: c3a17a0b933941a23801c0e04e011ddba10c2be24973f4d538c13df06263e5f0
+Size: 3940
+SHA256sum: 7531dba6c0417ad6f8ac6626106191e8db48355a3d6bc7296faa26c441f0fcb2
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -19,8 +19,8 @@ Section: net
 Architecture: arc_archs
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.11-1_arc_archs.ipk
-Size: 1211
-SHA256sum: 152b75ffcaa1bc833caa07f6afa6e717bab104e7b33459c1bbc3e3e88870a43c
+Size: 1209
+SHA256sum: 1608b2522c7e95ca075b14eface69757baa4cb4a3b710c9b5f77cfb16520b23e
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -30,10 +30,10 @@ Depends: libc, librt, libpthread, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: arc_archs
-Installed-Size: 919946
+Installed-Size: 920012
 Filename: meshtasticd-web_2.6.4-1_arc_archs.ipk
-Size: 919503
-SHA256sum: 9e4442b30390a92e6ad79668cbc81942d623d0e4ea5bf223623f8bdeef05b520
+Size: 919708
+SHA256sum: ea6edc9802105375600463c78078d95e732dc256a4d7406c78768c7357afc6c9
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -44,9 +44,35 @@ Section: net
 Architecture: arc_archs
 Installed-Size: 484582
 Filename: meshtasticd_2.6.11-1_arc_archs.ipk
-Size: 484298
-SHA256sum: c7df4553e7bc4e7b7d4e7a27c1d70626839d555a60944bb1d26493159a43eb07
+Size: 484312
+SHA256sum: 42b6128aeeb4b8b6f66a370aec8055dc40eb5e1cb0e6ee0363d15446d71be826
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-1
+Depends: libc, librt, libpthread
+License: MIT
+Section: lang
+Architecture: arc_archs
+Installed-Size: 13980
+Filename: python3-ajsonrpc-src_1.2.0-1_arc_archs.ipk
+Size: 14815
+SHA256sum: f87473f159867745a19b5640dd7d08ba94a2bc2cff7b1ef6854064145ddb829a
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-1
+Depends: libc, librt, libpthread, python3-light, python3-asyncio, python3-logging
+License: MIT
+Section: lang
+Architecture: arc_archs
+Installed-Size: 29565
+Filename: python3-ajsonrpc_1.2.0-1_arc_archs.ipk
+Size: 30387
+SHA256sum: 385c94a4f2f42fbd1c8ec7e7fbd854cf341c4414ac8df7940089b9cba912c73f
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
 Version: 2021.10.8-2
@@ -56,8 +82,8 @@ Section: lang
 Architecture: arc_archs
 Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_arc_archs.ipk
-Size: 2309
-SHA256sum: bd0dd970fa74535ab652661a255573d05a87748d03268eead0396b7602fab763
+Size: 2313
+SHA256sum: f49dd217e49b41f9cb4f407bc146570790eaa26a300c2901be455ea799d3ca1a
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -69,10 +95,10 @@ Depends: libc, librt, libpthread, python3-light
 License: MPL-2.0
 Section: lang
 Architecture: arc_archs
-Installed-Size: 148604
+Installed-Size: 148607
 Filename: python3-certifi_2021.10.8-2_arc_archs.ipk
-Size: 149557
-SHA256sum: f3f4ff5668eab074df2f5745dddfa12d82af830ca5572cc29c12ccb748ff7cfb
+Size: 149551
+SHA256sum: 6d335dfe25432a4c239e3382e884de90f3ccd387939b157925d2fccf706d8748
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -82,10 +108,10 @@ Depends: libc, librt, libpthread
 License: LGPL-2.1
 Section: lang
 Architecture: arc_archs
-Installed-Size: 145624
+Installed-Size: 145623
 Filename: python3-chardet-src_4.0.0-2_arc_archs.ipk
-Size: 143577
-SHA256sum: 6bcf615125cf7eb58e1e978e4c923649fa45ee77706d9fa87996206a891b2f58
+Size: 143684
+SHA256sum: fe284028adaf1d0e251502ff7a75e978e7963f344a0eda505d9bcbd56ffe5b88
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -98,8 +124,8 @@ Section: lang
 Architecture: arc_archs
 Installed-Size: 148963
 Filename: python3-chardet_4.0.0-2_arc_archs.ipk
-Size: 146998
-SHA256sum: 3bfbb0c924a86f70e88d5d23b1c6db771ab9323695f499dcb5289de86d54cba6
+Size: 148569
+SHA256sum: 1d65f13cc1f93eda0800c030dc7102de2fb6aa28f3a9206611f4daf220c03976
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -110,8 +136,8 @@ Section: lang
 Architecture: arc_archs
 Installed-Size: 86565
 Filename: python3-click-src_8.1.7-1_arc_archs.ipk
-Size: 87575
-SHA256sum: e3b24456ec98b86650ab8eba573d4cf784f6c7fbe4ff81276494a8da2814d995
+Size: 87571
+SHA256sum: b35da691c52fcda66c12fc95d7fb90fe4495b1eebd5e7f2f9bfd9f0f35154711
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -125,10 +151,10 @@ Depends: libc, librt, libpthread, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: arc_archs
-Installed-Size: 123118
+Installed-Size: 123116
 Filename: python3-click_8.1.7-1_arc_archs.ipk
-Size: 124160
-SHA256sum: 9657e92d44d106115c0ffebb57c24c90ae6da6d7ddaf75bdd81dba1eec284a47
+Size: 124164
+SHA256sum: 5a5967bcbe91b16378bea96ab9e73c987cb1fbd6b8f8df695367a76d1658c7e3
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -142,8 +168,8 @@ Section: lang
 Architecture: arc_archs
 Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_arc_archs.ipk
-Size: 53394
-SHA256sum: fb6abea6b3ccede7e61c6fba781fa6c946acd66dbf458ae45dda2d3c9a483a3f
+Size: 53420
+SHA256sum: c6cc9fdda7128a9500f1833891e9f2680d82696b7919b996553166f8080ddcf0
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -157,14 +183,44 @@ Depends: libc, librt, libpthread, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: arc_archs
-Installed-Size: 66825
+Installed-Size: 66821
 Filename: python3-idna_3.3-2_arc_archs.ipk
-Size: 66526
-SHA256sum: 04f489ef5ca2423a7ec4fef7281113fef05363209a09ece9154a336a0ee85076
+Size: 66663
+SHA256sum: 262ae7035d6a4942e4bb57453799978b70219d0f673e371082a9f62342a444a4
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
+
+Package: python3-platformio-src
+Version: 6.1.18-2
+Depends: libc, librt, libpthread
+License: Apache-2.0
+Section: meshtastic
+Architecture: arc_archs
+Installed-Size: 208922
+Filename: python3-platformio-src_6.1.18-2_arc_archs.ipk
+Size: 209737
+SHA256sum: ec6c1d93f78b1454192cdbf15ae1b8c8abdafa46505b5aef6aa3a7502755f989
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-2
+Depends: libc, librt, libpthread, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+License: Apache-2.0
+Section: meshtastic
+Architecture: arc_archs
+Installed-Size: 373544
+Filename: python3-platformio_6.1.18-2_arc_archs.ipk
+Size: 374567
+SHA256sum: ed126a798a298ed122318038fb45a2880dc17c2e1d34867687c1e3dae9795296
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -172,10 +228,10 @@ Depends: libc, librt, libpthread
 License: Unlicense
 Section: lang
 Architecture: arc_archs
-Installed-Size: 162973
+Installed-Size: 162981
 Filename: python3-pyelftools-src_0.32-1_arc_archs.ipk
-Size: 163874
-SHA256sum: 45bb3b3435b4a6671280e366f019eccb73c0d286650efabf005784b6682d555b
+Size: 163883
+SHA256sum: e6c8f1c647a4a09c661994ac585ce2afbd4c1f858c8ae719f525f00d5bc09e6e
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -186,10 +242,10 @@ Depends: libc, librt, libpthread, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: arc_archs
-Installed-Size: 222674
+Installed-Size: 222679
 Filename: python3-pyelftools_0.32-1_arc_archs.ipk
-Size: 223200
-SHA256sum: f6e5923b699e7e874b54296fdbc287691430ad32888b58a0f1f5c4d53683e0e3
+Size: 223139
+SHA256sum: d06abd901a1a784dd21df749efad0e82ae5c05406d7907e25a54b1ffae15919c
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -198,10 +254,10 @@ Depends: libc, librt, libpthread
 License: BSD
 Section: lang-python
 Architecture: arc_archs
-Installed-Size: 73219
+Installed-Size: 73213
 Filename: python3-pyserial-src_3.4-2_arc_archs.ipk
-Size: 74234
-SHA256sum: b4bc24ff7c4ef71e427e5efb6a1fb34b0a77b0f728701658ea5209121a31be02
+Size: 74226
+SHA256sum: 0253a8b3130875bd2913cf5b82ab14651799ea0d2b4d18d2cc5c2aa801006b02
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -215,10 +271,10 @@ Depends: libc, librt, libpthread, python3-light
 License: BSD
 Section: lang-python
 Architecture: arc_archs
-Installed-Size: 98901
+Installed-Size: 98892
 Filename: python3-pyserial_3.4-2_arc_archs.ipk
-Size: 99938
-SHA256sum: 6a4ce486dfe4a9a5ac2ae4d78a92daab5fd957ec9505714e14f6cd17f93611ae
+Size: 99924
+SHA256sum: 614b3adf7bfa4cdffa09c2430f64ac2244643234adb4fb40781bc2ac44ed4152
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -233,8 +289,8 @@ CPE-ID: cpe:/a:python-requests:requests
 Architecture: arc_archs
 Installed-Size: 48795
 Filename: python3-requests-src_2.31.0-2_arc_archs.ipk
-Size: 49762
-SHA256sum: 1b3fa3a80727e3764509a983c24d84f1eb835b1fccf14209b16b6e6ef9567049
+Size: 49738
+SHA256sum: 92700306b5c6420f834bb933d4b3bcae6129bd2cc817372d01401ad069c22032
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -248,8 +304,8 @@ CPE-ID: cpe:/a:python-requests:requests
 Architecture: arc_archs
 Installed-Size: 66484
 Filename: python3-requests_2.31.0-2_arc_archs.ipk
-Size: 67436
-SHA256sum: 26bb9216eaf714c57a3e1e7724f33d461f78f87e8f13f96304746893bf276b7d
+Size: 67438
+SHA256sum: 3f2b57137c65349ba1c4f01f433b9ba09a687021b4e761455b094c3dbe7d4da4
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -258,10 +314,10 @@ Depends: libc, librt, libpthread
 License: MIT
 Section: lang
 Architecture: arc_archs
-Installed-Size: 22716
+Installed-Size: 22718
 Filename: python3-tabulate-src_0.9.0-1_arc_archs.ipk
 Size: 23534
-SHA256sum: cd27f1a885cfe46fbf42edb7cfe276fd222b5ef559ce903b9305ea912a0ce235
+SHA256sum: f75ca8da332f5bdb01ba52744db5a7f47daa59f1f364d8fe6b39e983a84e07c8
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -272,10 +328,10 @@ Depends: libc, librt, libpthread, python3-light
 License: MIT
 Section: lang
 Architecture: arc_archs
-Installed-Size: 38398
+Installed-Size: 38403
 Filename: python3-tabulate_0.9.0-1_arc_archs.ipk
-Size: 39267
-SHA256sum: 03dad68f226c0be6b2fdfb139af98cf96f6d92513e13ee154edfe00e0400f838
+Size: 39265
+SHA256sum: ecf95eec0cd9c4393b282b51be0f6140a59ed246b80d465d7918deaf1447beea
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -285,10 +341,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: arc_archs
-Installed-Size: 103663
+Installed-Size: 103666
 Filename: python3-urllib3-src_2.0.4-2_arc_archs.ipk
-Size: 104590
-SHA256sum: c39dac472d42b13114b07ba2d3769dfaff9008282dfc1e4d63f6a1ca1fc11226
+Size: 104562
+SHA256sum: 2e3c8eca563d8b2ba200074c2741e4fb093de5de249eb5dfe2b383e4909329b9
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -300,9 +356,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: arc_archs
-Installed-Size: 130618
+Installed-Size: 130624
 Filename: python3-urllib3_2.0.4-2_arc_archs.ipk
-Size: 131566
-SHA256sum: a585f6c505e023350756b6af83a566e58738d3f6902e06b55c327f607843396c
+Size: 131568
+SHA256sum: c3520b885299f3eddd0981e2ab6cf2a3f2821ae3cb9fde139e0f422b5a92de7d
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

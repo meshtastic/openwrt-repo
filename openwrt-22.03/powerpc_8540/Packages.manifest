@@ -6,13 +6,13 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 3622
 Filename: libyder_1.4.14-1_powerpc_8540.ipk
-Size: 4288
-SHA256sum: 4e072bbb4b82e475afd98e790a7c91a22a10e19f43556f72e8822fde8010428d
+Size: 4295
+SHA256sum: 4fae25b86247065ca4aa1f3e8877d718859cf52ce4aa64b00c94b8fb1c9063b3
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -24,13 +24,13 @@ SourceName: meshtasticd-avahi-service
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.11-1_powerpc_8540.ipk
-Size: 1204
-SHA256sum: edc9570c30124e641b93fe588aa9334d1647ec13ec2496b809d550b0732ffebb
+Size: 1203
+SHA256sum: 070d78f95a7e2d15641869e76eeb8fc3df9c5219ff2e2d7a9790be5873b79c61
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -41,13 +41,13 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 919946
+Installed-Size: 920012
 Filename: meshtasticd-web_2.6.4-1_powerpc_8540.ipk
-Size: 919498
-SHA256sum: c6df9a8f37f1dc66f77f7477793f867c005e9207e77e16f6863e4350233c9436
+Size: 919698
+SHA256sum: 7102028578a809b994279e271236a506e4169ab9364b5127d11e717ee7957eaa
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -58,14 +58,50 @@ SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 582488
+Installed-Size: 582295
 Filename: meshtasticd_2.6.11-1_powerpc_8540.ipk
-Size: 580126
-SHA256sum: e4ad1e3b6fdb6b8ef61ae4b5e18c243d982b20661222fe76589abc870fe3c3a4
+Size: 580012
+SHA256sum: 97b211c151350bae03bf14d515ee3c689191bee8e23303b6fe4dca049dde1b56
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-1
+Depends: libc
+Source: /feed/depends/python-ajsonrpc
+SourceName: python3-ajsonrpc-src
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758745237
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: powerpc_8540
+Installed-Size: 13980
+Filename: python3-ajsonrpc-src_1.2.0-1_powerpc_8540.ipk
+Size: 14807
+SHA256sum: 560168146686eb689d66e0cc0409053520c551230fa5541c192d0152ae747460
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+Source: /feed/depends/python-ajsonrpc
+SourceName: python3-ajsonrpc
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: lang
+SourceDateEpoch: 1758745237
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: powerpc_8540
+Installed-Size: 29564
+Filename: python3-ajsonrpc_1.2.0-1_powerpc_8540.ipk
+Size: 30377
+SHA256sum: 289b948af5b4ae4814cc511dbc192033cea5cf90f7882c1ea3ec8187f429fe9d
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
 Version: 2021.10.8-2
@@ -75,13 +111,13 @@ SourceName: python3-certifi-src
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_powerpc_8540.ipk
-Size: 2300
-SHA256sum: 05cbf3d596ecdde237f4658181a9c87517bbd32fecc9321d8a42a3a85402688c
+Size: 2301
+SHA256sum: 3f9ee9c065dc4a2715541c1b9559879376dbdbc6b72f0960ad5112368cd6b0a4
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -95,13 +131,13 @@ SourceName: python3-certifi
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 148604
+Installed-Size: 148607
 Filename: python3-certifi_2021.10.8-2_powerpc_8540.ipk
-Size: 149543
-SHA256sum: 2914d09fbc4b73d62374c4302ff0dab2e3db3fef4ec492391f54d44628cf6c6d
+Size: 149540
+SHA256sum: af81198361432105071cb8a1b67c7184e8c5272e212845736cd23470f2ee7527
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -112,13 +148,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet-src
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 145624
+Installed-Size: 145623
 Filename: python3-chardet-src_4.0.0-2_powerpc_8540.ipk
-Size: 143564
-SHA256sum: 4eee68a282037ce1f5b333d5ddc6fa97834656a51ba898a139c59ee250981383
+Size: 143674
+SHA256sum: 7ff3ccff0fbe8a43d2063d9b578e637a4d5c6187ceae22767c6681e691d5a5e6
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -130,13 +166,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 148963
 Filename: python3-chardet_4.0.0-2_powerpc_8540.ipk
-Size: 146992
-SHA256sum: 9b982402be01d1b89d31ff8331c62f9dce0f745b756179866cdb009b229b1bc2
+Size: 148562
+SHA256sum: 0968ba5e2013c56f9e8793ebca81e16dd741b82ce984f9fbc7c9ee04e47cc784
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -147,13 +183,13 @@ SourceName: python3-click-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 86565
 Filename: python3-click-src_8.1.7-1_powerpc_8540.ipk
-Size: 87565
-SHA256sum: 9d812168004aa4d366909ef48eba6b7469eb95291b14d9437fc1ce1ab747a1c5
+Size: 87564
+SHA256sum: 51b8ff5a316ee7f267e9566a871f143d916b7307a2d0446dc6b66d1f95927476
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -169,13 +205,13 @@ SourceName: python3-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 123118
+Installed-Size: 123115
 Filename: python3-click_8.1.7-1_powerpc_8540.ipk
-Size: 124156
-SHA256sum: b8c8b99bd8e61b421f01f0599a8409caae426c0b1b1172d1d8680a708751a1b2
+Size: 124155
+SHA256sum: 82e12e737f76c9c79f4a76099408b5ac6b2603ad6b24a9a740c631f4838bc7f2
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -189,13 +225,13 @@ SourceName: python3-idna-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_powerpc_8540.ipk
-Size: 53386
-SHA256sum: cbdf7f813df117349d5fc25bc436f6e5c574d41ecd9cbab3e7a32534d3d160c4
+Size: 53412
+SHA256sum: 93ab3135480a83cd345cba96dcd3af93230d01ed08fc72566dde869389d5863f
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -211,17 +247,57 @@ SourceName: python3-idna
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 66825
+Installed-Size: 66821
 Filename: python3-idna_3.3-2_powerpc_8540.ipk
-Size: 66521
-SHA256sum: 65df914e9f0261abd8052cc8a3f03fbca118719910d37513b1753999a314e2f5
+Size: 66655
+SHA256sum: 287b26dcdf29060eb7cd0cc22acb2a491a84d60185ab90adc121609b88c21ec7
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
+
+Package: python3-platformio-src
+Version: 6.1.18-2
+Depends: libc
+Source: /feed/depends/python-platformio
+SourceName: python3-platformio-src
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758745237
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: powerpc_8540
+Installed-Size: 208922
+Filename: python3-platformio-src_6.1.18-2_powerpc_8540.ipk
+Size: 209730
+SHA256sum: 57c522a1c19f64f25679a9a9df464a26c6f6a51d0a94b26b9207fa4ddba9800a
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Source: /feed/depends/python-platformio
+SourceName: python3-platformio
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: meshtastic
+SourceDateEpoch: 1758745237
+Maintainer: Austin Lane <vidplace7@gmail.com>
+Architecture: powerpc_8540
+Installed-Size: 373544
+Filename: python3-platformio_6.1.18-2_powerpc_8540.ipk
+Size: 374560
+SHA256sum: c2b8c3df75c4a92ef0231b9424b5d3eb2f52ae7266faf5dd17d83294fe56d502
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -231,13 +307,13 @@ SourceName: python3-pyelftools-src
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 162973
+Installed-Size: 162981
 Filename: python3-pyelftools-src_0.32-1_powerpc_8540.ipk
-Size: 163864
-SHA256sum: 69910088125aba4ce8ff51ad92f9d577604f8bbdb51632f42ad4c3f817f6c76d
+Size: 163873
+SHA256sum: 95f7e4d45da6e6bde0176f0e6632fff4da27badd554aea62fc145c4dee8f678f
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -250,13 +326,13 @@ SourceName: python3-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 222682
+Installed-Size: 222678
 Filename: python3-pyelftools_0.32-1_powerpc_8540.ipk
-Size: 223195
-SHA256sum: 89da93cc7115060b48bf05f889bf499fa150abed5dce02478f50f238929b6aff
+Size: 223127
+SHA256sum: 9e885be6b10a09b2f59d7fd2bb9246ef7022770afa3aaa7e64bd7beae6d66892
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -266,13 +342,13 @@ Source: /feed/backports/python-pyserial
 SourceName: python3-pyserial-src
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: powerpc_8540
-Installed-Size: 73219
+Installed-Size: 73213
 Filename: python3-pyserial-src_3.4-2_powerpc_8540.ipk
-Size: 74232
-SHA256sum: d61b67038680c841e14882a053ca34a8de8fc9ce52095c8db7938e5c82a51059
+Size: 74216
+SHA256sum: 16a9efaf6e4f63a97f7afc24c5c41fba0780e2a3d991131f256fd36696190e35
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -287,13 +363,13 @@ Source: /feed/backports/python-pyserial
 SourceName: python3-pyserial
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: powerpc_8540
-Installed-Size: 98901
+Installed-Size: 98892
 Filename: python3-pyserial_3.4-2_powerpc_8540.ipk
-Size: 99925
-SHA256sum: c69074e20505da89827ecf87d40956790dc7d88dab1a139ece05d3938cc8506f
+Size: 99916
+SHA256sum: c542c84fd4eca0395eb417e9d513aff68ed2dfae60cf5e1773f53c34f38c6cde
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -307,14 +383,14 @@ SourceName: python3-requests-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 48795
 Filename: python3-requests-src_2.31.0-2_powerpc_8540.ipk
-Size: 49760
-SHA256sum: 880f8023cae9c0791994eb9e7bed470fa8bad9cc627c2cfc6aea736e6edef0f7
+Size: 49731
+SHA256sum: 6cd3bbee3f7cbeb8e6ed4dda395e60696bdac0db003aada2106ab80ffa4edee3
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -327,14 +403,14 @@ SourceName: python3-requests
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 66484
 Filename: python3-requests_2.31.0-2_powerpc_8540.ipk
-Size: 67432
-SHA256sum: 522ec5013a60a2b41a4c04a27ca60c2b94780f3a5c7bd39b2ede1fce99546bea
+Size: 67431
+SHA256sum: 44ef79ecbb3e05a4cca3628dd7152eb711f43619f5c39067039602e4aaa21711
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -345,13 +421,13 @@ SourceName: python3-tabulate-src
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 22716
+Installed-Size: 22718
 Filename: python3-tabulate-src_0.9.0-1_powerpc_8540.ipk
-Size: 23524
-SHA256sum: 55cb08957e26d0cb806d494b9d931905287cbdc906c0e28c8ac13c89e97fbc35
+Size: 23523
+SHA256sum: 4e2362f41770ad53b8eae50af8e716a3f5a304b07050ada3777ee5bdf2f7b423
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -364,13 +440,13 @@ SourceName: python3-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 38398
+Installed-Size: 38403
 Filename: python3-tabulate_0.9.0-1_powerpc_8540.ipk
-Size: 39255
-SHA256sum: c6b6d75f061a9f3392453860215e514e08970307f3530e9949a01b6ca609d119
+Size: 39260
+SHA256sum: 1b664509965173e22bf3e5025ef96f644b975ad0dfd0d6692505874aa58ac3cc
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -381,14 +457,14 @@ SourceName: python3-urllib3-src
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: powerpc_8540
-Installed-Size: 103663
+Installed-Size: 103666
 Filename: python3-urllib3-src_2.0.4-2_powerpc_8540.ipk
-Size: 104577
-SHA256sum: 2ae129733cba62b663fc01988df5c5c5d2062215178594f61d19e930e48fc5e5
+Size: 104552
+SHA256sum: 437c53e144d8fb7c246b3c167e186ff28843eb289f2740f2a6a7b0ac20e1e6f0
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -401,13 +477,13 @@ SourceName: python3-urllib3
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1756141188
+SourceDateEpoch: 1758745237
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: powerpc_8540
 Installed-Size: 130622
 Filename: python3-urllib3_2.0.4-2_powerpc_8540.ipk
-Size: 131566
-SHA256sum: 39c664210e57038833a6f57a61b366cf8b15d95b54a85925c107cfe4065cb799
+Size: 131557
+SHA256sum: 6ec7e607e02a052538d4e774a82dce6544770574a8e8610f65e70ad8af7143bf
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

@@ -4,10 +4,10 @@ Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: i386_pentium-mmx
-Installed-Size: 2691
+Installed-Size: 2690
 Filename: libyder_1.4.14-1_i386_pentium-mmx.ipk
-Size: 3501
-SHA256sum: 7f6b790d357b822694a33e5f2e638e06580c4f06b4e0aba9099e652290636543
+Size: 3499
+SHA256sum: d8f0277248ebf7f2211fac54dd673b609536d221cb86dffac2d53955d8cc6ead
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -19,8 +19,8 @@ Section: net
 Architecture: i386_pentium-mmx
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.11-1_i386_pentium-mmx.ipk
-Size: 1209
-SHA256sum: 58eefe19de8690528edb12f967436fde295ca40d4d9e3da91c124c542ac4c52d
+Size: 1206
+SHA256sum: 00a2a83a9ba107c0dee6de5f174346e75b05cc975c22073ed60592ed05427df4
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -30,10 +30,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium-mmx
-Installed-Size: 919946
+Installed-Size: 920012
 Filename: meshtasticd-web_2.6.4-1_i386_pentium-mmx.ipk
-Size: 919499
-SHA256sum: 56db807c5a056bdc117f73d3f7396f7775344d5f525cfcfbc94d9dba41532023
+Size: 919704
+SHA256sum: a06f9acaed1e755cc56c8e8a6c7df2ae03ef9fee4328a87e24e22ac37cd82062
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -42,11 +42,37 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: i386_pentium-mmx
-Installed-Size: 501557
+Installed-Size: 501562
 Filename: meshtasticd_2.6.11-1_i386_pentium-mmx.ipk
-Size: 502362
-SHA256sum: 97e67ef9f3c250c8f2143207e15e6a321a26d1e78e02a9f4521c52b04b649a0a
+Size: 502365
+SHA256sum: e91791de179311723e08aedbe455216b359578fbf2b851958728795ac3d417b7
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-1
+Depends: libc
+License: MIT
+Section: lang
+Architecture: i386_pentium-mmx
+Installed-Size: 13980
+Filename: python3-ajsonrpc-src_1.2.0-1_i386_pentium-mmx.ipk
+Size: 14810
+SHA256sum: 1b5f3e49fabd15832738827b4abd3f2bef7ee75b6ca9441f6bbcd390f7a78976
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+License: MIT
+Section: lang
+Architecture: i386_pentium-mmx
+Installed-Size: 29565
+Filename: python3-ajsonrpc_1.2.0-1_i386_pentium-mmx.ipk
+Size: 30380
+SHA256sum: 88906a89404f6fd3fa569cbcd116d87b15fd31a66d4c2840a045040a4101169f
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
 Version: 2021.10.8-2
@@ -56,8 +82,8 @@ Section: lang
 Architecture: i386_pentium-mmx
 Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_i386_pentium-mmx.ipk
-Size: 2309
-SHA256sum: 282d92f6579ce7bd6691b9f556da3d68120fc0550d3e579b07e3503e0f40b512
+Size: 2305
+SHA256sum: cca3de15723a0afa86837a7185736aff973af617ffeb1e58e23f89957335db98
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -69,10 +95,10 @@ Depends: libc, python3-light
 License: MPL-2.0
 Section: lang
 Architecture: i386_pentium-mmx
-Installed-Size: 148604
+Installed-Size: 148607
 Filename: python3-certifi_2021.10.8-2_i386_pentium-mmx.ipk
 Size: 149547
-SHA256sum: 48b4b6c8cb5b9f47eb1e24896eddb8ace63b2fbb1616217c82cf016c95a91dd2
+SHA256sum: 85fb514f306d1384b2bbd150e75299eb797dba2bfbdd578c656b4e0c8576b9fd
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -82,10 +108,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: i386_pentium-mmx
-Installed-Size: 145624
+Installed-Size: 145623
 Filename: python3-chardet-src_4.0.0-2_i386_pentium-mmx.ipk
-Size: 143569
-SHA256sum: d94e739ecb9cee221720e40b3064e748185cb2903f158f775cbff5f1cd6f31a3
+Size: 143677
+SHA256sum: 04a39120210c06e57ee8e915b876ebf2ebae9d10636ee38c04fa842582e5feb4
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -98,8 +124,8 @@ Section: lang
 Architecture: i386_pentium-mmx
 Installed-Size: 148963
 Filename: python3-chardet_4.0.0-2_i386_pentium-mmx.ipk
-Size: 146989
-SHA256sum: 85cafdc97b5ae9b254e10ec208ab11cfc60474c4fd9053864292a1360da965ff
+Size: 148560
+SHA256sum: 67d8f32e59e8dae545a0dbd45a071cb0294bdcc2c46bd04c54fa8f551129ff5a
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -110,8 +136,8 @@ Section: lang
 Architecture: i386_pentium-mmx
 Installed-Size: 86565
 Filename: python3-click-src_8.1.7-1_i386_pentium-mmx.ipk
-Size: 87568
-SHA256sum: fc34204e11d494c9b774f49d343279344639751044d894c263b984ad7c926172
+Size: 87565
+SHA256sum: 0b911527a96f628364d490f8de4dbc2b2b49b2f2292ed6dadeca50d794d12229
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -125,10 +151,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: i386_pentium-mmx
-Installed-Size: 123115
+Installed-Size: 123113
 Filename: python3-click_8.1.7-1_i386_pentium-mmx.ipk
-Size: 124159
-SHA256sum: 3aaaf07433396b095c7f66d17cf2e45b842d480e59a7a653275e2b3fcef20412
+Size: 124157
+SHA256sum: ff0e6df926ba1b2e0ddf97bcc423b7f229a97a71c12adf52595528be2592849d
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -142,8 +168,8 @@ Section: lang
 Architecture: i386_pentium-mmx
 Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_i386_pentium-mmx.ipk
-Size: 53394
-SHA256sum: cbea5413bc6c3bb3cacbde0b071749e65eeadb4fc24da14072625363bbcffcea
+Size: 53419
+SHA256sum: 602018dafbe9c584503cf9e73219dc70258e694ef1a52bd109b7fabedd1799fc
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -157,14 +183,44 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: i386_pentium-mmx
-Installed-Size: 66825
+Installed-Size: 66821
 Filename: python3-idna_3.3-2_i386_pentium-mmx.ipk
-Size: 66524
-SHA256sum: 3ac7f3bb79f67cf3922dd9d2fb0baf735113c7560f12a62725f471fd027715db
+Size: 66661
+SHA256sum: c09b70713c2ddb57cbfa355cd5604f89917e895d2d78d4c2a7bb18d173de3ae7
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
+
+Package: python3-platformio-src
+Version: 6.1.18-2
+Depends: libc
+License: Apache-2.0
+Section: meshtastic
+Architecture: i386_pentium-mmx
+Installed-Size: 208922
+Filename: python3-platformio-src_6.1.18-2_i386_pentium-mmx.ipk
+Size: 209732
+SHA256sum: beca1589b40a071decda67ae1676e1a04730289b3fea63fec79db9ec94cf528b
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+License: Apache-2.0
+Section: meshtastic
+Architecture: i386_pentium-mmx
+Installed-Size: 373544
+Filename: python3-platformio_6.1.18-2_i386_pentium-mmx.ipk
+Size: 374566
+SHA256sum: c03ca1d98947f85b1c7d2babae7ab1f4de0f77d0058d5b178727368d637c9704
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -172,10 +228,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: i386_pentium-mmx
-Installed-Size: 162973
+Installed-Size: 162981
 Filename: python3-pyelftools-src_0.32-1_i386_pentium-mmx.ipk
-Size: 163869
-SHA256sum: de17d07015f5aee3094a85f71cc1cb3ea94f9293d179753501c301bad4b39ddd
+Size: 163880
+SHA256sum: 348835dfbb68f7c4f41da141d2f3cc948ccb60b3928bf7f3dc7d70023544a81e
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -186,10 +242,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: i386_pentium-mmx
-Installed-Size: 222674
+Installed-Size: 222678
 Filename: python3-pyelftools_0.32-1_i386_pentium-mmx.ipk
-Size: 223199
-SHA256sum: 8f12bf7d514a2ee8236e677a321984bacb4d6e9e9981b12104c9c4397c3ad5f4
+Size: 223139
+SHA256sum: c8cc868c8c37caa26993b73a6999edcfbb581e977a311358d25394ba1b49a846
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -198,10 +254,10 @@ Depends: libc
 License: BSD
 Section: lang-python
 Architecture: i386_pentium-mmx
-Installed-Size: 73219
+Installed-Size: 73213
 Filename: python3-pyserial-src_3.4-2_i386_pentium-mmx.ipk
-Size: 74236
-SHA256sum: a996dbb97a8bb227b13ccab65a1f5af46e30e98361e43ced94103c2c19aee512
+Size: 74218
+SHA256sum: 6a0562fa0afd9d345a00916cf3cddaac3dfcfa490cf76308fe4c807c230c035e
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -215,10 +271,10 @@ Depends: libc, python3-light
 License: BSD
 Section: lang-python
 Architecture: i386_pentium-mmx
-Installed-Size: 98901
+Installed-Size: 98892
 Filename: python3-pyserial_3.4-2_i386_pentium-mmx.ipk
-Size: 99930
-SHA256sum: dc2aa510db2e0c1c8e30cef2f0b33c0eb6512ccbb4974304bc944d6c964fe7fa
+Size: 99918
+SHA256sum: 970f8a1cf46dcbd46e5448f8b55bdf863fcc5028ebc183413db2937a97204260
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -233,8 +289,8 @@ CPE-ID: cpe:/a:python-requests:requests
 Architecture: i386_pentium-mmx
 Installed-Size: 48795
 Filename: python3-requests-src_2.31.0-2_i386_pentium-mmx.ipk
-Size: 49764
-SHA256sum: fcfed1e7ab46d99a42729c650d6f30f2e50eacfb3cc1b772207a09b16d6c8eba
+Size: 49737
+SHA256sum: bfc19e000c335b826193ba4f871f1bef8ec753439c68a1d7ab69357ba5754569
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -248,8 +304,8 @@ CPE-ID: cpe:/a:python-requests:requests
 Architecture: i386_pentium-mmx
 Installed-Size: 66484
 Filename: python3-requests_2.31.0-2_i386_pentium-mmx.ipk
-Size: 67433
-SHA256sum: 80e269e2abfd5fdf770f454933165fb6555b734ceb79a9e7dac55cd3f72d6588
+Size: 67436
+SHA256sum: d9804badb6806895f25d7d872c5e195c851350557db8ac41d8c487eef2bfe21e
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -258,10 +314,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: i386_pentium-mmx
-Installed-Size: 22716
+Installed-Size: 22718
 Filename: python3-tabulate-src_0.9.0-1_i386_pentium-mmx.ipk
-Size: 23529
-SHA256sum: 7b6893c07d9a9b89bebb0d44e98fb948b1e9f983a1b251c6d8c18ed4030bce16
+Size: 23524
+SHA256sum: 70923ff0e95a55e4e03226bee75b7a230cf1e16b2cbb4c2e030925d927816185
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -272,10 +328,10 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: i386_pentium-mmx
-Installed-Size: 38398
+Installed-Size: 38403
 Filename: python3-tabulate_0.9.0-1_i386_pentium-mmx.ipk
-Size: 39263
-SHA256sum: ed8b674fa42d59e8720f1baa6f98c343c7e4e1be17abedf2bac15d18c136d5ef
+Size: 39269
+SHA256sum: e8ebbe67d8215e95c9793f87cc5afa9952858500299059b97e28396601938873
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -285,10 +341,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: i386_pentium-mmx
-Installed-Size: 103663
+Installed-Size: 103666
 Filename: python3-urllib3-src_2.0.4-2_i386_pentium-mmx.ipk
-Size: 104591
-SHA256sum: de03dcdecd35308bb8b83861e5da64e30f02a34e1a14dc3fe34072c53fd5ccb0
+Size: 104560
+SHA256sum: 1849e11ea42b3d6208c5fcfd77b5a64c17bafaa563d9a6488ea1c59669b28320
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -300,9 +356,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: i386_pentium-mmx
-Installed-Size: 130615
+Installed-Size: 130623
 Filename: python3-urllib3_2.0.4-2_i386_pentium-mmx.ipk
-Size: 131561
-SHA256sum: 0709e68147bc3c097cf427737633e2495880cdefade496db9ec2df507bbf46a8
+Size: 131569
+SHA256sum: 80a354c77bd0f1ca3c5374a3c11d0e1518e974d010fa89b3243333f559c57bbf
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

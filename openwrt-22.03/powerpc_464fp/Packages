@@ -4,10 +4,10 @@ Depends: libc, liborcania
 License: LGPL-2.1-or-later
 Section: libs
 Architecture: powerpc_464fp
-Installed-Size: 3680
+Installed-Size: 3681
 Filename: libyder_1.4.14-1_powerpc_464fp.ipk
-Size: 4349
-SHA256sum: 44ed992fbed83e1463e376be0fe8390a10f6b2a26c185f713ca455a2f5528e1b
+Size: 4351
+SHA256sum: 520cd6d58a7b21dde7bb083bf04acf3e62e0b5d2c2bad237cd82485fec2f238f
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -19,8 +19,8 @@ Section: net
 Architecture: powerpc_464fp
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.6.11-1_powerpc_464fp.ipk
-Size: 1208
-SHA256sum: 05ef908a528e6ce02506fd7fbccab8d307b2386c26ff3a88f8f113f5fba1ae1e
+Size: 1206
+SHA256sum: 9d66a9bfa0636f007df2948f88fbc3191d10457b6530e3b1c6fd94815a7d9ad2
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -30,10 +30,10 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: powerpc_464fp
-Installed-Size: 919946
+Installed-Size: 920012
 Filename: meshtasticd-web_2.6.4-1_powerpc_464fp.ipk
-Size: 919498
-SHA256sum: 1d08635b4b49b472c4088f75dc7d7c22fe20f3b5eba0fbe61087c3af17e198c1
+Size: 919698
+SHA256sum: 3429eb1cd85ca12433ea58d12899b71d8aa43fdb936ae136949f6f0134e783d2
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
@@ -42,11 +42,37 @@ Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, l
 License: GPL-3.0
 Section: net
 Architecture: powerpc_464fp
-Installed-Size: 583000
+Installed-Size: 583007
 Filename: meshtasticd_2.6.11-1_powerpc_464fp.ipk
-Size: 581123
-SHA256sum: e2026cf14093d6f0d043f2e4127e35d29cba046e5b258180f5b4b1b453f9ce72
+Size: 581154
+SHA256sum: ce33e447fe63c98953cee11b65135e6fe40f655903c28077e1d05f6bfb6f2736
 Description:  Meshtastic Daemon
+
+Package: python3-ajsonrpc-src
+Version: 1.2.0-1
+Depends: libc
+License: MIT
+Section: lang
+Architecture: powerpc_464fp
+Installed-Size: 13980
+Filename: python3-ajsonrpc-src_1.2.0-1_powerpc_464fp.ipk
+Size: 14804
+SHA256sum: 099fc44bca024d061da494cccd7f5ea412efd8b9f2b2ce51be6436878a9a4365
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+ 
+ This package contains the Python source files for python3-ajsonrpc.
+
+Package: python3-ajsonrpc
+Version: 1.2.0-1
+Depends: libc, python3-light, python3-asyncio, python3-logging
+License: MIT
+Section: lang
+Architecture: powerpc_464fp
+Installed-Size: 29562
+Filename: python3-ajsonrpc_1.2.0-1_powerpc_464fp.ipk
+Size: 30375
+SHA256sum: 9cd7368e67d8865454035f778e66fbf6cfff60ddd769722d05395343ec5abf23
+Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
 Version: 2021.10.8-2
@@ -56,8 +82,8 @@ Section: lang
 Architecture: powerpc_464fp
 Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_powerpc_464fp.ipk
-Size: 2304
-SHA256sum: 1361657ab284f6580458cacec0f017f0b66737d97405e6f982fe8669a9a8f9a7
+Size: 2305
+SHA256sum: 496ca36bf6fa5e96777eede2f5ed6d8f1e3174ab79329dc8818d5590b7f9a0e2
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -69,10 +95,10 @@ Depends: libc, python3-light
 License: MPL-2.0
 Section: lang
 Architecture: powerpc_464fp
-Installed-Size: 148604
+Installed-Size: 148607
 Filename: python3-certifi_2021.10.8-2_powerpc_464fp.ipk
 Size: 149544
-SHA256sum: cf269b68f7d06d353a33b2a96ab018cce74a04e2d05c161da950e3fa6bc1dffd
+SHA256sum: c470839c16a40d0cb0ad666b74c099c7c8459547822fec16718aec67f06a69de
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -82,10 +108,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: powerpc_464fp
-Installed-Size: 145624
+Installed-Size: 145623
 Filename: python3-chardet-src_4.0.0-2_powerpc_464fp.ipk
-Size: 143564
-SHA256sum: aebf9cdaaea5559c354b384b2fa5f3768be24ddaafc6727ba92e5de9836064a2
+Size: 143681
+SHA256sum: 811f884eda18ab7c6b7d28ddd560339104ad94f9e29d486d6812b889415b8fcf
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -98,8 +124,8 @@ Section: lang
 Architecture: powerpc_464fp
 Installed-Size: 148963
 Filename: python3-chardet_4.0.0-2_powerpc_464fp.ipk
-Size: 146988
-SHA256sum: 9308f5df96cba5174c1a41f7907e218ab0f167858c65e18b46c2e22498f54a11
+Size: 148561
+SHA256sum: 15b050e1287c87e26d4e047ca254da58532a84003d2efb6533e6390f7713d97e
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -110,8 +136,8 @@ Section: lang
 Architecture: powerpc_464fp
 Installed-Size: 86565
 Filename: python3-click-src_8.1.7-1_powerpc_464fp.ipk
-Size: 87568
-SHA256sum: 39da6fa572ee23ed6883c5deb0c6e1b37370aade9e1a6f65f4805f56fa8fc414
+Size: 87565
+SHA256sum: de6b155b19922b7b66717e2ce209907f094c40ecdcd4f544f9f71937b7684922
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -125,10 +151,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: powerpc_464fp
-Installed-Size: 123118
+Installed-Size: 123116
 Filename: python3-click_8.1.7-1_powerpc_464fp.ipk
-Size: 124157
-SHA256sum: 51836cab4e30abce5a00b8801610c94631c41c487d0375ba188fc1a27d5560b9
+Size: 124158
+SHA256sum: 2b3de88266b01adba9c66c8000022225cad7957d4e1ed2a4c1ec969ee525b0e8
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -142,8 +168,8 @@ Section: lang
 Architecture: powerpc_464fp
 Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_powerpc_464fp.ipk
-Size: 53389
-SHA256sum: dad7dfc04a4e311e888e4b8f130d5df8aefbf60c56b2135f51d75cf1ef69f942
+Size: 53413
+SHA256sum: 0f935c278ee4071d3c8d8dbbfc84f1fec32cedea60ef6d699a5f74bfe7e0e0f2
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -157,14 +183,44 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: powerpc_464fp
-Installed-Size: 66825
+Installed-Size: 66821
 Filename: python3-idna_3.3-2_powerpc_464fp.ipk
-Size: 66519
-SHA256sum: bb1d96ce48b4c4b85910ae930fa8501ca4590c7f3e1685f2b6ccfc7cb48161ca
+Size: 66658
+SHA256sum: 1c74b785f90529a35c836b8efa049d9407f6a5fb195b8bd038a8db4f61c995d4
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
+
+Package: python3-platformio-src
+Version: 6.1.18-2
+Depends: libc
+License: Apache-2.0
+Section: meshtastic
+Architecture: powerpc_464fp
+Installed-Size: 208922
+Filename: python3-platformio-src_6.1.18-2_powerpc_464fp.ipk
+Size: 209729
+SHA256sum: e7e8dd68f52c6b0a05aefcc62fd754d965dc0fbf8203d6be4c08ad5cb6efc721
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
+ 
+ This package contains the Python source files for python3-platformio.
+
+Package: python3-platformio
+Version: 6.1.18-2
+Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+License: Apache-2.0
+Section: meshtastic
+Architecture: powerpc_464fp
+Installed-Size: 373544
+Filename: python3-platformio_6.1.18-2_powerpc_464fp.ipk
+Size: 374556
+SHA256sum: 9aa5b9642ded056a87cf75ff343a5225d0c9e872a488243126a1682ae625ddb2
+Description:  PlatformIO is an open-source build system for embedded development,
+ supporting multiple platforms, frameworks, and boards
+ with features like dependency management and IDE integration.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -172,10 +228,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: powerpc_464fp
-Installed-Size: 162973
+Installed-Size: 162981
 Filename: python3-pyelftools-src_0.32-1_powerpc_464fp.ipk
-Size: 163868
-SHA256sum: 0f3d3fffe1fd5a2f91fe2865b8b66f7579d0068d5a86df9a8223e16072291baa
+Size: 163876
+SHA256sum: 8d28946dade13cbece3901cd5046eb16efc1316c0f3244ebe0a57572fcd1f145
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -186,10 +242,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: powerpc_464fp
-Installed-Size: 222683
+Installed-Size: 222676
 Filename: python3-pyelftools_0.32-1_powerpc_464fp.ipk
-Size: 223195
-SHA256sum: 0a6b363cc201e4eeaa795f65b76341bb2853b801f6f50e1e637cc2206e958752
+Size: 223128
+SHA256sum: 66904aca3305a8c753b3b84e6bc02f0a07840815c6b463ebc65a380f27051142
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -198,10 +254,10 @@ Depends: libc
 License: BSD
 Section: lang-python
 Architecture: powerpc_464fp
-Installed-Size: 73219
+Installed-Size: 73213
 Filename: python3-pyserial-src_3.4-2_powerpc_464fp.ipk
-Size: 74231
-SHA256sum: 29920987a9af0a5ca6245e04704a4505d2059791b53daf9573c714c3c3ebdf2b
+Size: 74216
+SHA256sum: 82a1df17babe90288909117498da83e3c62ef4b0ab58bcddc4a322bdc9ea21a1
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -215,10 +271,10 @@ Depends: libc, python3-light
 License: BSD
 Section: lang-python
 Architecture: powerpc_464fp
-Installed-Size: 98901
+Installed-Size: 98892
 Filename: python3-pyserial_3.4-2_powerpc_464fp.ipk
-Size: 99930
-SHA256sum: 72a795ec5b7640f322beba861d514d0776b06464dae8299d5bf2ad501007d36b
+Size: 99917
+SHA256sum: 319354de6c0c34d4b4d07f803412f499e1b0d3445505c26e36c7ad6ead37f768
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -233,8 +289,8 @@ CPE-ID: cpe:/a:python-requests:requests
 Architecture: powerpc_464fp
 Installed-Size: 48795
 Filename: python3-requests-src_2.31.0-2_powerpc_464fp.ipk
-Size: 49758
-SHA256sum: bf80aaac2a9a08a394a65e5dfe6c51226004f4211340fe12e0dd0f426961a4d9
+Size: 49735
+SHA256sum: fe8cc5649ed7caa3610ef4c6de3b824fc6655670c21c61e01bc38884601305de
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -248,8 +304,8 @@ CPE-ID: cpe:/a:python-requests:requests
 Architecture: powerpc_464fp
 Installed-Size: 66484
 Filename: python3-requests_2.31.0-2_powerpc_464fp.ipk
-Size: 67431
-SHA256sum: df6f15d314bf51ae0be36f3cbe4054b889b60866db69ce4f6e07655185ade2c5
+Size: 67428
+SHA256sum: 963d8535abaa4a36c672d16a831af662d97ef5e07239347a84ce659d45ff36c7
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -258,10 +314,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: powerpc_464fp
-Installed-Size: 22716
+Installed-Size: 22718
 Filename: python3-tabulate-src_0.9.0-1_powerpc_464fp.ipk
 Size: 23524
-SHA256sum: fc41b256ed0520a46faa864d1ff2c44c71ae6842b6870d3980e2db51ee2a10c4
+SHA256sum: 6e84371994f0643a2c205f3c57938877ad81c5212cb64423078cffa7d82f9bf2
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -272,10 +328,10 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: powerpc_464fp
-Installed-Size: 38398
+Installed-Size: 38403
 Filename: python3-tabulate_0.9.0-1_powerpc_464fp.ipk
-Size: 39256
-SHA256sum: 6171c00fe7ed3c80f8d93b3069e3c6be8a281108572d6bd918f32ca38d7c0cbf
+Size: 39263
+SHA256sum: 042b802bfb52665c11b15066ccc4d38d1f35cce89af2165fedded7351a99c66e
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -285,10 +341,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: powerpc_464fp
-Installed-Size: 103663
+Installed-Size: 103666
 Filename: python3-urllib3-src_2.0.4-2_powerpc_464fp.ipk
-Size: 104581
-SHA256sum: 85b113f691acf2f4c9d72bcdcb0ecac5c330f78267ce2c0b9703165ed94ecab5
+Size: 104555
+SHA256sum: 1e031961bedf2273e13996274809b5fb6e8014e9f3c364400a1fa8ae161a60ab
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -300,9 +356,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: powerpc_464fp
-Installed-Size: 130621
+Installed-Size: 130624
 Filename: python3-urllib3_2.0.4-2_powerpc_464fp.ipk
-Size: 131564
-SHA256sum: d03dbd3c4afe6b9bad3bec05493dfe2e8d18e5bc40381d851d8ba1f1f3785182
+Size: 131562
+SHA256sum: 83ac17ab38640afd7237e39a6eb6d146b70efa296381bfd4d541faaa3b16e0c9
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
