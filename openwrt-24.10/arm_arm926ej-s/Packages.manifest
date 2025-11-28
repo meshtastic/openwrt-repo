@@ -6,33 +6,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_arm926ej-s.ipk
-Size: 4036
-SHA256sum: 64af411047d6374cb601042eaa1f5b83f9b7dfce913e4f8dd52f455633f209fb
+Size: 4040
+SHA256sum: 5cb5635ceae0416e43e0cc289e42c0ed9efe584333e427b2ae02aa3b5e1bdcb4
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.11-r1_arm_arm926ej-s.ipk
-Size: 1230
-SHA256sum: afee11fe9e576e0033a6165e4f650150b697abdd5a6919a3598c1695186d5687
+Filename: meshtasticd-avahi-service_2.7.15-r1_arm_arm926ej-s.ipk
+Size: 1239
+SHA256sum: 396bab5860d9f2303130c491b7f65d201eb24eb18ccaa59891363e4741eec585
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,32 +43,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_arm_arm926ej-s.ipk
-Size: 1319501
-SHA256sum: bd4d3c9c32d3df462cb86da8ba9d92a75d93d7f3463643e62d51ccabd4c52dda
+Size: 1320759
+SHA256sum: 8d847027e9c1e7db1f8c55ea2adb457fbbace812a35cda6a5abd03fa5411b061
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
-Installed-Size: 1085440
-Filename: meshtasticd_2.6.11-r1_arm_arm926ej-s.ipk
-Size: 471728
-SHA256sum: 905dd574e90cdb3a7487609de8e26196daa7f083bcf123df9bf7232f4b34a9c1
+Installed-Size: 1331200
+Filename: meshtasticd_2.7.15-r1_arm_arm926ej-s.ipk
+Size: 578238
+SHA256sum: b0fea2acac554fbd60a4fd4029802d0ebb6f5c023aa3e8e2f43f3b866d668a0f
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -79,14 +79,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_arm_arm926ej-s.ipk
-Size: 14837
-SHA256sum: f44289ef3441612de433085bc1d00634ef7e88ed4fc9a4f74c7a44b01889f549
+Size: 14840
+SHA256sum: 54d8b4e17763ef0bd3fb09a4e5de6561f608271bfe2b758811a7ae8183fd7981
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -99,14 +99,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_arm_arm926ej-s.ipk
-Size: 43899
-SHA256sum: 3edfdc0299fdef3d52371a57fa6bb34b4227bb34136a95c970e281fe3296e375
+Size: 43926
+SHA256sum: 2525bec6e2eacfe1abcbbadea571a2c0976e192bdb434861bc0e6c84943911ce
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-platformio-src
@@ -117,14 +117,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 1280000
 Filename: python3-platformio-src_6.1.18-r2_arm_arm926ej-s.ipk
-Size: 209756
-SHA256sum: 5f96b64e583f273597debc111f64fde6526a66167e0c1ec808a0c07a68db5735
+Size: 209809
+SHA256sum: 7cde46ff3cf4db3cf65949167b5ad265cd31c1e89767b80c7e944b52e7fcdcb1
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -139,14 +139,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 1914880
 Filename: python3-platformio_6.1.18-r2_arm_arm926ej-s.ipk
-Size: 626588
-SHA256sum: 64ece6dd75393f375b2e89edc18124eb1e0b53ab13c9b43c20011398bfe8fb2a
+Size: 626592
+SHA256sum: 814ba25283401df18f5052ef070bd3e94113a69486f74dda7bb102d2207ef00c
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -159,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_arm_arm926ej-s.ipk
-Size: 163908
-SHA256sum: 35801d3d348efee750987a9bb19fa65ba2e2dc31374fdb3239ec928bb05f8605
+Size: 163925
+SHA256sum: 4a58988ee6233993415950e285eeaf8c97573a62a5b9ee6760811862c5570401
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_arm_arm926ej-s.ipk
-Size: 337687
-SHA256sum: 6dba138e7703a738e4badac9ebda00cf6dfeed468bd0647c5e21229d6be773a8
+Size: 337638
+SHA256sum: 3c214fb7822f145dbf7b94d7be6327a0333ecd5e96a959f65112b9e3dd6675ad
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_arm926ej-s.ipk
-Size: 23643
-SHA256sum: 4239eb35288962dafaa862a8ac3f58214182451a4ff106fbb72f4050cbafab3d
+Size: 23640
+SHA256sum: e0aa04c9f29894c0b3799e3e685bed7cd0839e9e4dc07cba87bd54d5e6c26e6c
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_arm926ej-s
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_arm926ej-s.ipk
-Size: 55033
-SHA256sum: 0b131e65b10066b4f0f9529636de26700a976061494a25f9e441625258ef7621
+Size: 55083
+SHA256sum: ed8206b3707ef7ad2790acb7f4730a915afaed3b7c6efd4fc53d30224ec8e9f0
 Description:  Pretty-print tabular data
 

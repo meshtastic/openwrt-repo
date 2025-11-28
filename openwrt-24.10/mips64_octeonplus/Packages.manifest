@@ -6,33 +6,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mips64_octeonplus.ipk
-Size: 4007
-SHA256sum: 4989e07615ffdd05dc3f53c98846b2037b3e1f186445310da24d878330988ca5
+Size: 4008
+SHA256sum: 8ff8c9f923a19612de823562be7f2a0dcfbe69a334c5f4a1a909c9ebe23a520b
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.11-r1_mips64_octeonplus.ipk
-Size: 1240
-SHA256sum: 643e14dcb8205776d3ca5a9c61f2035be5f0ad515d556c138f53b266f7e5ceb0
+Filename: meshtasticd-avahi-service_2.7.15-r1_mips64_octeonplus.ipk
+Size: 1238
+SHA256sum: 3d7aae95c3c44ffe8b02650bb0779bb5275deaa709ffa714b88ad90fe8f08526
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,32 +43,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_mips64_octeonplus.ipk
-Size: 1319503
-SHA256sum: 75a32eec35b790e959fb5b3395ab1166d77d544def306fe5f75902e7190ed4da
+Size: 1320761
+SHA256sum: 29bb2d4c98b8a4005e2a9a06ab09f99e91a12022827bbf780ce3f5a389aebed3
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
-Installed-Size: 1822720
-Filename: meshtasticd_2.6.11-r1_mips64_octeonplus.ipk
-Size: 584415
-SHA256sum: 9ae658eea0f28422994bb8d3adb0c7a015303d18e2083de76b0546a1a24fa489
+Installed-Size: 2191360
+Filename: meshtasticd_2.7.15-r1_mips64_octeonplus.ipk
+Size: 707106
+SHA256sum: 8c5d22c761826c0a19801031b61b8e2f82b1faac06ba32085cb21d87cbc26eb8
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -79,14 +79,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_mips64_octeonplus.ipk
-Size: 14840
-SHA256sum: 4490cbcbff170ef214b5c9350270926ed2725f20fbb94a0795b473353d732584
+Size: 14838
+SHA256sum: 7456b3b4619f91afe3499b044abe70b584ea0e4c4f954ec4e9c0c1bcbc4de2d6
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -99,14 +99,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_mips64_octeonplus.ipk
-Size: 43903
-SHA256sum: 3134aa12252df9171392dbd5c06dbdafe58059e0598e9e7144848919dcecec0a
+Size: 43922
+SHA256sum: e679f89e1e940fbef8dfb02b5869b75413a59fbb2fe82146d5bac17e32b132b8
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-platformio-src
@@ -117,14 +117,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 1280000
 Filename: python3-platformio-src_6.1.18-r2_mips64_octeonplus.ipk
-Size: 209756
-SHA256sum: f4e881e77dd2d58cddc8c0a56010ed88f1cd1f996bfc8397239477d943e57e92
+Size: 209815
+SHA256sum: e6f85ef40558ee87c99ab027d505cff27fcbeedf6017e695159ed938ccfe8d7e
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -139,14 +139,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 1914880
 Filename: python3-platformio_6.1.18-r2_mips64_octeonplus.ipk
-Size: 626589
-SHA256sum: d67f8b909147d534b2db56da2c9ada1e99637c7f41cc212e7f6a3f6658c2230e
+Size: 626597
+SHA256sum: 4abeaf495ad08278d3d641adaeae751cf063b43539dbf041b0a515cdd5eb5db5
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -159,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_mips64_octeonplus.ipk
-Size: 163910
-SHA256sum: 3b4a27c469ba9edb015e0963a5f464f05efd2321b450684507fdff5448626e1c
+Size: 163923
+SHA256sum: 0017fda08e55c822c01e385cac6900587f2b8e834fec4a3056e0f0b963cf8376
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_mips64_octeonplus.ipk
-Size: 337689
-SHA256sum: cde69fe8b93a454214da124d6f0bff3bd00ded402898dec8770f22a8604ce8dc
+Size: 337642
+SHA256sum: ee5f69fbed77f5ec15cede670871a36cdf007530817b229c33692680a1270882
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mips64_octeonplus.ipk
-Size: 23646
-SHA256sum: 095fe9d4a7a947963eb5d75f0c60163acfa21ddc44cdc3075403aaba18c30654
+Size: 23651
+SHA256sum: 40d93eb48860dc07d1c33cc06de2350936e0c605c8bfe7211f62aaa6eb103e63
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: mips64_octeonplus
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mips64_octeonplus.ipk
-Size: 55036
-SHA256sum: 98e3ab3f208db6405c273309f847c29b257cc7b74a07e515aa7aa7efe7d3aa64
+Size: 55083
+SHA256sum: 378070bf7920fd048e5f209e8d66f5138d7a4042e7fc88f8d2919ab6920ea8a0
 Description:  Pretty-print tabular data
 

@@ -6,33 +6,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 4032
-SHA256sum: dc5cd2186aecf8f07e43d4eaa630155c1e656123f15521bb177572230ddbfd89
+Size: 4034
+SHA256sum: d6e16e8868e4fa4b6c9d100f9ff13a3debc8a0872679e635ede4a7d49a0d2603
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1237
-SHA256sum: 820f63a73967f91c2382a93311a04afb2f8c50dc83057f9ad771aa36144fd321
+Filename: meshtasticd-avahi-service_2.7.15-r1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 1243
+SHA256sum: fee2e1c6e43f769309214d35b66bb4206e9b9f068c2cbf8113dcc8a92082a51c
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,32 +43,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 1319508
-SHA256sum: e134ece29a12cf8713f1a45dd57dccaf1913bd61a60b6d00d976721e98059529
+Size: 1320759
+SHA256sum: 75783c9a0c8722143989f757389d31e0b2c6e3addb7b9dfa449d06148211d326
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
-Installed-Size: 1064960
-Filename: meshtasticd_2.6.11-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 465396
-SHA256sum: f7afd76c3f371cd8003b30fc5a3eacd37d2f734704f2b180b939354dd7c8fada
+Installed-Size: 1300480
+Filename: meshtasticd_2.7.15-r1_arm_cortex-a9_vfpv3-d16.ipk
+Size: 571131
+SHA256sum: 7a3d798d8f673da38b94672a09e9425871303d34810f45e045b2764990cf199b
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -79,14 +79,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_arm_cortex-a9_vfpv3-d16.ipk
 Size: 14852
-SHA256sum: 4d8ead5058074278f64ab48b68aa0d4f2f58071bbf0d2847be41b759ee8fc996
+SHA256sum: caff8b1c77f7c7e8696e73cea8b4906e9284410ddb6a1e34e86971c98bb53d52
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -99,14 +99,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 43905
-SHA256sum: 2321212d523076d7bc2726c9a596adae835989dae7284db4a43cc6ef85fa9691
+Size: 43937
+SHA256sum: 0755b8e77a607b3163d81ec0b4926f865d77561c972fdd8fef8ce5d2ee03fa4e
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-platformio-src
@@ -117,14 +117,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 1280000
 Filename: python3-platformio-src_6.1.18-r2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 209767
-SHA256sum: cc498a3f54c2cf68946076a9834db6f588c132341e876f21997ee954f45fa816
+Size: 209822
+SHA256sum: 9accf8e8515e976de1933f72c7943e9cbad6b54b2ba9d0761808efa97eff1b55
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -139,14 +139,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 1914880
 Filename: python3-platformio_6.1.18-r2_arm_cortex-a9_vfpv3-d16.ipk
-Size: 626599
-SHA256sum: 9d09c70bbe62b790ec5b95b836b817ef8252899d571170849c017657b389d768
+Size: 626596
+SHA256sum: 887897588f86c9cced9a20ea70f8c6d5f146b48273967dcaedc35432afa47be7
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -159,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 163918
-SHA256sum: 5bd521c258e529f476901dacad5c200fba08a9f1cc714a4a0fc615823964f904
+Size: 163935
+SHA256sum: b0c738af044b1a2d99009865fbd8575bef440763fe4d7b073b752023b5c3740b
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 337695
-SHA256sum: f34643fd67d4fb44573cc53cad2a30a9e3e883a54505951754bebd393e58d714
+Size: 337651
+SHA256sum: 2c937ebb0bf5e39438682caa98c52ff794086110f8efb9a8dd362ffcc4f57c3d
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 23652
-SHA256sum: d81e927407a806517512608a78b344adcab088f7e2db6d6ffffc237d6b34ab2d
+Size: 23649
+SHA256sum: b3274377cbe2e00143c4d9b8cfca891748733f6677db52e47f77fc97a36fd637
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9_vfpv3-d16
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9_vfpv3-d16.ipk
-Size: 55040
-SHA256sum: 86e80e2e0db2e3518b5523348c1554602d01b1b7cfe0c4d976afc2e2788b062d
+Size: 55091
+SHA256sum: f31b8726b138369014f4765c4fc5a1890bc7d69ba8b154323930b3517cee8754
 Description:  Pretty-print tabular data
 

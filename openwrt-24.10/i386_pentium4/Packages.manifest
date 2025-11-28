@@ -6,33 +6,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_i386_pentium4.ipk
-Size: 3736
-SHA256sum: 8c85590f88a48d7e2f3cb5b422909da3faf55b9a5e8285180a954372e56508cc
+Size: 3739
+SHA256sum: bc3baa9c481183c93eecbfaf76205f8eb0f6e64d93aee1420030cd310d63ecc0
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.11-r1_i386_pentium4.ipk
+Filename: meshtasticd-avahi-service_2.7.15-r1_i386_pentium4.ipk
 Size: 1235
-SHA256sum: 4b4e3c44b69f0915dd0c31117da80410fde0388a1cd5a434a997fdca12e0ca8f
+SHA256sum: 6fb169559baf615b0a841baef6ee7f77b0372c84e2a520ac5bffc570fc37790a
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,32 +43,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_i386_pentium4.ipk
-Size: 1319496
-SHA256sum: 5ed59bc67ab1f28cee27d485572bbfa94f6234b425577196ee5795d58200332f
+Size: 1320754
+SHA256sum: 8674a6edbe47cced5935e50e8842a6e24cefabce911c798098f8eff85946fab2
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
-Installed-Size: 1218560
-Filename: meshtasticd_2.6.11-r1_i386_pentium4.ipk
-Size: 490615
-SHA256sum: fcf8a0d6476598d316f8986cf43b57e4d4f541a5bf6e2de64f2c0d42156d547e
+Installed-Size: 1484800
+Filename: meshtasticd_2.7.15-r1_i386_pentium4.ipk
+Size: 598154
+SHA256sum: 3516690fee36c833cd500c21299ec903776d4de441547733d3ba29e019905d41
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -79,14 +79,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_i386_pentium4.ipk
-Size: 14840
-SHA256sum: 06f0616e5b22313e93af3340cce207f6620c150edb7689ce7579679a39286767
+Size: 14842
+SHA256sum: 0f009ea8fecf008a865fe26f7c3b935046c76ed7cd8b18a1ede3e68d43a93b40
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -99,14 +99,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_i386_pentium4.ipk
-Size: 43900
-SHA256sum: e7692f6174016ec5ba868c063a203d2802297f0725686d56c7cfd56598082d03
+Size: 43924
+SHA256sum: 9f2a8bc1643c8b50db5081abe38babe777b0b8129d037ea4fb8651bc48021249
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-platformio-src
@@ -117,14 +117,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 1280000
 Filename: python3-platformio-src_6.1.18-r2_i386_pentium4.ipk
-Size: 209754
-SHA256sum: 84818286e6927bb664cf4a852cf0c7ec8afff9b98e247262d7f2bf5afb62f386
+Size: 209809
+SHA256sum: b1d487820be4f43fa4369cf7d1f1272e05d6148f34a1817fe1c5f85833e6b154
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -139,14 +139,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 1914880
 Filename: python3-platformio_6.1.18-r2_i386_pentium4.ipk
-Size: 626589
-SHA256sum: 34592ba55066585b57095abdaa2f155728d559e46a32442cd958ea2cfe07db06
+Size: 626591
+SHA256sum: f55c51604e4ef33bd9e05231613ac828d93882bc9666c3d4107df69ce49680e9
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -159,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_i386_pentium4.ipk
-Size: 163908
-SHA256sum: 4993559d66fbb00798ead6e99f222c8d7cdff95bf00cf117060bc90644182187
+Size: 163923
+SHA256sum: 4bcdcabb793d2569f3bcb619e4e0b247c05017149b2434fcf4845e1a4d2e961e
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_i386_pentium4.ipk
-Size: 337684
-SHA256sum: 82465219e48ee35b5d056cb484cf719c4375b618e2eb8d7f9de1b36d7e417215
+Size: 337641
+SHA256sum: 058db2e95444e42cd9848bc75e566d43b560220a6f67dbd33b7f6f8068caaf43
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_i386_pentium4.ipk
-Size: 23644
-SHA256sum: 129f57518110e3e11087bc5319b3d282b5abce3d3645dddcbe96311074823fb1
+Size: 23645
+SHA256sum: 226a607418a44220acf11dc9d471d61cec058084803c4090aed93800ae9816d8
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium4
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_i386_pentium4.ipk
-Size: 55031
-SHA256sum: 916777282a4579558357a042468e6a8863cccd5a01dfe338d6e4a4e9c176dcc9
+Size: 55080
+SHA256sum: d1f916e5ed90bff9d11e47ce6d051089c000d0d9f569f6d381bcd10b741fbf40
 Description:  Pretty-print tabular data
 

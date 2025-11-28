@@ -8,21 +8,21 @@ Architecture: arm_cortex-a9
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9.ipk
 Size: 4019
-SHA256sum: ed6d3078a1426be7f3bdf564b77749cc9654ba694e4cd4857fd0deb067ca8341
+SHA256sum: e111d7deb2b258c5234dc51868538b95c3ea9cc28befb357d2f59ca401381e86
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.11-r1_arm_cortex-a9.ipk
-Size: 1235
-SHA256sum: 31704b9db577be1a1ff665a3340168d97dfe980eb5105d71d28a3d19636118e3
+Filename: meshtasticd-avahi-service_2.7.15-r1_arm_cortex-a9.ipk
+Size: 1241
+SHA256sum: c4919f5d30712ea1db85a89e0ca216077babf1169581b41a72ab238918d7982b
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -35,21 +35,21 @@ URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_arm_cortex-a9.ipk
-Size: 1319499
-SHA256sum: 7bd0713135816a7d8ada6604e5ffef166d1a257ecefdf66f32bc108b072312db
+Size: 1320752
+SHA256sum: d0191d48515560939f028b2cb26ddc73a37de30187b92ff4235dfabecde498d6
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 License: GPL-3.0
 Section: net
 URL: http://github.com/meshtastic/firmware
 Architecture: arm_cortex-a9
-Installed-Size: 1075200
-Filename: meshtasticd_2.6.11-r1_arm_cortex-a9.ipk
-Size: 469910
-SHA256sum: f9ef6589572807eecead990f7bd517884620e4450f126ec1c02c02d26cf5a053
+Installed-Size: 1310720
+Filename: meshtasticd_2.7.15-r1_arm_cortex-a9.ipk
+Size: 575652
+SHA256sum: 29462c374fcf4940209a871f7aef22effc68509b94c923c50590df67a08deacb
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -61,8 +61,8 @@ URL: https://pypi.org/project/ajsonrpc
 Architecture: arm_cortex-a9
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_arm_cortex-a9.ipk
-Size: 14838
-SHA256sum: cacb4908e6b2448a10c1bfeadb100bc7a32bf6f0cb10e22d8f72609f3541c241
+Size: 14839
+SHA256sum: 59fc003b6cc6e29427029a04590c4e1a0e48e221275e4d4d8a28bc9c4165de19
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -76,8 +76,8 @@ URL: https://pypi.org/project/ajsonrpc
 Architecture: arm_cortex-a9
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_arm_cortex-a9.ipk
-Size: 43899
-SHA256sum: ed1dddcbd1f4a11ad16e45e13a613a543c63df0bfce6c7cd2a3f346038ed62ca
+Size: 43928
+SHA256sum: 16a9e72ff49620a6c37838712bc10b250c84d5bd93de3f993feaf23724273355
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-platformio-src
@@ -89,8 +89,8 @@ URL: https://github.com/platformio/platformio-core
 Architecture: arm_cortex-a9
 Installed-Size: 1280000
 Filename: python3-platformio-src_6.1.18-r2_arm_cortex-a9.ipk
-Size: 209755
-SHA256sum: 3f13229d273879e644aabb7ac3d0ac51cb0a7b5a748139fd739db9d6217013eb
+Size: 209812
+SHA256sum: e9ec2890ff4a97402c52627e5aa14e09199d217649544bb332dd7a60fd583fc1
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -106,8 +106,8 @@ URL: https://github.com/platformio/platformio-core
 Architecture: arm_cortex-a9
 Installed-Size: 1914880
 Filename: python3-platformio_6.1.18-r2_arm_cortex-a9.ipk
-Size: 626588
-SHA256sum: 826d499181719ad025d4a03da7fc2b870a5dbc9dc1f6ede6afa1a8db31e5c259
+Size: 626591
+SHA256sum: ce15a8baababa29a4ab4ad0dc5c6f0fc66f846da756d0c0a8ec20160c1eecf6b
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -121,8 +121,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_arm_cortex-a9.ipk
-Size: 163908
-SHA256sum: 193998ab17c674221e037ebb29e2ea32413795f414263abd8ccba5b29d91daf1
+Size: 163924
+SHA256sum: 18af943ff7884a5fb01b63c1f87603a2845fbe6203472827cec5073156be0fbd
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -136,8 +136,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a9
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_arm_cortex-a9.ipk
-Size: 337688
-SHA256sum: fc31904b7d6ab7ad2a2d283f576f7ac83b02d49c638b15d4b96dc62be14d5d8f
+Size: 337641
+SHA256sum: 7d7dd120fd10598b278cfe40f39bf7469fec7a05b0c47c78f8778343827dea34
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -149,8 +149,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9.ipk
-Size: 23643
-SHA256sum: 2d81187d7f86ef234c5b020150f0c70313098290cc5684771c96d43aae41e162
+Size: 23642
+SHA256sum: aed046b4e823ce7aa021508244e6ad357c8a943eee2a19274b4d8030a033f891
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -164,7 +164,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a9
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9.ipk
-Size: 55033
-SHA256sum: 0583651d0b0321306abc88e524731b5e5cac2cbd0733013e9c907ed472884bfc
+Size: 55079
+SHA256sum: fe647253f4cc3b5ccc0a01fd7608a61e175fdf953b514a836ab3abac0771f61f
 Description:  Pretty-print tabular data
 

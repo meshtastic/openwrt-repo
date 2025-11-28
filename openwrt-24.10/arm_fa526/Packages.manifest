@@ -6,33 +6,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_fa526.ipk
-Size: 4054
-SHA256sum: 68c8e684efa29f0f4ae6df75249f6e27f13d7121869b79db37965471bd348aba
+Size: 4052
+SHA256sum: 6283b9f2af0a95b0ca5aef940c4632d6f096b3391e968181197dbe817e8dfdf3
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.11-r1_arm_fa526.ipk
-Size: 1231
-SHA256sum: 3ce4741f807b6f7212c115103406638016457ccf07fc8c21d791761c33f4da6b
+Filename: meshtasticd-avahi-service_2.7.15-r1_arm_fa526.ipk
+Size: 1236
+SHA256sum: 30502c32adf9697c0c5fd0ddd1b474eee3c0dcbf8890984d43eb015638e41d7d
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,32 +43,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_arm_fa526.ipk
-Size: 1319491
-SHA256sum: d168ff6f03aeab4560277701cef915df9687c16eaf73319defe28dcaec3b9870
+Size: 1320748
+SHA256sum: 4e900adc82ed19003b7e014d8c46f110abb71931c61310cacebd7ad02a09a464
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
-Installed-Size: 1085440
-Filename: meshtasticd_2.6.11-r1_arm_fa526.ipk
-Size: 472427
-SHA256sum: d0686ee16602d58fd6d924385923269304cb52fcf35ab37714e6b62be5d1ff40
+Installed-Size: 1331200
+Filename: meshtasticd_2.7.15-r1_arm_fa526.ipk
+Size: 579374
+SHA256sum: 6ac84ac4d4522a2adf065f35ffa135e0e0481e4a82d8995c381bc41491fbb19d
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -79,14 +79,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_arm_fa526.ipk
 Size: 14836
-SHA256sum: 24c280d1f3d4f32dcdbf4f34366c69a1890a7f96c79c24a5292eef733e238f52
+SHA256sum: d023b754a61c290676cc1529401b700c9722d9a2032f91f9ca3e3e7ba251eb1d
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -99,14 +99,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_arm_fa526.ipk
-Size: 43898
-SHA256sum: 1c5024ab1952e3b713f4d1fffa9e35819cb74b1403d60597eb34a58d7ce7eecc
+Size: 43927
+SHA256sum: c43b69b15aee6bbb82c794c4c9e7636f2bbb00540d16fa74dfa737d6506b954e
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-platformio-src
@@ -117,14 +117,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 1280000
 Filename: python3-platformio-src_6.1.18-r2_arm_fa526.ipk
-Size: 209756
-SHA256sum: d386f1a33268bae21f7510b1703a427c7f45df2033cdf2c205466da572f6b772
+Size: 209810
+SHA256sum: c5dc7ffb2fd031e4b14c36d0fc09552403362b357de93336de5813b72d31638f
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -139,14 +139,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 1914880
 Filename: python3-platformio_6.1.18-r2_arm_fa526.ipk
-Size: 626589
-SHA256sum: bf9ddd5558bf88fe47cd5a1888342c87ed5309ba3f8a63ce36b6fd0de528b166
+Size: 626587
+SHA256sum: 0baa39e390563b3d524702c4dfd042133542923442a2bcd4adf9fead82fb94f0
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -159,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_arm_fa526.ipk
-Size: 163905
-SHA256sum: 66ce5893f5bace187318fb95ac7a8e77409dbd3686f09d2e22481b0438e74d58
+Size: 163920
+SHA256sum: 8ccc90bafcd53e21660f164a5d25662e11231d640be878b44efdb53d93870712
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_arm_fa526.ipk
-Size: 337678
-SHA256sum: 0f3a6ef1a0ce984ab113875f9590258345dd8b93f92ead9d0d42ac863489ae70
+Size: 337638
+SHA256sum: 73c88de67dcda0e8c1902aca486c525231d7016df7fc3030e50e1f955901c04e
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_fa526.ipk
 Size: 23638
-SHA256sum: eba5ebde62d4f3b35b2fff94cf5d3b2e631606dd7864f0319d041ddbd5691c80
+SHA256sum: b2966fdf25ba99d3efe10c6d338994eceeddfccdd4955720f1ca77c532f5f5fc
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_fa526
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_fa526.ipk
-Size: 55033
-SHA256sum: 2c09e5e7534ec6ddf785fdf1c7c2212f05b583edae3606ac4cb30af8b2c96564
+Size: 55079
+SHA256sum: b3a9d18823d4d2b30ca44112bd9f69d8566d5afee7d7a159a1de55dc93e59729
 Description:  Pretty-print tabular data
 

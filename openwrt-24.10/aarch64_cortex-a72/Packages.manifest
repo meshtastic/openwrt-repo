@@ -6,33 +6,33 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_aarch64_cortex-a72.ipk
-Size: 4287
-SHA256sum: 93570c621ce184c12eb3883ae8400c9efa92ad8d0de596579b246dde248cf363
+Size: 4290
+SHA256sum: 5de05f63c38ce25e2af19c78fc64f88b8039c19a4a36d0ceb29c7ddba6be15a8
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.6.11-r1_aarch64_cortex-a72.ipk
-Size: 1238
-SHA256sum: 6a446ab7f92d8dcd990800aa5706acd707bd9b8d67bd0ec52e2cae17e779ddc8
+Filename: meshtasticd-avahi-service_2.7.15-r1_aarch64_cortex-a72.ipk
+Size: 1243
+SHA256sum: 228ccee6109b39e49f5868364d806384a1cdb6efff2d2becba0e74f02752b439
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -43,32 +43,32 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_aarch64_cortex-a72.ipk
-Size: 1319501
-SHA256sum: eabfe45e5f9c4fa4d563a77e8c70ef31f94a5be4d7f5d9c9c0e4cee3ee28d93f
+Size: 1320762
+SHA256sum: 83e498a4c86e4460e7bf1f915329fe72c1f57693f0409b156bee84e22da30e2a
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-r1
+Version: 2.7.15-r1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: http://github.com/meshtastic/firmware
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
-Installed-Size: 1361920
-Filename: meshtasticd_2.6.11-r1_aarch64_cortex-a72.ipk
-Size: 506750
-SHA256sum: 195096ca9a25c5490c8bae8439402efa2ed4b5f0fe98a35b224e9be2726ee374
+Installed-Size: 1628160
+Filename: meshtasticd_2.7.15-r1_aarch64_cortex-a72.ipk
+Size: 613663
+SHA256sum: 95b3ed62a8d513ae2d218961733261ee13a75a9012167e714c1832ddb2f7bbf9
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -79,14 +79,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_aarch64_cortex-a72.ipk
-Size: 14839
-SHA256sum: c1b7bb873e0c6039ccce50bdff46e20da460ae14c2cef19c00ff77183d768fd8
+Size: 14838
+SHA256sum: 446a527c1cd41b567bf9bf72191bfd01ceb1cebc19dcbcdf2295d18c8f56ddaf
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -99,14 +99,14 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/ajsonrpc
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_aarch64_cortex-a72.ipk
-Size: 43901
-SHA256sum: 534ffbecacd9e7e73f836cfc6aeb0f95a44b71c3da078b1c72d617a1301c8087
+Size: 43927
+SHA256sum: ad9e6724a2210c30d25636619e1941ba99e2173fdaa5114bdf535765e652e0fd
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-platformio-src
@@ -117,14 +117,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 1280000
 Filename: python3-platformio-src_6.1.18-r2_aarch64_cortex-a72.ipk
-Size: 209757
-SHA256sum: e8ce17ff66a63e0d90e07bf2bce4e15c4149588e22d87a8327e707fcecda4340
+Size: 209819
+SHA256sum: b77a4960b090e173a6e967984aa8d538d928a736830d762ec432fad0c4e1193d
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -139,14 +139,14 @@ SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://github.com/platformio/platformio-core
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 1914880
 Filename: python3-platformio_6.1.18-r2_aarch64_cortex-a72.ipk
-Size: 626597
-SHA256sum: 2ede0ad8acd301ae27947c142c2215cb03f0744803d6414f95b5596d33163590
+Size: 626600
+SHA256sum: cb4ae9978e4e186c1b8473f5ded0507d3f2ffe54fc12ab2424f59f3c76603714
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -159,14 +159,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_aarch64_cortex-a72.ipk
-Size: 163910
-SHA256sum: ca693b54994d508d4a9a7cfc9aa7c8f0700966f92028ba20de04616cf9447cae
+Size: 163925
+SHA256sum: 669aaec96e0ae41aaed45b7d6b2396aeb658417a8fb6533b22787563528c1a1f
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +179,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_aarch64_cortex-a72.ipk
-Size: 337687
-SHA256sum: b9930339126719fb97b263cf80f4bb30d59ca0003beeb0b2315e259f6f5a666d
+Size: 337644
+SHA256sum: 6d44c4ef284b5e9174b4588b2ef9c3b941f0a5055c06a38aaec304f8a3e059ff
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +197,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_aarch64_cortex-a72.ipk
-Size: 23646
-SHA256sum: 26f9741abe56f5fadb8e7c37a80af03a01626991f6d7e9eeb5c767e2188dc4ff
+Size: 23647
+SHA256sum: 48961386a03fb00dcf436391e49bf3a4240f3072f0c87e1d54c3250a2759ff65
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +217,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764244447
+SourceDateEpoch: 1764336194
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a72
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_aarch64_cortex-a72.ipk
-Size: 55042
-SHA256sum: 879e7d00d310b31e6f9e3e1f7b96354b88865fa00783591ef81fbdfc269d47ee
+Size: 55084
+SHA256sum: 5b175797d2466e75f00df5d22de0814456c44b060fd48397b93092af0277c8d0
 Description:  Pretty-print tabular data
 
