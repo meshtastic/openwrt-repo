@@ -6,21 +6,21 @@ Section: libs
 Architecture: powerpc_8540
 Installed-Size: 3621
 Filename: libyder_1.4.14-1_powerpc_8540.ipk
-Size: 4291
-SHA256sum: 3929554fb845244b74d689c45f0f30f5e83f0297063963abc4961345046a56da
+Size: 4288
+SHA256sum: d0d5a242807497d56042e27e1f284cd7c9d0adcd432827040f1d8f136037cf81
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-1
+Version: 2.7.15-1
 Depends: libc, meshtasticd, avahi-daemon
 License: GPL-3.0
 Section: net
 Architecture: powerpc_8540
 Installed-Size: 367
-Filename: meshtasticd-avahi-service_2.6.11-1_powerpc_8540.ipk
-Size: 1208
-SHA256sum: 86592cba708c42de45ca27fa7195c70bb8e0d652035e817d48171ea3527c0507
+Filename: meshtasticd-avahi-service_2.7.15-1_powerpc_8540.ipk
+Size: 1209
+SHA256sum: 65d1e000b8f5aafc01ed2ddd8e8bc43e9df49b963785a5430b11235441014653
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -30,22 +30,22 @@ Depends: libc, meshtasticd
 License: GPL-3.0
 Section: net
 Architecture: powerpc_8540
-Installed-Size: 1323863
+Installed-Size: 1323886
 Filename: meshtasticd-web_2.6.7-1_powerpc_8540.ipk
-Size: 1308263
-SHA256sum: 4b27b731062fa322e7646d59354fc2a573c57666fd9a797e432047e589481fec
+Size: 1320763
+SHA256sum: 731dff5093e59d0a3e3cfba261cfc7dfebbb6cc7a23d89c5b79db200cc55398c
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-1
+Version: 2.7.15-1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
 License: GPL-3.0
 Section: net
 Architecture: powerpc_8540
-Installed-Size: 582296
-Filename: meshtasticd_2.6.11-1_powerpc_8540.ipk
-Size: 580054
-SHA256sum: e191e22e841167c14cd05dddbcaf79933676aee4c962a104d83abf4313eef326
+Installed-Size: 699158
+Filename: meshtasticd_2.7.15-1_powerpc_8540.ipk
+Size: 696283
+SHA256sum: 5ba94fa3268a8d41d3fe3811764665702f17170888d132db44e6e7937ae83c6a
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -54,10 +54,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 13978
+Installed-Size: 13982
 Filename: python3-ajsonrpc-src_1.2.0-1_powerpc_8540.ipk
-Size: 14811
-SHA256sum: eddb72a974235d579c348e6b5aae621be327082d687408840d679455cb769407
+Size: 14814
+SHA256sum: ebe0c46de259c9cd8e0af8ed7bf660415a6439e53eec38775ccb9fa48bd68a43
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -68,10 +68,10 @@ Depends: libc, python3-light, python3-asyncio, python3-logging
 License: MIT
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 29557
+Installed-Size: 29567
 Filename: python3-ajsonrpc_1.2.0-1_powerpc_8540.ipk
-Size: 30376
-SHA256sum: 0a85933fef102abddbba9371ac98adee60a2bafc19b2de89adba06778afa55c6
+Size: 30382
+SHA256sum: 8827dce39223d6e8e6426b6bfa5a8d1f8e3d9929dc9f5de1501770c7dc280ab8
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
@@ -80,10 +80,10 @@ Depends: libc
 License: MPL-2.0
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 1412
+Installed-Size: 1411
 Filename: python3-certifi-src_2021.10.8-2_powerpc_8540.ipk
-Size: 2304
-SHA256sum: 1c3c0cbbbed203a996c97031092a4b63fca35d584661855da2c387603f9f2b75
+Size: 2300
+SHA256sum: 5115bd22d66342c311aa4b4fb24ba2dcc4b8c432962eb13f768dd22841a9220e
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -95,10 +95,10 @@ Depends: libc, python3-light
 License: MPL-2.0
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 148603
+Installed-Size: 148607
 Filename: python3-certifi_2021.10.8-2_powerpc_8540.ipk
-Size: 149543
-SHA256sum: 06fb8cd7677314afe901c993553426631fa30f4d1659ed784cc266bb50949689
+Size: 149541
+SHA256sum: f1514867baa6afd8ee0939d08e21057fc0bef0448d1f28409d9af58e8692488b
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -108,10 +108,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 145622
+Installed-Size: 145623
 Filename: python3-chardet-src_4.0.0-2_powerpc_8540.ipk
-Size: 143584
-SHA256sum: e4d5d0c9f1143688ea14dbefdbe72aeda7303137c79a890f8a1aa2a613a753a6
+Size: 143435
+SHA256sum: 927e289837c4b3f1a19b108d2cc4b1ea8f5c259ce1de82087934b61f1ce01fd3
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -122,10 +122,10 @@ Depends: libc, python3-light
 License: LGPL-2.1
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 148968
+Installed-Size: 148965
 Filename: python3-chardet_4.0.0-2_powerpc_8540.ipk
-Size: 147140
-SHA256sum: 5afb3831c5588d87213b4470b00d6b5ecb0f4a0e8d02f96d7c84bbf80d2481db
+Size: 147215
+SHA256sum: 9353df08b67e2ec53818b8bc715560459594609123e44bec58ce47a1b294936a
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -136,8 +136,8 @@ Section: lang
 Architecture: powerpc_8540
 Installed-Size: 86567
 Filename: python3-click-src_8.1.7-1_powerpc_8540.ipk
-Size: 87563
-SHA256sum: d31590fe6b85d463ccd2237ba7ca5aabc16a96306a30fbc3766ca0607fc3180d
+Size: 87571
+SHA256sum: 73c1dd6b68c6ee179d54a107722d22cd7f3cfa792926340ab484aee14b310473
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -154,7 +154,7 @@ Architecture: powerpc_8540
 Installed-Size: 123120
 Filename: python3-click_8.1.7-1_powerpc_8540.ipk
 Size: 124158
-SHA256sum: ebea09bc75a4109a65aa2181f5960ff1bf17ffef78517505a0e41ab6aab57774
+SHA256sum: 8f3a68feab0c4a6f69788c00f056dfa8b8ef4d268acb752069750960e39461aa
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -166,10 +166,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 56264
+Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_powerpc_8540.ipk
 Size: 53409
-SHA256sum: bcaedd28d7cba6d073640223ee3d63241d616f558aec38bfbcf80ffd2cb20b92
+SHA256sum: 644654a57cd5bb9b6eab832e35f2d902dc3fc76196678354075ec1c30298e178
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -185,8 +185,8 @@ Section: lang
 Architecture: powerpc_8540
 Installed-Size: 66820
 Filename: python3-idna_3.3-2_powerpc_8540.ipk
-Size: 66603
-SHA256sum: 8d269629e15351268cee1e2b091debdfa16f8e02b6de6b75aaee97034c0aa1c7
+Size: 66643
+SHA256sum: fb60664c569468cfd99394545e23dc7889b678cf8a89c512677467577c720239
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -198,10 +198,10 @@ Depends: libc
 License: Apache-2.0
 Section: meshtastic
 Architecture: powerpc_8540
-Installed-Size: 208938
+Installed-Size: 208933
 Filename: python3-platformio-src_6.1.18-2_powerpc_8540.ipk
-Size: 209770
-SHA256sum: 35e20a69d9cea6ee1b3118eda355dde1f28fb8f87f50d2977ce49e73c1b3504c
+Size: 209778
+SHA256sum: 6592cebdb9ee6aaf3bbdb2b366b24840ac70c65832735f17f7b0e631730b0eb4
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -214,10 +214,10 @@ Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-
 License: Apache-2.0
 Section: meshtastic
 Architecture: powerpc_8540
-Installed-Size: 373543
+Installed-Size: 373517
 Filename: python3-platformio_6.1.18-2_powerpc_8540.ipk
-Size: 374556
-SHA256sum: d65c139b32c2e8d3e20ab139b71bf8da8293718682c8a012a3b1bb3af62ed868
+Size: 374532
+SHA256sum: 10ca9acec4a824b9ac210418071dd0ded1476d1cad375d3aae66aaa5a7537741
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -228,10 +228,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 162981
+Installed-Size: 162988
 Filename: python3-pyelftools-src_0.32-1_powerpc_8540.ipk
-Size: 163886
-SHA256sum: 82ef513219a6460413d2b2cbd83efe236229222ab8b6df5131276f30223af663
+Size: 163888
+SHA256sum: 9b7e22d798806ee506dd1aa20c11aa9a075fe47693fb38074e867b22f7340ac5
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -242,10 +242,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 222679
+Installed-Size: 222675
 Filename: python3-pyelftools_0.32-1_powerpc_8540.ipk
-Size: 223194
-SHA256sum: 7085733dd1ae27a35ee55763632c2bcfda3cc60895ef7f60126e32aa749744b2
+Size: 223185
+SHA256sum: ed7f1556540feeb9a00065f332ac3cc2aa68a06b53023b345bcba992ac65bf89
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -254,10 +254,10 @@ Depends: libc
 License: BSD
 Section: lang-python
 Architecture: powerpc_8540
-Installed-Size: 73213
+Installed-Size: 73221
 Filename: python3-pyserial-src_3.4-2_powerpc_8540.ipk
-Size: 74234
-SHA256sum: 44a5edf65c6fce27fe701aad5b678a285e8f8c27f1c42b8a2e9bc6086e480b6d
+Size: 74238
+SHA256sum: dd42a346799572fe462dfa1833ba7472c514d694184bc4ebcd6d40a387d90fb5
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -271,10 +271,10 @@ Depends: libc, python3-light
 License: BSD
 Section: lang-python
 Architecture: powerpc_8540
-Installed-Size: 98896
+Installed-Size: 98897
 Filename: python3-pyserial_3.4-2_powerpc_8540.ipk
-Size: 99921
-SHA256sum: fadcb64859cd30b1049120c7eb7400f92b36038299be326aba2ffa7555c14a69
+Size: 99917
+SHA256sum: 2919925c7b0b57bca80c630562ccb520842b5f0ea003af92d6ae54d69c033754
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -287,10 +287,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python-requests:requests
 Architecture: powerpc_8540
-Installed-Size: 48797
+Installed-Size: 48799
 Filename: python3-requests-src_2.31.0-2_powerpc_8540.ipk
-Size: 49751
-SHA256sum: 747a268aa306d50eae0ddbabb8068039be44a82d59ed1f00009343119fdf3033
+Size: 49737
+SHA256sum: b040ccacab4cc141adefcf1bc278267524f7cc3b30df7a6d5dd2e47b098d0739
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -302,10 +302,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python-requests:requests
 Architecture: powerpc_8540
-Installed-Size: 66484
+Installed-Size: 66483
 Filename: python3-requests_2.31.0-2_powerpc_8540.ipk
-Size: 67429
-SHA256sum: 33f5d6a133b306a684202daf2714b1ec43e1f494683b3a19664ec27f18247203
+Size: 67430
+SHA256sum: 728086ce10d487813b3bff2a2af864b74df2c5f32989343316dbd43dd6ebe132
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -314,10 +314,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 22715
+Installed-Size: 22714
 Filename: python3-tabulate-src_0.9.0-1_powerpc_8540.ipk
-Size: 23511
-SHA256sum: 572ad365c9d374ad90ee3526c3c08d699c7f8b13b3d5a9ed0c43636b060fd819
+Size: 23513
+SHA256sum: 2d5538967318e1e430cfe0d1edfe75b211a7e86b94b6f8c43a9bdebe3f950bb3
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -328,10 +328,10 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: powerpc_8540
-Installed-Size: 38395
+Installed-Size: 38401
 Filename: python3-tabulate_0.9.0-1_powerpc_8540.ipk
-Size: 39267
-SHA256sum: 3af42eefa8b0c8d1bf743cc1cec2a012377cf8c2e282b7008b45dfbe0a0f9896
+Size: 39268
+SHA256sum: 16cc5d8e02d5d60520bf9231ffb9de4c7608f8404d47efc1623bb2a125421589
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -341,10 +341,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: powerpc_8540
-Installed-Size: 103672
+Installed-Size: 103670
 Filename: python3-urllib3-src_2.0.4-2_powerpc_8540.ipk
-Size: 104591
-SHA256sum: ac4770ed689fdb93588fb40714d7325c656d812f874b6d7b9e45331a72ec4426
+Size: 104553
+SHA256sum: 454561fa5d32df64ca75373d7c0fda7451f399dce98a970e78cfb1b93c6e1eb8
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -356,9 +356,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: powerpc_8540
-Installed-Size: 130622
+Installed-Size: 130628
 Filename: python3-urllib3_2.0.4-2_powerpc_8540.ipk
-Size: 131559
-SHA256sum: 55dc654d58b30da800cfd50fee802f911902c495690f0e99c28cbf2ca598934f
+Size: 131564
+SHA256sum: fad97429ffdbec830073dd99f1f3b2fb1f2d9e88c821adf516c93293d236e7f4
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

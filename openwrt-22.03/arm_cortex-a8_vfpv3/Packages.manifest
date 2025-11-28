@@ -6,31 +6,31 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 2840
+Installed-Size: 2843
 Filename: libyder_1.4.14-1_arm_cortex-a8_vfpv3.ipk
-Size: 3654
-SHA256sum: e7ad3b189ff6d8e882f5602006c858c93b3e8435ed9e1f50a1a35f0e9ea33ca3
+Size: 3653
+SHA256sum: e2d2e9495ee2ea05a873c0a149ffeee0373cfbc87f1c327715cb7ed6abd61502
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-1
+Version: 2.7.15-1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd-avahi-service
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
 Installed-Size: 367
-Filename: meshtasticd-avahi-service_2.6.11-1_arm_cortex-a8_vfpv3.ipk
+Filename: meshtasticd-avahi-service_2.7.15-1_arm_cortex-a8_vfpv3.ipk
 Size: 1214
-SHA256sum: 8b3ab43a2b2c94514bb134a037a818473813bf202870f353db8b5281349c0c9d
+SHA256sum: 6221b9ebab94c7699a580671f80534af66c03ae381f9e880400e9d3953daae32
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -41,30 +41,30 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 1323863
+Installed-Size: 1323886
 Filename: meshtasticd-web_2.6.7-1_arm_cortex-a8_vfpv3.ipk
-Size: 1308270
-SHA256sum: e5c9ebc5228688340c4cecf156c0c89d61c288685fae0eac31a0ee154ff86502
+Size: 1320767
+SHA256sum: fbca06ed53fa0a5bce48a0a877d3a1fa5c475420b0a227c0c788686809a6b95f
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-1
+Version: 2.7.15-1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 461453
-Filename: meshtasticd_2.6.11-1_arm_cortex-a8_vfpv3.ipk
-Size: 461467
-SHA256sum: c529da81aadbb1d58afd39cffc0951545165f888b963757d92a1a4f9d472a005
+Installed-Size: 561633
+Filename: meshtasticd_2.7.15-1_arm_cortex-a8_vfpv3.ipk
+Size: 561460
+SHA256sum: c3423275611c11cbd557513323164f8d9b3ccdfa35ec37ea2ddce63f0091434f
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -75,13 +75,13 @@ SourceName: python3-ajsonrpc-src
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 13978
+Installed-Size: 13982
 Filename: python3-ajsonrpc-src_1.2.0-1_arm_cortex-a8_vfpv3.ipk
-Size: 14820
-SHA256sum: b3f6234dfd357e020533e8aacf9f10350ea44966097994504d2d195eb384d41c
+Size: 14819
+SHA256sum: 5ee8b5a321e811ab3070309a73225f6f45197d52cd0fcf2d8948fccdcf282974
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -94,13 +94,13 @@ SourceName: python3-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 29560
+Installed-Size: 29568
 Filename: python3-ajsonrpc_1.2.0-1_arm_cortex-a8_vfpv3.ipk
-Size: 30377
-SHA256sum: f5d8269d709e2573960d89e9f2d2cf69a1e6f299ab54ba8fe8835b9686605c5c
+Size: 30390
+SHA256sum: 70dc7b204657ec1e246e92e6ce76b0d9b3e08bc2cd2aeda568999781d47d04b5
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
@@ -111,13 +111,13 @@ SourceName: python3-certifi-src
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 1412
+Installed-Size: 1411
 Filename: python3-certifi-src_2021.10.8-2_arm_cortex-a8_vfpv3.ipk
-Size: 2306
-SHA256sum: 2e47243d74da14decff25ee2dd01b4ae417d3f71ddb6026c8fc6854b9c46b7b7
+Size: 2311
+SHA256sum: 09b49c28e156ecfd646aebad15a087e4b1427310918673ba550cd7c1af3686fa
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -131,13 +131,13 @@ SourceName: python3-certifi
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 148603
+Installed-Size: 148607
 Filename: python3-certifi_2021.10.8-2_arm_cortex-a8_vfpv3.ipk
 Size: 149545
-SHA256sum: bc32f5881f27846911843875d01f8dfd53ec59e4560286a3662d14370f339be1
+SHA256sum: cdbc344290db5975f0370b88cac60e854bef762349f518ce141a4632c250a522
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -148,13 +148,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet-src
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 145622
+Installed-Size: 145623
 Filename: python3-chardet-src_4.0.0-2_arm_cortex-a8_vfpv3.ipk
-Size: 143588
-SHA256sum: b5e10cceb394b10dff15d33e50651e6c919b3dd25fc125a45bc721e0de6854b9
+Size: 143447
+SHA256sum: d03f08bbe8b17cb80911ad006627eab61aea3b4a36411811586662180e056057
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -166,13 +166,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 148968
+Installed-Size: 148965
 Filename: python3-chardet_4.0.0-2_arm_cortex-a8_vfpv3.ipk
-Size: 147145
-SHA256sum: 99e7a8e97bb692b6fe8c2953502be2f005d18b157d155e56f1c24fe3bc8a4ed7
+Size: 147213
+SHA256sum: e113b4d8a24147eb597f2b6107a26321d826d0458b00628ea02d7485a7d94517
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -183,13 +183,13 @@ SourceName: python3-click-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
 Installed-Size: 86567
 Filename: python3-click-src_8.1.7-1_arm_cortex-a8_vfpv3.ipk
-Size: 87570
-SHA256sum: 50f3bb2d3c478b944c917bfbdfe042b741333bb56c56a737597a73829d5af0fb
+Size: 87577
+SHA256sum: 76c0762a72d21bd42e4c12a6fa1352ddf9ad66b56b0ec1cee65f73a52c59f6e8
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -205,13 +205,13 @@ SourceName: python3-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 123121
+Installed-Size: 123119
 Filename: python3-click_8.1.7-1_arm_cortex-a8_vfpv3.ipk
-Size: 124165
-SHA256sum: 11a3df86b70fd8e04676ba15f9bb925a0804c52be938e326c746f3bd8793f00f
+Size: 124166
+SHA256sum: 21f0ba665b376f60a23f59e1c8c9787a4adcbaa6741ee083894e3b139cec6e48
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -225,13 +225,13 @@ SourceName: python3-idna-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 56264
+Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_arm_cortex-a8_vfpv3.ipk
-Size: 53416
-SHA256sum: 0241981325d911709379b5609d9ee7a16a199c3f99aeaffabaa042cc3c5d24bc
+Size: 53420
+SHA256sum: 6627053f0e6cd43b1dee2aad796853326ae0added58d56308580dbfac33e24a2
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -247,13 +247,13 @@ SourceName: python3-idna
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
 Installed-Size: 66820
 Filename: python3-idna_3.3-2_arm_cortex-a8_vfpv3.ipk
-Size: 66612
-SHA256sum: 5d09cd03354b0b75d427728d19f1cbec3193471f98fa3d5a9fc70e374fcb6927
+Size: 66648
+SHA256sum: 00ed13db566b3f996b43d0a0209b4c03db3fb15c6983560937f813a7938b24d6
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -267,13 +267,13 @@ SourceName: python3-platformio-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 208938
+Installed-Size: 208933
 Filename: python3-platformio-src_6.1.18-2_arm_cortex-a8_vfpv3.ipk
-Size: 209778
-SHA256sum: feb9d78f739595935ed82f1b8c10c2b49a42dc83d6e645502dc481b38d864b6f
+Size: 209785
+SHA256sum: a3c59774634092badf7a09282baba68c23b0abf9f253046d15edb7e458204034
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -288,13 +288,13 @@ SourceName: python3-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 373543
+Installed-Size: 373517
 Filename: python3-platformio_6.1.18-2_arm_cortex-a8_vfpv3.ipk
-Size: 374556
-SHA256sum: eee3c8105b95214e95e2aae48f3cb21f1062dfcef5b8c87611e5504b87bb7874
+Size: 374534
+SHA256sum: b19aa707c7e794486ca3343ef530998c0471ea3a9bd878649b2a7ca8586b0d9e
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -307,13 +307,13 @@ SourceName: python3-pyelftools-src
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 162981
+Installed-Size: 162988
 Filename: python3-pyelftools-src_0.32-1_arm_cortex-a8_vfpv3.ipk
-Size: 163893
-SHA256sum: 016c83a2629963e61be93fe34b18d44ea557cdee5e2bc3dc38d5038a3f66a2d0
+Size: 163896
+SHA256sum: 18589d417ed0291c08d100b40284c6734c0f496cbd8e354355ebf2c4518193c8
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -326,13 +326,13 @@ SourceName: python3-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 222679
+Installed-Size: 222675
 Filename: python3-pyelftools_0.32-1_arm_cortex-a8_vfpv3.ipk
-Size: 223208
-SHA256sum: 6b0a9eb737e7d132ba883d71701415636eff9c35800980ac28596160cf1d1b44
+Size: 223197
+SHA256sum: cccfcf885fac39240714a3979b2fdc2ae3c559192df0104254a011e8c0f1f786
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -342,13 +342,13 @@ Source: /feed/backports/python-pyserial
 SourceName: python3-pyserial-src
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 73213
+Installed-Size: 73221
 Filename: python3-pyserial-src_3.4-2_arm_cortex-a8_vfpv3.ipk
-Size: 74239
-SHA256sum: db3d7142afff4781f1282bd7706966e2d7a740011b774a22b4fbae5ab14a87dd
+Size: 74241
+SHA256sum: aee48dcf9c0b463a262464b78f7d2568b79cee1b5bb121a2b21d0343968df9d5
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -363,13 +363,13 @@ Source: /feed/backports/python-pyserial
 SourceName: python3-pyserial
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 98896
+Installed-Size: 98897
 Filename: python3-pyserial_3.4-2_arm_cortex-a8_vfpv3.ipk
-Size: 99924
-SHA256sum: 97ff88d1df97f522c95cda8a7eea2e946665e10bd52f4e7f00210d9b389adcb6
+Size: 99927
+SHA256sum: 4632c3921aa2228568894480a014feced74ba29a14b360d35a33a5a8408bbc45
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -383,14 +383,14 @@ SourceName: python3-requests-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 48797
+Installed-Size: 48799
 Filename: python3-requests-src_2.31.0-2_arm_cortex-a8_vfpv3.ipk
-Size: 49758
-SHA256sum: d91eeab5b5c212aae3779e7398f2c9d864a8a0aade0d142af2f2b8473a3911be
+Size: 49744
+SHA256sum: a7a90144b61e1e3980eca3261464c3acc284b2e820cdc69f39815be50b12cf55
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -403,14 +403,14 @@ SourceName: python3-requests
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 66484
+Installed-Size: 66483
 Filename: python3-requests_2.31.0-2_arm_cortex-a8_vfpv3.ipk
-Size: 67431
-SHA256sum: 22eac88f0d21b08e761e87634b023ee6b5d134314d3803ffe5dcfc4b46e2978d
+Size: 67434
+SHA256sum: c5406f7ceccfd0fb86c6859104494b8925e10485d7f10162f792c89747d4e4e2
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -421,13 +421,13 @@ SourceName: python3-tabulate-src
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 22715
+Installed-Size: 22714
 Filename: python3-tabulate-src_0.9.0-1_arm_cortex-a8_vfpv3.ipk
-Size: 23517
-SHA256sum: cc7e5a1753eea7d846e75dc599bbd0ab32ea863d5bb543c065562b2476726d8d
+Size: 23519
+SHA256sum: e466c5ffd98c60af079267264aafb7715569b27cde7186c5b25b03f9a8d2a8aa
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -440,13 +440,13 @@ SourceName: python3-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 38395
+Installed-Size: 38401
 Filename: python3-tabulate_0.9.0-1_arm_cortex-a8_vfpv3.ipk
-Size: 39270
-SHA256sum: 977af0df903a69a61c846774050fba3f4182fe43604b8fdd2cd897665e3208c2
+Size: 39266
+SHA256sum: 0110d11f1ae7b3319960f06c7629dfaae6caab83c50cad6cd80dab7264e49056
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -457,14 +457,14 @@ SourceName: python3-urllib3-src
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 103672
+Installed-Size: 103670
 Filename: python3-urllib3-src_2.0.4-2_arm_cortex-a8_vfpv3.ipk
-Size: 104594
-SHA256sum: 69cf2d451427e16711f6e73fd3c2d4577b40ae74478e30d1e9a7fd9a66064eba
+Size: 104565
+SHA256sum: 89060de7c8769d2e42c6c745058e339b264ca0a4c39285bb8a9e05f2710b9a63
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -477,13 +477,13 @@ SourceName: python3-urllib3
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: arm_cortex-a8_vfpv3
-Installed-Size: 130617
+Installed-Size: 130629
 Filename: python3-urllib3_2.0.4-2_arm_cortex-a8_vfpv3.ipk
-Size: 131562
-SHA256sum: ae1e9d970498f63842f6717bd7f7783259264719c45506e7cb1d1644289e421e
+Size: 131579
+SHA256sum: 9f487f56bad361c2d4c522b93e362e15e4918e8aad75bbb5927aa82e034ac199
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

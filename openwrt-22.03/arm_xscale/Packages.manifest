@@ -6,31 +6,31 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 2841
 Filename: libyder_1.4.14-1_arm_xscale.ipk
-Size: 3645
-SHA256sum: 51c14ffcb530fac4b540ffd5c70b58c62604ecd7be894e0a66fa530ede7b99f9
+Size: 3644
+SHA256sum: eb20d8c9ac18a78a4b8c4088ad6e113423b6db4600e826bc3329349a2b6b3b41
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.6.11-1
+Version: 2.7.15-1
 Depends: libc, meshtasticd, avahi-daemon
 Source: /feed/meshtasticd
 SourceName: meshtasticd-avahi-service
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 367
-Filename: meshtasticd-avahi-service_2.6.11-1_arm_xscale.ipk
-Size: 1205
-SHA256sum: 1869303768e00575bd3e4b87e3d4f0045728862b3ec1a6aea75aeab154398550
+Filename: meshtasticd-avahi-service_2.7.15-1_arm_xscale.ipk
+Size: 1203
+SHA256sum: 2f7e53f0391e93e83629c1d18c4582d372d71995c567335b466d664a7c23be83
 Description:  This package contains the service definition for announcing the
  meshtastic daemon via mDNS.
 
@@ -41,30 +41,30 @@ Source: /feed/meshtasticd-web
 SourceName: meshtasticd-web
 License: GPL-3.0
 Section: net
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 1323863
+Installed-Size: 1323886
 Filename: meshtasticd-web_2.6.7-1_arm_xscale.ipk
-Size: 1308264
-SHA256sum: 3a3e0b915cadcde6d62ad05ba2a359c037f85806fb96585c6ecf57daabac3a39
+Size: 1320756
+SHA256sum: 1dc21e3ac5adacfa91e2f3f2f280622cc72f19d12b2319b689fe34716fcfa128
 Description:  Meshtastic Daemon Web Interface
 
 Package: meshtasticd
-Version: 2.6.11-1
+Version: 2.7.15-1
 Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
 Source: /feed/meshtasticd
 SourceName: meshtasticd
 License: GPL-3.0
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 468034
-Filename: meshtasticd_2.6.11-1_arm_xscale.ipk
-Size: 468156
-SHA256sum: 12ce302ab1ef8636222652a3390dacd1030ded5576fa8dcd6fb5a8db09317911
+Installed-Size: 569128
+Filename: meshtasticd_2.7.15-1_arm_xscale.ipk
+Size: 568804
+SHA256sum: 02aa8faab27d31eb4e8b7b9ecf5913f3e0f55df0d71be468d25506e23bda46a6
 Description:  Meshtastic Daemon
 
 Package: python3-ajsonrpc-src
@@ -75,13 +75,13 @@ SourceName: python3-ajsonrpc-src
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 13978
+Installed-Size: 13982
 Filename: python3-ajsonrpc-src_1.2.0-1_arm_xscale.ipk
-Size: 14811
-SHA256sum: 98c8f834d696bab21823ed2d5b6a2bd30ff88196daae92a9fc4b86c7bbebcf12
+Size: 14814
+SHA256sum: 601537c29562ec1611489ef3ecdfe95ea6fe2672c36d21e1a908d0b0e065a18a
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
  
  This package contains the Python source files for python3-ajsonrpc.
@@ -94,13 +94,13 @@ SourceName: python3-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 29561
+Installed-Size: 29567
 Filename: python3-ajsonrpc_1.2.0-1_arm_xscale.ipk
-Size: 30377
-SHA256sum: d7f43b6525b3fafcd1aaf474f7fb7d558e11b04d884c5c32f9ff510eeba25563
+Size: 30384
+SHA256sum: acfac3bbf3622853ceabe376fc97f23cdcffc6cefd454e6dffa8a406d6ae76ed
 Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
 
 Package: python3-certifi-src
@@ -111,13 +111,13 @@ SourceName: python3-certifi-src
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 1412
+Installed-Size: 1411
 Filename: python3-certifi-src_2021.10.8-2_arm_xscale.ipk
-Size: 2296
-SHA256sum: 33a208cff3c8fd3f0465291bae51c744fb0908122345606f248d6703f7ea4708
+Size: 2303
+SHA256sum: b0f891e219c52ba5e8e3c344dd0345ed67b373919d65eb49b3e43bb1b4cad1fd
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -131,13 +131,13 @@ SourceName: python3-certifi
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 148603
+Installed-Size: 148607
 Filename: python3-certifi_2021.10.8-2_arm_xscale.ipk
 Size: 149541
-SHA256sum: 714e67d989914340c5663e6848cd264deabab11b4cabd218ee84b65f5dd8d4f6
+SHA256sum: 94d6bf41a887d2a4b5465d0a1a1dde76bc3adc35bf3643d3b1ad82134189b671
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -148,13 +148,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet-src
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 145622
+Installed-Size: 145623
 Filename: python3-chardet-src_4.0.0-2_arm_xscale.ipk
-Size: 143580
-SHA256sum: 644ad9cee456ff44e71b16de032529a8fe2b307b27a2c9eef6bb828557339662
+Size: 143436
+SHA256sum: ee224c290eb8222b1afbf74deb196800501e6b63a30e99943766d0b0c10ff3e9
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -166,13 +166,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 148968
+Installed-Size: 148965
 Filename: python3-chardet_4.0.0-2_arm_xscale.ipk
-Size: 147137
-SHA256sum: b2c047f205c5c21bd3a22216176e298f523bb56442c9051cf1e75e227c3b92c4
+Size: 147212
+SHA256sum: ff0aec2a1bebe887378dbb6870ead9ef43106402128da8a0d85991cc813ffe99
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -183,13 +183,13 @@ SourceName: python3-click-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 86567
 Filename: python3-click-src_8.1.7-1_arm_xscale.ipk
-Size: 87563
-SHA256sum: 2e4ae37daa9548ed745bfa5916cf82dc51189ca4b0397766e8a78ad74a47a7ab
+Size: 87573
+SHA256sum: dddfa96b0357ce1c5b4f13422a8219267c8e5474bdb67bacc8d6ebf82019e77e
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -205,13 +205,13 @@ SourceName: python3-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 123121
+Installed-Size: 123120
 Filename: python3-click_8.1.7-1_arm_xscale.ipk
-Size: 124157
-SHA256sum: 1396eff6f3df55ddb2f215ad39e7bb1b95a9cc0ea6fb232cb9e0a60cb7222904
+Size: 124162
+SHA256sum: ac3f7788d19c6fc2363859f6d4c093fcab8cc36d5d563d0a6f1e3ae8fbae5a09
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -225,13 +225,13 @@ SourceName: python3-idna-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 56264
+Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_arm_xscale.ipk
-Size: 53408
-SHA256sum: 2c663cc6eb1fb454572df6852b634a904c05bdc3c6e59fc391ae1c6593281a5f
+Size: 53414
+SHA256sum: 205cf855898c33f583228a5098490ac8780158fac0a712b03d4bd92ea0d0d7c8
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -247,13 +247,13 @@ SourceName: python3-idna
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: arm_xscale
 Installed-Size: 66820
 Filename: python3-idna_3.3-2_arm_xscale.ipk
-Size: 66601
-SHA256sum: 3d6d035bebe350235c66b1a51c86e3292304966f9bcccade670f3498f98fd25a
+Size: 66641
+SHA256sum: 0add835aa182265ea9e1d277d898bd97d40062aaf491c200e93982c4c5199c07
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -267,13 +267,13 @@ SourceName: python3-platformio-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 208938
+Installed-Size: 208933
 Filename: python3-platformio-src_6.1.18-2_arm_xscale.ipk
-Size: 209772
-SHA256sum: a8b91775def5e10079ab52ae7612a1e257b7a11f78df00b4891e97f2f4bee7d5
+Size: 209779
+SHA256sum: 1c338dabaa8102bc277928e46cbd34fe2c8bf4db5cf23aad2b57e3a6a5a33a0e
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -288,13 +288,13 @@ SourceName: python3-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: meshtastic
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 373543
+Installed-Size: 373517
 Filename: python3-platformio_6.1.18-2_arm_xscale.ipk
-Size: 374553
-SHA256sum: b14629790f7a570f0071088bd65475ed79e2438f017854a8dcf285d39053243f
+Size: 374533
+SHA256sum: 5f8551a53e367b1a8209b0ed062ec6fae14a1793aaa183606f9aa420e26086ea
 Description:  PlatformIO is an open-source build system for embedded development,
  supporting multiple platforms, frameworks, and boards
  with features like dependency management and IDE integration.
@@ -307,13 +307,13 @@ SourceName: python3-pyelftools-src
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 162981
+Installed-Size: 162988
 Filename: python3-pyelftools-src_0.32-1_arm_xscale.ipk
-Size: 163885
-SHA256sum: 722b9751eb563ef5994877c077a585eb4ef5489cf398f6796482894772e0ab37
+Size: 163891
+SHA256sum: c6d138e3a8e2f63c14f530a567f67573e6aa9952870d071f218975c726b05e35
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -326,13 +326,13 @@ SourceName: python3-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 222682
+Installed-Size: 222674
 Filename: python3-pyelftools_0.32-1_arm_xscale.ipk
-Size: 223187
-SHA256sum: 227265cda1900a56357b08e4523f15c76bfbcdc097dce5f19bf0fd412d0bbb22
+Size: 223193
+SHA256sum: 65852c8d7d42230551c054102fda9a9c57f9172edc6f361425f345654c00ee28
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -342,13 +342,13 @@ Source: /feed/backports/python-pyserial
 SourceName: python3-pyserial-src
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: arm_xscale
-Installed-Size: 73213
+Installed-Size: 73221
 Filename: python3-pyserial-src_3.4-2_arm_xscale.ipk
-Size: 74227
-SHA256sum: c030e40dae63270791dbe7fcb1c15328ae59c704f9c4c304e10356134f7b22fc
+Size: 74235
+SHA256sum: 79724f2f79076104ecfad77ecf0596cd5c9b70e34bd27b478daafbf654d449ef
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -363,13 +363,13 @@ Source: /feed/backports/python-pyserial
 SourceName: python3-pyserial
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: arm_xscale
-Installed-Size: 98896
+Installed-Size: 98897
 Filename: python3-pyserial_3.4-2_arm_xscale.ipk
-Size: 99918
-SHA256sum: 82ca719e7ec80228526b146cb080fc6d1b81552ed1cd8822e5df5e8b380555d5
+Size: 99917
+SHA256sum: fa4785e0c49f67a53dad5d652463b145dea1eec9ce51adc7d27e0951800e46ac
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -383,14 +383,14 @@ SourceName: python3-requests-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 48797
+Installed-Size: 48799
 Filename: python3-requests-src_2.31.0-2_arm_xscale.ipk
-Size: 49747
-SHA256sum: 7542e10c20a0cda020773120c0b88ff16e62ed70b94b93a83877350395f71dd5
+Size: 49736
+SHA256sum: 59c501b7bc01a2ef974878d17d9e53320c5e56ccb97e72d0ec698bb11c412b59
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -403,14 +403,14 @@ SourceName: python3-requests
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 66484
+Installed-Size: 66483
 Filename: python3-requests_2.31.0-2_arm_xscale.ipk
-Size: 67424
-SHA256sum: f914b7a79f6e9f66b6ff2b910d8e7d7f29f822f6311c2a42c74ecfcba5e16367
+Size: 67429
+SHA256sum: 9bca1e34c790ec4b7714e8c8a28d89bfa035e58ce5ceb12cdcdc266dd0c486da
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -421,13 +421,13 @@ SourceName: python3-tabulate-src
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 22715
+Installed-Size: 22714
 Filename: python3-tabulate-src_0.9.0-1_arm_xscale.ipk
 Size: 23511
-SHA256sum: 0142dfe423cf00a7ca39e46b99578319a9abe9864b87c4fe5375ac2a13cd23ab
+SHA256sum: 15e7223c0a8ac9899ba4a89ba56027cde57ecb0706ce6e8a58aa4eff3490f900
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -440,13 +440,13 @@ SourceName: python3-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 38395
+Installed-Size: 38401
 Filename: python3-tabulate_0.9.0-1_arm_xscale.ipk
-Size: 39265
-SHA256sum: 2575ad127148353cde77a4f40bac3d801e0be1962f7522359c0a6de0bd260070
+Size: 39264
+SHA256sum: aff8fbfeebf91792d7d2efb9029cdd92346e9c38d27556dc526d7d917662c299
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -457,14 +457,14 @@ SourceName: python3-urllib3-src
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 103672
+Installed-Size: 103670
 Filename: python3-urllib3-src_2.0.4-2_arm_xscale.ipk
-Size: 104579
-SHA256sum: 85525c347d6fe472317bbba88e27abaa9355b94d8c7fd744df3aec9f90c6c4d7
+Size: 104555
+SHA256sum: 16293a103ef77f7394be63ac2d4972082e60df5345dc91af9dd991fe8811b1eb
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -477,13 +477,13 @@ SourceName: python3-urllib3
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764254995
+SourceDateEpoch: 1764361809
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: arm_xscale
-Installed-Size: 130618
+Installed-Size: 130632
 Filename: python3-urllib3_2.0.4-2_arm_xscale.ipk
-Size: 131551
-SHA256sum: c0df9d38a067e7f5d8dc3014afa9d2098643d4267f1533a966f22501bb038330
+Size: 131567
+SHA256sum: 764fc717d93f377116110b8f9bd7cb802b158c161e9439b592ba300f3ba82493
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
