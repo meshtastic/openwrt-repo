@@ -6,7 +6,8 @@ If you're looking for the package source code, check out [meshtastic/openwrt](ht
 
 ## Supported OpenWRT versions
 - `SNAPSHOT` (master branch)
-- `24.10` (stable)
+- `25.12` (stable)
+- `24.10` (old-stable)
 - `23.05` (old-stable)
 - `22.03` (old-stable)
 
@@ -14,8 +15,37 @@ If you're looking for the package source code, check out [meshtastic/openwrt](ht
 
 This repository is currently hosted on [GitHub Pages](https://github.com). If you have problems accessing [this repo](https://openwrt.meshtastic.org) or access to GitHub [may be blocked](https://en.wikipedia.org/wiki/Censorship_of_GitHub) in your country, skip to the `Add repository to your OpenWrt device (jsDelivr)` sections. Both repositories use HTTPS protocol and require one of the SSL support packages to be installed on your router.
 
+### APK
+Used in the latest stable OpenWrt versions.
+
+Supported versions:
+- `25.12`
+
+##### Add APK repository to your OpenWRT device (GitHub)
+
+```sh
+WRT_VER=$( . /etc/openwrt_release; echo "${DISTRIB_RELEASE%%-*}" | cut -d. -f1-2 )
+echo "https://openwrt.meshtastic.org/${WRT_VER}/$(cat /etc/apk/arch)/packages.adb" > /etc/apk/repositories.d/meshtastic.list
+wget https://openwrt.meshtastic.org/meshtastic-apk.pem -O /etc/apk/keys/meshtastic-apk.pem
+apk update
+```
+
+##### Add APK repository to your OpenWRT device (jsDelivr)
+Only use in regions where GitHub is blocked 🇨🇳
+
+```sh
+WRT_VER=$( . /etc/openwrt_release; echo "${DISTRIB_RELEASE%%-*}" | cut -d. -f1-2 )
+echo "https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/${WRT_VER}/$(cat /etc/apk/arch)/packages.adb" > /etc/apk/repositories.d/meshtastic.list
+wget https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/meshtastic-apk.pem -O /etc/apk/keys/meshtastic-apk.pem
+apk update
+```
+
+Please note that there may be delay in [jsDelivr CDN](https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo) cache updates compared to [the repo at GitHub](https://openwrt.meshtastic.org) which may cause `apk` to pull older files and/or complain about wrong signature.
+
+---
+
 ### OPKG
-Used in stable versions of OpenWRT.
+Used in old-stable versions of OpenWRT.
 
 Supported versions:
 - `24.10`
@@ -55,8 +85,9 @@ Please note that there may be delay in [jsDelivr CDN](https://cdn.jsdelivr.net/g
 
 ---
 
-### APK
-Used in `SNAPSHOT` (master) builds. For stable OpenWRT versions see `OPKG` above.
+### Snapshot (master) builds
+
+For testing only. Please do not file issues about SNAPSHOT builds.
 
 ##### Add APK repository to your OpenWRT device (GitHub)
 
@@ -65,14 +96,3 @@ echo "https://openwrt.meshtastic.org/main/$(cat /etc/apk/arch)/packages.adb" > /
 wget https://openwrt.meshtastic.org/meshtastic-apk.pem -O /etc/apk/keys/meshtastic-apk.pem
 apk update
 ```
-
-##### Add APK repository to your OpenWRT device (jsDelivr)
-Only use in regions where GitHub is blocked 🇨🇳
-
-```sh
-echo "https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/main/$(cat /etc/apk/arch)/packages.adb" > /etc/apk/repositories.d/meshtastic.list
-wget https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo/meshtastic-apk.pem -O /etc/apk/keys/meshtastic-apk.pem
-apk update
-```
-
-Please note that there may be delay in [jsDelivr CDN](https://cdn.jsdelivr.net/gh/meshtastic/openwrt-repo) cache updates compared to [the repo at GitHub](https://openwrt.meshtastic.org) which may cause `apk` to pull older files and/or complain about wrong signature.
