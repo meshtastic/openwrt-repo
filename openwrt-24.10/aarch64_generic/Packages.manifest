@@ -6,70 +6,71 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_aarch64_generic.ipk
-Size: 4288
-SHA256sum: 32d13ffc8ee0001b902348fe1c13dbb0f47b7472f4f50ab8b913618883c71266
+Size: 4290
+SHA256sum: 8859e688e2457ca4a1d6b68a7df1bbe58fb37fc8528e002d1525a390ebf23322
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.7.15-r1
-Depends: libc, meshtasticd, avahi-daemon
+Version: 2.7.26-r1
+Depends: libc, avahi-daemon, meshtasticd
 Source: /feed/meshtasticd
 SourceName: meshtasticd
-License: GPL-3.0
+License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: aarch64_generic
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.7.15-r1_aarch64_generic.ipk
-Size: 1238
-SHA256sum: 4920e0e1d5ba77ca683232e10c57c9792f9fbabacaad0080d8242a69e87cba3f
-Description:  This package contains the service definition for announcing the
- meshtastic daemon via mDNS.
+Filename: meshtasticd-avahi-service_2.7.26-r1_aarch64_generic.ipk
+Size: 1248
+SHA256sum: 291bf0af6f0afa8a39bb1ea7bf0561fde712c507f3774f21ebd86323cd68b393
+Description:  Service definition for announcing the Meshtastic daemon via mDNS
+
+Package: meshtasticd-full
+Version: 2.7.26-r1
+Depends: libc, bluez-libs, kmod-spi-dev, libgpiod, libi2c, libopenssl3, liborcania, libulfius-gnutls, libusb-1.0-0, libuv1, libyaml-cpp0.7, libyder, zlib
+Provides: meshtasticd
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
+Architecture: aarch64_generic
+Installed-Size: 2344960
+Filename: meshtasticd-full_2.7.26-r1_aarch64_generic.ipk
+Size: 769292
+SHA256sum: dca3e24489d3a46aba5e485b3c41af26c4290e5cf756119254e5ca24f76c53c3
+Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
 Version: 2.6.7-r1
-Depends: libc, meshtasticd
-Source: /feed/meshtasticd-web
-SourceName: meshtasticd-web
-License: GPL-3.0
+Depends: libc, meshtasticd-full
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0-only
+LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/web
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: aarch64_generic
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_aarch64_generic.ipk
-Size: 1320751
-SHA256sum: 3b97a4aa9f2b58166522014c9e26d3b851dd3759e784f0bf08cc88fe68b859c2
-Description:  Meshtastic Daemon Web Interface
-
-Package: meshtasticd
-Version: 2.7.15-r1
-Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
-Source: /feed/meshtasticd
-SourceName: meshtasticd
-License: GPL-3.0
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
-Architecture: aarch64_generic
-Installed-Size: 1628160
-Filename: meshtasticd_2.7.15-r1_aarch64_generic.ipk
-Size: 613647
-SHA256sum: 9d19bbb8296bc6485f6e7800e262ccd68927e29355ac7fb8735cceafbedf4d4a
-Description:  Meshtastic Daemon
+Size: 1320999
+SHA256sum: 502757a9aa796925f2d4049bbd419accc07aaeaa0d645c32914444e226a91e80
+Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
 Version: 1.2.0-r1
@@ -79,77 +80,81 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764336194
-URL: https://pypi.org/project/ajsonrpc
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/pavlov99/ajsonrpc
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_aarch64_generic.ipk
-Size: 14839
-SHA256sum: 84930ce92243bc329875372be4d9112730661d9598fa7daf8b1f544214143022
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 14901
+SHA256sum: ce1c67fc9d0c2d99819a2069adf150b0eaf677827200ccb3333d136a69fc4467
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
  
  This package contains the Python source files for python3-ajsonrpc.
 
 Package: python3-ajsonrpc
 Version: 1.2.0-r1
-Depends: libc, python3-light, python3-asyncio, python3-logging
+Depends: libc, python3-asyncio, python3-light, python3-logging
 Source: /feed/depends/python-ajsonrpc
 SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764336194
-URL: https://pypi.org/project/ajsonrpc
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/pavlov99/ajsonrpc
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_aarch64_generic.ipk
-Size: 43923
-SHA256sum: 925dbee2e4e4d879d1964549d291a335a7bbabdc531d3a7c07d7cf5d1073d36a
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 43990
+SHA256sum: 6976434268e9cc14ad3ffac24a2b21ecad99d828fe24f53d4fdb6906446b6c95
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
 
 Package: python3-platformio-src
-Version: 6.1.18-r2
+Version: 6.1.19-r2
 Depends: libc
 Source: /feed/depends/python-platformio
 SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
-Section: meshtastic
-SourceDateEpoch: 1764336194
+Section: lang
+SourceDateEpoch: 1782923353
 URL: https://github.com/platformio/platformio-core
-Maintainer: Austin Lane <vidplace7@gmail.com>
+Maintainer: Austin Lane <vidplace7@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 1280000
-Filename: python3-platformio-src_6.1.18-r2_aarch64_generic.ipk
-Size: 209812
-SHA256sum: a29b9ab3d4ea35150fc1754b74432f20c7904a02829615bdeecd88e63f19e851
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Filename: python3-platformio-src_6.1.19-r2_aarch64_generic.ipk
+Size: 210674
+SHA256sum: 554cc03b468698e8670fdda0d1d0a750ebfb0915531051f741bb597f494f93c9
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
  
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.18-r2
-Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Version: 6.1.19-r2
+Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 Source: /feed/depends/python-platformio
 SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
-Section: meshtastic
-SourceDateEpoch: 1764336194
+Section: lang
+SourceDateEpoch: 1782923353
 URL: https://github.com/platformio/platformio-core
-Maintainer: Austin Lane <vidplace7@gmail.com>
+Maintainer: Austin Lane <vidplace7@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_generic
-Installed-Size: 1914880
-Filename: python3-platformio_6.1.18-r2_aarch64_generic.ipk
-Size: 626592
-SHA256sum: 979d425bd25aae8e1dfe7cef0344ef3fa7f5bac895ed59e6db40fb9ab27c572f
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 1925120
+Filename: python3-platformio_6.1.19-r2_aarch64_generic.ipk
+Size: 628050
+SHA256sum: 4bce06992ecb32db7e159c1a56cbcc9790ec0186ed22a0fe866aeaa5f2753f19
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -159,14 +164,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_aarch64_generic.ipk
-Size: 163924
-SHA256sum: 08d54cf474dee0d62e9f935cbe571835ae62a8365b76daba94322f765f23adf7
+Size: 163923
+SHA256sum: 7d44909a166603e5279e34c7f5ce02226d16ce8fbec55a931275abeec94547ca
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +184,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_aarch64_generic.ipk
-Size: 337638
-SHA256sum: 1ae1e0dcc42eaaa4b58dd9cf9e2ba9c129942f9fe2deb25e35027c08d9a12f53
+Size: 337769
+SHA256sum: be152e5d62dc80f653479a74c0cc5648f41b4a26260507d9dcf14c1a0d70b272
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +202,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_aarch64_generic.ipk
-Size: 23644
-SHA256sum: 9c70fc1eda7f346dbb86423478eebe14b999994235c263a7aafde604c6e9ff84
+Size: 23641
+SHA256sum: d0efb127723f0e333890a3b5e6efa4a40d9a29256a4791a552310856ec9fadd7
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +222,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_generic
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_aarch64_generic.ipk
-Size: 55081
-SHA256sum: 9d5a26f69f44ee3fe9c282819bbcb8b71d690da0bdd02a707bafe0a8f1528237
+Size: 55026
+SHA256sum: 36bf161633fa0f56f601892853929aecd66b8edf68e5740e4351e4c44dec6a0f
 Description:  Pretty-print tabular data
 

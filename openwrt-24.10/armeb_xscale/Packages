@@ -7,110 +7,114 @@ URL: https://github.com/babelouest/yder
 Architecture: armeb_xscale
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_armeb_xscale.ipk
-Size: 4056
-SHA256sum: 081f9d003f397bbe2dde3d6d526dc60765a5892dbda8f0307db74cf828bf62dc
+Size: 4057
+SHA256sum: 325652af18259d99a3cc661b1ea72d55642e9fe601a22115d901ac9b85db22c7
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.7.15-r1
-Depends: libc, meshtasticd, avahi-daemon
-License: GPL-3.0
+Version: 2.7.26-r1
+Depends: libc, avahi-daemon, meshtasticd
+License: GPL-3.0-only
 Section: net
-URL: http://github.com/meshtastic/firmware
+URL: https://github.com/meshtastic/firmware
 Architecture: armeb_xscale
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.7.15-r1_armeb_xscale.ipk
-Size: 1238
-SHA256sum: 7029c19945aa1d39eb6fc5826473d42c4f88065f77283ac28f9cc12ca82a6b38
-Description:  This package contains the service definition for announcing the
- meshtastic daemon via mDNS.
+Filename: meshtasticd-avahi-service_2.7.26-r1_armeb_xscale.ipk
+Size: 1244
+SHA256sum: 6091785f7f42904f42a8986db09ab34bd8e35788b11eeedac21cec3546b5b652
+Description:  Service definition for announcing the Meshtastic daemon via mDNS
+
+Package: meshtasticd-full
+Version: 2.7.26-r1
+Depends: libc, bluez-libs, kmod-spi-dev, libgpiod, libi2c, libopenssl3, liborcania, libulfius-gnutls, libusb-1.0-0, libuv1, libyaml-cpp0.7, libyder, zlib
+Provides: meshtasticd
+License: GPL-3.0-only
+Section: net
+URL: https://github.com/meshtastic/firmware
+Architecture: armeb_xscale
+Installed-Size: 2058240
+Filename: meshtasticd-full_2.7.26-r1_armeb_xscale.ipk
+Size: 792210
+SHA256sum: dbef5a11fd1b363a3a8133ef2ce3a489b3ed93f1a672e3ef855eef165287c02b
+Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
 Version: 2.6.7-r1
-Depends: libc, meshtasticd
-License: GPL-3.0
+Depends: libc, meshtasticd-full
+License: GPL-3.0-only
 Section: net
-URL: http://github.com/meshtastic/firmware
+URL: https://github.com/meshtastic/web
 Architecture: armeb_xscale
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_armeb_xscale.ipk
-Size: 1320750
-SHA256sum: 565232f027399647e6b37bd7d3ae2d2ce3ab078cfdb8c15e1d403b2a5ea45011
-Description:  Meshtastic Daemon Web Interface
-
-Package: meshtasticd
-Version: 2.7.15-r1
-Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
-License: GPL-3.0
-Section: net
-URL: http://github.com/meshtastic/firmware
-Architecture: armeb_xscale
-Installed-Size: 1331200
-Filename: meshtasticd_2.7.15-r1_armeb_xscale.ipk
-Size: 579951
-SHA256sum: 70c43d1135c208271c87b2fcf291839c93af69d2ddd9cc8d12fa9f4ee7ca724a
-Description:  Meshtastic Daemon
+Size: 1321001
+SHA256sum: 7ffa4e34e75e2a51cff0d3709a10692ed18c3047ac5c594a49970ccf40ee7231
+Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
 Version: 1.2.0-r1
 Depends: libc
 License: MIT
 Section: lang
-URL: https://pypi.org/project/ajsonrpc
+URL: https://github.com/pavlov99/ajsonrpc
 Architecture: armeb_xscale
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_armeb_xscale.ipk
-Size: 14837
-SHA256sum: 3e6f3b3012daa12de5a3a1e5e72c0879f7cabda62ac1d702a55b21fd540f59ea
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 14900
+SHA256sum: eae2981ba28acbab7f3ea8b7cb5f3fd763f5cb56442ff3c0f1668c9360d2105c
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
  
  This package contains the Python source files for python3-ajsonrpc.
 
 Package: python3-ajsonrpc
 Version: 1.2.0-r1
-Depends: libc, python3-light, python3-asyncio, python3-logging
+Depends: libc, python3-asyncio, python3-light, python3-logging
 License: MIT
 Section: lang
-URL: https://pypi.org/project/ajsonrpc
+URL: https://github.com/pavlov99/ajsonrpc
 Architecture: armeb_xscale
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_armeb_xscale.ipk
-Size: 43925
-SHA256sum: 5d64ac57b5e5d1570825d069bd84fd9e2f65e8ad06ae6aad74f9371e157f6ae4
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 43987
+SHA256sum: 8c0ef6ff1ad49a861f0b74d84fa7973c0e0462c594750d6fa412d309859e21ed
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
 
 Package: python3-platformio-src
-Version: 6.1.18-r2
+Version: 6.1.19-r2
 Depends: libc
 License: Apache-2.0
-Section: meshtastic
+Section: lang
 URL: https://github.com/platformio/platformio-core
 Architecture: armeb_xscale
 Installed-Size: 1280000
-Filename: python3-platformio-src_6.1.18-r2_armeb_xscale.ipk
-Size: 209814
-SHA256sum: 4fca4c3850ac43420cc89b0dd7254be99cb149e1a6dc0f005e7fd27c0d962a64
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Filename: python3-platformio-src_6.1.19-r2_armeb_xscale.ipk
+Size: 210664
+SHA256sum: 2ef3048968434921edb56b436648c06f36bc098e6cdc012fcc829232ff270854
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
  
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.18-r2
-Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Version: 6.1.19-r2
+Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 License: Apache-2.0
-Section: meshtastic
+Section: lang
 URL: https://github.com/platformio/platformio-core
 Architecture: armeb_xscale
-Installed-Size: 1914880
-Filename: python3-platformio_6.1.18-r2_armeb_xscale.ipk
-Size: 626591
-SHA256sum: 39b3054937c3e7f71f9107338899c001622a4474219af0b911e6bcf001211bc8
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 1925120
+Filename: python3-platformio_6.1.19-r2_armeb_xscale.ipk
+Size: 628048
+SHA256sum: 48a20c75577b521fa42f68b1abdfdc22f47d367195830fde0832cf32b092a7ae
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -122,7 +126,7 @@ Architecture: armeb_xscale
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_armeb_xscale.ipk
 Size: 163922
-SHA256sum: be8a693490c79c5e5024e32274d0cf8f4bd2d68a87202a59ceec4b34d5534776
+SHA256sum: 08e63c52377c8c1505410f3d37e530685c739102dca24e384c9a7d4f2877f0d7
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -136,8 +140,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: armeb_xscale
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_armeb_xscale.ipk
-Size: 337636
-SHA256sum: 536f279b6608cbd16472df3d2058a0d8c58cebdf2285aa3d6111aebfddfc383e
+Size: 337771
+SHA256sum: ebbc1eab5827d7c2705a9480b0f88aeb55020238c8d7072f4916405c891cb7f2
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -149,8 +153,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: armeb_xscale
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_armeb_xscale.ipk
-Size: 23642
-SHA256sum: a35cc682f7a313024d3e919dd9219b5b00b810c03b8ede0ace487c4216f8e999
+Size: 23639
+SHA256sum: 863432b5184c7fae4f2c22e09ca80b5284874ee5a8d86a5b2ab111f50b9994dd
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -164,7 +168,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: armeb_xscale
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_armeb_xscale.ipk
-Size: 55082
-SHA256sum: ebee663982e7e8821b2824eb039a799df18fd162e2a503581b84b8f4c4d99483
+Size: 55026
+SHA256sum: 9d67e25e48a4b98bbc178b53cfb8decf134a6c276c2249d6a25490edc0290c12
 Description:  Pretty-print tabular data
 

@@ -6,70 +6,71 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium-mmx
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_i386_pentium-mmx.ipk
-Size: 3775
-SHA256sum: 0edf382dda7ed77317fd4bf426c0f77555c016bc462d9f6d360934c1fa505289
+Size: 3768
+SHA256sum: 666aeeac0aad577ae45c14e010a439324f26bc29e700d36cc50b8bdf9afdca9f
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.7.15-r1
-Depends: libc, meshtasticd, avahi-daemon
+Version: 2.7.26-r1
+Depends: libc, avahi-daemon, meshtasticd
 Source: /feed/meshtasticd
 SourceName: meshtasticd
-License: GPL-3.0
+License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: i386_pentium-mmx
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.7.15-r1_i386_pentium-mmx.ipk
-Size: 1239
-SHA256sum: 5326dffbe16623cd63d0be4628d910f457c5e85ae0241b5c5d64d31502b5459b
-Description:  This package contains the service definition for announcing the
- meshtastic daemon via mDNS.
+Filename: meshtasticd-avahi-service_2.7.26-r1_i386_pentium-mmx.ipk
+Size: 1253
+SHA256sum: 927dbe3a746ca1b96f5e2999ced8f9e2072d7139bb3b3895277c24f8a83b22c6
+Description:  Service definition for announcing the Meshtastic daemon via mDNS
+
+Package: meshtasticd-full
+Version: 2.7.26-r1
+Depends: libc, bluez-libs, kmod-spi-dev, libgpiod, libi2c, libopenssl3, liborcania, libulfius-gnutls, libusb-1.0-0, libuv1, libyaml-cpp0.7, libyder, zlib
+Provides: meshtasticd
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
+Architecture: i386_pentium-mmx
+Installed-Size: 1914880
+Filename: meshtasticd-full_2.7.26-r1_i386_pentium-mmx.ipk
+Size: 745283
+SHA256sum: f98319a96fd4435dc982a9bc9bb45d81fe3f8d9df517834ee8c08fe133e021b9
+Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
 Version: 2.6.7-r1
-Depends: libc, meshtasticd
-Source: /feed/meshtasticd-web
-SourceName: meshtasticd-web
-License: GPL-3.0
+Depends: libc, meshtasticd-full
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0-only
+LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/web
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: i386_pentium-mmx
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_i386_pentium-mmx.ipk
-Size: 1320759
-SHA256sum: b230104f27dbed7033651c16d0bb8931cc3f70f95818a1ba595f34bc9574b6d2
-Description:  Meshtastic Daemon Web Interface
-
-Package: meshtasticd
-Version: 2.7.15-r1
-Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
-Source: /feed/meshtasticd
-SourceName: meshtasticd
-License: GPL-3.0
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
-Architecture: i386_pentium-mmx
-Installed-Size: 1495040
-Filename: meshtasticd_2.7.15-r1_i386_pentium-mmx.ipk
-Size: 617552
-SHA256sum: af3b0fc046b82a2ffeedbd987426d30c4d6a78e477fafe77954c0fc8d90af705
-Description:  Meshtastic Daemon
+Size: 1320999
+SHA256sum: 6b9ae671b58066a4367d9644254688bb89a2f191b84b999cffd5dce6f4ec044b
+Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
 Version: 1.2.0-r1
@@ -79,77 +80,81 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764336194
-URL: https://pypi.org/project/ajsonrpc
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/pavlov99/ajsonrpc
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: i386_pentium-mmx
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_i386_pentium-mmx.ipk
-Size: 14842
-SHA256sum: e524c983f20caa9c8ff3944940cb70796ab109a3b6940e9b9f32e2026b2f0da1
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 14908
+SHA256sum: 49943bca77e5bede456e00444ac8ef67b870538a825c86f000db80eb476ce4c3
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
  
  This package contains the Python source files for python3-ajsonrpc.
 
 Package: python3-ajsonrpc
 Version: 1.2.0-r1
-Depends: libc, python3-light, python3-asyncio, python3-logging
+Depends: libc, python3-asyncio, python3-light, python3-logging
 Source: /feed/depends/python-ajsonrpc
 SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764336194
-URL: https://pypi.org/project/ajsonrpc
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/pavlov99/ajsonrpc
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: i386_pentium-mmx
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_i386_pentium-mmx.ipk
-Size: 43927
-SHA256sum: 942e277fc5c7c6643131cbd66806c7e90c9b58bd26b313d86e13f4e58d7e9f11
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 43990
+SHA256sum: 331a5f005dd3cad6f0e7688dff557924222be2774a6d8bc89766a1c736efd99a
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
 
 Package: python3-platformio-src
-Version: 6.1.18-r2
+Version: 6.1.19-r2
 Depends: libc
 Source: /feed/depends/python-platformio
 SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
-Section: meshtastic
-SourceDateEpoch: 1764336194
+Section: lang
+SourceDateEpoch: 1782923353
 URL: https://github.com/platformio/platformio-core
-Maintainer: Austin Lane <vidplace7@gmail.com>
+Maintainer: Austin Lane <vidplace7@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: i386_pentium-mmx
 Installed-Size: 1280000
-Filename: python3-platformio-src_6.1.18-r2_i386_pentium-mmx.ipk
-Size: 209813
-SHA256sum: 43a1dfc6077bf47fc76c064226fdd3e7fa23695537144b5258b3138bf44069d1
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Filename: python3-platformio-src_6.1.19-r2_i386_pentium-mmx.ipk
+Size: 210673
+SHA256sum: b6bf3af0b4546c20e8dd9c9d408b5c5fe2a0d6cb25749ce85155f5d37d464bb7
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
  
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.18-r2
-Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Version: 6.1.19-r2
+Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 Source: /feed/depends/python-platformio
 SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
-Section: meshtastic
-SourceDateEpoch: 1764336194
+Section: lang
+SourceDateEpoch: 1782923353
 URL: https://github.com/platformio/platformio-core
-Maintainer: Austin Lane <vidplace7@gmail.com>
+Maintainer: Austin Lane <vidplace7@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: i386_pentium-mmx
-Installed-Size: 1914880
-Filename: python3-platformio_6.1.18-r2_i386_pentium-mmx.ipk
-Size: 626594
-SHA256sum: 622a56fd2cc3dc7b4643b06d8f6b31abcab20a2b83ed8e430d330b5ace55bc12
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 1925120
+Filename: python3-platformio_6.1.19-r2_i386_pentium-mmx.ipk
+Size: 628048
+SHA256sum: d97c7ae44801ac4f43dc3ef8aacaa14a8f5932391995d78c6fab4635e4fa8034
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -159,14 +164,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium-mmx
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_i386_pentium-mmx.ipk
-Size: 163926
-SHA256sum: a21ae4ba3bcf4c34c473ca133acc8d693fa35814e54779c149b666fd756e2114
+Size: 163927
+SHA256sum: db7c88aabd4be97cd58cddcfb507ad3501ecfc79c7e8846b1a376c04adce3995
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +184,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium-mmx
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_i386_pentium-mmx.ipk
-Size: 337640
-SHA256sum: 23d3fc815b41b931166a69bb9839f292a4a454ac870a235b4ad6690c5d56c899
+Size: 337770
+SHA256sum: 5ee63a8996d763d196011df4604463cfdc155c0eb4d017f7415f2e72b59c31dd
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +202,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium-mmx
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_i386_pentium-mmx.ipk
-Size: 23648
-SHA256sum: d6b3b279d2b3fd5b99bb5ad7a1b66600f7d656b3cec09320c7b854382e81773f
+Size: 23641
+SHA256sum: 33b10b53ed332ae6e990c478aaf89aed574ce19ea906d8de13b51252bfee2ea0
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +222,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: i386_pentium-mmx
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_i386_pentium-mmx.ipk
-Size: 55086
-SHA256sum: 5ba17d2121e16eaad348c52ef6633b63e2752aafb5f3d17acf8106e007d620a2
+Size: 55030
+SHA256sum: b89a0c4437d0af384390476bfd373881ad9ccaac5aa7d85ae9324a284fe31fde
 Description:  Pretty-print tabular data
 

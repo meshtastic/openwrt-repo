@@ -6,70 +6,71 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://github.com/babelouest/yder
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a9.ipk
-Size: 4019
-SHA256sum: e111d7deb2b258c5234dc51868538b95c3ea9cc28befb357d2f59ca401381e86
+Size: 4013
+SHA256sum: b63fbfb537084f5741a6c6be4e72d579c18f7603349fd68b8b03c2aa1e62e8c7
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.7.15-r1
-Depends: libc, meshtasticd, avahi-daemon
+Version: 2.7.26-r1
+Depends: libc, avahi-daemon, meshtasticd
 Source: /feed/meshtasticd
 SourceName: meshtasticd
-License: GPL-3.0
+License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: arm_cortex-a9
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.7.15-r1_arm_cortex-a9.ipk
-Size: 1241
-SHA256sum: c4919f5d30712ea1db85a89e0ca216077babf1169581b41a72ab238918d7982b
-Description:  This package contains the service definition for announcing the
- meshtastic daemon via mDNS.
+Filename: meshtasticd-avahi-service_2.7.26-r1_arm_cortex-a9.ipk
+Size: 1243
+SHA256sum: 0e8936e2bc63028b53634a92415d53dd698ae5150c4f924c9e9aa0a62f7c4e99
+Description:  Service definition for announcing the Meshtastic daemon via mDNS
+
+Package: meshtasticd-full
+Version: 2.7.26-r1
+Depends: libc, bluez-libs, kmod-spi-dev, libgpiod, libi2c, libopenssl3, liborcania, libulfius-gnutls, libusb-1.0-0, libuv1, libyaml-cpp0.7, libyder, zlib
+Provides: meshtasticd
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/firmware
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
+Architecture: arm_cortex-a9
+Installed-Size: 2037760
+Filename: meshtasticd-full_2.7.26-r1_arm_cortex-a9.ipk
+Size: 787685
+SHA256sum: 6c071885077f5b4be9feccbf6e1d9823f22fdef42dfa561cbd82ae071ac2da29
+Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
 Version: 2.6.7-r1
-Depends: libc, meshtasticd
-Source: /feed/meshtasticd-web
-SourceName: meshtasticd-web
-License: GPL-3.0
+Depends: libc, meshtasticd-full
+Source: /feed/meshtasticd
+SourceName: meshtasticd
+License: GPL-3.0-only
+LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/meshtastic/web
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: arm_cortex-a9
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_arm_cortex-a9.ipk
-Size: 1320752
-SHA256sum: d0191d48515560939f028b2cb26ddc73a37de30187b92ff4235dfabecde498d6
-Description:  Meshtastic Daemon Web Interface
-
-Package: meshtasticd
-Version: 2.7.15-r1
-Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
-Source: /feed/meshtasticd
-SourceName: meshtasticd
-License: GPL-3.0
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1764336194
-URL: http://github.com/meshtastic/firmware
-Maintainer: Austin Lane <vidplace7@gmail.com>
-Architecture: arm_cortex-a9
-Installed-Size: 1310720
-Filename: meshtasticd_2.7.15-r1_arm_cortex-a9.ipk
-Size: 575652
-SHA256sum: 29462c374fcf4940209a871f7aef22effc68509b94c923c50590df67a08deacb
-Description:  Meshtastic Daemon
+Size: 1320998
+SHA256sum: 81100d4702dcd47249303e5dd77d67c8245452c46aeaf1bcccf7e5e709bc06de
+Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
 Version: 1.2.0-r1
@@ -79,77 +80,81 @@ SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764336194
-URL: https://pypi.org/project/ajsonrpc
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/pavlov99/ajsonrpc
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_arm_cortex-a9.ipk
-Size: 14839
-SHA256sum: 59fc003b6cc6e29427029a04590c4e1a0e48e221275e4d4d8a28bc9c4165de19
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 14901
+SHA256sum: 93467347c8a059915f6f19fe37386b2040772b2dd31e9f70557d71ed90250275
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
  
  This package contains the Python source files for python3-ajsonrpc.
 
 Package: python3-ajsonrpc
 Version: 1.2.0-r1
-Depends: libc, python3-light, python3-asyncio, python3-logging
+Depends: libc, python3-asyncio, python3-light, python3-logging
 Source: /feed/depends/python-ajsonrpc
 SourceName: python-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764336194
-URL: https://pypi.org/project/ajsonrpc
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782923353
+URL: https://github.com/pavlov99/ajsonrpc
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_arm_cortex-a9.ipk
-Size: 43928
-SHA256sum: 16a9e72ff49620a6c37838712bc10b250c84d5bd93de3f993feaf23724273355
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 43990
+SHA256sum: 570c89d14bf7ab0c0b4f602187e8a0a08225559eaf0182d2a919a077aabaf988
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
 
 Package: python3-platformio-src
-Version: 6.1.18-r2
+Version: 6.1.19-r2
 Depends: libc
 Source: /feed/depends/python-platformio
 SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
-Section: meshtastic
-SourceDateEpoch: 1764336194
+Section: lang
+SourceDateEpoch: 1782923353
 URL: https://github.com/platformio/platformio-core
-Maintainer: Austin Lane <vidplace7@gmail.com>
+Maintainer: Austin Lane <vidplace7@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 1280000
-Filename: python3-platformio-src_6.1.18-r2_arm_cortex-a9.ipk
-Size: 209812
-SHA256sum: e9ec2890ff4a97402c52627e5aa14e09199d217649544bb332dd7a60fd583fc1
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Filename: python3-platformio-src_6.1.19-r2_arm_cortex-a9.ipk
+Size: 210666
+SHA256sum: 3ba8c9a08bafca498369381a6e8505d51ed6edc44e597c1d53359af823f70490
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
  
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.18-r2
-Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Version: 6.1.19-r2
+Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 Source: /feed/depends/python-platformio
 SourceName: python-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
-Section: meshtastic
-SourceDateEpoch: 1764336194
+Section: lang
+SourceDateEpoch: 1782923353
 URL: https://github.com/platformio/platformio-core
-Maintainer: Austin Lane <vidplace7@gmail.com>
+Maintainer: Austin Lane <vidplace7@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9
-Installed-Size: 1914880
-Filename: python3-platformio_6.1.18-r2_arm_cortex-a9.ipk
-Size: 626591
-SHA256sum: ce15a8baababa29a4ab4ad0dc5c6f0fc66f846da756d0c0a8ec20160c1eecf6b
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 1925120
+Filename: python3-platformio_6.1.19-r2_arm_cortex-a9.ipk
+Size: 628050
+SHA256sum: 84ec3b46e7738f312cd43f2ed215da221565389f90f6b16c16ae94fb19b73db2
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -159,14 +164,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_arm_cortex-a9.ipk
 Size: 163924
-SHA256sum: 18af943ff7884a5fb01b63c1f87603a2845fbe6203472827cec5073156be0fbd
+SHA256sum: ade27231351b3ac6aab08ad63a831c0df892fdc2167d964c877f70edbb391949
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -179,14 +184,14 @@ SourceName: python-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/pyelftools
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_arm_cortex-a9.ipk
-Size: 337641
-SHA256sum: 7d7dd120fd10598b278cfe40f39bf7469fec7a05b0c47c78f8778343827dea34
+Size: 337770
+SHA256sum: be33dcd73264a35ff62fee29fe54b1e50ad5123538367e01b467910bdc5267b4
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -197,14 +202,14 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a9.ipk
-Size: 23642
-SHA256sum: aed046b4e823ce7aa021508244e6ad357c8a943eee2a19274b4d8030a033f891
+Size: 23640
+SHA256sum: 5b802d41bfe07a5a8198a68295f2ee8fff78e5cc15d34b4f1105ef9cc7a0f972
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -217,13 +222,13 @@ SourceName: python-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764336194
+SourceDateEpoch: 1782923353
 URL: https://pypi.org/project/tabulate
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: arm_cortex-a9
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a9.ipk
-Size: 55079
-SHA256sum: fe647253f4cc3b5ccc0a01fd7608a61e175fdf953b514a836ab3abac0771f61f
+Size: 55023
+SHA256sum: 3ff29dfe0beb54d774b6a1360ef3c9a5ed86ae4125af5ead75621a1488cb8ba3
 Description:  Pretty-print tabular data
 

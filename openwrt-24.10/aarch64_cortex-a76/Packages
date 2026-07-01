@@ -8,109 +8,113 @@ Architecture: aarch64_cortex-a76
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_aarch64_cortex-a76.ipk
 Size: 4291
-SHA256sum: 1a4c8f4ef1b25b1bfbeca6b31cdd528e6d45a31792981d8577be106f1a73b7eb
+SHA256sum: a184616a539564c8f3322eb906d288e5208fc5376cc49eedc759c72895351217
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.7.15-r1
-Depends: libc, meshtasticd, avahi-daemon
-License: GPL-3.0
+Version: 2.7.26-r1
+Depends: libc, avahi-daemon, meshtasticd
+License: GPL-3.0-only
 Section: net
-URL: http://github.com/meshtastic/firmware
+URL: https://github.com/meshtastic/firmware
 Architecture: aarch64_cortex-a76
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.7.15-r1_aarch64_cortex-a76.ipk
-Size: 1243
-SHA256sum: 538f445da51fb73365678bbe3e1809569c3716f3b3ae29cdbdd78657d668f82a
-Description:  This package contains the service definition for announcing the
- meshtastic daemon via mDNS.
+Filename: meshtasticd-avahi-service_2.7.26-r1_aarch64_cortex-a76.ipk
+Size: 1251
+SHA256sum: 5813614cf1c1dc4eec4e6e0444df561485503fb7bac3a33945edc68bf9570860
+Description:  Service definition for announcing the Meshtastic daemon via mDNS
+
+Package: meshtasticd-full
+Version: 2.7.26-r1
+Depends: libc, bluez-libs, kmod-spi-dev, libgpiod, libi2c, libopenssl3, liborcania, libulfius-gnutls, libusb-1.0-0, libuv1, libyaml-cpp0.7, libyder, zlib
+Provides: meshtasticd
+License: GPL-3.0-only
+Section: net
+URL: https://github.com/meshtastic/firmware
+Architecture: aarch64_cortex-a76
+Installed-Size: 2344960
+Filename: meshtasticd-full_2.7.26-r1_aarch64_cortex-a76.ipk
+Size: 769298
+SHA256sum: 776eb4f79e6c6ef355481cc4568bba7b89114e0c81aa6587489eaa7efa50992a
+Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
 Version: 2.6.7-r1
-Depends: libc, meshtasticd
-License: GPL-3.0
+Depends: libc, meshtasticd-full
+License: GPL-3.0-only
 Section: net
-URL: http://github.com/meshtastic/firmware
+URL: https://github.com/meshtastic/web
 Architecture: aarch64_cortex-a76
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_aarch64_cortex-a76.ipk
-Size: 1320762
-SHA256sum: 69b256481fcf4100131c2a5946c7936126d32b0110be48b44c1fbebca9cb63f9
-Description:  Meshtastic Daemon Web Interface
-
-Package: meshtasticd
-Version: 2.7.15-r1
-Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
-License: GPL-3.0
-Section: net
-URL: http://github.com/meshtastic/firmware
-Architecture: aarch64_cortex-a76
-Installed-Size: 1628160
-Filename: meshtasticd_2.7.15-r1_aarch64_cortex-a76.ipk
-Size: 613662
-SHA256sum: 2d52c65b93a7bff98dd34807a09734d02f42bc7ead555a8a2e5ba52d05dd133e
-Description:  Meshtastic Daemon
+Size: 1321004
+SHA256sum: c176a948d4fc2c96f082b2ce268b64817906c70f392167f938370f08af8f274b
+Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
 Version: 1.2.0-r1
 Depends: libc
 License: MIT
 Section: lang
-URL: https://pypi.org/project/ajsonrpc
+URL: https://github.com/pavlov99/ajsonrpc
 Architecture: aarch64_cortex-a76
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_aarch64_cortex-a76.ipk
-Size: 14838
-SHA256sum: 4bebfd7dabf84798e6bc84be39e9483127d43a4d90565d4b090a1f0b2f0fce6c
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 14906
+SHA256sum: b86871276f944a5e37278a2aae8dd310dc74ae91ffa851516b5da128fbce5b7f
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
  
  This package contains the Python source files for python3-ajsonrpc.
 
 Package: python3-ajsonrpc
 Version: 1.2.0-r1
-Depends: libc, python3-light, python3-asyncio, python3-logging
+Depends: libc, python3-asyncio, python3-light, python3-logging
 License: MIT
 Section: lang
-URL: https://pypi.org/project/ajsonrpc
+URL: https://github.com/pavlov99/ajsonrpc
 Architecture: aarch64_cortex-a76
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_aarch64_cortex-a76.ipk
-Size: 43925
-SHA256sum: e0150168ca6280f4e71a58108923e425d2f02a2680c76b0ee1050c48456a591a
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 43992
+SHA256sum: 6df91d5c8031eea40a9ab1e0eb924266546b37399302ee57fa247abb5702e661
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
 
 Package: python3-platformio-src
-Version: 6.1.18-r2
+Version: 6.1.19-r2
 Depends: libc
 License: Apache-2.0
-Section: meshtastic
+Section: lang
 URL: https://github.com/platformio/platformio-core
 Architecture: aarch64_cortex-a76
 Installed-Size: 1280000
-Filename: python3-platformio-src_6.1.18-r2_aarch64_cortex-a76.ipk
-Size: 209819
-SHA256sum: a1e8275c3498183a66fe1e24466494a49329f23783b7793cfee8185ea31700af
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Filename: python3-platformio-src_6.1.19-r2_aarch64_cortex-a76.ipk
+Size: 210674
+SHA256sum: 5d2e17133aef4faf3962d7dd19a00abb8120a4c1de513495e7f5739c3751a85e
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
  
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.18-r2
-Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Version: 6.1.19-r2
+Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 License: Apache-2.0
-Section: meshtastic
+Section: lang
 URL: https://github.com/platformio/platformio-core
 Architecture: aarch64_cortex-a76
-Installed-Size: 1914880
-Filename: python3-platformio_6.1.18-r2_aarch64_cortex-a76.ipk
-Size: 626595
-SHA256sum: 0f7bb2ee3708725c322d8a9597a5f6ee96a9c850b0f906b558a3a0646dbd5876
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 1925120
+Filename: python3-platformio_6.1.19-r2_aarch64_cortex-a76.ipk
+Size: 628044
+SHA256sum: eb619eea6912d38b1f30ff7a3abd7abddaf07ea2e289f5731afd07354e09dec4
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -121,8 +125,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: aarch64_cortex-a76
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_aarch64_cortex-a76.ipk
-Size: 163924
-SHA256sum: 59c037a2dd1b3dcb5a614c8bfb310e5566213f2cacad80e7a9132f8d294ff262
+Size: 163925
+SHA256sum: 893a9a6b96acfdb0756ce7d1079adfbc823ca780d03fa77a8fb1b92b825fbb08
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -136,8 +140,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: aarch64_cortex-a76
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_aarch64_cortex-a76.ipk
-Size: 337644
-SHA256sum: 38db43849e57d19c0d6fd4020f156f525762ede6ff8864fb285226c96a12485e
+Size: 337769
+SHA256sum: e991f53410b186067a873e80ab1b7e42875b25ae4e9ffef6a9ba193aed440cda
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -149,8 +153,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: aarch64_cortex-a76
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_aarch64_cortex-a76.ipk
-Size: 23645
-SHA256sum: d9dd1e27391c145a239e34a07aeab884d0f11d7d134d159b840a4d716c8716ed
+Size: 23644
+SHA256sum: b5eda3dddb85882a24af176e455bd4c11fad0e41bd6919f1ac9e3187bf035c7f
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -164,7 +168,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: aarch64_cortex-a76
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_aarch64_cortex-a76.ipk
-Size: 55084
-SHA256sum: e1ab7d8365a9e433b4b51b7c612044ed366cfad75375758a7244b20a58e15372
+Size: 55030
+SHA256sum: 60057e4b0a0cec8a7c75699f52c1a263c75fd241da3a6c32a716f9fc5d9c2ab3
 Description:  Pretty-print tabular data
 

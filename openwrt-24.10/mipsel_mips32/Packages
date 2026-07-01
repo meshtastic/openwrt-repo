@@ -7,110 +7,114 @@ URL: https://github.com/babelouest/yder
 Architecture: mipsel_mips32
 Installed-Size: 71680
 Filename: libyder_1.4.17-r1_mipsel_mips32.ipk
-Size: 3935
-SHA256sum: 81705910e35a34384f3da8068fc099d21be99c1ce427640397b2dfa63ba06c2c
+Size: 3929
+SHA256sum: e0179c36176c30a75824fdd8c821b5fbda363cbb33a8757bde2c6d0d324c8939
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.7.15-r1
-Depends: libc, meshtasticd, avahi-daemon
-License: GPL-3.0
+Version: 2.7.26-r1
+Depends: libc, avahi-daemon, meshtasticd
+License: GPL-3.0-only
 Section: net
-URL: http://github.com/meshtastic/firmware
+URL: https://github.com/meshtastic/firmware
 Architecture: mipsel_mips32
 Installed-Size: 10240
-Filename: meshtasticd-avahi-service_2.7.15-r1_mipsel_mips32.ipk
-Size: 1234
-SHA256sum: 2e93fe40b5e5e636e4b8099a47027a40496b9f385b075f32a169c0d2b0559722
-Description:  This package contains the service definition for announcing the
- meshtastic daemon via mDNS.
+Filename: meshtasticd-avahi-service_2.7.26-r1_mipsel_mips32.ipk
+Size: 1243
+SHA256sum: 94988690cb7a1f4ccf9a2360b937e45cc3aa59c6e0c56501fc1792fec1264e0d
+Description:  Service definition for announcing the Meshtastic daemon via mDNS
+
+Package: meshtasticd-full
+Version: 2.7.26-r1
+Depends: libc, bluez-libs, kmod-spi-dev, libgpiod, libi2c, libopenssl3, liborcania, libulfius-gnutls, libusb-1.0-0, libuv1, libyaml-cpp0.7, libyder, zlib
+Provides: meshtasticd
+License: GPL-3.0-only
+Section: net
+URL: https://github.com/meshtastic/firmware
+Architecture: mipsel_mips32
+Installed-Size: 2703360
+Filename: meshtasticd-full_2.7.26-r1_mipsel_mips32.ipk
+Size: 899483
+SHA256sum: d88a78e2570c4209712787dcc0d3327ee82a4ba4198cf398a0dd84b10e925507
+Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
 Version: 2.6.7-r1
-Depends: libc, meshtasticd
-License: GPL-3.0
+Depends: libc, meshtasticd-full
+License: GPL-3.0-only
 Section: net
-URL: http://github.com/meshtastic/firmware
+URL: https://github.com/meshtastic/web
 Architecture: mipsel_mips32
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_mipsel_mips32.ipk
-Size: 1320755
-SHA256sum: 2b3f3fce2152a63e4c8c57966767a2448d7573284c39f1ce7c63b2d617567eb6
-Description:  Meshtastic Daemon Web Interface
-
-Package: meshtasticd
-Version: 2.7.15-r1
-Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl3, liborcania, libyder, libulfius-gnutls
-License: GPL-3.0
-Section: net
-URL: http://github.com/meshtastic/firmware
-Architecture: mipsel_mips32
-Installed-Size: 2078720
-Filename: meshtasticd_2.7.15-r1_mipsel_mips32.ipk
-Size: 744406
-SHA256sum: 7213ecf0e41d3e0961d63a0517f0c7c158db11db4c449ad05b3c693596cce5f5
-Description:  Meshtastic Daemon
+Size: 1320997
+SHA256sum: 4a2e74a789f6e7ccd64b76ce90a70079faa8955cbc9eb8c60388104fc1313c80
+Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
 Version: 1.2.0-r1
 Depends: libc
 License: MIT
 Section: lang
-URL: https://pypi.org/project/ajsonrpc
+URL: https://github.com/pavlov99/ajsonrpc
 Architecture: mipsel_mips32
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_mipsel_mips32.ipk
-Size: 14838
-SHA256sum: 007a1b23bd97f297c6e1acfb0fc984b7d5253afaa97c0a692a33a09ce91242de
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 14901
+SHA256sum: a2582cc96ff00af09510c64452b0fe2e5fd26a44e9c1f8d1a090cf3a3e379f58
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
  
  This package contains the Python source files for python3-ajsonrpc.
 
 Package: python3-ajsonrpc
 Version: 1.2.0-r1
-Depends: libc, python3-light, python3-asyncio, python3-logging
+Depends: libc, python3-asyncio, python3-light, python3-logging
 License: MIT
 Section: lang
-URL: https://pypi.org/project/ajsonrpc
+URL: https://github.com/pavlov99/ajsonrpc
 Architecture: mipsel_mips32
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_mipsel_mips32.ipk
-Size: 43927
-SHA256sum: 4c974f9166b0610e1b187bbcc960810c622d6a92284a2dcd4b8ec3fb7be10fe1
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 43985
+SHA256sum: e9ff8d5053b4c3c87e1873582925403e776fdee1afe075f51dd6aed7c9addd47
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
 
 Package: python3-platformio-src
-Version: 6.1.18-r2
+Version: 6.1.19-r2
 Depends: libc
 License: Apache-2.0
-Section: meshtastic
+Section: lang
 URL: https://github.com/platformio/platformio-core
 Architecture: mipsel_mips32
 Installed-Size: 1280000
-Filename: python3-platformio-src_6.1.18-r2_mipsel_mips32.ipk
-Size: 209810
-SHA256sum: 16283f9b5219e0b397d189ab808b583f3c563f4e69f2bbd47bdcd1a031b1fde5
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Filename: python3-platformio-src_6.1.19-r2_mipsel_mips32.ipk
+Size: 210668
+SHA256sum: 01ff5c91638d7398a106de2a82bc81cf4f34631ebd78ed3da2784176b56561f7
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
  
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.18-r2
-Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Version: 6.1.19-r2
+Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 License: Apache-2.0
-Section: meshtastic
+Section: lang
 URL: https://github.com/platformio/platformio-core
 Architecture: mipsel_mips32
-Installed-Size: 1914880
-Filename: python3-platformio_6.1.18-r2_mipsel_mips32.ipk
-Size: 626592
-SHA256sum: 135dbe7523702d8fbf9e6f9598f26d2a672275bb275892406a0c4d5b1ddbb590
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 1925120
+Filename: python3-platformio_6.1.19-r2_mipsel_mips32.ipk
+Size: 628050
+SHA256sum: e13229072141b7917402cfdb5a8da032f06490898f90a23d61256ee8fddbe4af
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
 
 Package: python3-pyelftools-src
 Version: 0.32-r1
@@ -122,7 +126,7 @@ Architecture: mipsel_mips32
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_mipsel_mips32.ipk
 Size: 163921
-SHA256sum: cb27b624e4f7f1bdb8e3c5a3382e5590f7705a9979543c975f6532005d9d785b
+SHA256sum: b136e0cd4a815cc2fb21426bcf0689fc614056a0403f2b24fa26b227616257f3
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -136,8 +140,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: mipsel_mips32
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_mipsel_mips32.ipk
-Size: 337635
-SHA256sum: 9253f8806c94f6728838e7fe77886bfa7a53a5801d878b682d1264cea2baec8b
+Size: 337765
+SHA256sum: 3f775f4e528970f53ecdf56f3202c87bbd006bcd4247d5714d9c8b8a6b5bc0b0
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -149,8 +153,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: mipsel_mips32
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_mipsel_mips32.ipk
-Size: 23641
-SHA256sum: e41258f576da8b46bc643e47523373fa6fcef6fcbc78fed668586edd33119d65
+Size: 23638
+SHA256sum: 3bbc63402476a4e3400f11660b0d3e34feef379b5e6eda262b5b2b40ffc779d9
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -164,7 +168,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: mipsel_mips32
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_mipsel_mips32.ipk
-Size: 55075
-SHA256sum: 0aa71ef6180e8c2e9ac2ef1a976633e7452446ce68bf9fd88d6d02e724f12f03
+Size: 55021
+SHA256sum: 907f41183f85d916d329ee51db48ace618bc421e214789f1264428a135717951
 Description:  Pretty-print tabular data
 
