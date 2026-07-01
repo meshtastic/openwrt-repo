@@ -1,24 +1,12 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:69bd7201-23da-43dc-897b-b121db89f657",
+  "serialNumber": "urn:uuid:10b0e3d7-1a0b-4b76-a802-ea3ebbe2e740",
   "version": "1",
   "metadata": {
-    "timestamp": "2026-06-30T23:24:30Z"
+    "timestamp": "2026-07-01T03:00:21Z"
   },
   "components": [
-    {
-      "name": "meshtasticd",
-      "version": "2.7.26-r1",
-      "type": "application",
-      "licenses": [
-        {
-          "license": {
-            "name": "GPL-3.0"
-          }
-        }
-      ]
-    },
     {
       "name": "meshtasticd-avahi-service",
       "version": "2.7.26-r1",
@@ -26,19 +14,31 @@
       "licenses": [
         {
           "license": {
-            "name": "GPL-3.0"
+            "name": "GPL-3.0-only"
+          }
+        }
+      ]
+    },
+    {
+      "name": "meshtasticd-full",
+      "version": "2.7.26-r1",
+      "type": "application",
+      "licenses": [
+        {
+          "license": {
+            "name": "GPL-3.0-only"
           }
         }
       ]
     },
     {
       "name": "meshtasticd-web",
-      "version": "2.7.1-r1",
+      "version": "2.6.7-r1",
       "type": "application",
       "licenses": [
         {
           "license": {
-            "name": "GPL-3.0"
+            "name": "GPL-3.0-only"
           }
         }
       ]
