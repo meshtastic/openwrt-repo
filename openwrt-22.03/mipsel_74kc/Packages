@@ -6,47 +6,47 @@ Section: libs
 Architecture: mipsel_74kc
 Installed-Size: 2875
 Filename: libyder_1.4.14-1_mipsel_74kc.ipk
-Size: 3665
-SHA256sum: 98d7afb72b5ee2448b89bc775c30ce460d34273651667f2a5d4b92ed6461d756
+Size: 3670
+SHA256sum: c82a5c37508d2891b2ac14aca028b5466e2de1d7342727fff8cbcdc340f6ddc7
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.7.15-1
-Depends: libc, meshtasticd, avahi-daemon
-License: GPL-3.0
+Version: 2.7.26-1
+Depends: libc, avahi-daemon, meshtasticd
+License: GPL-3.0-only
 Section: net
 Architecture: mipsel_74kc
-Installed-Size: 367
-Filename: meshtasticd-avahi-service_2.7.15-1_mipsel_74kc.ipk
-Size: 1206
-SHA256sum: b7aad1f16cc07502edc7459f618dc4005a0c2cb8c0a9e62b8f119f532020ccee
-Description:  This package contains the service definition for announcing the
- meshtastic daemon via mDNS.
+Installed-Size: 365
+Filename: meshtasticd-avahi-service_2.7.26-1_mipsel_74kc.ipk
+Size: 1214
+SHA256sum: e61ba18945350e0afa63b12b67c6654ac3380ef43faeb56b6c9c50bbbdb56e9a
+Description:  Service definition for announcing the Meshtastic daemon via mDNS
+
+Package: meshtasticd-full
+Version: 2.7.26-1
+Depends: libc, bluez-libs, kmod-spi-dev, libgpiod, libi2c, libopenssl1.1, liborcania, libulfius-gnutls, libusb-1.0-0, libuv1, libyaml-cpp0.7, libyder, zlib
+Provides: meshtasticd
+License: GPL-3.0-only
+Section: net
+Architecture: mipsel_74kc
+Installed-Size: 802513
+Filename: meshtasticd-full_2.7.26-1_mipsel_74kc.ipk
+Size: 801322
+SHA256sum: 6a05e7d2560fc15d2f72bb23d6406f0b52e893b1eec6b36dd3dbad035852b594
+Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
-Version: 2.6.7-1
-Depends: libc, meshtasticd
-License: GPL-3.0
+Version: 2.6.7-r1
+Depends: libc, meshtasticd-full
+License: GPL-3.0-only
 Section: net
 Architecture: mipsel_74kc
-Installed-Size: 1323886
-Filename: meshtasticd-web_2.6.7-1_mipsel_74kc.ipk
-Size: 1320763
-SHA256sum: add9492a46a6960e262afa1a646ade989b8f312920a9f3cb01b0b24b993cc471
-Description:  Meshtastic Daemon Web Interface
-
-Package: meshtasticd
-Version: 2.7.15-1
-Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
-License: GPL-3.0
-Section: net
-Architecture: mipsel_74kc
-Installed-Size: 673511
-Filename: meshtasticd_2.7.15-1_mipsel_74kc.ipk
-Size: 673049
-SHA256sum: 5bfa67be585babd616498604b08e1e3faa14dbab7737c02506bee7628bbaf2c7
-Description:  Meshtastic Daemon
+Installed-Size: 1323857
+Filename: meshtasticd-web_2.6.7-r1_mipsel_74kc.ipk
+Size: 1320692
+SHA256sum: ee42e3589978ea9d23048f330c375eef9f243dfdb01badb36f046a539c9b6940
+Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
 Version: 1.2.0-1
@@ -54,25 +54,29 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 13982
+Installed-Size: 13978
 Filename: python3-ajsonrpc-src_1.2.0-1_mipsel_74kc.ipk
-Size: 14812
-SHA256sum: cd8a9a4987060228c860215c11d96bdcf282e1d25538df224023b24f3242e3fb
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 14869
+SHA256sum: 72e36634b347d32d5c652a1442e34fb937f0687d6e6a9fa04509b3d42069db11
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
  
  This package contains the Python source files for python3-ajsonrpc.
 
 Package: python3-ajsonrpc
 Version: 1.2.0-1
-Depends: libc, python3-light, python3-asyncio, python3-logging
+Depends: libc, python3-asyncio, python3-light, python3-logging
 License: MIT
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 29566
+Installed-Size: 29564
 Filename: python3-ajsonrpc_1.2.0-1_mipsel_74kc.ipk
-Size: 30381
-SHA256sum: d288f01243704f266cb970f92f78eb65b7d9fed4de5cc05b37e9fdeca183ee39
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 30437
+SHA256sum: 53c30b71521903f9b487b647934a1b2dfaa3bc9014feb7d8821179ec8c5550eb
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
 
 Package: python3-certifi-src
 Version: 2021.10.8-2
@@ -80,10 +84,10 @@ Depends: libc
 License: MPL-2.0
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 1411
+Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_mipsel_74kc.ipk
-Size: 2305
-SHA256sum: 1e2d5b6d65910f24b647139422c8068b2a2dfe5ea227e14e47b224dc061e8fc9
+Size: 2294
+SHA256sum: 7e3687e5471a8cbd0ec37402b2508335f751afb42aeb8b5aaa98dad82847e5b4
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -95,10 +99,10 @@ Depends: libc, python3-light
 License: MPL-2.0
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 148607
+Installed-Size: 148603
 Filename: python3-certifi_2021.10.8-2_mipsel_74kc.ipk
-Size: 149542
-SHA256sum: 1d000c99ee9be333a60377a9e26deb371c1ee41395dde69856881b30653fb7e1
+Size: 149544
+SHA256sum: f1268bcdd7325279947c3c01bc6d96d72de4cb20cb198e5af37cab1ab204ef24
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -108,10 +112,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 145623
+Installed-Size: 145618
 Filename: python3-chardet-src_4.0.0-2_mipsel_74kc.ipk
-Size: 143434
-SHA256sum: c2b991c673f8d1ac3c0a224555b2d34f43f90da60baa8a35b9d643881f369c5c
+Size: 143359
+SHA256sum: f2512cffbee212dadc9ce59fc60eff3ee51351ed4b178ac72a66b27191f53287
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -122,10 +126,10 @@ Depends: libc, python3-light
 License: LGPL-2.1
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 148965
+Installed-Size: 148955
 Filename: python3-chardet_4.0.0-2_mipsel_74kc.ipk
-Size: 147213
-SHA256sum: 3afc82e18e6c72eb38ba974835ff51dc9706709a545f23ce2cdab8e74070a243
+Size: 148311
+SHA256sum: 8680f82c10eb4e63163ee135925f8df02e31eee3fb3f1e7fec3a31b693b548cb
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -134,10 +138,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 86567
+Installed-Size: 86570
 Filename: python3-click-src_8.1.7-1_mipsel_74kc.ipk
-Size: 87572
-SHA256sum: 220e96dec85ff3f48e1ba70c02bc3519d232c33af9073bf0a7ffcf914513273c
+Size: 87568
+SHA256sum: e6a923c0910cdf6f6a3da2a3e752d4219ee27aac3983f51e10c33c274700a3ed
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -151,10 +155,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 123118
+Installed-Size: 123120
 Filename: python3-click_8.1.7-1_mipsel_74kc.ipk
 Size: 124157
-SHA256sum: 43a9e7bc8545a09ba5253ad68b8a862266319c82af06265048290697ce6f9a87
+SHA256sum: 590c56c1959748afc2320d186a6922311a38f35e9f354d1ee5e4b87a18e91e74
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -166,10 +170,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 56266
+Installed-Size: 56265
 Filename: python3-idna-src_3.3-2_mipsel_74kc.ipk
-Size: 53412
-SHA256sum: ce567b11948cd35ce7824712d0ad0473153db75d49c3a295fe9c12d10c0b5b09
+Size: 53415
+SHA256sum: da76971f6f7db84c0adda84d2229af89a144c58917b6b38b753912507416bf41
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -183,44 +187,44 @@ Depends: libc, python3-light, python3-codecs
 License: BSD-3-Clause
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 66820
+Installed-Size: 66817
 Filename: python3-idna_3.3-2_mipsel_74kc.ipk
-Size: 66642
-SHA256sum: fcbdd2bd621c3f7ab8b685b96ecb3697a5477f3c55376c19851a326c03c5360a
+Size: 66534
+SHA256sum: 5b7eb57bbf7d7e7fa7e38bdab58687456564029ce60e0ef6a6613e5c3a428a71
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
 
 Package: python3-platformio-src
-Version: 6.1.18-2
+Version: 6.1.19-2
 Depends: libc
 License: Apache-2.0
-Section: meshtastic
+Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 208933
-Filename: python3-platformio-src_6.1.18-2_mipsel_74kc.ipk
-Size: 209778
-SHA256sum: 8d0feb60b7c3f1631221dca7d6dce21128d6e47c8486f8dfd31024e292e2408b
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 209783
+Filename: python3-platformio-src_6.1.19-2_mipsel_74kc.ipk
+Size: 210658
+SHA256sum: 92dfe5b58e521b1e32530bfeb5e9b9ba1a05b9d30796e16f4454e56d1be2ea49
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
  
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.18-2
-Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Version: 6.1.19-2
+Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 License: Apache-2.0
-Section: meshtastic
+Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 373517
-Filename: python3-platformio_6.1.18-2_mipsel_74kc.ipk
-Size: 374535
-SHA256sum: 68ddc7dd0039cf253c20e3084d2c6acb7d156c4274674c1e185452829f84d896
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 374590
+Filename: python3-platformio_6.1.19-2_mipsel_74kc.ipk
+Size: 375705
+SHA256sum: 6d03706daa74a7dda0abff28ba54f6b65034f85687f71f8253d6167857b600c9
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -228,10 +232,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 162988
+Installed-Size: 162964
 Filename: python3-pyelftools-src_0.32-1_mipsel_74kc.ipk
-Size: 163890
-SHA256sum: 2425902d69ef670f956d2081e18889fa138a2b85a3c61e71123a15ab13549212
+Size: 163856
+SHA256sum: 261568a78984e975d317c611388d4f98ce462f6debd90a6be635b2e095b5077a
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -242,10 +246,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 222674
+Installed-Size: 222671
 Filename: python3-pyelftools_0.32-1_mipsel_74kc.ipk
-Size: 223169
-SHA256sum: f7bf1f6569beb73de8949dcb4e6906a8cd7840da0bddc5613587b2b84335a899
+Size: 223183
+SHA256sum: aff4863ca61cd061b04d2053eff48fc5ce1a57811f033cffc8e6fc2ca557fd77
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -254,10 +258,10 @@ Depends: libc
 License: BSD
 Section: lang-python
 Architecture: mipsel_74kc
-Installed-Size: 73221
+Installed-Size: 73212
 Filename: python3-pyserial-src_3.4-2_mipsel_74kc.ipk
-Size: 74235
-SHA256sum: 79536a4717cfd7ec17f432d30e8703fae834bde59de586ba9afce6e07c84f132
+Size: 74221
+SHA256sum: 35733318b2e349eb1038cc02b753b90d4f72c7d1f0da30619336022521142ebe
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -271,10 +275,10 @@ Depends: libc, python3-light
 License: BSD
 Section: lang-python
 Architecture: mipsel_74kc
-Installed-Size: 98897
+Installed-Size: 98894
 Filename: python3-pyserial_3.4-2_mipsel_74kc.ipk
-Size: 99916
-SHA256sum: 1b7c01ea2e7c1c468cc9fac2180047c2977d915f2aab94f31b04ee35804acb93
+Size: 99912
+SHA256sum: e9c300cf11e18dc436e7ddc1a76eba39673234ce6029cc4e049d4fee0d82952a
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -287,10 +291,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python-requests:requests
 Architecture: mipsel_74kc
-Installed-Size: 48799
+Installed-Size: 48796
 Filename: python3-requests-src_2.31.0-2_mipsel_74kc.ipk
-Size: 49738
-SHA256sum: 91877f06f8c5f01d14e107e960bc357db3314b1d1a8c6cf88802df189d08f33a
+Size: 49736
+SHA256sum: 4212ea6479432bbbbc87e082ae582aa4fe36a4bd6d65d241caf44fc402a76107
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -302,10 +306,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python-requests:requests
 Architecture: mipsel_74kc
-Installed-Size: 66483
+Installed-Size: 66482
 Filename: python3-requests_2.31.0-2_mipsel_74kc.ipk
-Size: 67428
-SHA256sum: e9cfb6674b4ca21ab959b61c9a315b585a46fcbe47f799582eda7722d6ab9181
+Size: 67427
+SHA256sum: 7e256eb18fbfa1031cddb880b9ee3721cd3b90f6c32a04224f179120ae7c1182
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -314,10 +318,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 22714
+Installed-Size: 22718
 Filename: python3-tabulate-src_0.9.0-1_mipsel_74kc.ipk
-Size: 23510
-SHA256sum: 636af571591da9d6b61b81c305afb789b372ed1f2e2529aa54de666a932c82c7
+Size: 23526
+SHA256sum: 55bdabcf3caf75ecc9696f1cf62cefd2b08f27cd0b8a14973c39f96464723295
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -328,10 +332,10 @@ Depends: libc, python3-light
 License: MIT
 Section: lang
 Architecture: mipsel_74kc
-Installed-Size: 38401
+Installed-Size: 38398
 Filename: python3-tabulate_0.9.0-1_mipsel_74kc.ipk
-Size: 39260
-SHA256sum: dc21411a52af760f2ee1422e67dd2787b27ed968a1eb2e3888029d8ffecb4f47
+Size: 39267
+SHA256sum: a28c755abeab5ba954e8d19e084a0f6e63b4503180801795d0f1aa97b0c61356
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -343,8 +347,8 @@ CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: mipsel_74kc
 Installed-Size: 103670
 Filename: python3-urllib3-src_2.0.4-2_mipsel_74kc.ipk
-Size: 104555
-SHA256sum: 5c3fedddb41c8284c231219936cf204ad3461325d94c2a2564405466cbd564e8
+Size: 104576
+SHA256sum: 953e0a6a9d992350626d48b8c738c3c86152d5f920d947d464787765bd3fab67
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -356,9 +360,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: mipsel_74kc
-Installed-Size: 130627
+Installed-Size: 130618
 Filename: python3-urllib3_2.0.4-2_mipsel_74kc.ipk
-Size: 131567
-SHA256sum: ceaa3fd6c47d37f021552a42e35755ee5da291b3a35cf4819d2087b03feb71b7
+Size: 131554
+SHA256sum: 8556a317704088195c385c74646932e5d4f04a199adc175da59cbddd09d657ae
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 

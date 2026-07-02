@@ -6,66 +6,67 @@ SourceName: libyder
 License: LGPL-2.1-or-later
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 3056
+Installed-Size: 3055
 Filename: libyder_1.4.14-1_aarch64_cortex-a53.ipk
 Size: 3857
-SHA256sum: 828b6b43c96cb7455babba2baaa9de675b57c6cc9c2dbfa8005ee5ebb465c131
+SHA256sum: 0aadf6709ec3c8c249ea73d71927695e18c11f9b59f521e01c8d053f5bd70454
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
 Package: meshtasticd-avahi-service
-Version: 2.7.15-1
-Depends: libc, meshtasticd, avahi-daemon
+Version: 2.7.26-1
+Depends: libc, avahi-daemon, meshtasticd
 Source: /feed/meshtasticd
 SourceName: meshtasticd-avahi-service
-License: GPL-3.0
+License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764361809
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782947176
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: aarch64_cortex-a53
-Installed-Size: 367
-Filename: meshtasticd-avahi-service_2.7.15-1_aarch64_cortex-a53.ipk
-Size: 1212
-SHA256sum: 021792568e7a505e16fe072924db5af90126232f527652011141e607a1e7576d
-Description:  This package contains the service definition for announcing the
- meshtastic daemon via mDNS.
+Installed-Size: 365
+Filename: meshtasticd-avahi-service_2.7.26-1_aarch64_cortex-a53.ipk
+Size: 1219
+SHA256sum: 22dd96027b0f33c6c0ab07dea797d5044a052ec8ee11b8cefb3b6401c4bdb22e
+Description:  Service definition for announcing the Meshtastic daemon via mDNS
+
+Package: meshtasticd-full
+Version: 2.7.26-1
+Depends: libc, bluez-libs, kmod-spi-dev, libgpiod, libi2c, libopenssl1.1, liborcania, libulfius-gnutls, libusb-1.0-0, libuv1, libyaml-cpp0.7, libyder, zlib
+Provides: meshtasticd
+Source: /feed/meshtasticd
+SourceName: meshtasticd-full
+License: GPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1782947176
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
+Architecture: aarch64_cortex-a53
+Installed-Size: 762108
+Filename: meshtasticd-full_2.7.26-1_aarch64_cortex-a53.ipk
+Size: 762306
+SHA256sum: 317d723c90b1a38d83aafece456f6fa068a7c5b6f74d033a482354da3649e2d4
+Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
-Version: 2.6.7-1
-Depends: libc, meshtasticd
-Source: /feed/meshtasticd-web
-SourceName: meshtasticd-web
-License: GPL-3.0
-Section: net
-SourceDateEpoch: 1764361809
-Maintainer: Austin Lane <vidplace7@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 1323886
-Filename: meshtasticd-web_2.6.7-1_aarch64_cortex-a53.ipk
-Size: 1320764
-SHA256sum: 760a0f18ed92f404c6958e61f4db5c71dbc70d2df5fed5777a92d0af9ac99c83
-Description:  Meshtastic Daemon Web Interface
-
-Package: meshtasticd
-Version: 2.7.15-1
-Depends: libc, libgpiod, libyaml-cpp0.7, zlib, bluez-libs, libpthread, libi2c, libuv1, kmod-spi-dev, libusb-1.0-0, libopenssl1.1, liborcania, libyder, libulfius-gnutls
+Version: 2.6.7-r1
+Depends: libc, meshtasticd-full
 Source: /feed/meshtasticd
-SourceName: meshtasticd
-License: GPL-3.0
+SourceName: meshtasticd-web
+License: GPL-3.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1764361809
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782947176
+Maintainer: Austin Lane <vidplace7@gmail.com>, George Sapkin <george@sapk.in>
 Architecture: aarch64_cortex-a53
-Installed-Size: 610916
-Filename: meshtasticd_2.7.15-1_aarch64_cortex-a53.ipk
-Size: 611327
-SHA256sum: 5d9246428398fd66a828375b0efef42f61430e17a7a17b27a35133dc73e29ecc
-Description:  Meshtastic Daemon
+Installed-Size: 1323857
+Filename: meshtasticd-web_2.6.7-r1_aarch64_cortex-a53.ipk
+Size: 1320696
+SHA256sum: 49995ffa8da77470d91924315661e88ac82f36351c45470673cbd3265fb3a58c
+Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
 Version: 1.2.0-1
@@ -75,33 +76,37 @@ SourceName: python3-ajsonrpc-src
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764361809
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782947176
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 13982
+Installed-Size: 13978
 Filename: python3-ajsonrpc-src_1.2.0-1_aarch64_cortex-a53.ipk
-Size: 14819
-SHA256sum: 418ea178b81d13cd5b9f57f481f7c5b46603b765b25d704030725329803230cb
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 14877
+SHA256sum: 89b28abd0a339dfc98c1fed4fe89831897fd3877984fc13a77218938160f48ca
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
  
  This package contains the Python source files for python3-ajsonrpc.
 
 Package: python3-ajsonrpc
 Version: 1.2.0-1
-Depends: libc, python3-light, python3-asyncio, python3-logging
+Depends: libc, python3-asyncio, python3-light, python3-logging
 Source: /feed/depends/python-ajsonrpc
 SourceName: python3-ajsonrpc
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764361809
-Maintainer: Austin Lane <vidplace7@gmail.com>
+SourceDateEpoch: 1782947176
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 29566
+Installed-Size: 29563
 Filename: python3-ajsonrpc_1.2.0-1_aarch64_cortex-a53.ipk
-Size: 30390
-SHA256sum: d4275f696f07aa393fcec315bcb14085d82c44109a18eb37c45c65920e10ef37
-Description:  Python JSON-RPC 2.0 implementation and asynchronous server powered by asyncio
+Size: 30436
+SHA256sum: e91bd2fb26041b72a78bf82e22a177e5f517d276a5b593b72f5854556dcefe83
+Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
+ powered by asyncio. This library is a successor of json-rpc and written
+ by the same team.
 
 Package: python3-certifi-src
 Version: 2021.10.8-2
@@ -111,13 +116,13 @@ SourceName: python3-certifi-src
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1411
+Installed-Size: 1412
 Filename: python3-certifi-src_2021.10.8-2_aarch64_cortex-a53.ipk
-Size: 2306
-SHA256sum: 80a43e50be35b5075d2c155ee2d59a52b428e3b7679e5cd8f291d33b6b287892
+Size: 2300
+SHA256sum: b6ce9e370157bcb6dae7d5d361208f95c3fdb62f855a9f9e54e5b58710f431bd
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -131,13 +136,13 @@ SourceName: python3-certifi
 License: MPL-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 148607
+Installed-Size: 148603
 Filename: python3-certifi_2021.10.8-2_aarch64_cortex-a53.ipk
-Size: 149545
-SHA256sum: 1be012c01f14bfa3bdddab7a6da05a6d9ba4c8e93fca9b091dfda6fd6eb8a9fc
+Size: 149544
+SHA256sum: 92bae66af5bcaad551db9af31a5d322d9ea8ea8068ecf75517d8cd5eb4f3472c
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -148,13 +153,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet-src
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 145623
+Installed-Size: 145618
 Filename: python3-chardet-src_4.0.0-2_aarch64_cortex-a53.ipk
-Size: 143446
-SHA256sum: 521bc6a90d3103555b8a4ac5afbf04388c3cd0ed91c984b301959a44515a75ab
+Size: 143368
+SHA256sum: fbd05e2866c1f3eabb69898c7dc8ef77de484c662a1aec009968fd2e797f65e3
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -166,13 +171,13 @@ Source: /feed/backports/python-chardet
 SourceName: python3-chardet
 License: LGPL-2.1
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 148965
+Installed-Size: 148955
 Filename: python3-chardet_4.0.0-2_aarch64_cortex-a53.ipk
-Size: 147212
-SHA256sum: f0e7fec823ba561edde3759299cb25eaf9c6885d25da1009ef87bec9a413b81d
+Size: 148318
+SHA256sum: 8f4499ead517d1f02bba73bf89d36c07dbfc43839c2f74c15f9a0cf531c1d474
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -183,13 +188,13 @@ SourceName: python3-click-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 86567
+Installed-Size: 86570
 Filename: python3-click-src_8.1.7-1_aarch64_cortex-a53.ipk
-Size: 87577
-SHA256sum: 9044e831c7580ff2ade5987e30f408cef2d864a9bc0ae41a5eb7366c47421258
+Size: 87571
+SHA256sum: f98cab2c6712a93aa2c279a49aeb907770c8eefe345f12e1198738da3cc842a1
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -205,13 +210,13 @@ SourceName: python3-click
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 123119
+Installed-Size: 123120
 Filename: python3-click_8.1.7-1_aarch64_cortex-a53.ipk
-Size: 124165
-SHA256sum: 127207de208b48e38ba325317c02da17059023067b87de9076894bb70f16ad87
+Size: 124163
+SHA256sum: 901fe1d3e38c1ef02aebeef18c5239c8de494ee5b48a426261589ce845510a34
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -225,13 +230,13 @@ SourceName: python3-idna-src
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 56266
+Installed-Size: 56265
 Filename: python3-idna-src_3.3-2_aarch64_cortex-a53.ipk
-Size: 53415
-SHA256sum: 9407bd8b7bd736bf6bc6b5387009fa8fdc214e5005e103d7d7189e7b51f9b054
+Size: 53421
+SHA256sum: 34559d53117a670c98f41823e73ec259fe151433ef349326a718ec6606dd177c
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -247,57 +252,57 @@ SourceName: python3-idna
 License: BSD-3-Clause
 LicenseFiles: LICENSE.rst
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Jeffery To <jeffery.to@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 66820
+Installed-Size: 66817
 Filename: python3-idna_3.3-2_aarch64_cortex-a53.ipk
-Size: 66647
-SHA256sum: b992e0dd7b6a75dcdcf0583595ba2b565def7b28debba1206e48e8e3bc91873e
+Size: 66537
+SHA256sum: 34f790ef3388c628ba338cf93809579af0562669404124b48cee323dbd7159af
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
 
 Package: python3-platformio-src
-Version: 6.1.18-2
+Version: 6.1.19-2
 Depends: libc
 Source: /feed/depends/python-platformio
 SourceName: python3-platformio-src
 License: Apache-2.0
 LicenseFiles: LICENSE
-Section: meshtastic
-SourceDateEpoch: 1764361809
-Maintainer: Austin Lane <vidplace7@gmail.com>
+Section: lang
+SourceDateEpoch: 1782947176
+Maintainer: Austin Lane <vidplace7@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 208933
-Filename: python3-platformio-src_6.1.18-2_aarch64_cortex-a53.ipk
-Size: 209784
-SHA256sum: 322c022629cbf7470379e65584b5e70d1568a1bf1c2fa7c09dc61217867402b1
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 209783
+Filename: python3-platformio-src_6.1.19-2_aarch64_cortex-a53.ipk
+Size: 210664
+SHA256sum: a9043566429c2db5a452674bfb27a807439437e4f4be96245cc02da742cb8346
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
  
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.18-2
-Depends: libc, python3-light, python3-pyserial, python3-click, python3-semantic-version, python3-requests, python3-tabulate, python3-pyelftools, python3-ajsonrpc
+Version: 6.1.19-2
+Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 Source: /feed/depends/python-platformio
 SourceName: python3-platformio
 License: Apache-2.0
 LicenseFiles: LICENSE
-Section: meshtastic
-SourceDateEpoch: 1764361809
-Maintainer: Austin Lane <vidplace7@gmail.com>
+Section: lang
+SourceDateEpoch: 1782947176
+Maintainer: Austin Lane <vidplace7@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 373517
-Filename: python3-platformio_6.1.18-2_aarch64_cortex-a53.ipk
-Size: 374536
-SHA256sum: cacc6cb7b84b921f331259c02032c812181cab3e883bb73f806c3eedb66208dc
-Description:  PlatformIO is an open-source build system for embedded development,
- supporting multiple platforms, frameworks, and boards
- with features like dependency management and IDE integration.
+Installed-Size: 374590
+Filename: python3-platformio_6.1.19-2_aarch64_cortex-a53.ipk
+Size: 375707
+SHA256sum: 026f6aba67af44c6dc105c9d86069c9ecb76bc475a5de80f984304f99acd508e
+Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
+ professional tool for embedded systems engineers and for software
+ developers who write applications for embedded products.
 
 Package: python3-pyelftools-src
 Version: 0.32-1
@@ -307,13 +312,13 @@ SourceName: python3-pyelftools-src
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 162988
+Installed-Size: 162964
 Filename: python3-pyelftools-src_0.32-1_aarch64_cortex-a53.ipk
-Size: 163897
-SHA256sum: 852173441c028af8037d6e25ec3fff6e75f045434cc1d39e443a730cff5841ae
+Size: 163859
+SHA256sum: 4910d9878d9e943a8a73f8561e6b6727b5b681318b5e6f5eaee62fc1e01f0199
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -326,13 +331,13 @@ SourceName: python3-pyelftools
 License: Unlicense
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 222674
+Installed-Size: 222672
 Filename: python3-pyelftools_0.32-1_aarch64_cortex-a53.ipk
-Size: 223191
-SHA256sum: 216696a07b1a1a1887c4187bea657f9848e4a264fda3f0b31db6c0ba5d3ed066
+Size: 223189
+SHA256sum: ecef274194d5a4696f1ad7fb238e50ed5f61750d9c1a14e7c00786c5ad628769
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -342,13 +347,13 @@ Source: /feed/backports/python-pyserial
 SourceName: python3-pyserial-src
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: aarch64_cortex-a53
-Installed-Size: 73221
+Installed-Size: 73212
 Filename: python3-pyserial-src_3.4-2_aarch64_cortex-a53.ipk
-Size: 74241
-SHA256sum: f9e0cba58c0718ca93e058035ec05f4e5b5648557edb630fae737a750198bf37
+Size: 74223
+SHA256sum: 5490c2fcf637fc43e8559c8bed5c118454b5d11b9565222a2a9e3d6d6eb03436
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -363,13 +368,13 @@ Source: /feed/backports/python-pyserial
 SourceName: python3-pyserial
 License: BSD
 Section: lang-python
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Micke Prag <micke.prag@telldus.se>
 Architecture: aarch64_cortex-a53
-Installed-Size: 98897
+Installed-Size: 98894
 Filename: python3-pyserial_3.4-2_aarch64_cortex-a53.ipk
-Size: 99919
-SHA256sum: bd32cdb043213243b941a0b0759ea1a2e6c6d436b66e79e3cee864fa2ea5ab40
+Size: 99918
+SHA256sum: 0622c746b44b00d9869bfa389f5d0e86b8b61cef990b14ace5beafc1ae66da16
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -383,14 +388,14 @@ SourceName: python3-requests-src
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 48799
+Installed-Size: 48796
 Filename: python3-requests-src_2.31.0-2_aarch64_cortex-a53.ipk
-Size: 49741
-SHA256sum: a1ccbc5990aabbc156ac2e2ee8654363b42a4f770c654c7c96dc32509cd44648
+Size: 49738
+SHA256sum: c660cf920732d285c1d00c62705691dd3dd782bda1f079a2dcd7228417a1890f
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -403,14 +408,14 @@ SourceName: python3-requests
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 CPE-ID: cpe:/a:python-requests:requests
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>, Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 66483
+Installed-Size: 66482
 Filename: python3-requests_2.31.0-2_aarch64_cortex-a53.ipk
-Size: 67431
-SHA256sum: 2c7e2398eccd5f13f27cc29ae74c9dbb3c3575128b6d2d7fcf1a8b8d3016c9ab
+Size: 67430
+SHA256sum: 31f4c03ed6770d0b1c51e7677cf9347c836fc4e6a062059563c8be47501ee8af
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -421,13 +426,13 @@ SourceName: python3-tabulate-src
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 22714
+Installed-Size: 22718
 Filename: python3-tabulate-src_0.9.0-1_aarch64_cortex-a53.ipk
-Size: 23517
-SHA256sum: c39deb4e2391f40079b2f993f8d90a31748b34c4cabd7de35bac267d893e7831
+Size: 23530
+SHA256sum: 8713fd84f650e3482379b8d8b33671d90575b136e14288c3a0d1b81799efda52
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -440,13 +445,13 @@ SourceName: python3-tabulate
 License: MIT
 LicenseFiles: LICENSE
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 Maintainer: Austin Lane <vidplace7@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 38401
+Installed-Size: 38398
 Filename: python3-tabulate_0.9.0-1_aarch64_cortex-a53.ipk
-Size: 39269
-SHA256sum: 747b3934204d4ae5d76316738fa65b9271836796bef1b0743a550274c9adab08
+Size: 39273
+SHA256sum: 306418078f0936e96cd1c24f9e2029a8b8d9cc98313cae860fc6882e125ca3d6
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -457,14 +462,14 @@ SourceName: python3-urllib3-src
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 103670
 Filename: python3-urllib3-src_2.0.4-2_aarch64_cortex-a53.ipk
-Size: 104563
-SHA256sum: eeb1b0a58b92a30a19d430b45b1eeeaf7cedc49259f0646f580a8cc5cb121b67
+Size: 104591
+SHA256sum: 80a8ffb39b8328fe72789d5e2e471d1cfb1d6777b652262d05826a2ff1fed343
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -477,13 +482,13 @@ SourceName: python3-urllib3
 License: MIT
 LicenseFiles: LICENSE.txt
 Section: lang
-SourceDateEpoch: 1764361809
+SourceDateEpoch: 1782947176
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Maintainer: Josef Schlehofer <pepe.schlehofer@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 130628
+Installed-Size: 130620
 Filename: python3-urllib3_2.0.4-2_aarch64_cortex-a53.ipk
-Size: 131567
-SHA256sum: 73f2a1f570769b40aac2499e3492cc331feeee7a78fd88d0e44b7cf04c0aeaed
+Size: 131558
+SHA256sum: da5e5c9982efcb9097471abc6e0db81db28caf53768f4739aba9e2aa7d198ab0
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
