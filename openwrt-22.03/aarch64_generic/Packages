@@ -6,8 +6,8 @@ Section: libs
 Architecture: aarch64_generic
 Installed-Size: 3057
 Filename: libyder_1.4.14-1_aarch64_generic.ipk
-Size: 3851
-SHA256sum: c300d8a87ece587041bdad225005cf26e816e2831d3dd03e9f071d537836f61c
+Size: 3853
+SHA256sum: 88b84c990d523fbb8980a03997c2cde6be83aa62372183cc4149069922389aa1
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -19,8 +19,8 @@ Section: net
 Architecture: aarch64_generic
 Installed-Size: 365
 Filename: meshtasticd-avahi-service_2.7.26-1_aarch64_generic.ipk
-Size: 1214
-SHA256sum: 9f7671652030ced0ac3afd70e54d0e6a9fb43270bea11d75a5239b80e5edb963
+Size: 1220
+SHA256sum: a6d7ed1e3037c5ed7e9f8a3563e95303dbf1d0192c514aaa8248e3c26c398b50
 Description:  Service definition for announcing the Meshtastic daemon via mDNS
 
 Package: meshtasticd-full
@@ -30,10 +30,10 @@ Provides: meshtasticd
 License: GPL-3.0-only
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 763286
+Installed-Size: 763299
 Filename: meshtasticd-full_2.7.26-1_aarch64_generic.ipk
-Size: 763450
-SHA256sum: cbe450aab7845cb0e35667a94d2a6a0ba9eac528bb8bca33943675c73e1ecaea
+Size: 763443
+SHA256sum: 3efe2833926d947b817a5f4ab8525d59719c83bb7b306b7179df5e677d5383d5
 Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
@@ -42,10 +42,10 @@ Depends: libc, meshtasticd-full
 License: GPL-3.0-only
 Section: net
 Architecture: aarch64_generic
-Installed-Size: 1323857
+Installed-Size: 1323854
 Filename: meshtasticd-web_2.6.7-r1_aarch64_generic.ipk
-Size: 1320692
-SHA256sum: b73add4c9189857cb944ea62b0496f87507444e4f426122a58291ae208e17e62
+Size: 1320846
+SHA256sum: 7e5716cb6dd0f91d4e0e291ba1415be2db28456170c29ac599ca34ea9c0146cd
 Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
@@ -54,10 +54,10 @@ Depends: libc
 License: MIT
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 13978
+Installed-Size: 13979
 Filename: python3-ajsonrpc-src_1.2.0-1_aarch64_generic.ipk
-Size: 14873
-SHA256sum: 4b256a98a66b527c55af84067b685b567285cc5b558890f5886be0e5c3ba1970
+Size: 14867
+SHA256sum: cfabd1d7d1670468e7611c7aa25d451ff2076685a73db05243e7c05b49117c21
 Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
  powered by asyncio. This library is a successor of json-rpc and written
  by the same team.
@@ -70,10 +70,10 @@ Depends: libc, python3-asyncio, python3-light, python3-logging
 License: MIT
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 29565
+Installed-Size: 29566
 Filename: python3-ajsonrpc_1.2.0-1_aarch64_generic.ipk
-Size: 30444
-SHA256sum: 7a01c188b42c8038953fca7bec308061f733852091ff2b0238e08cffb195bcf9
+Size: 30441
+SHA256sum: cee5b89b8ef4e46074f32bb7954071e8697b0a956b33f2967d726a7b2c265124
 Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
  powered by asyncio. This library is a successor of json-rpc and written
  by the same team.
@@ -84,10 +84,10 @@ Depends: libc
 License: MPL-2.0
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 1412
+Installed-Size: 1411
 Filename: python3-certifi-src_2021.10.8-2_aarch64_generic.ipk
-Size: 2294
-SHA256sum: 31f2c51d72871d29c4e4c7cf386f2b57a106b716895e6205be6cc69d78704e42
+Size: 2305
+SHA256sum: c198828b64737f2ecd6577fbf4d3b7f39ea444b7748ebe4ba2ff2fb1c6062029
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
  
@@ -99,10 +99,10 @@ Depends: libc, python3-light
 License: MPL-2.0
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 148603
+Installed-Size: 148604
 Filename: python3-certifi_2021.10.8-2_aarch64_generic.ipk
-Size: 149541
-SHA256sum: 7e9c81faffbc40a8e6146bf5c3c72fe80db2141065c70b4f1525c58a01b880da
+Size: 149537
+SHA256sum: 92972844c44a3918d30f991a9c883392d04aa7c86ba59deac90e21f43093ebc6
 Description:  Certifi is a carefully curated collection of Root Certificates for validating the
  trustworthiness of SSL certificates while verifying the identity of TLS hosts.
 
@@ -112,10 +112,10 @@ Depends: libc
 License: LGPL-2.1
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 145618
+Installed-Size: 145615
 Filename: python3-chardet-src_4.0.0-2_aarch64_generic.ipk
-Size: 143366
-SHA256sum: 0d08b3741f2a3a50a2fa0aed35dc4d4564618a78c999334e9bb8b3bbc5231eb7
+Size: 143221
+SHA256sum: 49b36d65fa8253e9ae17a4035a32f87fbce338dd1a875e49ddb36f3aa924814c
 Description:  Universal encoding detector for Python 2 and 3
  
  This package contains the Python source files for python3-chardet.
@@ -126,10 +126,10 @@ Depends: libc, python3-light
 License: LGPL-2.1
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 148955
+Installed-Size: 148957
 Filename: python3-chardet_4.0.0-2_aarch64_generic.ipk
-Size: 148310
-SHA256sum: a24af51f0aa31f30729fa1be8dfffb016365b2b6876b4844633f1234707e2a9e
+Size: 147073
+SHA256sum: 378edb9365f23536b9ab088dcf1fd2c3a8020e6fc1d16952307f3623ada866b6
 Description:  Universal encoding detector for Python 2 and 3
 
 Package: python3-click-src
@@ -138,10 +138,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 86570
+Installed-Size: 86565
 Filename: python3-click-src_8.1.7-1_aarch64_generic.ipk
-Size: 87569
-SHA256sum: 7e82a90ac23aead532dc31871b1d7fb1cee771a269aa67e4f22fd9157b9375b4
+Size: 87562
+SHA256sum: 4fe343cb5149f04da042b6dc57fc548951000e7ccece964cbe92e4d161d105aa
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -155,10 +155,10 @@ Depends: libc, python3-light, python3-urllib, python3-uuid
 License: BSD-3-Clause
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 123119
+Installed-Size: 123109
 Filename: python3-click_8.1.7-1_aarch64_generic.ipk
-Size: 124154
-SHA256sum: 036432ba5fe3333cb3a543f750189dcea1e36b35307bd8bd20f87eed64118b98
+Size: 124152
+SHA256sum: f0671471ec61858688280eb3d9e9e7e255529ef3b6976afa2cbe6c95e4942d93
 Description:  Click is a Python package for creating beautiful command line interfaces
  in a composable way with as little code as necessary. It's the "Command
  Line Interface Creation Kit". It's highly configurable but comes with
@@ -170,10 +170,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 56265
+Installed-Size: 56266
 Filename: python3-idna-src_3.3-2_aarch64_generic.ipk
-Size: 53420
-SHA256sum: 1f081670781bebfe27e42cd56c47b7d554d005161ddd6fbe358e235830935ecd
+Size: 53409
+SHA256sum: cd4f1c4e7e5600109afdf74c9bd6b1c07ba7a4098a770b20ef3ed97ab1a28bcb
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
@@ -189,23 +189,23 @@ Section: lang
 Architecture: aarch64_generic
 Installed-Size: 66817
 Filename: python3-idna_3.3-2_aarch64_generic.ipk
-Size: 66536
-SHA256sum: 3c1f050c9bfe4014604f985cfce5715e359f906b3960e1ef3e42b24b09c65590
+Size: 66563
+SHA256sum: 3c5c6a1d5f86122835229fec8239505f8ac69754b4499dc68398f20646413efe
 Description:  A library to support the Internationalised Domain Names in Applications
  (IDNA) protocol as specified in RFC 5891. This version of the protocol
  is often referred to as "IDNA2008" and can produce different results
  from the earlier standard from 2003.
 
 Package: python3-platformio-src
-Version: 6.1.19-2
+Version: 6.2.0-1
 Depends: libc
 License: Apache-2.0
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 209783
-Filename: python3-platformio-src_6.1.19-2_aarch64_generic.ipk
-Size: 210657
-SHA256sum: b61987104309038174c41baf856295e7f688ac315de6205d2ae755e3c960bbf8
+Installed-Size: 208617
+Filename: python3-platformio-src_6.2.0-1_aarch64_generic.ipk
+Size: 209485
+SHA256sum: 1e2333ba66015196d489d753c544a141be4a58fb623b58217926eeb3a2588987
 Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
  professional tool for embedded systems engineers and for software
  developers who write applications for embedded products.
@@ -213,15 +213,15 @@ Description:  PlatformIO is a cross-platform, cross-architecture, multiple frame
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.19-2
+Version: 6.2.0-1
 Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 License: Apache-2.0
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 374590
-Filename: python3-platformio_6.1.19-2_aarch64_generic.ipk
-Size: 375706
-SHA256sum: 3524bc4176c1ef846cf70fe486bc0167b8447f31abf3807e64e800b988fcbc4d
+Installed-Size: 371196
+Filename: python3-platformio_6.2.0-1_aarch64_generic.ipk
+Size: 372345
+SHA256sum: fa9127fc84d56839bba25cd51656c1685d288a6c2e3ed5e61ec906d7118bcf93
 Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
  professional tool for embedded systems engineers and for software
  developers who write applications for embedded products.
@@ -232,10 +232,10 @@ Depends: libc
 License: Unlicense
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 162964
+Installed-Size: 162976
 Filename: python3-pyelftools-src_0.32-1_aarch64_generic.ipk
-Size: 163857
-SHA256sum: 99a31664f41ee05f5336fd6491d512b6feedacad402d8eb496db68236fb74098
+Size: 163880
+SHA256sum: 180a36c8f705be971e11d2797ba3488b14b21a841a7cb9c14e6a49938b3a6131
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -246,10 +246,10 @@ Depends: libc, python3-light, python3-logging
 License: Unlicense
 Section: lang
 Architecture: aarch64_generic
-Installed-Size: 222673
+Installed-Size: 222679
 Filename: python3-pyelftools_0.32-1_aarch64_generic.ipk
-Size: 223188
-SHA256sum: aa0c9f28f4feba43b4d911c636e1bc22fe7a9789b3479fcc104de547fadab57f
+Size: 223140
+SHA256sum: 92f49fc3e39e55d18d218d289ea71e81bd7423eed21be980ec8abac4d722c28d
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-pyserial-src
@@ -258,10 +258,10 @@ Depends: libc
 License: BSD
 Section: lang-python
 Architecture: aarch64_generic
-Installed-Size: 73212
+Installed-Size: 73218
 Filename: python3-pyserial-src_3.4-2_aarch64_generic.ipk
-Size: 74219
-SHA256sum: ab6f57bb1a9889780948e0682bceabe071bd3d54536e3ed50686a8c0f127be65
+Size: 74231
+SHA256sum: b1c35fc32ebf8015ef077d999d7fce1c1f731b2c77826d2aa4ea362819f97371
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -277,8 +277,8 @@ Section: lang-python
 Architecture: aarch64_generic
 Installed-Size: 98894
 Filename: python3-pyserial_3.4-2_aarch64_generic.ipk
-Size: 99921
-SHA256sum: c636c147fb6283f961e65e01694fe71304412b88d9344ae276e3238ef0521e12
+Size: 99922
+SHA256sum: b459fa1032a38afab3462e384c1ace154f9b474beb95e3500ba818d268f35bd8
 Description:  This module encapsulates the access for the serial port. It provides backends
  for Python running on Windows, OSX, Linux, BSD (possibly any POSIX compliant
  system) and IronPython. The module named "serial" automatically selects the
@@ -291,10 +291,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python-requests:requests
 Architecture: aarch64_generic
-Installed-Size: 48796
+Installed-Size: 48795
 Filename: python3-requests-src_2.31.0-2_aarch64_generic.ipk
-Size: 49736
-SHA256sum: cb066f42823d3ed47c91969935e7dac7b381d505d1d281aaf4a3faa6393e2ae7
+Size: 49762
+SHA256sum: 1d5c1706d04f6309472d59341f0b8b637b4f270028dcd50d9a60a31f450936d0
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
  
  This package contains the Python source files for python3-requests.
@@ -306,10 +306,10 @@ License: Apache-2.0
 Section: lang
 CPE-ID: cpe:/a:python-requests:requests
 Architecture: aarch64_generic
-Installed-Size: 66482
+Installed-Size: 66484
 Filename: python3-requests_2.31.0-2_aarch64_generic.ipk
-Size: 67426
-SHA256sum: 7654b766891b175b96a0a2e2fda24e3fad6a41469c6060a0c35f9a7e1e2b7e40
+Size: 67433
+SHA256sum: 2f0e66df290c15ba705a68c3dc3f5684ffb2be46429711747f251f19b4477bdd
 Description:  Requests is the only Non-GMO HTTP library for Python, safe for human consumption
 
 Package: python3-tabulate-src
@@ -320,8 +320,8 @@ Section: lang
 Architecture: aarch64_generic
 Installed-Size: 22718
 Filename: python3-tabulate-src_0.9.0-1_aarch64_generic.ipk
-Size: 23525
-SHA256sum: 4fbc3c5e19c67b4f03bba1fedbd7cbd0d63ace226d24bad770cacf97c17cccfc
+Size: 23529
+SHA256sum: bddc4a1fedc77277b4e02a6e5bb52e70455148548deff859ff8484144e2988bb
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -334,8 +334,8 @@ Section: lang
 Architecture: aarch64_generic
 Installed-Size: 38398
 Filename: python3-tabulate_0.9.0-1_aarch64_generic.ipk
-Size: 39263
-SHA256sum: 03bbf657c4b7f5eaefe8194bdc45ccb7066ad86c2d3b0d5468d1299e03bbfa09
+Size: 39266
+SHA256sum: 58b87ea7fa80452fa67e5eb20e2a01011f8622e4890f72bdc9b47ab0fea43521
 Description:  Pretty-print tabular data
 
 Package: python3-urllib3-src
@@ -345,10 +345,10 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: aarch64_generic
-Installed-Size: 103670
+Installed-Size: 103663
 Filename: python3-urllib3-src_2.0.4-2_aarch64_generic.ipk
-Size: 104588
-SHA256sum: 74b90cfab092fbedee6efb2a065ea840df8ebf63fdf4808c17f3123a7f2b63d0
+Size: 104583
+SHA256sum: 4e3d5bb9a046e77428906e9adfaea13203b5d1415187b354856d52454402e941
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
  
  This package contains the Python source files for python3-urllib3.
@@ -360,9 +360,9 @@ License: MIT
 Section: lang
 CPE-ID: cpe:/a:urllib3_project:urllib3
 Architecture: aarch64_generic
-Installed-Size: 130620
+Installed-Size: 130619
 Filename: python3-urllib3_2.0.4-2_aarch64_generic.ipk
-Size: 131555
-SHA256sum: a3d8f2eee2c4c494a38b2c03484809ef972038b8cc71d96f9ab39f8075103cfe
+Size: 131557
+SHA256sum: 8d7d6ecb12875d6f45d69b836f6176ccbc2a5ea2ff0eea8cebe4c9758a82ef33
 Description:  HTTP library with thread-safe connection pooling, file post, and more.
 
