@@ -7,8 +7,8 @@ URL: https://github.com/babelouest/yder
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 20480
 Filename: libyder_1.4.17-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 4023
-SHA256sum: 4a62c46a1c843fcb15a75efc205b12bc2e3ffe2a5c0fda92629be7d5413b8e97
+Size: 4018
+SHA256sum: 4db25c069a9fc6690a649ed1f2b779561001649ec50ca92dfa48d1522f8bacab
 Description:  Simple and easy to use logging library.
  You can log messages to the console, a file, Syslog, journald or a callback function.
 
@@ -21,8 +21,8 @@ URL: https://github.com/meshtastic/firmware
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 10240
 Filename: meshtasticd-avahi-service_2.7.26-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1257
-SHA256sum: 60e82b550fbbbfff8f9e39d4c6bd2ff09f6e20c449e6c39256642d1990f0424b
+Size: 1252
+SHA256sum: 71337e3f9b31da17ee149a801d9894dfc3480ece44916e84efe3ec21a0f0ec20
 Description:  Service definition for announcing the Meshtastic daemon via mDNS
 
 Package: meshtasticd-full
@@ -35,8 +35,8 @@ URL: https://github.com/meshtastic/firmware
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 2027520
 Filename: meshtasticd-full_2.7.26-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 782693
-SHA256sum: 0a5560fc078a45d3873902eea933795c6301dcb2f1ee1d52479f81d1be85e60f
+Size: 782643
+SHA256sum: af6e75f5426befe4e8bbaaac91926cae3f1be0f2ecc2e32cfbb8ac4ee132b0ac
 Description:  Meshtastic daemon with web interface support
 
 Package: meshtasticd-web
@@ -48,8 +48,8 @@ URL: https://github.com/meshtastic/web
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 5662720
 Filename: meshtasticd-web_2.6.7-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 1321010
-SHA256sum: e7b47f9dc93d4d5a19634900dbecfb8ab758e7c687e48c36aee007411eb95d02
+Size: 1320678
+SHA256sum: d720e31cb45d7b955d9a23fc3f05fa8522b176c7391b6c03ae303f8dcc74d658
 Description:  The official Meshtastic web interface
 
 Package: python3-ajsonrpc-src
@@ -61,8 +61,8 @@ URL: https://github.com/pavlov99/ajsonrpc
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 81920
 Filename: python3-ajsonrpc-src_1.2.0-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 14913
-SHA256sum: bd221eb179ffe8fbe04da9e59300358d508cd52417b2fc2c33422d6767b19551
+Size: 14898
+SHA256sum: d2b3642c13889e3473d35fef88e6aa01313381ba593c7f53e1971f18a5b22c5b
 Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
  powered by asyncio. This library is a successor of json-rpc and written
  by the same team.
@@ -78,23 +78,23 @@ URL: https://github.com/pavlov99/ajsonrpc
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 153600
 Filename: python3-ajsonrpc_1.2.0-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 44004
-SHA256sum: 7e993dfa208ea5ea2700fb0b7a6e9fd8d2bf9f0889ff4e178086c0c5834adc80
+Size: 43977
+SHA256sum: 2c987da77f61109ab7572f66ea5bbffb3e77c1fc9d99c531791627354c7f74ff
 Description:  Lightweight JSON-RPC 2.0 protocol implementation and asynchronous server
  powered by asyncio. This library is a successor of json-rpc and written
  by the same team.
 
 Package: python3-platformio-src
-Version: 6.1.19-r2
+Version: 6.2.0-r1
 Depends: libc
 License: Apache-2.0
 Section: lang
 URL: https://github.com/platformio/platformio-core
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 1280000
-Filename: python3-platformio-src_6.1.19-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 210678
-SHA256sum: d235e9313ac2b6a1c0f78c5fcf2dafd58506d8faefe40f46a2654c67a5ae91ba
+Installed-Size: 1269760
+Filename: python3-platformio-src_6.2.0-r1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 209547
+SHA256sum: 4b917f65fb2afd8318913d08cbca58c3d15ac75b2f08e79f3da2514b70eb7d79
 Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
  professional tool for embedded systems engineers and for software
  developers who write applications for embedded products.
@@ -102,16 +102,16 @@ Description:  PlatformIO is a cross-platform, cross-architecture, multiple frame
  This package contains the Python source files for python3-platformio.
 
 Package: python3-platformio
-Version: 6.1.19-r2
+Version: 6.2.0-r1
 Depends: libc, python3-ajsonrpc, python3-asyncio, python3-bottle, python3-click, python3-colorama, python3-ctypes, python3-light, python3-logging, python3-marshmallow, python3-multiprocessing, python3-openssl, python3-pyelftools, python3-pyserial, python3-requests, python3-semantic-version, python3-starlette, python3-tabulate, python3-urllib, python3-uuid, python3-uvicorn, python3-wsproto, python3-xml
 License: Apache-2.0
 Section: lang
 URL: https://github.com/platformio/platformio-core
 Architecture: arm_cortex-a15_neon-vfpv4
-Installed-Size: 1925120
-Filename: python3-platformio_6.1.19-r2_arm_cortex-a15_neon-vfpv4.ipk
-Size: 628057
-SHA256sum: c3291b247a0f547720ecf7d1965ed3524dc66152b639cd7c19d2d0bc164c27df
+Installed-Size: 1904640
+Filename: python3-platformio_6.2.0-r1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 622914
+SHA256sum: 08978a70e6610a5e251efc5df32e122593ce714aa69fdf6e7cdc9b5d8bd81bc9
 Description:  PlatformIO is a cross-platform, cross-architecture, multiple framework,
  professional tool for embedded systems engineers and for software
  developers who write applications for embedded products.
@@ -125,8 +125,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 768000
 Filename: python3-pyelftools-src_0.32-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 163938
-SHA256sum: 68b79a0003d2b5b49900a26c851ab04ed751aab3d5d44a00ef860cfea91fa5bb
+Size: 163913
+SHA256sum: 76afa9ca6dd27023d582dd14fd4b44bd380a764a8192079c8d61576121dbecda
 Description:  Library for analyzing ELF files and DWARF debugging information
  
  This package contains the Python source files for python3-pyelftools.
@@ -140,8 +140,8 @@ URL: https://pypi.org/project/pyelftools
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 962560
 Filename: python3-pyelftools_0.32-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 337779
-SHA256sum: 251fc71a4d3ac0e35d16891c6539f1c03729137157462403e45615b126b39b78
+Size: 337568
+SHA256sum: 5a5f158d5aacd790ce0347a4556de7874c3004ac4dedbf055f6add933fee3b25
 Description:  Library for analyzing ELF files and DWARF debugging information
 
 Package: python3-tabulate-src
@@ -153,8 +153,8 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 102400
 Filename: python3-tabulate-src_0.9.0-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 23647
-SHA256sum: 86ff6864f6c4261f1d75a34a25e6dc0fa82d8f71512a9be30122a9caa6d5b57d
+Size: 23644
+SHA256sum: b346e93d5a035b9ec39c7b1d7deac1dd8703ae70358d201dd7b0c8fa95ad68d4
 Description:  Pretty-print tabular data
  
  This package contains the Python source files for python3-tabulate.
@@ -168,7 +168,7 @@ URL: https://pypi.org/project/tabulate
 Architecture: arm_cortex-a15_neon-vfpv4
 Installed-Size: 163840
 Filename: python3-tabulate_0.9.0-r1_arm_cortex-a15_neon-vfpv4.ipk
-Size: 55036
-SHA256sum: 323191ed111463d8b62c71d974c7599148068e3459ea66de4cc1eb521a39294c
+Size: 55082
+SHA256sum: 3d83ac2bf500b998c2277c0ed84cedbf43d0130da89b6b897ed7a08a8e188bb4
 Description:  Pretty-print tabular data
 
